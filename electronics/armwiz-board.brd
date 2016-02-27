@@ -5543,7 +5543,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="64"/>
 <contactref element="U1" pad="19"/>
 <contactref element="U1" pad="13"/>
-<contactref element="U1" pad="1"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP2" pad="2"/>
 <contactref element="R28" pad="2"/>
@@ -5584,11 +5583,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="46.76" y1="12.775" x2="53.76" y2="12.775" width="0" layer="19" extent="1-1"/>
 <wire x1="29.7" y1="12.75" x2="46.76" y2="12.775" width="0" layer="19" extent="1-1"/>
 <wire x1="20.25" y1="14.7" x2="29.7" y2="12.75" width="0" layer="19" extent="1-1"/>
-<wire x1="18.3" y1="12.75" x2="20.25" y2="14.7" width="0" layer="19" extent="1-1"/>
-<wire x1="18.3" y1="6.75" x2="18.3" y2="12.75" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3" y1="6.75" x2="20.25" y2="14.7" width="0" layer="19" extent="1-1"/>
 <wire x1="21.25" y1="3.3" x2="18.3" y2="6.75" width="0" layer="19" extent="1-1"/>
 <wire x1="27.75" y1="3.3" x2="21.25" y2="3.3" width="0" layer="19" extent="1-1"/>
-<wire x1="3.214" y1="29.21" x2="18.3" y2="12.75" width="0" layer="19" extent="1-1"/>
+<wire x1="3.214" y1="29.21" x2="20.25" y2="14.7" width="0" layer="19" extent="1-1"/>
 <wire x1="3.214" y1="36.068" x2="3.214" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="56.007" x2="3.214" y2="36.068" width="0" layer="19" extent="1-1"/>
 <wire x1="11.5" y1="59.045" x2="3.81" y2="56.007" width="0" layer="19" extent="1-1"/>
@@ -5787,11 +5785,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="-35.98" y1="-41.91" x2="-33.02" y2="-38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.06" y1="-41.91" x2="-33.02" y2="-38.1" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D-">
+<signal name="USB-">
 <contactref element="R10" pad="2"/>
+<contactref element="U1" pad="44"/>
+<wire x1="12.835625" y1="18.938" x2="29.7" y2="10.75" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D+">
+<signal name="USB+">
 <contactref element="R9" pad="2"/>
+<contactref element="U1" pad="45"/>
+<wire x1="12.835625" y1="17.47925" x2="29.7" y2="11.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="X1" pad="6"/>
@@ -5801,6 +5803,8 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 <signal name="RTC_BATT">
 <contactref element="BAT1" pad="PWR@1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="18.3" y1="12.75" x2="25.3365" y2="76.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -5956,14 +5960,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="34.6075" y1="63.92" x2="36.120625" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="3.97" y1="19.588" x2="34.6075" y2="63.92" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$31">
+<signal name="D-">
 <contactref element="U$1" pad="PIN$2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="Z2" pad="2"/>
 <wire x1="6.77" y1="20.238" x2="11.135625" y2="18.938" width="0" layer="19" extent="1-1"/>
 <wire x1="3.97" y1="18.938" x2="6.77" y2="20.238" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$33">
+<signal name="D+">
 <contactref element="U$1" pad="PIN$3"/>
 <contactref element="R9" pad="1"/>
 <contactref element="Z1" pad="2"/>
@@ -6107,15 +6111,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="156.282" y1="14.866" x2="129.96" y2="5.334" width="0" layer="19" extent="1-1"/>
 <wire x1="18.3" y1="10.75" x2="129.96" y2="5.334" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$13">
+<signal name="RTC2">
 <contactref element="U1" pad="4"/>
-<contactref element="Y2" pad="X2"/>
-<wire x1="146.304" y1="25.908" x2="18.3" y2="11.25" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U1" pad="3"/>
 <contactref element="Y2" pad="X1"/>
-<wire x1="143.764" y1="25.908" x2="18.3" y2="11.75" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3" y1="11.25" x2="143.764" y2="25.908" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RTC1">
+<contactref element="U1" pad="3"/>
+<contactref element="Y2" pad="X2"/>
+<wire x1="18.3" y1="11.75" x2="146.304" y2="25.908" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT1">
 <contactref element="JP2" pad="3"/>
@@ -6180,12 +6184,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R29" pad="2"/>
 <wire x1="24.75" y1="14.7" x2="12.3" y2="57.795" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="60.833" x2="24.75" y2="14.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$35">
-<contactref element="U1" pad="45"/>
-</signal>
-<signal name="N$36">
-<contactref element="U1" pad="44"/>
 </signal>
 <signal name="RX1">
 <contactref element="U1" pad="43"/>
