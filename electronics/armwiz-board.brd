@@ -46,11 +46,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
@@ -4720,6 +4720,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="SPRING-CONNECTOR">
+<smd name="P$2" x="0" y="0" dx="7.112" dy="7.112" layer="1" roundness="100"/>
+<text x="-1.3462" y="5.6388" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="1X06_FEMALE_LOCK.010">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="13.97" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="1.27" x2="13.97" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="-0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="-0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="12.7" y="-0.254" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3175" y1="-0.1905" x2="0.3175" y2="0.1905" layer="51"/>
+<rectangle x1="2.2225" y1="-0.1905" x2="2.8575" y2="0.1905" layer="51"/>
+<rectangle x1="4.7625" y1="-0.1905" x2="5.3975" y2="0.1905" layer="51"/>
+<rectangle x1="7.3025" y1="-0.1905" x2="7.9375" y2="0.1905" layer="51"/>
+<rectangle x1="9.8425" y1="-0.1905" x2="10.4775" y2="0.1905" layer="51"/>
+<rectangle x1="12.3825" y1="-0.1905" x2="13.0175" y2="0.1905" layer="51"/>
+</package>
+<package name="1X01_2MM">
+<pad name="1" x="0" y="0" drill="2" diameter="3.302" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="resistor">
@@ -6153,9 +6183,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="" x="40.5" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.64275" y="15" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
-<element name="C36" library="resistor" package="C0402K" value="1uF" x="40.5" y="13" smashed="yes">
-<attribute name="MPN" value="" x="40.5" y="13" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.64275" y="13" size="0.4064" layer="25" rot="R270" align="center"/>
+<element name="C36" library="resistor" package="C0402K" value="1uF" x="40.5" y="12.75" smashed="yes">
+<attribute name="MPN" value="" x="40.5" y="12.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.64275" y="12.75" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="D2" library="PaxInstrument-T400" package="SOD123" value="MBR230S1F" x="9" y="11" smashed="yes" rot="R90">
 <attribute name="MPN" value="MBR230S1F-7" x="9" y="11" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6184,27 +6214,27 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="S7" library="PaxInstruments-Electromechanical" package="TACTILE-SWITCH-1101NE" value="SWITCH-MOMENTARY-2-SMD-1101NE" x="17.046" y="57.154" rot="R90"/>
 <element name="C3" library="resistor" package="C0402K" value="0.1uF" x="14.584" y="57.036" rot="R270"/>
 <element name="R28" library="resistor" package="R0402" value="10K" x="12.5" y="56.5" rot="R90"/>
-<element name="Y1" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="16MHz" x="35.5" y="11.5" rot="R270">
-<attribute name="PROD_ID" value="XTAL-08218" x="75.378" y="59.252" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="Y1" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="16MHz" x="35.5" y="12.5" rot="R270">
+<attribute name="PROD_ID" value="XTAL-08218" x="75.378" y="60.252" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C5" library="resistor" package="C0402K" value="33pF" x="38" y="13.5" rot="R90"/>
-<element name="C7" library="resistor" package="C0402K" value="33pF" x="38" y="9.5" rot="R270"/>
+<element name="C5" library="resistor" package="C0402K" value="33pF" x="38" y="14.5" rot="R90"/>
+<element name="C7" library="resistor" package="C0402K" value="33pF" x="38" y="10.5" rot="R90"/>
 <element name="JP2" library="PaxInstruments-Connectors" package="CONNECTORS_2X3_SMT_POSTS_T400" value="" x="101.77" y="33.108" rot="MR270">
 <attribute name="MPN" value="95278-101A06LF" x="91.102" y="80.352" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="FCI" x="91.102" y="80.352" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C10" library="resistor" package="C0402K" value="0.1uF" x="35" y="6.5" rot="R180"/>
-<element name="C11" library="resistor" package="C0402K" value="0.1uF" x="17.25" y="8.25"/>
+<element name="C10" library="resistor" package="C0402K" value="0.1uF" x="47" y="14.75"/>
+<element name="C11" library="resistor" package="C0402K" value="0.1uF" x="18" y="8.25" rot="R90"/>
 <element name="C13" library="resistor" package="C0402K" value="0.1uF" x="22.25" y="16.75" rot="R270"/>
-<element name="C15" library="resistor" package="C0402K" value="0.1uF" x="35" y="7.75" rot="R180"/>
+<element name="C15" library="resistor" package="C0402K" value="0.1uF" x="53" y="14.5"/>
 <element name="J4" library="SparkFun-Connectors" package="1X08_PIN1_NO_SILK" value="" x="16.51" y="38.94"/>
 <element name="J5" library="SparkFun-Connectors" package="1X08_PIN1_NO_SILK" value="" x="36.83" y="38.94"/>
 <element name="J6" library="SparkFun-Connectors" package="1X08_PIN1_NO_SILK" value="" x="57.15" y="38.94"/>
 <element name="J11" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="77.47" y="38.94"/>
 <element name="R30" library="SparkFun-Passives" package="0603-ARV" value="10k" x="63.5" y="7.5" rot="R270"/>
-<element name="C8" library="resistor" package="C0402K" value="0.1uF" x="29.5" y="16.75" rot="R270"/>
+<element name="C8" library="resistor" package="C0402K" value="0.1uF" x="29.75" y="15" rot="R180"/>
 <element name="C18" library="resistor" package="C0402K" value="0.1uF" x="10" y="5" rot="R270"/>
-<element name="R2" library="resistor" package="R0402" value="10K" x="14" y="4"/>
+<element name="R2" library="resistor" package="R0402" value="10K" x="12.75" y="4"/>
 <element name="R4" library="resistor" package="R0402" value="10K" x="8.5" y="5" rot="R90"/>
 <element name="J2" library="SparkFun-Connectors" package="1X04" value="" x="8.5" y="1.75" rot="MR180">
 <attribute name="PROD_ID" value="CONN-09696" x="8.5" y="1.75" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -6219,16 +6249,35 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="LED1" library="SparkFun-LED" package="LED-0603" value="GREEN" x="-4.25" y="-19.25"/>
 <element name="R3" library="resistor" package="R0402" value="360R" x="-3.75" y="-23.5"/>
-<element name="D3" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="-3.25" y="-27.75"/>
-<element name="Y2" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="" x="-2.25" y="-32.25">
-<attribute name="PROD_ID" value="XTAL-08218" x="-2.25" y="-32.25" size="1.778" layer="27" display="off"/>
+<element name="D3" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="50" y="54" rot="R90"/>
+<element name="Y2" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="" x="36.5" y="5">
+<attribute name="PROD_ID" value="XTAL-08218" x="36.5" y="5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="resistor" package="C0402K" value="8pF" x="-4.25" y="-36"/>
-<element name="C9" library="resistor" package="C0402K" value="8pF" x="-4.25" y="-39.75"/>
+<element name="C6" library="resistor" package="C0402K" value="8pF" x="34.75" y="1.75" rot="R180"/>
+<element name="C9" library="resistor" package="C0402K" value="8pF" x="38.25" y="1.75" rot="R180"/>
 <element name="BAT1" library="PaxInstruments-Electromechanical" package="BATTCON_12MM" value="" x="4.25" y="-47.5">
 <attribute name="MPN" value="3000TR" x="4.25" y="-47.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Keystone Electronics" x="4.25" y="-47.5" size="1.778" layer="27" display="off"/>
 </element>
+<element name="J7" library="SparkFun-Connectors" package="1X06_FEMALE_LOCK.010" value="" x="3.5" y="1" rot="R90"/>
+<element name="J8" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="83.5" y="69.5"/>
+<element name="J9" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="73.75" y="69.5"/>
+<element name="J10" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="64" y="69.5"/>
+<element name="J13" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="54.25" y="69.5"/>
+<element name="J14" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="44.5" y="69.5"/>
+<element name="J15" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="34.75" y="69.5"/>
+<element name="J16" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="25" y="69.5"/>
+<element name="J17" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="15.25" y="69.5"/>
+<element name="J18" library="SparkFun-Connectors" package="SPRING-CONNECTOR" value="" x="7.5" y="52"/>
+<element name="J19" library="SparkFun-Connectors" package="1X01_2MM" value="" x="79" y="31"/>
+<element name="J3" library="SparkFun-Connectors" package="1X01_2MM" value="" x="74.5" y="31.5"/>
+<element name="J20" library="SparkFun-Connectors" package="1X01_2MM" value="" x="69.75" y="31.75"/>
+<element name="J21" library="SparkFun-Connectors" package="1X01_2MM" value="" x="64.75" y="31.75"/>
+<element name="J22" library="SparkFun-Connectors" package="1X01_2MM" value="" x="61" y="31.75"/>
+<element name="J23" library="SparkFun-Connectors" package="1X01_2MM" value="" x="23.25" y="31.75"/>
+<element name="J24" library="SparkFun-Connectors" package="1X01_2MM" value="" x="19.25" y="31.75"/>
+<element name="J25" library="SparkFun-Connectors" package="1X01_2MM" value="" x="11" y="30.75"/>
+<element name="J26" library="SparkFun-Connectors" package="1X01_2MM" value="" x="6.75" y="30.75"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -6272,8 +6321,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <vertex x="0" y="0"/>
 <vertex x="0" y="50.8"/>
 </polygon>
-<wire x1="32.803296875" y1="6.5" x2="34.4" y2="6.5" width="0.3" layer="1"/>
-<wire x1="32.43215625" y1="6.871140625" x2="32.803296875" y2="6.5" width="0.3" layer="1"/>
 <wire x1="62.85" y1="11.5" x2="62.85" y2="10" width="0.4064" layer="1"/>
 <wire x1="62.875" y1="8.7" x2="61.75" y2="8.7" width="0.4064" layer="1"/>
 <wire x1="61.75" y1="8.7" x2="61.75" y2="7.9" width="0.4064" layer="1"/>
@@ -6300,11 +6347,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="46.75" y="11" extent="1-16" drill="0.3"/>
 <wire x1="46.76" y1="12.775" x2="46.76" y2="11.01" width="0.4064" layer="1"/>
 <wire x1="46.76" y1="11.01" x2="46.75" y2="11" width="0.4064" layer="1"/>
-<via x="33" y="7.5" extent="1-16" drill="0.3"/>
-<via x="33" y="9" extent="1-16" drill="0.3"/>
-<wire x1="32.43215625" y1="6.871140625" x2="32.43215625" y2="6.93215625" width="0.3048" layer="1"/>
-<wire x1="32.43215625" y1="6.93215625" x2="33" y2="7.5" width="0.3048" layer="1"/>
-<wire x1="32.43215625" y1="9.56784375" x2="33" y2="9" width="0.3048" layer="1"/>
+<via x="33.25" y="7.25" extent="1-16" drill="0.3"/>
+<via x="33.25" y="9.25" extent="1-16" drill="0.3"/>
 <via x="93.25" y="13.25" extent="1-16" drill="0.3"/>
 <via x="93.25" y="23" extent="1-16" drill="0.3"/>
 <via x="93" y="37.5" extent="1-16" drill="0.3"/>
@@ -6321,16 +6365,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="24.889084375" y1="13" x2="25" y2="13" width="0.3048" layer="1"/>
 <wire x1="28.189515625" y1="13.871496875" x2="26.81801875" y2="12.5" width="0.3048" layer="1"/>
 <wire x1="26.81801875" y1="12.5" x2="26.75" y2="12.5" width="0.3048" layer="1"/>
-<wire x1="19.067840625" y1="9.62885625" x2="20.196696875" y2="8.5" width="0.3048" layer="1"/>
 <wire x1="20.196696875" y1="8.5" x2="20.25" y2="8.5" width="0.3048" layer="1"/>
 <via x="26" y="2.5" extent="1-16" drill="0.3"/>
-<wire x1="17.85" y1="8.25" x2="19.067840625" y2="9.467840625" width="0.3048" layer="1"/>
-<wire x1="19.067840625" y1="9.467840625" x2="19.067840625" y2="9.62885625" width="0.3048" layer="1"/>
-<wire x1="29.5" y1="16.15" x2="29.5" y2="15.18198125" width="0.3048" layer="1"/>
-<wire x1="29.5" y1="15.18198125" x2="28.189515625" y2="13.871496875" width="0.3048" layer="1"/>
-<wire x1="34.4" y1="7.75" x2="33.75" y2="7.75" width="0.3048" layer="1"/>
-<wire x1="33.75" y1="7.75" x2="33" y2="8.5" width="0.3048" layer="1"/>
-<wire x1="33" y1="8.5" x2="33" y2="9" width="0.3048" layer="1"/>
 <wire x1="23.664034375" y1="14.22505" x2="22.25" y2="15.639084375" width="0.3048" layer="1"/>
 <wire x1="22.25" y1="15.639084375" x2="22.25" y2="16.15" width="0.3048" layer="1"/>
 <wire x1="24.371140625" y1="1.567840625" x2="24.8033" y2="2" width="0.3048" layer="1"/>
@@ -6345,17 +6381,32 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="3.35" y1="29.5" x2="2.25" y2="29.5" width="0.4064" layer="1"/>
 <wire x1="2.25" y1="29.5" x2="2" y2="29.25" width="0.4064" layer="1"/>
 <contactref element="D3" pad="A"/>
+<wire x1="32.43215625" y1="6.93215625" x2="32.75" y2="7.25" width="0.3048" layer="1"/>
+<wire x1="32.75" y1="7.25" x2="33.25" y2="7.25" width="0.3048" layer="1"/>
+<wire x1="32.43215625" y1="9.56784375" x2="32.75" y2="9.25" width="0.3048" layer="1"/>
+<wire x1="32.75" y1="9.25" x2="33.25" y2="9.25" width="0.3048" layer="1"/>
+<wire x1="46.76" y1="12.775" x2="46.75" y2="12.785" width="0.3048" layer="1"/>
+<wire x1="46.75" y1="12.785" x2="46.75" y2="13.75" width="0.3048" layer="1"/>
+<wire x1="46.75" y1="13.75" x2="47.6" y2="14.6" width="0.3048" layer="1"/>
+<wire x1="47.6" y1="14.6" x2="47.6" y2="14.75" width="0.3048" layer="1"/>
+<wire x1="53.6" y1="14.5" x2="53.76" y2="14.34" width="0.3048" layer="1"/>
+<wire x1="53.76" y1="14.34" x2="53.76" y2="12.775" width="0.3048" layer="1"/>
+<wire x1="28.189515625" y1="13.871496875" x2="29.15" y2="14.83198125" width="0.3048" layer="1"/>
+<wire x1="29.15" y1="14.83198125" x2="29.15" y2="15" width="0.3048" layer="1"/>
 <wire x1="99.25" y1="35.648" x2="104.29" y2="35.648" width="0" layer="19" extent="16-16"/>
 <wire x1="93.106" y1="36.195" x2="99.25" y2="35.648" width="0" layer="19" extent="1-16"/>
+<wire x1="32.43215625" y1="6.871140625" x2="32.43215625" y2="6.93215625" width="0" layer="19" extent="1-1"/>
+<wire x1="19.067840625" y1="9.62885625" x2="20.196696875" y2="8.5" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="8.85" x2="19.067840625" y2="9.62885625" width="0" layer="19" extent="1-1"/>
 <wire x1="10" y1="4.4" x2="16.12" y2="1.75" width="0" layer="19" extent="1-1"/>
 <wire x1="8.5" y1="5.65" x2="10" y2="4.4" width="0" layer="19" extent="1-1"/>
 <wire x1="12.5" y1="57.15" x2="6.75" y2="36.5" width="0" layer="19" extent="1-1"/>
 <wire x1="26.506875" y1="54.7" x2="12.5" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="28.411875" y1="54.7" x2="26.506875" y2="54.7" width="0" layer="19" extent="1-1"/>
 <wire x1="30.5249" y1="54.35" x2="28.411875" y2="54.7" width="0" layer="19" extent="1-1"/>
+<wire x1="50" y1="55.575" x2="30.5249" y2="54.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.54" y1="-20.155" x2="10" y2="4.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.25" y1="-20.127" x2="-1.54" y2="-20.155" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.675" y1="-27.75" x2="-1.54" y2="-20.155" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U4" pad="2"/>
@@ -6426,13 +6477,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="65.25" y="5.5" extent="1-16" drill="0.3"/>
 <wire x1="65.339" y1="3.92" x2="65.339" y2="5.411" width="0.4064" layer="1"/>
 <wire x1="65.339" y1="5.411" x2="65.25" y2="5.5" width="0.4064" layer="1"/>
-<wire x1="35.6" y1="6.5" x2="37.25" y2="6.5" width="0.4064" layer="1"/>
-<wire x1="37.25" y1="6.5" x2="38" y2="7.25" width="0.4064" layer="1"/>
-<wire x1="38" y1="7.25" x2="38" y2="7.5" width="0.4064" layer="1"/>
 <via x="90.25" y="11.5" extent="1-16" drill="0.3"/>
 <via x="90.25" y="26" extent="1-16" drill="0.3"/>
 <via x="90.5" y="40.5" extent="1-16" drill="0.3"/>
-<wire x1="38" y1="7.5" x2="38" y2="8.9" width="0.4064" layer="1"/>
 <wire x1="89.916" y1="41.783" x2="89.916" y2="41.084" width="0.3048" layer="1"/>
 <wire x1="89.916" y1="41.084" x2="90.5" y2="40.5" width="0.3048" layer="1"/>
 <wire x1="89.916" y1="12.827" x2="89.916" y2="11.834" width="0.3048" layer="1"/>
@@ -6445,19 +6492,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="79.17" y1="3.92" x2="79" y2="3.75" width="0.3048" layer="1"/>
 <wire x1="79.92" y1="13.901" x2="78.151" y2="13.901" width="0.3048" layer="1"/>
 <wire x1="78.151" y1="13.901" x2="78" y2="13.75" width="0.3048" layer="1"/>
-<via x="30.25" y="7.25" extent="1-16" drill="0.3"/>
-<wire x1="32.078603125" y1="6.5175875" x2="31.346190625" y2="7.25" width="0.3048" layer="1"/>
-<wire x1="31.346190625" y1="7.25" x2="30.25" y2="7.25" width="0.3048" layer="1"/>
-<via x="37" y="7.75" extent="1-16" drill="0.3"/>
-<wire x1="35.6" y1="7.75" x2="37" y2="7.75" width="0.3048" layer="1"/>
-<wire x1="37" y1="7.75" x2="37.75" y2="7.75" width="0.3048" layer="1"/>
-<wire x1="37.75" y1="7.75" x2="38" y2="7.5" width="0.3048" layer="1"/>
-<via x="39" y="14" extent="1-16" drill="0.3"/>
-<wire x1="39.9" y1="13" x2="39.75" y2="13" width="0.3048" layer="1"/>
-<wire x1="38" y1="14.1" x2="38.9" y2="14.1" width="0.3048" layer="1"/>
-<wire x1="38.9" y1="14.1" x2="39" y2="14" width="0.3048" layer="1"/>
-<wire x1="39" y1="14" x2="39" y2="13.9" width="0.3048" layer="1"/>
-<wire x1="39" y1="13.9" x2="39.9" y2="13" width="0.3048" layer="1"/>
+<via x="28.75" y="9.75" extent="1-16" drill="0.3"/>
+<wire x1="39.9" y1="12.75" x2="39.75" y2="13" width="0.3048" layer="1"/>
 <via x="45.75" y="11" extent="1-16" drill="0.3"/>
 <wire x1="45.76" y1="12.775" x2="45.76" y2="11.01" width="0.3048" layer="1"/>
 <wire x1="45.76" y1="11.01" x2="45.75" y2="11" width="0.3048" layer="1"/>
@@ -6498,20 +6534,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="25.75" y="14" extent="1-16" drill="0.3"/>
 <wire x1="24.0175875" y1="14.578603125" x2="24.596190625" y2="14" width="0.3048" layer="1"/>
 <wire x1="24.596190625" y1="14" x2="25.75" y2="14" width="0.3048" layer="1"/>
-<via x="28.5" y="17.5" extent="1-16" drill="0.3"/>
+<via x="30.25" y="16" extent="1-16" drill="0.3"/>
 <via x="23.25" y="17.5" extent="1-16" drill="0.3"/>
 <wire x1="22.25" y1="17.35" x2="22.4" y2="17.5" width="0.3048" layer="1"/>
 <wire x1="22.4" y1="17.5" x2="23.25" y2="17.5" width="0.3048" layer="1"/>
-<wire x1="29.5" y1="17.35" x2="29.35" y2="17.5" width="0.3048" layer="1"/>
-<wire x1="29.35" y1="17.5" x2="28.5" y2="17.5" width="0.3048" layer="1"/>
-<via x="17.5" y="9.5" extent="1-16" drill="0.3"/>
-<wire x1="16.65" y1="8.25" x2="16.75" y2="8.35" width="0.3048" layer="1"/>
-<wire x1="16.75" y1="8.35" x2="16.75" y2="9" width="0.3048" layer="1"/>
-<wire x1="16.75" y1="9" x2="17.25" y2="9.5" width="0.3048" layer="1"/>
-<wire x1="17.25" y1="9.5" x2="17.5" y2="9.5" width="0.3048" layer="1"/>
-<wire x1="19.42139375" y1="9.982409375" x2="18.903803125" y2="10.5" width="0.3048" layer="1"/>
-<wire x1="18.903803125" y1="10.5" x2="18.5" y2="10.5" width="0.3048" layer="1"/>
-<wire x1="18.5" y1="10.5" x2="17.5" y2="9.5" width="0.3048" layer="1"/>
 <via x="25" y="2.75" extent="1-16" drill="0.3"/>
 <wire x1="24.0175875" y1="1.92139375" x2="24.84619375" y2="2.75" width="0.3048" layer="1"/>
 <wire x1="24.84619375" y1="2.75" x2="25" y2="2.75" width="0.3048" layer="1"/>
@@ -6528,15 +6554,39 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="C9" pad="2"/>
 <contactref element="BAT1" pad="GND"/>
+<via x="42.25" y="10.75" extent="1-16" drill="0.3"/>
+<wire x1="39.9" y1="12.75" x2="40.65" y2="12" width="0.3048" layer="1"/>
+<wire x1="40.65" y1="12" x2="41.75" y2="12" width="0.3048" layer="1"/>
+<wire x1="41.75" y1="12" x2="42.25" y2="11.5" width="0.3048" layer="1"/>
+<wire x1="42.25" y1="11.5" x2="42.25" y2="10.75" width="0.3048" layer="1"/>
+<wire x1="32.078603125" y1="6.5175875" x2="29.846190625" y2="8.75" width="0.3048" layer="1"/>
+<wire x1="29.846190625" y1="8.75" x2="29.5" y2="8.75" width="0.3048" layer="1"/>
+<wire x1="29.5" y1="8.75" x2="28.5" y2="9.75" width="0.3048" layer="1"/>
+<wire x1="28.5" y1="9.75" x2="28.75" y2="9.75" width="0.3048" layer="1"/>
+<via x="38.25" y="12.25" extent="1-16" drill="0.3"/>
+<via x="39.25" y="14" extent="1-16" drill="0.3"/>
+<wire x1="38" y1="11.1" x2="38.25" y2="11.35" width="0.3048" layer="1"/>
+<wire x1="38.25" y1="11.35" x2="38.25" y2="12.25" width="0.3048" layer="1"/>
+<wire x1="38" y1="15.1" x2="38.1" y2="15" width="0.3048" layer="1"/>
+<wire x1="38.1" y1="15" x2="38.5" y2="15" width="0.3048" layer="1"/>
+<wire x1="38.5" y1="15" x2="39.25" y2="14.25" width="0.3048" layer="1"/>
+<wire x1="39.25" y1="14.25" x2="39.25" y2="14" width="0.3048" layer="1"/>
+<wire x1="46.4" y1="14.75" x2="45.76" y2="14.11" width="0.3048" layer="1"/>
+<wire x1="45.76" y1="14.11" x2="45.76" y2="12.775" width="0.3048" layer="1"/>
+<via x="51" y="14.5" extent="1-16" drill="0.3"/>
+<wire x1="52.4" y1="14.5" x2="51" y2="14.5" width="0.3048" layer="1"/>
+<wire x1="30.35" y1="15" x2="30.25" y2="15.1" width="0.3048" layer="1"/>
+<wire x1="30.25" y1="15.1" x2="30.25" y2="16" width="0.3048" layer="1"/>
 <wire x1="99.25" y1="30.568" x2="104.29" y2="30.568" width="0" layer="19" extent="16-16"/>
 <wire x1="90.25" y1="26.971" x2="99.25" y2="30.568" width="0" layer="19" extent="1-16"/>
 <wire x1="10" y1="5.6" x2="11.04" y2="1.75" width="0" layer="19" extent="1-1"/>
-<wire x1="14.65" y1="4" x2="11.04" y2="1.75" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="4" x2="11.04" y2="1.75" width="0" layer="19" extent="1-1"/>
+<wire x1="18" y1="7.65" x2="13.4" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="19.42139375" y1="9.982409375" x2="18" y2="7.65" width="0" layer="19" extent="1-1"/>
+<wire x1="34.15" y1="1.75" x2="32.078603125" y2="6.5175875" width="0" layer="19" extent="1-1"/>
+<wire x1="37.65" y1="1.75" x2="34.15" y2="1.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.35" y1="-13" x2="11.04" y2="1.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.4" y1="-23.5" x2="-0.35" y2="-13" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.65" y1="-36" x2="-4.4" y2="-23.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.65" y1="-39.75" x2="-3.65" y2="-36" width="0" layer="19" extent="1-1"/>
-<wire x1="4.25" y1="-47.5" x2="-3.65" y2="-39.75" width="0" layer="19" extent="1-1"/>
 <wire x1="14.584" y1="56.436" x2="1.524" y2="41.783" width="0" layer="19" extent="1-1"/>
 <wire x1="17.046" y1="54.004" x2="14.584" y2="56.436" width="0" layer="19" extent="1-1"/>
 <wire x1="26.506875" y1="55.9" x2="17.046" y2="54.004" width="0" layer="19" extent="1-1"/>
@@ -6545,28 +6595,43 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="33.1251" y1="55.3" x2="32.425" y2="57.84" width="0" layer="19" extent="1-1"/>
 <wire x1="38.33375" y1="55.9" x2="33.1251" y2="55.3" width="0" layer="19" extent="1-1"/>
 <wire x1="40.000625" y1="55.9" x2="38.33375" y2="55.9" width="0" layer="19" extent="1-1"/>
+<wire x1="4.25" y1="-47.5" x2="-4.4" y2="-23.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB-">
 <contactref element="R10" pad="2"/>
 <contactref element="U1" pad="44"/>
 <wire x1="22.956928125" y1="2.982053125" x2="23.974875" y2="4" width="0.3" layer="1"/>
-<wire x1="23.974875" y1="4" x2="24" y2="4" width="0.3" layer="1"/>
-<via x="24" y="4" extent="1-16" drill="0.25"/>
-<wire x1="24" y1="4" x2="22.5" y2="2.5" width="0.3" layer="16"/>
-<wire x1="22.5" y1="2.5" x2="21.5" y2="2.5" width="0.3" layer="16"/>
-<wire x1="21.5" y1="2.5" x2="8.15" y2="18" width="0" layer="19" extent="1-16"/>
+<via x="24.5" y="4.25" extent="1-16" drill="0.25"/>
+<wire x1="23.75" y1="3.75" x2="23.75" y2="1.75" width="0.3" layer="16"/>
+<wire x1="23.75" y1="1.75" x2="18.5" y2="1.75" width="0.3048" layer="16"/>
+<wire x1="17.25" y1="4.25" x2="13.5" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="13.5" y1="4.25" x2="11.75" y2="6" width="0.3048" layer="16"/>
+<wire x1="18.5" y1="1.75" x2="18.5" y2="3" width="0.3048" layer="16"/>
+<wire x1="18.5" y1="3" x2="17.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="23.974875" y1="4" x2="24.224875" y2="4.25" width="0.3048" layer="1"/>
+<wire x1="24.224875" y1="4.25" x2="24.5" y2="4.25" width="0.3048" layer="1"/>
+<wire x1="23.75" y1="3.75" x2="24.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="24.25" y1="4.25" x2="24.5" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="11.75" y1="6" x2="8.15" y2="18" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="USB+">
 <contactref element="R9" pad="2"/>
 <contactref element="U1" pad="45"/>
 <wire x1="23.31048125" y1="2.6285" x2="23.93198125" y2="3.25" width="0.3" layer="1"/>
-<via x="25" y="3.75" extent="1-16" drill="0.25"/>
-<wire x1="22.75" y1="2" x2="21.5" y2="2" width="0.3" layer="16"/>
+<via x="25.25" y="3.75" extent="1-16" drill="0.25"/>
+<wire x1="24.25" y1="2" x2="24.25" y2="1.25" width="0.3" layer="16"/>
 <wire x1="23.93198125" y1="3.25" x2="24.5" y2="3.25" width="0.3048" layer="1"/>
+<wire x1="24.25" y1="3" x2="24.25" y2="2" width="0.3048" layer="16"/>
+<wire x1="24.25" y1="1.25" x2="18" y2="1.25" width="0.3048" layer="16"/>
+<wire x1="17" y1="3.75" x2="13.25" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="13.25" y1="3.75" x2="11.5" y2="5.5" width="0.3048" layer="16"/>
+<wire x1="17" y1="3.75" x2="18" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="18" y1="2.75" x2="18" y2="1.25" width="0.3048" layer="16"/>
 <wire x1="24.5" y1="3.25" x2="25" y2="3.75" width="0.3048" layer="1"/>
-<wire x1="25" y1="3.75" x2="23.25" y2="2" width="0.3048" layer="16"/>
-<wire x1="23.25" y1="2" x2="22.75" y2="2" width="0.3048" layer="16"/>
-<wire x1="21.5" y1="2" x2="8.15" y2="16.5" width="0" layer="19" extent="1-16"/>
+<wire x1="25" y1="3.75" x2="25.25" y2="3.75" width="0.3048" layer="1"/>
+<wire x1="24.25" y1="3" x2="25" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="25" y1="3.75" x2="25.25" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="11.5" y1="5.5" x2="8.15" y2="16.5" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -6582,66 +6647,124 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="D2" pad="C"/>
 <contactref element="U4" pad="3"/>
 <contactref element="D3" pad="C"/>
+<wire x1="40.000625" y1="54.7" x2="50" y2="52.425" width="0" layer="19" extent="1-1"/>
 <wire x1="38.33375" y1="54.7" x2="40.000625" y2="54.7" width="0" layer="19" extent="1-1"/>
 <wire x1="33.1251" y1="54.35" x2="38.33375" y2="54.7" width="0" layer="19" extent="1-1"/>
 <wire x1="33.1251" y1="56.25" x2="33.1251" y2="54.35" width="0" layer="19" extent="1-1"/>
 <wire x1="9" y1="9.1" x2="33.1251" y2="54.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.825" y1="-27.75" x2="9" y2="9.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LCD_BL">
 <contactref element="R19" pad="2"/>
 <contactref element="U1" pad="58"/>
-<wire x1="30.3108375" y1="4.74981875" x2="31.06065625" y2="4" width="0.3" layer="1"/>
-<wire x1="31.06065625" y1="4" x2="46" y2="4" width="0.3" layer="1"/>
-<wire x1="46" y1="4" x2="46.5" y2="4.5" width="0.3" layer="1"/>
-<wire x1="46.5" y1="4.5" x2="47" y2="4.5" width="0.3" layer="1"/>
-<wire x1="47" y1="4.5" x2="49.5" y2="4.5" width="0.3" layer="16"/>
-<via x="49.5" y="4.5" extent="1-16" drill="0.25"/>
-<via x="47" y="4.5" extent="1-16" drill="0.25"/>
-<wire x1="49.5" y1="4.5" x2="55" y2="10" width="0.3" layer="1"/>
 <wire x1="55" y1="10" x2="55" y2="12" width="0.3" layer="1"/>
 <wire x1="55" y1="12" x2="56.5" y2="12" width="0.3" layer="1"/>
 <wire x1="56.5" y1="12" x2="56.8075" y2="12.3075" width="0.3" layer="1"/>
 <wire x1="56.8075" y1="12.3075" x2="56.8075" y2="12.93" width="0.3" layer="1"/>
+<wire x1="30.3108375" y1="4.74981875" x2="29.06065625" y2="6" width="0.3048" layer="1"/>
+<via x="26.25" y="7.25" extent="1-16" drill="0.3"/>
+<wire x1="28.75" y1="7" x2="30.5" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="30.5" y1="5.25" x2="31.25" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="31.25" y1="5.25" x2="31.75" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="31.75" y1="4.75" x2="46" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="46" y1="4.75" x2="46.5" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="46.5" y1="5.25" x2="48.75" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="48.75" y1="5.25" x2="50.25" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="50.25" y1="3.75" x2="55" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="55" y1="3.75" x2="55" y2="4" width="0.3048" layer="16"/>
+<via x="55" y="4" extent="1-16" drill="0.3"/>
+<wire x1="55" y1="4" x2="55" y2="10" width="0.3048" layer="1"/>
+<wire x1="28.75" y1="7" x2="26.75" y2="7" width="0.3048" layer="16"/>
+<wire x1="26.75" y1="7" x2="26.5" y2="7.25" width="0.3048" layer="16"/>
+<wire x1="26.5" y1="7.25" x2="26.25" y2="7.25" width="0.3048" layer="16"/>
+<wire x1="29.06065625" y1="6" x2="27.75" y2="6" width="0.3048" layer="1"/>
+<wire x1="27.75" y1="6" x2="26.5" y2="7.25" width="0.3048" layer="1"/>
+<wire x1="26.5" y1="7.25" x2="26.25" y2="7.25" width="0.3048" layer="1"/>
 </signal>
 <signal name="LCD_A0">
 <contactref element="X1" pad="8"/>
 <contactref element="U1" pad="62"/>
-<wire x1="47" y1="7.5" x2="49.5" y2="7.5" width="0.3" layer="16"/>
-<via x="49.5" y="7.5" extent="1-16" drill="0.25"/>
-<wire x1="49.5" y1="7.5" x2="49.76" y2="7.76" width="0.3" layer="1"/>
-<wire x1="49.76" y1="7.76" x2="49.76" y2="12.775" width="0.3" layer="1"/>
-<via x="47" y="7.5" extent="1-16" drill="0.25"/>
-<wire x1="32.389084375" y1="5.5" x2="44.5" y2="5.5" width="0.3" layer="1"/>
-<wire x1="44.5" y1="5.5" x2="46.5" y2="7.5" width="0.3" layer="1"/>
-<wire x1="46.5" y1="7.5" x2="47" y2="7.5" width="0.3" layer="1"/>
-<wire x1="31.72505" y1="6.164034375" x2="32.389084375" y2="5.5" width="0.3" layer="1"/>
+<wire x1="31.72505" y1="6.164034375" x2="29.889084375" y2="8" width="0.3048" layer="1"/>
+<wire x1="29.889084375" y1="8" x2="29.25" y2="8" width="0.3048" layer="1"/>
+<via x="27.75" y="9.25" extent="1-16" drill="0.3"/>
+<wire x1="31.25" y1="6.75" x2="32" y2="6.75" width="0.3048" layer="16"/>
+<wire x1="32" y1="6.75" x2="32.5" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="32.5" y1="6.25" x2="45.25" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="29.25" y1="8" x2="29" y2="8.25" width="0.3048" layer="1"/>
+<wire x1="29" y1="8.25" x2="29" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="29" y1="8.5" x2="28.5" y2="9" width="0.3048" layer="1"/>
+<wire x1="28.5" y1="9" x2="28" y2="9" width="0.3048" layer="1"/>
+<wire x1="28" y1="9" x2="27.75" y2="9.25" width="0.3048" layer="1"/>
+<wire x1="31.25" y1="6.75" x2="29.5" y2="8.5" width="0.3048" layer="16"/>
+<wire x1="29.5" y1="8.5" x2="29" y2="8.5" width="0.3048" layer="16"/>
+<wire x1="29" y1="8.5" x2="28.5" y2="9" width="0.3048" layer="16"/>
+<wire x1="28.5" y1="9" x2="28.25" y2="9" width="0.3048" layer="16"/>
+<wire x1="28.25" y1="9" x2="28" y2="9.25" width="0.3048" layer="16"/>
+<wire x1="28" y1="9.25" x2="27.75" y2="9.25" width="0.3048" layer="16"/>
+<wire x1="45.25" y1="6.25" x2="45.75" y2="6.75" width="0.3048" layer="16"/>
+<wire x1="45.75" y1="6.75" x2="49.5" y2="6.75" width="0.3048" layer="16"/>
+<wire x1="49.5" y1="6.75" x2="51" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="51" y1="5.25" x2="52.75" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="52.75" y1="5.25" x2="52.75" y2="5.5" width="0.3048" layer="16"/>
+<via x="52.75" y="5.5" extent="1-16" drill="0.3"/>
+<wire x1="52.75" y1="5.5" x2="52.75" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="52.75" y1="8.5" x2="49.75" y2="11.5" width="0.3048" layer="1"/>
+<wire x1="49.75" y1="11.5" x2="49.75" y2="12.765" width="0.3048" layer="1"/>
+<wire x1="49.75" y1="12.765" x2="49.76" y2="12.775" width="0.3048" layer="1"/>
 </signal>
 <signal name="LCD_CS">
 <contactref element="X1" pad="10"/>
 <contactref element="U1" pad="59"/>
-<wire x1="30.664390625" y1="5.103371875" x2="31.2677625" y2="4.5" width="0.3" layer="1"/>
-<wire x1="31.2677625" y1="4.5" x2="45.5" y2="4.5" width="0.3" layer="1"/>
-<wire x1="45.5" y1="4.5" x2="46.5" y2="5.5" width="0.3" layer="1"/>
-<wire x1="46.5" y1="5.5" x2="47" y2="5.5" width="0.3" layer="1"/>
-<wire x1="47" y1="5.5" x2="49.5" y2="5.5" width="0.3" layer="16"/>
-<via x="49.5" y="5.5" extent="1-16" drill="0.25"/>
-<wire x1="49.5" y1="5.5" x2="51.76" y2="7.76" width="0.3" layer="1"/>
-<wire x1="51.76" y1="7.76" x2="51.76" y2="12.775" width="0.3" layer="1"/>
-<via x="47" y="5.5" extent="1-16" drill="0.25"/>
+<wire x1="30.664390625" y1="5.103371875" x2="29.2677625" y2="6.5" width="0.3048" layer="1"/>
+<wire x1="29.2677625" y1="6.5" x2="28" y2="6.5" width="0.3048" layer="1"/>
+<via x="26.25" y="8.75" extent="1-16" drill="0.3"/>
+<wire x1="29" y1="7.5" x2="30.75" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="30.75" y1="5.75" x2="31.5" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="31.5" y1="5.75" x2="32" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="32" y1="5.25" x2="45.75" y2="5.25" width="0.3048" layer="16"/>
+<wire x1="45.75" y1="5.25" x2="46.25" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="46.25" y1="5.75" x2="49" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="49" y1="5.75" x2="50.5" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="50.5" y1="4.25" x2="54.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="54.25" y1="4.25" x2="54.25" y2="4.5" width="0.3048" layer="16"/>
+<via x="54.25" y="4.5" extent="1-16" drill="0.3"/>
+<wire x1="54.25" y1="4.5" x2="54.25" y2="9" width="0.3048" layer="1"/>
+<wire x1="54.25" y1="9" x2="54.24" y2="9.01" width="0.3048" layer="1"/>
+<wire x1="54.24" y1="9.01" x2="54.24" y2="9.51" width="0.3048" layer="1"/>
+<wire x1="54.24" y1="9.51" x2="54" y2="9.75" width="0.3048" layer="1"/>
+<wire x1="54" y1="9.75" x2="53" y2="9.75" width="0.3048" layer="1"/>
+<wire x1="53" y1="9.75" x2="51.75" y2="11" width="0.3048" layer="1"/>
+<wire x1="51.75" y1="11" x2="51.75" y2="12.765" width="0.3048" layer="1"/>
+<wire x1="51.75" y1="12.765" x2="51.76" y2="12.775" width="0.3048" layer="1"/>
+<wire x1="26.5" y1="8.5" x2="26.25" y2="8.75" width="0.3048" layer="16"/>
+<wire x1="28" y1="6.5" x2="26.5" y2="8" width="0.3048" layer="1"/>
+<wire x1="26.5" y1="8" x2="26.5" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="26.5" y1="8.5" x2="26.25" y2="8.75" width="0.3048" layer="1"/>
+<wire x1="26.5" y1="8.5" x2="26.5" y2="8" width="0.3048" layer="16"/>
+<wire x1="26.5" y1="8" x2="27" y2="7.5" width="0.3048" layer="16"/>
+<wire x1="27" y1="7.5" x2="29" y2="7.5" width="0.3048" layer="16"/>
 </signal>
 <signal name="LCD_RST">
 <contactref element="X1" pad="9"/>
 <contactref element="U1" pad="61"/>
-<wire x1="47" y1="6.5" x2="49.5" y2="6.5" width="0.3" layer="16"/>
-<via x="49.5" y="6.5" extent="1-16" drill="0.25"/>
-<wire x1="49.5" y1="6.5" x2="50.76" y2="7.76" width="0.3" layer="1"/>
-<wire x1="50.76" y1="7.76" x2="50.76" y2="12.775" width="0.3" layer="1"/>
-<via x="47" y="6.5" extent="1-16" drill="0.25"/>
-<wire x1="32.181978125" y1="5" x2="45" y2="5" width="0.3" layer="1"/>
-<wire x1="45" y1="5" x2="46.5" y2="6.5" width="0.3" layer="1"/>
-<wire x1="46.5" y1="6.5" x2="47" y2="6.5" width="0.3" layer="1"/>
-<wire x1="31.371496875" y1="5.81048125" x2="32.181978125" y2="5" width="0.3" layer="1"/>
+<wire x1="50.76" y1="11.25" x2="50.76" y2="12.775" width="0.3" layer="1"/>
+<wire x1="31.371496875" y1="5.81048125" x2="29.681978125" y2="7.5" width="0.3048" layer="1"/>
+<wire x1="29.681978125" y1="7.5" x2="29" y2="7.5" width="0.3048" layer="1"/>
+<wire x1="29" y1="7.5" x2="28.25" y2="8.25" width="0.3048" layer="1"/>
+<via x="28.25" y="8.25" extent="1-16" drill="0.3"/>
+<wire x1="28.25" y1="8.25" x2="28.5" y2="8" width="0.3048" layer="16"/>
+<wire x1="28.5" y1="8" x2="29.25" y2="8" width="0.3048" layer="16"/>
+<wire x1="29.25" y1="8" x2="31" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="31" y1="6.25" x2="31.75" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="31.75" y1="6.25" x2="32.25" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="32.25" y1="5.75" x2="45.5" y2="5.75" width="0.3048" layer="16"/>
+<wire x1="45.5" y1="5.75" x2="46" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="46" y1="6.25" x2="49.25" y2="6.25" width="0.3048" layer="16"/>
+<wire x1="49.25" y1="6.25" x2="50.75" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="50.75" y1="4.75" x2="53.5" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="53.5" y1="4.75" x2="53.5" y2="5" width="0.3048" layer="16"/>
+<via x="53.5" y="5" extent="1-16" drill="0.3"/>
+<wire x1="53.5" y1="5" x2="53.5" y2="8.51" width="0.3048" layer="1"/>
+<wire x1="50.76" y1="11.25" x2="53.5" y2="8.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$30">
 </signal>
@@ -6712,8 +6835,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="N$39">
 <contactref element="C36" pad="2"/>
 <contactref element="X1" pad="1"/>
-<wire x1="41.1" y1="13" x2="41.325" y2="12.775" width="0.3" layer="1"/>
-<wire x1="41.325" y1="12.775" x2="42.76" y2="12.775" width="0.3" layer="1"/>
+<wire x1="41.1" y1="12.75" x2="41.125" y2="12.775" width="0.3048" layer="1"/>
+<wire x1="41.125" y1="12.775" x2="42.76" y2="12.775" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$19">
 </signal>
@@ -6763,13 +6886,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R19" pad="1"/>
 <contactref element="X1" pad="11"/>
 <wire x1="55.5075" y1="12.93" x2="55.0775" y2="12.5" width="0.3" layer="1"/>
-<wire x1="55.0775" y1="12.5" x2="54.5" y2="12.5" width="0.3" layer="1"/>
-<wire x1="54.5" y1="12.5" x2="54.5" y2="10.5" width="0.3" layer="1"/>
-<wire x1="54.5" y1="10.5" x2="53.5" y2="9.5" width="0.3" layer="1"/>
-<wire x1="53.5" y1="9.5" x2="52.5" y2="9.5" width="0.3" layer="1"/>
-<wire x1="52.5" y1="9.5" x2="52.5" y2="11.5" width="0.3" layer="1"/>
-<wire x1="52.5" y1="11.5" x2="52.76" y2="11.76" width="0.3" layer="1"/>
+<wire x1="55.0775" y1="12.5" x2="54.75" y2="12.5" width="0.3" layer="1"/>
 <wire x1="52.76" y1="11.76" x2="52.76" y2="12.775" width="0.3" layer="1"/>
+<wire x1="52.76" y1="11.76" x2="52.76" y2="10.74" width="0.3048" layer="1"/>
+<wire x1="52.76" y1="10.74" x2="53.25" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="53.25" y1="10.25" x2="54" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="54" y1="10.25" x2="54.5" y2="10.75" width="0.3048" layer="1"/>
+<wire x1="54.5" y1="10.75" x2="54.5" y2="12.25" width="0.3048" layer="1"/>
+<wire x1="54.5" y1="12.25" x2="54.75" y2="12.5" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 </signal>
@@ -6780,7 +6904,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="39"/>
 <contactref element="R30" pad="6"/>
 <via x="69.5" y="4.5" extent="1-16" drill="0.25"/>
-<wire x1="64.5" y1="1.5" x2="67.5" y2="4.5" width="0.3" layer="16"/>
+<wire x1="67.25" y1="4.25" x2="67.5" y2="4.5" width="0.3" layer="16"/>
 <wire x1="67.5" y1="4.5" x2="69.5" y2="4.5" width="0.3" layer="16"/>
 <wire x1="69.5" y1="4.5" x2="69.5" y2="7" width="0.3" layer="1"/>
 <wire x1="69.5" y1="7.5" x2="68.839" y2="8.161" width="0.3" layer="1"/>
@@ -6791,21 +6915,27 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="66.5" y1="7" x2="69.5" y2="7" width="0.3" layer="16"/>
 <via x="69.5" y="7" extent="1-16" drill="0.25"/>
 <wire x1="69.5" y1="7" x2="69.5" y2="7.5" width="0.3" layer="1"/>
-<wire x1="64.5" y1="1.5" x2="28.5" y2="1.5" width="0.3" layer="16"/>
-<via x="23" y="6.5" extent="1-16" drill="0.25"/>
-<wire x1="23" y1="6.5" x2="22.939340625" y2="6.5" width="0.3" layer="1"/>
-<wire x1="22.939340625" y1="6.5" x2="21.189159375" y2="4.74981875" width="0.3" layer="1"/>
-<wire x1="23" y1="6.5" x2="24.25" y2="5.25" width="0.3048" layer="16"/>
-<wire x1="24.25" y1="5.25" x2="24.5" y2="5.25" width="0.3048" layer="16"/>
-<wire x1="24.5" y1="5.25" x2="28.25" y2="1.5" width="0.3048" layer="16"/>
-<wire x1="28.25" y1="1.5" x2="28.5" y2="1.5" width="0.3048" layer="16"/>
+<wire x1="30" y1="4.25" x2="30.75" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="30.75" y1="4.25" x2="31.25" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="31.25" y1="3.75" x2="46.5" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="46.5" y1="3.75" x2="47" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="47" y1="4.25" x2="48.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="48.25" y1="4.25" x2="49.75" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="49.75" y1="2.75" x2="65.75" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="65.75" y1="2.75" x2="67.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="30" y1="4.25" x2="28.25" y2="6" width="0.3048" layer="16"/>
+<wire x1="28.25" y1="6" x2="25.25" y2="6" width="0.3048" layer="16"/>
+<wire x1="25.25" y1="6" x2="21.75" y2="2.5" width="0.3048" layer="16"/>
+<wire x1="21.75" y1="2.5" x2="19.75" y2="2.5" width="0.3048" layer="16"/>
+<via x="19.75" y="2.5" extent="1-16" drill="0.3"/>
+<wire x1="21.189159375" y1="4.74981875" x2="19.75" y2="3.310659375" width="0.3048" layer="1"/>
+<wire x1="19.75" y1="3.310659375" x2="19.75" y2="2.5" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDIO_D1">
 <contactref element="J1" pad="8"/>
 <contactref element="U1" pad="40"/>
 <contactref element="R30" pad="5"/>
-<wire x1="28.5" y1="2" x2="64" y2="2" width="0.3" layer="16"/>
-<wire x1="64" y1="2" x2="67.5" y2="5.5" width="0.3" layer="16"/>
+<wire x1="66.75" y1="4.75" x2="67.5" y2="5.5" width="0.3" layer="16"/>
 <wire x1="67.5" y1="5.5" x2="68.5" y2="5.5" width="0.3" layer="16"/>
 <via x="68.5" y="5.5" extent="1-16" drill="0.25"/>
 <wire x1="68.5" y1="5.5" x2="68.5" y2="6.5" width="0.3" layer="1"/>
@@ -6816,17 +6946,26 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="66.5" y="6" extent="1-16" drill="0.25"/>
 <wire x1="66.5" y1="6" x2="67" y2="6" width="0.3" layer="16"/>
 <wire x1="67" y1="6" x2="67.5" y2="5.5" width="0.3" layer="16"/>
-<wire x1="28.5" y1="2" x2="24.5" y2="6" width="0.3" layer="16"/>
-<via x="24.5" y="6" extent="1-16" drill="0.25"/>
-<wire x1="24.5" y1="6" x2="24" y2="5.5" width="0.3" layer="1"/>
-<wire x1="24" y1="5.5" x2="22.646446875" y2="5.5" width="0.3" layer="1"/>
-<wire x1="22.646446875" y1="5.5" x2="21.5427125" y2="4.396265625" width="0.3" layer="1"/>
+<wire x1="30.25" y1="4.75" x2="31" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="31" y1="4.75" x2="31.5" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="31.5" y1="4.25" x2="46.25" y2="4.25" width="0.3048" layer="16"/>
+<wire x1="46.25" y1="4.25" x2="46.75" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="46.75" y1="4.75" x2="48.5" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="48.5" y1="4.75" x2="50" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="50" y1="3.25" x2="65.25" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="65.25" y1="3.25" x2="66.75" y2="4.75" width="0.3048" layer="16"/>
+<wire x1="30.25" y1="4.75" x2="28.5" y2="6.5" width="0.3048" layer="16"/>
+<wire x1="28.5" y1="6.5" x2="25" y2="6.5" width="0.3048" layer="16"/>
+<wire x1="25" y1="6.5" x2="21.75" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="21.75" y1="3.25" x2="20.75" y2="3.25" width="0.3048" layer="16"/>
+<via x="20.75" y="3.25" extent="1-16" drill="0.3"/>
+<wire x1="20.75" y1="3.25" x2="20.75" y2="3.603553125" width="0.3048" layer="1"/>
+<wire x1="20.75" y1="3.603553125" x2="21.5427125" y2="4.396265625" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDIO_D2">
 <contactref element="J1" pad="1"/>
 <contactref element="U1" pad="51"/>
 <contactref element="R30" pad="8"/>
-<wire x1="73" y1="1" x2="73.5" y2="1.5" width="0.3" layer="1"/>
 <wire x1="73.5" y1="1.5" x2="73.5" y2="7" width="0.3" layer="1"/>
 <wire x1="73.5" y1="7" x2="74.25" y2="7.75" width="0.3" layer="1"/>
 <wire x1="74.25" y1="7.75" x2="75.439" y2="8.939" width="0.3" layer="1"/>
@@ -6837,16 +6976,21 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="66.5" y1="9" x2="73" y2="9" width="0.3" layer="16"/>
 <wire x1="73" y1="9" x2="74.25" y2="7.75" width="0.3" layer="16"/>
 <via x="74.25" y="7.75" extent="1-16" drill="0.25"/>
-<wire x1="29.110909375" y1="1" x2="73" y2="1" width="0.3" layer="1"/>
-<wire x1="27.8359625" y1="2.274946875" x2="29.110909375" y2="1" width="0.3" layer="1"/>
+<via x="28.75" y="0.75" extent="1-16" drill="0.3"/>
+<wire x1="28.75" y1="0.75" x2="72.75" y2="0.75" width="0.3048" layer="16"/>
+<wire x1="72.75" y1="0.75" x2="73" y2="1" width="0.3048" layer="16"/>
+<via x="73" y="1" extent="1-16" drill="0.3"/>
+<wire x1="73" y1="1" x2="73.5" y2="1.5" width="0.3048" layer="1"/>
+<wire x1="27.8359625" y1="2.274946875" x2="28.5" y2="1.610909375" width="0.3048" layer="1"/>
+<wire x1="28.5" y1="1.610909375" x2="28.5" y2="1.25" width="0.3048" layer="1"/>
+<wire x1="28.5" y1="1.25" x2="28.75" y2="1" width="0.3048" layer="1"/>
+<wire x1="28.75" y1="1" x2="28.75" y2="0.75" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDIO_D3">
 <contactref element="J1" pad="2"/>
 <contactref element="U1" pad="52"/>
 <contactref element="R30" pad="7"/>
-<wire x1="29.318015625" y1="1.5" x2="72" y2="1.5" width="0.3" layer="1"/>
-<wire x1="72" y1="1.5" x2="72.5" y2="2" width="0.3" layer="1"/>
-<wire x1="72.5" y1="2" x2="72.5" y2="8" width="0.3" layer="1"/>
+<wire x1="72.75" y1="7.75" x2="72.5" y2="8" width="0.3" layer="1"/>
 <wire x1="72.5" y1="9" x2="74.339" y2="10.839" width="0.3" layer="1"/>
 <wire x1="74.339" y1="10.839" x2="74.339" y2="14.293" width="0.3" layer="1"/>
 <wire x1="64.125" y1="7.9" x2="66.4" y2="7.9" width="0.3" layer="1"/>
@@ -6856,13 +7000,18 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="72.5" y="8" extent="1-16" drill="0.25"/>
 <wire x1="72.5" y1="8" x2="72.5" y2="9" width="0.3" layer="1"/>
 <wire x1="28.189515625" y1="2.6285" x2="29.318015625" y2="1.5" width="0.3" layer="1"/>
+<via x="29.318015625" y="1.5" extent="1-16" drill="0.3"/>
+<wire x1="29.318015625" y1="1.5" x2="29.568015625" y2="1.25" width="0.3048" layer="16"/>
+<wire x1="29.568015625" y1="1.25" x2="71.75" y2="1.25" width="0.3048" layer="16"/>
+<wire x1="71.75" y1="1.25" x2="72" y2="1.5" width="0.3048" layer="16"/>
+<via x="72" y="1.5" extent="1-16" drill="0.3"/>
+<wire x1="72" y1="1.5" x2="72.75" y2="2.25" width="0.3048" layer="1"/>
+<wire x1="72.75" y1="2.25" x2="72.75" y2="7.75" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDIO_CLK">
 <contactref element="R13" pad="2"/>
 <contactref element="J1" pad="5"/>
 <contactref element="U1" pad="53"/>
-<wire x1="29.525121875" y1="2" x2="70.5" y2="2" width="0.3" layer="1"/>
-<wire x1="70.5" y1="2" x2="71" y2="2.5" width="0.3" layer="1"/>
 <wire x1="70.5" y1="3.5" x2="70.5" y2="10" width="0.3" layer="1"/>
 <wire x1="70.5" y1="10" x2="70.5" y2="11.5" width="0.3" layer="1"/>
 <wire x1="70.5" y1="11.5" x2="71.039" y2="12.039" width="0.3" layer="1"/>
@@ -6871,9 +7020,18 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="66.5" y="10" extent="1-16" drill="0.25"/>
 <wire x1="66.5" y1="10" x2="70.5" y2="10" width="0.3" layer="16"/>
 <via x="70.5" y="10" extent="1-16" drill="0.25"/>
-<wire x1="29.525121875" y1="2" x2="28.54306875" y2="2.982053125" width="0.3" layer="1"/>
 <wire x1="70.5" y1="3.5" x2="71" y2="3" width="0.3" layer="1"/>
-<wire x1="71" y1="3" x2="71" y2="2.5" width="0.3" layer="1"/>
+<wire x1="28.54306875" y1="2.982053125" x2="28.025121875" y2="3.5" width="0.3048" layer="1"/>
+<wire x1="28.025121875" y1="3.5" x2="26.25" y2="3.5" width="0.3048" layer="1"/>
+<via x="26.25" y="3.5" extent="1-16" drill="0.3"/>
+<wire x1="26.25" y1="3.5" x2="27.5" y2="2.25" width="0.3048" layer="16"/>
+<wire x1="27.5" y1="2.25" x2="29.75" y2="2.25" width="0.3048" layer="16"/>
+<wire x1="29.75" y1="2.25" x2="30.25" y2="1.75" width="0.3048" layer="16"/>
+<wire x1="30.25" y1="1.75" x2="70.5" y2="1.75" width="0.3048" layer="16"/>
+<wire x1="70.5" y1="1.75" x2="70.75" y2="2" width="0.3048" layer="16"/>
+<via x="70.75" y="2" extent="1-16" drill="0.3"/>
+<wire x1="70.75" y1="2" x2="71" y2="2.25" width="0.3048" layer="1"/>
+<wire x1="71" y1="2.25" x2="71" y2="3" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDIO_CMD">
 <contactref element="R14" pad="2"/>
@@ -6889,17 +7047,27 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="66.5" y1="11.5" x2="73" y2="11.5" width="0.3" layer="16"/>
 <via x="73" y="11.5" extent="1-16" drill="0.25"/>
 <via x="70" y="3" extent="1-16" drill="0.25"/>
-<wire x1="28.896625" y1="3.33560625" x2="29.73223125" y2="2.5" width="0.3" layer="1"/>
-<wire x1="70" y1="3" x2="69.5" y2="2.5" width="0.3" layer="1"/>
-<wire x1="69.5" y1="2.5" x2="29.73223125" y2="2.5" width="0.3" layer="1"/>
 <wire x1="70" y1="3" x2="71" y2="4" width="0.3" layer="16"/>
 <wire x1="71" y1="4" x2="71.5" y2="4" width="0.3" layer="16"/>
+<wire x1="28.896625" y1="3.33560625" x2="27.98223125" y2="4.25" width="0.3048" layer="1"/>
+<wire x1="27.98223125" y1="4.25" x2="27.25" y2="4.25" width="0.3048" layer="1"/>
+<via x="27.25" y="4.25" extent="1-16" drill="0.3"/>
+<wire x1="27.25" y1="4.25" x2="27.25" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="27.25" y1="3.25" x2="27.75" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="27.75" y1="2.75" x2="30" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="30" y1="2.75" x2="30.5" y2="2.25" width="0.3048" layer="16"/>
+<wire x1="30.5" y1="2.25" x2="69.25" y2="2.25" width="0.3048" layer="16"/>
+<wire x1="69.25" y1="2.25" x2="70" y2="3" width="0.3048" layer="16"/>
 </signal>
 <signal name="NRST">
 <contactref element="U1" pad="7"/>
 <contactref element="S7" pad="P$2"/>
 <contactref element="C3" pad="1"/>
 <contactref element="R28" pad="1"/>
+<wire x1="30.3108375" y1="11.750178125" x2="29.310659375" y2="10.75" width="0.3048" layer="1"/>
+<wire x1="29.310659375" y1="10.75" x2="28.75" y2="10.75" width="0.3048" layer="1"/>
+<via x="28.75" y="10.75" extent="1-16" drill="0.3"/>
+<wire x1="28.75" y1="10.75" x2="28.25" y2="10.75" width="0.3048" layer="16"/>
 <wire x1="14.584" y1="57.636" x2="17.046" y2="60.304" width="0" layer="19" extent="1-1"/>
 <wire x1="12.5" y1="55.85" x2="14.584" y2="57.636" width="0" layer="19" extent="1-1"/>
 <wire x1="30.3108375" y1="11.750178125" x2="12.5" y2="55.85" width="0" layer="19" extent="1-1"/>
@@ -6908,42 +7076,64 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="Y1" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="U1" pad="6"/>
-<wire x1="34" y1="14" x2="34.35" y2="13.65" width="0.3" layer="1"/>
-<wire x1="34.35" y1="13.65" x2="34.35" y2="13.35" width="0.3" layer="1"/>
-<wire x1="35.5" y1="12" x2="35" y2="12" width="0.3" layer="1"/>
-<wire x1="30.664390625" y1="11.396625" x2="31.267765625" y2="12" width="0.3" layer="1"/>
-<wire x1="34" y1="13" x2="34.35" y2="13.35" width="0.3" layer="1"/>
-<wire x1="31.267765625" y1="12" x2="34.35" y2="12" width="0.3048" layer="1"/>
-<wire x1="34.35" y1="12" x2="35.5" y2="12" width="0.3048" layer="1"/>
-<wire x1="34.35" y1="13.35" x2="34.35" y2="12" width="0.3048" layer="1"/>
-<wire x1="35.5" y1="12" x2="37.5" y2="12" width="0.3048" layer="1"/>
-<wire x1="37.5" y1="12" x2="38" y2="12.5" width="0.3048" layer="1"/>
-<wire x1="38" y1="12.5" x2="38" y2="12.9" width="0.3048" layer="1"/>
+<wire x1="34.35" y1="14.65" x2="34.35" y2="14.35" width="0.3" layer="1"/>
+<wire x1="30.664390625" y1="11.396625" x2="29.75" y2="10.482234375" width="0.3048" layer="1"/>
+<wire x1="29.75" y1="10.482234375" x2="29.75" y2="9.75" width="0.3048" layer="1"/>
+<via x="29.75" y="9.75" extent="1-16" drill="0.3"/>
+<wire x1="29.75" y1="9.75" x2="30" y2="10" width="0.3048" layer="16"/>
+<via x="35.5" y="12" extent="1-16" drill="0.3"/>
+<wire x1="30" y1="10" x2="35.5" y2="10" width="0.3048" layer="16"/>
+<wire x1="35.5" y1="10" x2="35.5" y2="12" width="0.3048" layer="16"/>
+<wire x1="35.5" y1="12" x2="34.35" y2="13.15" width="0.3048" layer="1"/>
+<wire x1="34.35" y1="13.15" x2="34.35" y2="14.35" width="0.3048" layer="1"/>
+<wire x1="35.5" y1="12" x2="36.5" y2="13" width="0.3048" layer="1"/>
+<wire x1="36.5" y1="13" x2="37.75" y2="13" width="0.3048" layer="1"/>
+<wire x1="37.75" y1="13" x2="38" y2="13.25" width="0.3048" layer="1"/>
+<wire x1="38" y1="13.25" x2="38" y2="13.9" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="Y1" pad="3"/>
 <contactref element="C7" pad="1"/>
 <contactref element="U1" pad="5"/>
-<wire x1="31.01794375" y1="11.04306875" x2="31.474875" y2="11.5" width="0.3" layer="1"/>
-<wire x1="31.474875" y1="11.5" x2="35.5" y2="11.5" width="0.3" layer="1"/>
-<wire x1="35.5" y1="11.5" x2="36.65" y2="10.35" width="0.3" layer="1"/>
-<wire x1="36.65" y1="10.35" x2="36.65" y2="9.65" width="0.3" layer="1"/>
-<wire x1="38" y1="10.1" x2="37.55" y2="9.65" width="0.3" layer="1"/>
-<wire x1="37.55" y1="9.65" x2="36.65" y2="9.65" width="0.3" layer="1"/>
+<wire x1="31.01794375" y1="11.04306875" x2="31.724875" y2="11.75" width="0.3048" layer="1"/>
+<wire x1="31.724875" y1="11.75" x2="32.25" y2="11.75" width="0.3048" layer="1"/>
+<via x="32.25" y="11.75" extent="1-16" drill="0.3"/>
+<wire x1="32.25" y1="11.75" x2="33.25" y2="12.75" width="0.3048" layer="16"/>
+<wire x1="33.25" y1="12.75" x2="36.5" y2="12.75" width="0.3048" layer="16"/>
+<wire x1="36.5" y1="12.75" x2="37" y2="12.25" width="0.3048" layer="16"/>
+<via x="37" y="12.25" extent="1-16" drill="0.3"/>
+<wire x1="37" y1="12.25" x2="37" y2="11.25" width="0.3048" layer="1"/>
+<wire x1="37" y1="11.25" x2="36.65" y2="10.9" width="0.3048" layer="1"/>
+<wire x1="36.65" y1="10.9" x2="36.65" y2="10.65" width="0.3048" layer="1"/>
+<wire x1="36.65" y1="10.65" x2="37.4" y2="9.9" width="0.3048" layer="1"/>
+<wire x1="37.4" y1="9.9" x2="38" y2="9.9" width="0.3048" layer="1"/>
 </signal>
 <signal name="RTC2">
 <contactref element="U1" pad="4"/>
 <contactref element="Y2" pad="1"/>
 <contactref element="C6" pad="1"/>
-<wire x1="-4.1" y1="-33.4" x2="31.371496875" y2="10.689515625" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.85" y1="-36" x2="-4.1" y2="-33.4" width="0" layer="19" extent="1-1"/>
+<wire x1="31.371496875" y1="10.689515625" x2="30.75" y2="10.06801875" width="0.3048" layer="1"/>
+<wire x1="30.75" y1="10.06801875" x2="30.75" y2="9" width="0.3048" layer="1"/>
+<wire x1="30.75" y1="9" x2="31.75" y2="8" width="0.3048" layer="1"/>
+<wire x1="31.75" y1="8" x2="35.25" y2="8" width="0.3048" layer="1"/>
+<wire x1="35.25" y1="8" x2="36.25" y2="7" width="0.3048" layer="1"/>
+<wire x1="36.25" y1="7" x2="36.25" y2="5.45" width="0.3048" layer="1"/>
+<wire x1="36.25" y1="5.45" x2="34.65" y2="3.85" width="0.3048" layer="1"/>
+<wire x1="35.35" y1="1.75" x2="34.65" y2="3.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTC1">
 <contactref element="U1" pad="3"/>
 <contactref element="C9" pad="1"/>
 <contactref element="Y2" pad="3"/>
-<wire x1="-0.4" y1="-31.1" x2="31.72505" y2="10.3359625" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.85" y1="-39.75" x2="-0.4" y2="-31.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31.72505" y1="10.3359625" x2="31.25" y2="9.8609125" width="0.3048" layer="1"/>
+<wire x1="31.25" y1="9.8609125" x2="31.25" y2="9.25" width="0.3048" layer="1"/>
+<wire x1="31.25" y1="9.25" x2="32" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="32" y1="8.5" x2="35.5" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="35.5" y1="8.5" x2="36.75" y2="7.25" width="0.3048" layer="1"/>
+<wire x1="36.75" y1="7.25" x2="36.75" y2="6.25" width="0.3048" layer="1"/>
+<wire x1="36.75" y1="6.25" x2="38.25" y2="6.25" width="0.3048" layer="1"/>
+<wire x1="38.25" y1="6.25" x2="38.35" y2="6.15" width="0.3048" layer="1"/>
+<wire x1="38.35" y1="6.15" x2="38.85" y2="1.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT1">
 <contactref element="JP2" pad="3"/>
@@ -6953,6 +7143,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="BOOT0">
 <contactref element="U1" pad="60"/>
 <contactref element="JP2" pad="4"/>
+<wire x1="31.01794375" y1="5.456928125" x2="29.474871875" y2="7" width="0.3048" layer="1"/>
+<wire x1="29.474871875" y1="7" x2="28.5" y2="7" width="0.3048" layer="1"/>
+<via x="27.25" y="8.25" extent="1-16" drill="0.3"/>
+<wire x1="27.25" y1="8.25" x2="27" y2="8.5" width="0.3048" layer="16"/>
+<wire x1="27" y1="8.5" x2="27" y2="9.25" width="0.3048" layer="16"/>
+<wire x1="28.5" y1="7" x2="27.25" y2="8.25" width="0.3048" layer="1"/>
 <wire x1="31.01794375" y1="5.456928125" x2="99.25" y2="33.108" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$29">
@@ -6960,22 +7156,26 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 <signal name="N$34">
 <contactref element="U1" pad="26"/>
+<contactref element="J8" pad="P$2"/>
+<wire x1="21.189159375" y1="11.750178125" x2="83.5" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDCLK">
 <contactref element="U1" pad="49"/>
 <contactref element="R2" pad="1"/>
 <contactref element="J2" pad="3"/>
-<via x="12" y="4" extent="1-16" drill="0.25"/>
-<wire x1="13.58" y1="1.75" x2="12" y2="3.33" width="0.3" layer="16"/>
-<wire x1="12" y1="3.33" x2="12" y2="4" width="0.3" layer="16"/>
-<wire x1="13.35" y1="4" x2="12" y2="4" width="0.3" layer="1"/>
+<via x="11" y="4" extent="1-16" drill="0.25"/>
+<wire x1="13.58" y1="1.75" x2="11.5" y2="4" width="0.3" layer="16"/>
+<wire x1="11.5" y1="4" x2="11" y2="4" width="0.3" layer="16"/>
+<wire x1="12.1" y1="4" x2="11" y2="4" width="0.3" layer="1"/>
 <wire x1="27.12885625" y1="1.567840625" x2="27.196696875" y2="1.5" width="0.3" layer="1"/>
 <wire x1="27.196696875" y1="1.5" x2="26" y2="1.5" width="0.3" layer="1"/>
 <via x="26" y="1.5" extent="1-16" drill="0.25"/>
-<wire x1="26" y1="1.5" x2="19" y2="1.5" width="0.3" layer="16"/>
 <wire x1="13.58" y1="1.75" x2="15.08" y2="3.25" width="0.3" layer="16"/>
-<wire x1="15.08" y1="3.25" x2="17.25" y2="3.25" width="0.3" layer="16"/>
-<wire x1="17.25" y1="3.25" x2="19" y2="1.5" width="0.3" layer="16"/>
+<wire x1="15.08" y1="3.25" x2="16.75" y2="3.25" width="0.3" layer="16"/>
+<wire x1="17.5" y1="0.75" x2="25.25" y2="0.75" width="0.3048" layer="16"/>
+<wire x1="25.25" y1="0.75" x2="26" y2="1.5" width="0.3048" layer="16"/>
+<wire x1="16.75" y1="3.25" x2="17.5" y2="2.5" width="0.3048" layer="16"/>
+<wire x1="17.5" y1="2.5" x2="17.5" y2="0.75" width="0.3048" layer="16"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U1" pad="46"/>
@@ -6997,66 +7197,156 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 <signal name="N$40">
 <contactref element="U1" pad="41"/>
+<contactref element="J16" pad="P$2"/>
+<wire x1="21.896265625" y1="4.0427125" x2="21.853553125" y2="4" width="0.3048" layer="1"/>
+<wire x1="21.896265625" y1="4.0427125" x2="24.25" y2="6.396446875" width="0.3048" layer="1"/>
+<wire x1="24.25" y1="6.396446875" x2="24.25" y2="8.25" width="0.3048" layer="1"/>
+<wire x1="24.25" y1="8.25" x2="25" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="U1" pad="29"/>
+<contactref element="J7" pad="6"/>
+<wire x1="3.754" y1="13.7" x2="20.1285" y2="10.689515625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="U1" pad="30"/>
+<contactref element="J7" pad="5"/>
+<wire x1="3.246" y1="11.16" x2="19.774946875" y2="10.3359625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="U1" pad="33"/>
+<contactref element="J7" pad="4"/>
+<wire x1="19.067840625" y1="6.871140625" x2="18.6967" y2="6.5" width="0.3048" layer="1"/>
+<wire x1="18.6967" y1="6.5" x2="17.25" y2="6.5" width="0.3048" layer="1"/>
+<wire x1="17.25" y1="6.5" x2="17.25" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="17.25" y1="10.25" x2="3.754" y2="8.62" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$51">
 <contactref element="U1" pad="34"/>
+<contactref element="J7" pad="3"/>
+<wire x1="19.42139375" y1="6.5175875" x2="18.90380625" y2="6" width="0.3048" layer="1"/>
+<wire x1="18.90380625" y1="6" x2="16.75" y2="6" width="0.3048" layer="1"/>
+<wire x1="16.75" y1="6" x2="16.75" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="16.75" y1="10.25" x2="3.246" y2="6.08" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$52">
 <contactref element="U1" pad="35"/>
+<contactref element="J7" pad="2"/>
+<wire x1="19.774946875" y1="6.164034375" x2="19.1109125" y2="5.5" width="0.3048" layer="1"/>
+<wire x1="19.1109125" y1="5.5" x2="16.25" y2="5.5" width="0.3048" layer="1"/>
+<wire x1="16.25" y1="5.5" x2="16.25" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="16.25" y1="10.25" x2="3.754" y2="3.54" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$53">
 <contactref element="U1" pad="36"/>
+<contactref element="J7" pad="1"/>
+<wire x1="20.1285" y1="5.81048125" x2="19.31801875" y2="5" width="0.3048" layer="1"/>
+<wire x1="19.31801875" y1="5" x2="15.75" y2="5" width="0.3048" layer="1"/>
+<wire x1="15.75" y1="5" x2="15.75" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="15.75" y1="10.25" x2="3.246" y2="1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$54">
 <contactref element="U1" pad="2"/>
+<wire x1="32.078603125" y1="9.982409375" x2="33.25" y2="11.15380625" width="0.3048" layer="1"/>
+<contactref element="J19" pad="1"/>
+<wire x1="33.25" y1="11.15380625" x2="33.25" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="33.25" y1="21.75" x2="79" y2="31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$57">
 <contactref element="U1" pad="8"/>
+<wire x1="29.957284375" y1="12.10373125" x2="30.603553125" y2="12.75" width="0.3048" layer="1"/>
+<wire x1="30.603553125" y1="12.75" x2="32.75" y2="12.75" width="0.3048" layer="1"/>
+<contactref element="J3" pad="1"/>
+<wire x1="32.75" y1="12.75" x2="32.75" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="32.75" y1="21.75" x2="74.5" y2="31.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="U1" pad="9"/>
+<wire x1="29.60373125" y1="12.457284375" x2="30.396446875" y2="13.25" width="0.3048" layer="1"/>
+<wire x1="30.396446875" y1="13.25" x2="32.25" y2="13.25" width="0.3048" layer="1"/>
+<contactref element="J20" pad="1"/>
+<wire x1="32.25" y1="13.25" x2="32.25" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="32.25" y1="21.75" x2="69.75" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$59">
 <contactref element="U1" pad="10"/>
+<wire x1="29.250178125" y1="12.8108375" x2="30.189340625" y2="13.75" width="0.3048" layer="1"/>
+<wire x1="30.189340625" y1="13.75" x2="31.75" y2="13.75" width="0.3048" layer="1"/>
+<contactref element="J21" pad="1"/>
+<wire x1="31.75" y1="13.75" x2="31.75" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="31.75" y1="21.75" x2="64.75" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="U1" pad="11"/>
+<wire x1="28.896625" y1="13.164390625" x2="29.982234375" y2="14.25" width="0.3048" layer="1"/>
+<wire x1="29.982234375" y1="14.25" x2="31.25" y2="14.25" width="0.3048" layer="1"/>
+<contactref element="J22" pad="1"/>
+<wire x1="31.25" y1="14.25" x2="31.25" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="31.25" y1="21.75" x2="61" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$61">
 <contactref element="U1" pad="24"/>
+<contactref element="J23" pad="1"/>
+<wire x1="21.896265625" y1="12.457284375" x2="23.25" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$62">
 <contactref element="U1" pad="25"/>
+<contactref element="J24" pad="1"/>
+<wire x1="21.5427125" y1="12.10373125" x2="19.25" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$63">
 <contactref element="U1" pad="37"/>
+<contactref element="J25" pad="1"/>
+<wire x1="21.525125" y1="6.5" x2="23" y2="6.5" width="0" layer="19" extent="1-16"/>
+<wire x1="23" y1="6.5" x2="23.25" y2="6.75" width="0" layer="19" extent="1-16"/>
+<wire x1="23.25" y1="6.75" x2="23.25" y2="8.25" width="0" layer="19" extent="1-16"/>
+<wire x1="23.25" y1="8.25" x2="11" y2="30.75" width="0" layer="19" extent="1-1"/>
+<wire x1="20.482053125" y1="5.456928125" x2="19.525125" y2="4.5" width="0.3048" layer="1"/>
+<wire x1="19.525125" y1="4.5" x2="15.25" y2="4.5" width="0.3048" layer="1"/>
+<wire x1="15.25" y1="4.5" x2="15.25" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="15.25" y1="10.25" x2="11" y2="30.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$64">
 <contactref element="U1" pad="38"/>
-</signal>
-<signal name="N$65">
-<contactref element="U1" pad="14"/>
+<contactref element="J26" pad="1"/>
+<wire x1="21.732234375" y1="6" x2="23.25" y2="6" width="0" layer="19" extent="1-16"/>
+<wire x1="23.25" y1="6" x2="23.75" y2="6.5" width="0" layer="19" extent="1-16"/>
+<wire x1="23.75" y1="6.5" x2="23.75" y2="8.25" width="0" layer="19" extent="1-16"/>
+<wire x1="23.75" y1="8.25" x2="6.75" y2="30.75" width="0" layer="19" extent="1-1"/>
+<wire x1="20.83560625" y1="5.103371875" x2="19.732234375" y2="4" width="0.3048" layer="1"/>
+<wire x1="19.732234375" y1="4" x2="14.75" y2="4" width="0.3048" layer="1"/>
+<wire x1="14.75" y1="4" x2="14.75" y2="10.25" width="0.3048" layer="1"/>
+<wire x1="14.75" y1="10.25" x2="6.75" y2="30.75" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$66">
 <contactref element="U1" pad="15"/>
+<contactref element="J10" pad="P$2"/>
+<wire x1="27.482409375" y1="14.578603125" x2="30.75" y2="17.84619375" width="0.3048" layer="1"/>
+<wire x1="30.75" y1="17.84619375" x2="30.75" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="30.75" y1="21.75" x2="64" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$67">
 <contactref element="U1" pad="16"/>
+<contactref element="J13" pad="P$2"/>
+<wire x1="27.12885625" y1="14.93215625" x2="30.25" y2="18.0533" width="0.3048" layer="1"/>
+<wire x1="30.25" y1="18.0533" x2="30.25" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="30.25" y1="21.75" x2="54.25" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$68">
 <contactref element="U1" pad="17"/>
+<contactref element="J14" pad="P$2"/>
+<wire x1="24.371140625" y1="14.93215625" x2="24.688984375" y2="15.25" width="0.3048" layer="1"/>
+<wire x1="24.688984375" y1="15.25" x2="26.75" y2="15.25" width="0.3048" layer="1"/>
+<wire x1="26.75" y1="15.25" x2="29.75" y2="18.25" width="0.3048" layer="1"/>
+<wire x1="29.75" y1="18.25" x2="29.75" y2="21.75" width="0.3048" layer="1"/>
+<wire x1="29.75" y1="21.75" x2="44.5" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
 <contactref element="U1" pad="20"/>
+<contactref element="J15" pad="P$2"/>
+<wire x1="23.31048125" y1="13.871496875" x2="20.75" y2="16.431978125" width="0.3048" layer="1"/>
+<wire x1="20.75" y1="16.431978125" x2="20.75" y2="17.75" width="0.3048" layer="1"/>
+<wire x1="20.75" y1="17.75" x2="34.75" y2="69.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK1">
 <contactref element="U1" pad="21"/>
@@ -7148,22 +7438,44 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="SCK3">
 <contactref element="U1" pad="55"/>
 <contactref element="X1" pad="7"/>
-<wire x1="29.250178125" y1="3.689159375" x2="29.9393375" y2="3" width="0.3" layer="1"/>
-<wire x1="29.9393375" y1="3" x2="47.5" y2="3" width="0.3" layer="1"/>
 <wire x1="48.5" y1="11.5" x2="48.76" y2="11.76" width="0.3" layer="1"/>
 <wire x1="48.76" y1="11.76" x2="48.76" y2="12.775" width="0.3" layer="1"/>
 <wire x1="48.5" y1="11.5" x2="48.5" y2="4" width="0.3" layer="1"/>
-<wire x1="48.5" y1="4" x2="47.5" y2="3" width="0.3" layer="1"/>
+<wire x1="29.250178125" y1="3.689159375" x2="27.9393375" y2="5" width="0.3048" layer="1"/>
+<wire x1="27.9393375" y1="5" x2="26.25" y2="5" width="0.3048" layer="1"/>
+<wire x1="26.25" y1="5" x2="26.25" y2="4.75" width="0.3048" layer="1"/>
+<via x="26.25" y="4.75" extent="1-16" drill="0.3"/>
+<wire x1="26.25" y1="4.75" x2="26.5" y2="5" width="0.3048" layer="16"/>
+<wire x1="26.5" y1="5" x2="27.5" y2="5" width="0.3048" layer="16"/>
+<wire x1="27.5" y1="5" x2="28" y2="4.5" width="0.3048" layer="16"/>
+<wire x1="28" y1="4.5" x2="28" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="28" y1="3.25" x2="30.25" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="30.25" y1="3.25" x2="30.75" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="30.75" y1="2.75" x2="48.25" y2="2.75" width="0.3048" layer="16"/>
+<wire x1="48.25" y1="2.75" x2="48.5" y2="3" width="0.3048" layer="16"/>
+<via x="48.5" y="3" extent="1-16" drill="0.3"/>
+<wire x1="48.5" y1="3" x2="48.5" y2="4" width="0.3048" layer="1"/>
 </signal>
 <signal name="MOSI3">
 <contactref element="X1" pad="6"/>
 <contactref element="U1" pad="57"/>
-<wire x1="29.957284375" y1="4.396265625" x2="30.85355" y2="3.5" width="0.3" layer="1"/>
-<wire x1="30.85355" y1="3.5" x2="47" y2="3.5" width="0.3" layer="1"/>
 <wire x1="48" y1="11.5" x2="47.76" y2="11.74" width="0.3" layer="1"/>
 <wire x1="47.76" y1="11.74" x2="47.76" y2="12.775" width="0.3" layer="1"/>
-<wire x1="47" y1="3.5" x2="48" y2="4.5" width="0.3" layer="1"/>
 <wire x1="48" y1="4.5" x2="48" y2="11.5" width="0.3" layer="1"/>
+<via x="25.25" y="5" extent="1-16" drill="0.3"/>
+<wire x1="28" y1="5.5" x2="29.75" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="29.75" y1="3.75" x2="30.5" y2="3.75" width="0.3048" layer="16"/>
+<wire x1="30.5" y1="3.75" x2="31" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="31" y1="3.25" x2="47.25" y2="3.25" width="0.3048" layer="16"/>
+<wire x1="47.25" y1="3.25" x2="47.5" y2="3.5" width="0.3048" layer="16"/>
+<via x="47.5" y="3.5" extent="1-16" drill="0.3"/>
+<wire x1="47.5" y1="3.5" x2="48" y2="4" width="0.3048" layer="1"/>
+<wire x1="48" y1="4" x2="48" y2="4.5" width="0.3048" layer="1"/>
+<wire x1="28" y1="5.5" x2="25.75" y2="5.5" width="0.3048" layer="16"/>
+<wire x1="25.75" y1="5.5" x2="25.25" y2="5" width="0.3048" layer="16"/>
+<wire x1="29.957284375" y1="4.396265625" x2="28.85355" y2="5.5" width="0.3048" layer="1"/>
+<wire x1="28.85355" y1="5.5" x2="25.75" y2="5.5" width="0.3048" layer="1"/>
+<wire x1="25.75" y1="5.5" x2="25.25" y2="5" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="1"/>
@@ -7179,6 +7491,23 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="BAT1" pad="PWR@1"/>
 <wire x1="32.43215625" y1="9.62885625" x2="-3.624" y2="-47.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SW_PWR">
+<contactref element="U1" pad="14"/>
+</signal>
+<signal name="N$10">
+<contactref element="U1" pad="42"/>
+<contactref element="J17" pad="P$2"/>
+<wire x1="22.24981875" y1="3.689159375" x2="24.75" y2="6.189340625" width="0.3048" layer="1"/>
+<wire x1="24.75" y1="6.189340625" x2="24.75" y2="8.25" width="0.3048" layer="1"/>
+<wire x1="24.75" y1="8.25" x2="15.25" y2="69.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="U1" pad="43"/>
+<contactref element="J18" pad="P$2"/>
+<wire x1="22.603371875" y1="3.33560625" x2="25.25" y2="5.982234375" width="0.3048" layer="1"/>
+<wire x1="25.25" y1="5.982234375" x2="25.25" y2="8.25" width="0.3048" layer="1"/>
+<wire x1="25.25" y1="8.25" x2="7.5" y2="52" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
