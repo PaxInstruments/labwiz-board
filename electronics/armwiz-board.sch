@@ -11928,7 +11928,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="J19" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J20" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J21" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="J23" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J24" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J25" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
@@ -11938,12 +11937,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="J27" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J28" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J29" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="J30" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J11" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="J16" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="J31" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J32" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J33" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
@@ -12258,7 +12254,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="J19" gate="G$1" x="121.92" y="78.74"/>
 <instance part="J20" gate="G$1" x="142.24" y="48.26"/>
 <instance part="J21" gate="G$1" x="142.24" y="40.64"/>
-<instance part="J23" gate="G$1" x="162.56" y="78.74"/>
 <instance part="J24" gate="G$1" x="162.56" y="71.12"/>
 <instance part="J25" gate="G$1" x="142.24" y="25.4"/>
 <instance part="J7" gate="G$1" x="142.24" y="71.12"/>
@@ -12268,12 +12263,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="J27" gate="G$1" x="162.56" y="48.26"/>
 <instance part="J28" gate="G$1" x="162.56" y="40.64"/>
 <instance part="J29" gate="G$1" x="162.56" y="33.02"/>
-<instance part="J30" gate="G$1" x="162.56" y="25.4"/>
 <instance part="J5" gate="G$1" x="121.92" y="55.88"/>
 <instance part="J6" gate="G$1" x="121.92" y="48.26"/>
 <instance part="J11" gate="G$1" x="121.92" y="40.64"/>
-<instance part="J16" gate="G$1" x="121.92" y="33.02"/>
-<instance part="J31" gate="G$1" x="121.92" y="25.4"/>
 <instance part="J32" gate="G$1" x="142.24" y="55.88"/>
 <instance part="J33" gate="G$1" x="142.24" y="78.74"/>
 <instance part="J4" gate="G$1" x="182.88" y="78.74"/>
@@ -12790,8 +12782,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="274.32" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="93.98" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_L" pin="PC0"/>
+<wire x1="27.94" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="30.48" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_C" class="0">
@@ -12805,8 +12798,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="271.78" y="223.52"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-<label x="93.98" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_H" pin="PC13"/>
+<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<label x="66.04" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_A" class="0">
@@ -12819,8 +12813,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="274.32" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
-<label x="93.98" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_L" pin="PC1"/>
+<wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="30.48" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -13274,30 +13269,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J11" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PC0" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC0"/>
-<wire x1="27.94" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<label x="30.48" y="48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="132.08" y="33.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="J16" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PC1" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC1"/>
-<wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="30.48" y="45.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<label x="132.08" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="J31" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PC2" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC2"/>
@@ -13370,18 +13341,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="152.4" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC13" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_H" pin="PC13"/>
-<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="35.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J30" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="25.4" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="172.72" y="25.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PB15" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB15"/>
@@ -13452,13 +13411,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="J24" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
 <label x="172.72" y="71.12" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PA10" class="0">
-<segment>
-<pinref part="J23" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
-<label x="172.72" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA9" class="0">
