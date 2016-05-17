@@ -12595,9 +12595,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="175.26" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PORTC_L" pin="PC0"/>
-<wire x1="27.94" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<label x="30.48" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_L" pin="PC6"/>
+<wire x1="27.94" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_C" class="0">
@@ -12611,9 +12611,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="172.72" y="111.76"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PORTC_H" pin="PC13"/>
-<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_L" pin="PC7"/>
+<wire x1="27.94" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_A" class="0">
@@ -12626,9 +12626,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="175.26" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PORTC_L" pin="PC1"/>
-<wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<label x="30.48" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTB_H" pin="PB15"/>
+<wire x1="63.5" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
+<label x="66.04" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -12925,13 +12925,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="30.48" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TDI" class="0">
-<segment>
-<pinref part="U1" gate="PORTA_H" pin="PA15"/>
-<wire x1="63.5" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<label x="66.04" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SCLK1" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_L" pin="PA5"/>
@@ -13132,42 +13125,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="175.26" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PC6" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC6"/>
-<wire x1="27.94" y1="33.02" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J20" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
-<label x="177.8" y="45.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC7" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC7"/>
-<wire x1="27.94" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J21" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
-<label x="177.8" y="38.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PB15" class="0">
-<segment>
-<pinref part="U1" gate="PORTB_H" pin="PB15"/>
-<wire x1="63.5" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<label x="66.04" y="55.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J29" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
-<label x="154.94" y="22.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="PB14" class="0">
 <segment>
 <pinref part="U1" gate="PORTB_H" pin="PB14"/>
@@ -13245,6 +13202,54 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="129.54" y1="45.72" x2="132.08" y2="45.72" width="0.1524" layer="91"/>
 <label x="132.08" y="45.72" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
+</segment>
+</net>
+<net name="SD_DETECT" class="0">
+<segment>
+<pinref part="J1" gate="J" pin="CDN"/>
+<wire x1="147.32" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<label x="144.78" y="154.94" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTA_H" pin="PA15"/>
+<wire x1="63.5" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
+<label x="66.04" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PC1" class="0">
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC1"/>
+<wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<label x="30.48" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J29" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="22.86" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
+<label x="154.94" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PC0" class="0">
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC0"/>
+<wire x1="27.94" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="30.48" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<label x="177.8" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PC13" class="0">
+<segment>
+<pinref part="U1" gate="PORTC_H" pin="PC13"/>
+<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<label x="66.04" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J21" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<label x="177.8" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
