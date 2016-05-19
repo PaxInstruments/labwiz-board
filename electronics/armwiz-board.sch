@@ -11349,6 +11349,7 @@ SOurce: www.abracon.com</description>
 <part name="J17" library="SparkFun-Connectors" deviceset="M01" device="NOSILK-KIT"/>
 <part name="J18" library="SparkFun-Connectors" deviceset="M01" device="NOSILK-KIT"/>
 <part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="J22" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -11767,6 +11768,7 @@ SOurce: www.abracon.com</description>
 <instance part="J17" gate="G$1" x="358.14" y="215.9" rot="R180"/>
 <instance part="J18" gate="G$1" x="360.68" y="215.9"/>
 <instance part="P+5" gate="G$1" x="368.3" y="218.44"/>
+<instance part="J22" gate="G$1" x="167.64" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -12921,6 +12923,11 @@ SOurce: www.abracon.com</description>
 <pinref part="U1" gate="PORTC_L" pin="PC1"/>
 <wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="30.48" y="45.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J22" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="177.8" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PC0" class="0">
