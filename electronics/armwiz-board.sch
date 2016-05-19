@@ -12681,18 +12681,6 @@ SOurce: www.abracon.com</description>
 <label x="238.76" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="OSC_OUT" class="0">
-<segment>
-<pinref part="U1" gate="PORTD/OSC" pin="PD1/OSC=&gt;"/>
-<wire x1="30.48" y1="134.62" x2="27.94" y2="134.62" width="0.1524" layer="91"/>
-<label x="27.94" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$7" gate="G$1" pin="TRI"/>
-<wire x1="40.64" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
-<label x="43.18" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="OSC_IN" class="0">
 <segment>
 <pinref part="U1" gate="PORTD/OSC" pin="PD0/OSC&lt;="/>

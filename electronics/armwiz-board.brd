@@ -7426,14 +7426,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="27.25" y1="8.5" x2="29" y2="10.25" width="0.3048" layer="1"/>
 <wire x1="29" y1="10.25" x2="29" y2="11.189340625" width="0.3048" layer="1"/>
 </signal>
-<signal name="OSC_OUT">
-<contactref element="U1" pad="6"/>
-<contactref element="U$7" pad="1"/>
-<wire x1="29.914390625" y1="11.396625" x2="31.267765625" y2="12.75" width="0.3048" layer="1"/>
-<wire x1="31.267765625" y1="12.75" x2="31.267765625" y2="12.767765625" width="0.3048" layer="1"/>
-<wire x1="31.267765625" y1="12.767765625" x2="34.742765625" y2="12.767765625" width="0.3048" layer="1"/>
-<wire x1="34.742765625" y1="12.767765625" x2="35.55" y2="13.575" width="0.3048" layer="1"/>
-</signal>
 <signal name="OSC_IN">
 <contactref element="U1" pad="5"/>
 <contactref element="U$7" pad="3"/>
@@ -8272,13 +8264,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="18,29,04460d2c465a86a9"/>
 <approved hash="18,29,c486a4c69bf1fbb1"/>
 <approved hash="18,29,c62b320f2af83ca2"/>
-<approved hash="18,29,04460d2c465a86a9"/>
-<approved hash="18,29,c486a4c69bf1fbb1"/>
-<approved hash="18,29,c62b320f2af83ca2"/>
-<approved hash="4,1,337fb5910dbd8b5b"/>
-<approved hash="4,1,c10c7ca3bcb90116"/>
-<approved hash="4,16,337fb5910dbd8b5b"/>
-<approved hash="4,16,c10c7ca3bcb90116"/>
 <approved hash="2,20,15ad1c6eb1db4a49"/>
 <approved hash="18,29,14c3eb377dd57ac4"/>
 <approved hash="18,29,b2fadd5fe600e95d"/>
@@ -8456,26 +8441,28 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="4,1,b392b57c3d501bb6"/>
 <approved hash="4,1,b16bb7850fa9094f"/>
 <approved hash="4,1,94274b888b865429"/>
-<approved hash="4,1,f32bb2847292333d"/>
 <approved hash="4,1,3f73299d91b1f757"/>
+<approved hash="4,1,f32bb2847292333d"/>
 <approved hash="4,1,315f37b19f9db97b"/>
 <approved hash="4,1,5a381597d5ad9a02"/>
-<approved hash="4,1,2810e7bf27b4e81b"/>
+<approved hash="4,1,c10c7ca3bcb90116"/>
+<approved hash="4,1,337fb5910dbd8b5b"/>
 <approved hash="4,1,b16eb7803fac194a"/>
-<approved hash="4,1,97654eca8ec0576f"/>
+<approved hash="4,1,2810e7bf27b4e81b"/>
 <approved hash="4,1,b76fb18109ad0f4b"/>
+<approved hash="4,1,97654eca8ec0576f"/>
 <approved hash="4,1,fe69b1c671dc3e73"/>
 <approved hash="4,1,317f37919fbdf95b"/>
-<approved hash="4,1,335b35b58d998b7f"/>
 <approved hash="4,1,657e18d1d8efa540"/>
+<approved hash="4,1,335b35b58d998b7f"/>
 <approved hash="4,1,cc4283ed43fb0c54"/>
 <approved hash="4,1,3173379dffb19957"/>
-<approved hash="4,1,2b56eaf92af6eb59"/>
 <approved hash="4,1,af6ab98431a8174e"/>
+<approved hash="4,1,2b56eaf92af6eb59"/>
 <approved hash="4,1,925b4df48c0253ad"/>
 <approved hash="4,1,b093b67d0e5108b7"/>
-<approved hash="4,1,f8afb500751e38b1"/>
 <approved hash="4,1,337b35959db9fb5f"/>
+<approved hash="4,1,f8afb500751e38b1"/>
 <approved hash="19,1,9b134e9d154529c6"/>
 <approved hash="19,1,111ad2fc6d805eff"/>
 <approved hash="4,16,f0f5af5a6f5030ff"/>
@@ -8492,6 +8479,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="4,16,3f73299d91b1f757"/>
 <approved hash="4,16,315f37b19f9db97b"/>
 <approved hash="4,16,5a381597d5ad9a02"/>
+<approved hash="4,16,337fb5910dbd8b5b"/>
+<approved hash="4,16,c10c7ca3bcb90116"/>
 <approved hash="4,16,b16eb7803fac194a"/>
 <approved hash="4,16,2810e7bf27b4e81b"/>
 <approved hash="4,16,97654eca8ec0576f"/>
