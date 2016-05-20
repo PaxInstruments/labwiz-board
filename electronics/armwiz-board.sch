@@ -11169,11 +11169,23 @@ SOurce: www.abracon.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.075" drill="0.2">
+<class number="0" name="Digital signal" width="0.075" drill="0.2">
 <clearance class="0" value="0.075"/>
 </class>
-<class number="1" name="power" width="0.075" drill="0.2">
+<class number="1" name="3.3V power" width="0.075" drill="0.2">
 <clearance class="1" value="0.075"/>
+</class>
+<class number="2" name="RTC battery" width="0.075" drill="0.2">
+<clearance class="2" value="0.075"/>
+</class>
+<class number="3" name="5V power" width="0.075" drill="0.2">
+<clearance class="3" value="0.075"/>
+</class>
+<class number="4" name="Analog signal" width="0.075" drill="0.2">
+<clearance class="4" value="0.075"/>
+</class>
+<class number="5" name="Ground" width="0.075" drill="0.2">
+<clearance class="5" value="0.075"/>
 </class>
 </classes>
 <parts>
@@ -12275,10 +12287,14 @@ SOurce: www.abracon.com</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="200.66" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="GND@3"/>
-<wire x1="198.12" y1="152.4" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="152.4" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="154.94" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <junction x="198.12" y="152.4"/>
+<pinref part="J2" gate="G$1" pin="GNDDTCT"/>
+<wire x1="200.66" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<junction x="198.12" y="147.32"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -12868,7 +12884,7 @@ SOurce: www.abracon.com</description>
 <wire x1="327.66" y1="81.28" x2="327.66" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RTC_BAT" class="0">
+<net name="RTC_BAT" class="2">
 <segment>
 <pinref part="U1" gate="AN_POWER" pin="VBAT"/>
 <wire x1="27.94" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
@@ -13090,13 +13106,6 @@ SOurce: www.abracon.com</description>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="J2" gate="G$1" pin="SWDIO/TMS"/>
 <wire x1="238.76" y1="157.48" x2="233.68" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="GNDDTCT"/>
-<wire x1="200.66" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="195.58" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWO" class="0">
@@ -13324,6 +13333,50 @@ SOurce: www.abracon.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,66.04,152.4,U1POWER,VDD_1,3.3V,,,"/>
+<approved hash="104,1,71.12,152.4,U1POWER,VDD_2,3.3V,,,"/>
+<approved hash="104,1,76.2,152.4,U1POWER,VDD_3,3.3V,,,"/>
+<approved hash="104,1,91.44,152.4,U1POWER,VSS_1,GND,,,"/>
+<approved hash="104,1,96.52,152.4,U1POWER,VSS_2,GND,,,"/>
+<approved hash="104,1,101.6,152.4,U1POWER,VSS_3,GND,,,"/>
+<approved hash="104,1,81.28,152.4,U1POWER,VDD_4,3.3V,,,"/>
+<approved hash="104,1,106.68,152.4,U1POWER,VSS_4,GND,,,"/>
+<approved hash="104,1,27.94,160.02,U1AN_POWER,VBAT,RTC_BAT,,,"/>
+<approved hash="104,1,27.94,154.94,U1AN_POWER,VSSA,GND,,,"/>
+<approved hash="104,1,27.94,149.86,U1AN_POWER,VDDA,3.3V,,,"/>
+<approved hash="104,1,271.78,45.72,BAT1,+,RTC_BAT,,,"/>
+<approved hash="104,1,271.78,35.56,BAT1,-,GND,,,"/>
+<approved hash="104,1,15.24,124.46,U$7,VDD,3.3V,,,"/>
+<approved hash="202,1,40.64,114.3,U$7,TRI,,,,"/>
+<approved hash="106,1,27.94,60.96,MISO3,,,,,"/>
+<approved hash="113,1,273.499,40.64,BAT1,,,,,"/>
+<approved hash="113,1,126.323,72.5847,J12,,,,,"/>
+<approved hash="113,1,126.323,80.2047,J3,,,,,"/>
+<approved hash="113,1,126.323,87.8247,J19,,,,,"/>
+<approved hash="113,1,172.043,57.3447,J20,,,,,"/>
+<approved hash="113,1,172.043,49.7247,J21,,,,,"/>
+<approved hash="113,1,149.183,72.5847,J24,,,,,"/>
+<approved hash="113,1,172.043,80.2047,J7,,,,,"/>
+<approved hash="113,1,172.043,72.5847,J8,,,,,"/>
+<approved hash="113,1,126.323,64.9647,J5,,,,,"/>
+<approved hash="113,1,149.183,87.8247,J6,,,,,"/>
+<approved hash="113,1,149.183,80.2047,J11,,,,,"/>
+<approved hash="113,1,172.043,87.8247,J33,,,,,"/>
+<approved hash="113,1,126.323,42.1047,J4,,,,,"/>
+<approved hash="113,1,126.323,34.4847,J10,,,,,"/>
+<approved hash="113,1,126.323,26.8647,J13,,,,,"/>
+<approved hash="113,1,92.6592,71.12,SJ2,,,,,"/>
+<approved hash="113,1,218.44,133.117,J14,,,,,"/>
+<approved hash="113,1,97.1973,89.9753,J17,,,,,"/>
+<approved hash="113,1,103.463,92.9047,J18,,,,,"/>
+<approved hash="113,1,172.043,42.1047,J22,,,,,"/>
+<approved hash="113,1,297.18,41.6772,J25,,,,,"/>
+<approved hash="113,1,329.523,158.945,J23,,,,,"/>
+<approved hash="113,1,329.523,151.325,J26,,,,,"/>
+<approved hash="113,1,351.197,161.095,J27,,,,,"/>
+<approved hash="115,1,271.78,46.99,RTC_BAT,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
