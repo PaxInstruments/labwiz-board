@@ -6117,7 +6117,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="60.96" y="149.86"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="5">
 <segment>
 <wire x1="248.92" y1="96.52" x2="243.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="96.52" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
@@ -6490,17 +6490,26 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <label x="160.02" y="20.32" size="1.27" layer="95" xref="yes"/>
 <label x="165.1" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC3"/>
+<wire x1="27.94" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<label x="30.48" y="38.1" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SW_C" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <label x="160.02" y="17.78" size="1.27" layer="95" xref="yes"/>
-<label x="165.1" y="134.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="17.78" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="25.4" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <junction x="157.48" y="17.78"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC2"/>
+<wire x1="27.94" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<label x="30.48" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_A" class="0">
@@ -6512,6 +6521,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="152.4" y="22.86"/>
 <label x="160.02" y="22.86" size="1.27" layer="95" xref="yes"/>
 <label x="165.1" y="139.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTA_L" pin="PA1"/>
+<wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="30.48" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -6789,13 +6803,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="BAT1" gate="G$1" pin="+"/>
 </segment>
 </net>
-<net name="PA1" class="0">
-<segment>
-<pinref part="U1" gate="PORTA_L" pin="PA1"/>
-<wire x1="27.94" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<label x="30.48" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="USART2_TX" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_L" pin="PA2"/>
@@ -6874,20 +6881,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="U1" gate="PORTB_L" pin="PB1"/>
 <wire x1="27.94" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="30.48" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC2" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC2"/>
-<wire x1="27.94" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<label x="30.48" y="40.64" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC3" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC3"/>
-<wire x1="27.94" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<label x="30.48" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PC4" class="0">
