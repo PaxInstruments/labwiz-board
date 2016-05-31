@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="13" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -5002,134 +5002,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </deviceset>
 </devicesets>
 </library>
-<library name="PaxInstruments-Capacitors">
-<description>&lt;h3&gt;Pax Instruments Capacitors Eagle Library&lt;/h3&gt;
-This library contains...
-&lt;br&gt;&lt;br&gt;
-If you are interested in opensource lab instruments or related development tools, please consider purchasing one of our products at http://paxinstruments.com/products/
-&lt;br&gt;&lt;br&gt;
-We work hard to keep our libraries accurate and functional, but we provide no guarantee they will work or be appropriate for your application. It is your responsibility to ensure your design is suitable for your purpose. If you find an error or have a suggestion for improvement, please submit an issue to our Github repository (https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries).
-&lt;br&gt;&lt;br&gt;
-The latest version of this library can be downloaded from https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Capacitors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
-<packages>
-<package name="C0402">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.05" y1="0.45" x2="1.05" y2="0.45" width="0.1" layer="39"/>
-<wire x1="1.05" y1="0.45" x2="1.05" y2="-0.45" width="0.1" layer="39"/>
-<wire x1="1.05" y1="-0.45" x2="-1.05" y2="-0.45" width="0.1" layer="39"/>
-<wire x1="-1.05" y1="-0.45" x2="-1.05" y2="0.45" width="0.1" layer="39"/>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<smd name="1" x="-0.7" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.7" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="C_EU">
-<pin name="1" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
-<wire x1="-1.016" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="0.254" x2="0" y2="0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="0.254" x2="1.016" y2="0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.254" width="0.254" layer="94"/>
-<text x="-0.254" y="-0.762" size="1.016" layer="95" rot="R90" align="bottom-right">&gt;NAME</text>
-<text x="-0.254" y="0.762" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="C0402" prefix="C" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="C_EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_4.7UF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="4.7uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_470PF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="470pF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_100NF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="100nF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1UF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="1uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_8PF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="8pF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_10UF" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="10uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PaxInstruments-Resistors">
 <description>&lt;h3&gt;Pax Instruments Resistors Eagle Library&lt;/h3&gt;
 This library contains...
@@ -5249,6 +5121,219 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </deviceset>
 </devicesets>
 </library>
+<library name="PaxInstruments-RCL">
+<description>&lt;h3&gt;Pax Instruments Capacitors Eagle Library&lt;/h3&gt;
+This library contains...
+&lt;br&gt;&lt;br&gt;
+If you are interested in opensource lab instruments or related development tools, please consider purchasing one of our products at http://paxinstruments.com/products/
+&lt;br&gt;&lt;br&gt;
+We work hard to keep our libraries accurate and functional, but we provide no guarantee they will work or be appropriate for your application. It is your responsibility to ensure your design is suitable for your purpose. If you find an error or have a suggestion for improvement, please submit an issue to our Github repository (https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries).
+&lt;br&gt;&lt;br&gt;
+The latest version of this library can be downloaded from https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Capacitors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
+<packages>
+<package name="0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="39"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="39"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="39"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="39"/>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.835" y="0.035" size="0.5" layer="25" align="center-right">&gt;NAME</text>
+<text x="0.865" y="-0.005" size="0.5" layer="27" align="center-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="C_EU">
+<pin name="1" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="2" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="-1.016" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="0" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="0.254" x2="1.016" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.254" width="0.254" layer="94"/>
+<text x="-0.254" y="-0.762" size="1.016" layer="95" rot="R90" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="0.762" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="R_EU">
+<pin name="1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="1.016" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="-1.016" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.032" x2="-1.016" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.032" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="2.032" x2="1.016" y2="2.032" width="0.254" layer="94"/>
+<text x="-0.254" y="-2.286" size="1.016" layer="95" rot="R90" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="2.286" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C0402" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="C_EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_4.7UF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_470PF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_100NF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1UF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_8PF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_10UF" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R0402" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="R_EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_10K" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="_10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_3.3R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="3.3R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_22R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="22R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_100R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_360R" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="360R" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5287,13 +5372,13 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" value=""/>
 </part>
 <part name="P+2" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C4" library="PaxInstruments-Capacitors" deviceset="C0402" device="_470PF" value="470pF">
+<part name="C4" library="PaxInstruments-RCL" deviceset="C0402" device="_470PF" value="470pF">
 <attribute name="MPN" value=""/>
 </part>
-<part name="C1" library="PaxInstruments-Capacitors" deviceset="C0402" device="_4.7UF" value="4.7uF">
+<part name="C1" library="PaxInstruments-RCL" deviceset="C0402" device="_4.7UF" value="4.7uF">
 <attribute name="MPN" value=""/>
 </part>
-<part name="C2" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF">
+<part name="C2" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF">
 <attribute name="MPN" value=""/>
 </part>
 <part name="Z1" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="PGB1010603">
@@ -5306,31 +5391,31 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </part>
 <part name="GND19" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND1" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="R8" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R8" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
-<part name="R11" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R11" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
-<part name="R12" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R12" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
-<part name="R15" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R15" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
-<part name="R16" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R16" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
 <part name="P+9" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C26" library="PaxInstruments-Capacitors" deviceset="C0402" device="_10UF" value="10uF">
+<part name="C26" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF">
 <attribute name="MPN" value=""/>
 </part>
-<part name="C27" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF">
+<part name="C27" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF">
 <attribute name="MPN" value=""/>
 </part>
 <part name="GND27" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
@@ -5359,13 +5444,13 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="LG132643-DW"/>
 </part>
-<part name="R19" library="PaxInstruments-Resistors" deviceset="R0402" device="_3.3R" value="3.3R">
+<part name="R19" library="PaxInstruments-RCL" deviceset="R0402" device="_3.3R" value="3.3R">
 <attribute name="MPN" value=""/>
 </part>
-<part name="C35" library="PaxInstruments-Capacitors" deviceset="C0402" device="_1UF" value="1uF">
+<part name="C35" library="PaxInstruments-RCL" deviceset="C0402" device="_1UF" value="1uF">
 <attribute name="MPN" value=""/>
 </part>
-<part name="C36" library="PaxInstruments-Capacitors" deviceset="C0402" device="_1UF" value="1uF">
+<part name="C36" library="PaxInstruments-RCL" deviceset="C0402" device="_1UF" value="1uF">
 <attribute name="MPN" value=""/>
 </part>
 <part name="D2" library="PaxInstrument-T400" deviceset="SPARKFUN-DISCRETESEMI_DIODE" device="SOD123" technology="SOD123" value="MBR230S1F">
@@ -5380,28 +5465,28 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" value="ST-TF-003A"/>
 </part>
 <part name="GND11" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="R14" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R14" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
 <part name="SUPPLY13" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C14" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
+<part name="C14" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="U1" library="stm32" deviceset="STM32F10XRXT6" device=""/>
 <part name="SUPPLY2" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND2" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND8" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND10" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="C3" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C10" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C11" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C13" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C15" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C8" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
+<part name="C3" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C10" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C11" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C13" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C15" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C8" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="GND23" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY3" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C18" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
+<part name="C18" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="SUPPLY7" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND25" library="PaxInstruments-Aesthetics" deviceset="SYM_GND" device="" technology="_GND" value="GND"/>
-<part name="R2" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R4" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R1" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K">
+<part name="R2" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R4" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R1" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
 </part>
@@ -5410,26 +5495,26 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
 </part>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R3" library="PaxInstruments-Resistors" deviceset="R0402" device="_360R" value="360R"/>
+<part name="R3" library="PaxInstruments-RCL" deviceset="R0402" device="_360R" value="360R"/>
 <part name="GND3" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND4" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SOD123" value="1N4148W"/>
-<part name="C6" library="PaxInstruments-Capacitors" deviceset="C0402" device="_8PF" value="8pF"/>
-<part name="C9" library="PaxInstruments-Capacitors" deviceset="C0402" device="_8PF" value="8pF"/>
+<part name="C6" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
+<part name="C9" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
 <part name="GND5" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="BAT1" library="PaxInstruments-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER_2WAY" device="S"/>
 <part name="SUPPLY6" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND9" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="FOUR_LAYER_WARNING" device=""/>
-<part name="R5" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R6" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R7" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R13" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R17" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R18" library="PaxInstruments-Resistors" deviceset="R0402" device="_100R" value="100R"/>
-<part name="R20" library="PaxInstruments-Resistors" deviceset="R0402" device="_100R" value="100R"/>
-<part name="R21" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R5" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R6" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R7" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R13" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R17" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R18" library="PaxInstruments-RCL" deviceset="R0402" device="_100R" value="100R"/>
+<part name="R20" library="PaxInstruments-RCL" deviceset="R0402" device="_100R" value="100R"/>
+<part name="R21" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
 <part name="GND14" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND15" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY8" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
@@ -5440,23 +5525,23 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="GND13" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="P+1" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="LED2" library="SparkFun-LED" deviceset="LED" device="0603" value="GREEN"/>
-<part name="R22" library="PaxInstruments-Resistors" deviceset="R0402" device="_360R" value="360R"/>
+<part name="R22" library="PaxInstruments-RCL" deviceset="R0402" device="_360R" value="360R"/>
 <part name="GND12" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="P+3" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="J25" library="PaxInstruments-Connectors" deviceset="M03X2" device="PAX"/>
-<part name="C5" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
-<part name="C7" library="PaxInstruments-Capacitors" deviceset="C0402" device="_100NF" value="0.1uF"/>
+<part name="C5" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="C7" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="SUPPLY4" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C12" library="PaxInstruments-Capacitors" deviceset="C0402" device="_10UF" value="10uF"/>
-<part name="C16" library="PaxInstruments-Capacitors" deviceset="C0402" device="_10UF" value="10uF"/>
-<part name="C17" library="PaxInstruments-Capacitors" deviceset="C0402" device="_10UF" value="10uF"/>
-<part name="R25" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R26" library="PaxInstruments-Resistors" deviceset="R0402" device="_10K" value="10K"/>
+<part name="C12" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="C16" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="C17" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="R25" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R26" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
 <part name="GND29" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="C19" library="PaxInstruments-Capacitors" deviceset="C0402" device="_8PF" value="8pF"/>
-<part name="C20" library="PaxInstruments-Capacitors" deviceset="C0402" device="_8PF" value="8pF"/>
+<part name="C19" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
+<part name="C20" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="3.2X1.5MM" value="32.768kHz"/>
-<part name="C21" library="PaxInstruments-Capacitors" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="C21" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
 <part name="MODULE1" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE2" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE3" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
