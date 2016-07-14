@@ -16861,7 +16861,8 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <wire x1="297.18" y1="195.58" x2="297.18" y2="254" width="0.2032" layer="94"/>
 <wire x1="228.6" y1="195.58" x2="297.18" y2="195.58" width="0.2032" layer="94"/>
 <text x="223.52" y="129.54" size="2.54" layer="97" align="top-left">NOTES
-- Add labels to SWD pogo pads</text>
+- Add labels to SWD pogo pads
+- Move the Cortex debug header to the right spot</text>
 <text x="198.12" y="22.86" size="1.27" layer="97" font="fixed" align="top-left">ESP01 Module
  TXO 2 1 GND
 CHPD 4 3 GPIO2
