@@ -16861,7 +16861,6 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <wire x1="297.18" y1="195.58" x2="297.18" y2="254" width="0.2032" layer="94"/>
 <wire x1="228.6" y1="195.58" x2="297.18" y2="195.58" width="0.2032" layer="94"/>
 <text x="223.52" y="129.54" size="2.54" layer="97" align="top-left">NOTES
-- Connect BOOT0 to something useful
 - Add labels to SWD pogo pads</text>
 <text x="198.12" y="22.86" size="1.27" layer="97" font="fixed" align="top-left">ESP01 Module
  TXO 2 1 GND
@@ -16921,9 +16920,9 @@ CHPD 4 3 GPIO2
 <attribute name="MPN" x="154.94" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATE" x="154.94" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="G$1" x="129.54" y="116.84">
-<attribute name="MPN" x="129.54" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="129.54" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="R15" gate="G$1" x="134.62" y="111.76" rot="R270">
+<attribute name="MPN" x="134.62" y="111.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATE" x="134.62" y="111.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="127" y="116.84">
 <attribute name="MPN" x="127" y="116.84" size="1.778" layer="96" display="off"/>
@@ -16950,9 +16949,9 @@ CHPD 4 3 GPIO2
 <attribute name="MPN" x="144.78" y="111.76" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="GND6" gate="G$1" x="139.7" y="101.6"/>
-<instance part="S4" gate="G$1" x="134.62" y="111.76" smashed="yes" rot="R180">
-<attribute name="MF" x="134.62" y="111.76" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="134.62" y="111.76" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="S4" gate="G$1" x="129.54" y="116.84" smashed="yes" rot="R270">
+<attribute name="MF" x="129.54" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="129.54" y="116.84" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="S5" gate="G$1" x="134.62" y="109.22" smashed="yes" rot="R180">
 <attribute name="MF" x="134.62" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
@@ -17140,7 +17139,6 @@ CHPD 4 3 GPIO2
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="P+9" gate="G$1" pin="3.3V"/>
-<pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <junction x="137.16" y="121.92"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -17150,8 +17148,6 @@ CHPD 4 3 GPIO2
 <wire x1="116.84" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="127" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="119.38" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<junction x="129.54" y="121.92"/>
 <wire x1="127" y1="119.38" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <junction x="127" y="121.92"/>
 <wire x1="137.16" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
@@ -17163,6 +17159,8 @@ CHPD 4 3 GPIO2
 <junction x="149.86" y="121.92"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="119.38" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="S4" gate="G$1" pin="1"/>
+<junction x="129.54" y="121.92"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -17356,14 +17354,15 @@ CHPD 4 3 GPIO2
 <wire x1="139.7" y1="104.14" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="106.68" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="1"/>
-<pinref part="S4" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="111.76" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
-<junction x="139.7" y="111.76"/>
 <junction x="139.7" y="109.22"/>
 <junction x="139.7" y="106.68"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 <junction x="139.7" y="104.14"/>
+<wire x1="139.7" y1="111.76" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
+<junction x="139.7" y="111.76"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND4"/>
@@ -17611,11 +17610,11 @@ CHPD 4 3 GPIO2
 <label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SW_D" class="0">
+<net name="SW_D_(BOOT0)" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="S4" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="111.76" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="111.76" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
 <junction x="129.54" y="111.76"/>
 <label x="124.46" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -17624,6 +17623,15 @@ CHPD 4 3 GPIO2
 <pinref part="U1" gate="PORTA_H" pin="PA8"/>
 <wire x1="60.96" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 <label x="63.5" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="RESET" pin="BOOT0"/>
+<wire x1="91.44" y1="71.12" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<label x="91.44" y="68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<junction x="91.44" y="71.12"/>
 </segment>
 </net>
 <net name="SW_B" class="0">
@@ -18492,17 +18500,6 @@ CHPD 4 3 GPIO2
 <pinref part="MODULE4" gate="G$1" pin="I2C_SDA"/>
 <wire x1="119.38" y1="208.28" x2="121.92" y2="208.28" width="0.1524" layer="91"/>
 <label x="121.92" y="208.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="BOOT0" class="0">
-<segment>
-<pinref part="U1" gate="RESET" pin="BOOT0"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<label x="91.44" y="68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="68.58" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<junction x="91.44" y="71.12"/>
 </segment>
 </net>
 <net name="GND_1" class="5">
