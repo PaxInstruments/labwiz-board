@@ -16763,7 +16763,8 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <wire x1="228.6" y1="195.58" x2="297.18" y2="195.58" width="0.2032" layer="94"/>
 <text x="223.52" y="129.54" size="2.54" layer="97" align="top-left">NOTES
 - Connect PC6 to somthing useful
-- Connect BOOT0 to something useful</text>
+- Connect BOOT0 to something useful
+- Add ESP8266 module footprint (RX,TX,GND,3V3)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -16968,7 +16969,7 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <instance part="SUPPLY9" gate="G$1" x="116.84" y="30.48" rot="MR0"/>
 <instance part="SUPPLY1" gate="G$1" x="58.42" y="139.7"/>
 <instance part="GND16" gate="G$1" x="68.58" y="119.38"/>
-<instance part="TP7" gate="G$1" x="22.86" y="15.24" rot="R180"/>
+<instance part="TP7" gate="G$1" x="30.48" y="15.24"/>
 <instance part="R3" gate="G$1" x="86.36" y="66.04" rot="R180">
 <attribute name="MPN" x="86.36" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="POPULATE" x="86.36" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
@@ -18010,10 +18011,11 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <net name="PC6" class="0">
 <segment>
 <pinref part="U1" gate="PORTC_L" pin="PC6"/>
-<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="27.94" y="15.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="27.94" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="35.56" y="15.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP7" gate="G$1" pin="P$1"/>
-<junction x="25.4" y="15.24"/>
+<junction x="27.94" y="15.24"/>
+<wire x1="27.94" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW_PWR_(SYS_WKUP)" class="0">
