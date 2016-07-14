@@ -32,10 +32,10 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -51,8 +51,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -9257,6 +9257,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MF" value="Pax Instruments" x="24" y="43" size="0.8" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$8" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="0.25 in" x="25" y="29.5" rot="MR0"/>
+<element name="TP5" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="1.27" y="30.48" rot="MR0"/>
+<element name="TP6" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="1.27" y="27.94" rot="MR0"/>
+<element name="TP8" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="1.27" y="33.02" rot="MR0"/>
+<element name="TP9" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="1.27" y="25.4" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -9408,6 +9412,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="6.75" y="35.25" extent="1-16" drill="0.2"/>
 <wire x1="6.71" y1="36.413" x2="6.75" y2="36.413" width="0.3048" layer="16"/>
 <wire x1="6.75" y1="36.413" x2="6.75" y2="35.25" width="0.3048" layer="16"/>
+<contactref element="TP8" pad="P$1"/>
+<wire x1="1.27" y1="33.02" x2="1.27" y2="33.27" width="0.4064" layer="16"/>
+<wire x1="1.27" y1="33.27" x2="2" y2="34" width="0.4064" layer="16"/>
+<via x="2" y="34" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="GND" class="5">
 <contactref element="U4" pad="2"/>
@@ -9639,6 +9647,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="13.75" y="14.25" extent="1-16" drill="0.2"/>
 <via x="12" y="17.5" extent="1-16" drill="0.2"/>
 <via x="4.5" y="12.5" extent="1-16" drill="0.2"/>
+<contactref element="TP9" pad="P$1"/>
+<wire x1="1.27" y1="25.4" x2="1.27" y2="26.27" width="0.3" layer="16"/>
+<wire x1="1.27" y1="26.27" x2="1.5" y2="26.5" width="0.3" layer="16"/>
+<via x="1.5" y="26.5" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -9946,6 +9958,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="13.25" y1="3.5" x2="14.75" y2="3.5" width="0.25" layer="1"/>
 <wire x1="4.5" y1="28.75" x2="7.5" y2="28.75" width="0.25" layer="1"/>
 <wire x1="7.5" y1="28.75" x2="7.5" y2="29" width="0.25" layer="1"/>
+<contactref element="TP5" pad="P$1"/>
+<wire x1="1.27" y1="30.48" x2="1.25" y2="30.5" width="0.25" layer="16"/>
+<wire x1="1.25" y1="30.5" x2="1.25" y2="29.5" width="0.25" layer="16"/>
+<wire x1="1.25" y1="29.5" x2="1.75" y2="29" width="0.25" layer="16"/>
+<via x="1.75" y="29" extent="1-16" drill="0.2"/>
+<wire x1="1.75" y1="29" x2="2" y2="28.75" width="0.25" layer="1"/>
+<wire x1="2" y1="28.75" x2="4.5" y2="28.75" width="0.25" layer="1"/>
 </signal>
 <signal name="LCD_A0_(GPIO)">
 <contactref element="X2" pad="8"/>
@@ -10411,6 +10430,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="9.5" y1="4.25" x2="8.75" y2="4.25" width="0.25" layer="1"/>
 <via x="8.75" y="4.25" extent="1-16" drill="0.2"/>
 <wire x1="8.75" y1="4.25" x2="8.875" y2="4.125" width="0.25" layer="16"/>
+<contactref element="TP6" pad="P$1"/>
+<wire x1="1.27" y1="27.94" x2="1.69" y2="27.94" width="0.25" layer="16"/>
+<wire x1="1.69" y1="27.94" x2="2" y2="28.25" width="0.25" layer="16"/>
+<via x="2" y="28.25" extent="1-16" drill="0.2"/>
+<wire x1="2" y1="28.25" x2="3" y2="28.25" width="0.25" layer="1"/>
 </signal>
 <signal name="GPIO_(SPI2_NSS)">
 <contactref element="U1" pad="33"/>

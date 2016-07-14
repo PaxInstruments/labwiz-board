@@ -16664,6 +16664,10 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <part name="C24" library="PaxInstruments-RCL" deviceset="C0402" device="_1UF" value="1uF"/>
 <part name="U$7" library="PaxInstruments-Connectors" deviceset="THERMOCOUPLE_MINI" device="_INSIDE"/>
 <part name="U$8" library="PaxInstruments-Aesthetics" deviceset="PAX-LOGO" device="_0.25IN" value="0.25 in"/>
+<part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
+<part name="TP6" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
+<part name="TP8" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
+<part name="TP9" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -16764,7 +16768,8 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <text x="223.52" y="129.54" size="2.54" layer="97" align="top-left">NOTES
 - Connect PC6 to somthing useful
 - Connect BOOT0 to something useful
-- Add ESP8266 module footprint (RX,TX,GND,3V3)</text>
+- Add ESP8266 module footprint (RX,TX,GND,3V3)
+- Add labels to SWD pogo pads</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -17001,6 +17006,10 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <attribute name="NAME" x="160.02" y="216.662" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="U$8" gate="G$1" x="142.24" y="200.66"/>
+<instance part="TP5" gate="G$1" x="154.94" y="147.32" rot="R180"/>
+<instance part="TP6" gate="G$1" x="154.94" y="144.78" rot="R180"/>
+<instance part="TP8" gate="G$1" x="154.94" y="149.86" rot="R180"/>
+<instance part="TP9" gate="G$1" x="154.94" y="142.24" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -17178,6 +17187,11 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="58.42" y="132.08"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="149.86" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
+<label x="160.02" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -17436,6 +17450,11 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <pinref part="GND3" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="TP9" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="160.02" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -17686,6 +17705,11 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <pinref part="U1" gate="PORTA_H" pin="PA13"/>
 <wire x1="60.96" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 <label x="63.5" y="68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
+<label x="160.02" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_A0_(GPIO)" class="0">
@@ -18072,6 +18096,11 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <junction x="175.26" y="167.64"/>
 <label x="177.8" y="167.64" size="1.27" layer="95" xref="yes"/>
 <wire x1="175.26" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
+<label x="160.02" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO_(SPI2_NSS)" class="0">
