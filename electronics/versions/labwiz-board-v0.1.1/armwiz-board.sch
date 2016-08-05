@@ -11442,7 +11442,7 @@ SOurce: www.abracon.com</description>
 <wire x1="185.42" y1="101.6" x2="116.84" y2="101.6" width="0.2032" layer="94"/>
 <wire x1="116.84" y1="101.6" x2="116.84" y2="142.24" width="0.2032" layer="94"/>
 <text x="119.38" y="137.16" size="3.81" layer="94">Buttons</text>
-<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.13</text>
+<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.1.1</text>
 <wire x1="116.84" y1="193.04" x2="185.42" y2="193.04" width="0.2032" layer="94"/>
 <wire x1="116.84" y1="193.04" x2="116.84" y2="144.78" width="0.2032" layer="94"/>
 <wire x1="185.42" y1="193.04" x2="185.42" y2="144.78" width="0.2032" layer="94"/>
