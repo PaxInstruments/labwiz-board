@@ -4770,6 +4770,35 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="1.35" y1="-0.775" x2="-1.35" y2="-0.775" width="0.127" layer="51"/>
 <wire x1="-1.35" y1="-0.775" x2="-1.35" y2="0.775" width="0.127" layer="51"/>
 </package>
+<package name="SOD-523">
+<smd name="C" x="0.7" y="0" dx="0.4" dy="0.4" layer="1"/>
+<smd name="A" x="-0.7" y="0" dx="0.4" dy="0.4" layer="1"/>
+<wire x1="-0.6" y1="-0.4" x2="0.4" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.4" x2="0.6" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.4" x2="0.4" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.4" x2="-0.6" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.4" x2="0.4" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.4" x2="0.4" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.6" x2="0.4" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.6" x2="0.4" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.4" x2="0.3" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.3" y1="-0.4" x2="0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.4" x2="0.6" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-0.1" x2="0.6" y2="0.1" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.1" x2="0.6" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.4" x2="0.3" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.3" y1="0.4" x2="-0.6" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="-0.6" y2="0.1" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.1" x2="-0.6" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.1" x2="-0.6" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.6" y1="0.1" x2="0.8" y2="0.1" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.1" x2="0.8" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.1" x2="0.6" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.1" x2="-0.8" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.1" x2="-0.8" y2="0.1" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="0.1" x2="-0.8" y2="-0.1" width="0.127" layer="51"/>
+<wire x1="0.3" y1="0.4" x2="0.3" y2="-0.4" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -4779,6 +4808,22 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="DIODE-SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.778" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
 <text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
@@ -4927,6 +4972,80 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE-SCHOTTKY" prefix="D">
+<description>Schottky diodes in SFE's production catalog&lt;p&gt;
+
+BAT20J 1A 23V 0.62Vf&lt;br&gt;
+RB751 120mA 40V 0.37Vf&lt;br&gt;
+PMEG4005EJ 0.5A 40V 0.42Vf&lt;br&gt;
+MBRA140 1A 40V 0.5Vf&lt;br&gt;
+B340A  3A 40V SMA &lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-BAT20J" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11623" constant="no"/>
+<attribute name="VALUE" value="BAT20J" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RB751" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11018" constant="no"/>
+<attribute name="VALUE" value="RB751" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-MBRA140" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08053" constant="no"/>
+<attribute name="VALUE" value="MBRA140" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PMEG4005EJ" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-10955" constant="no"/>
+<attribute name="VALUE" value="PMEG4005EJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-B340A" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09886"/>
+<attribute name="VALUE" value="B340A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -17978,6 +18097,84 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="PaxInstruments-PowerIC">
+<description>&lt;h3&gt;Pax Instruments PowerIC Eagle Library&lt;/h3&gt;
+This library contains...
+&lt;br&gt;&lt;br&gt;
+If you are interested in opensource lab instruments or related development tools, please consider purchasing one of our products at http://paxinstruments.com/products/
+&lt;br&gt;&lt;br&gt;
+We work hard to keep our libraries accurate and functional, but we provide no guarantee they will work or be appropriate for your application. It is your responsibility to ensure your design is suitable for your purpose. If you find an error or have a suggestion for improvement, please submit an issue to our Github repository (https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries).
+&lt;br&gt;&lt;br&gt;
+The latest version of this library can be downloaded from https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments PowerIC Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
+<packages>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP73831">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="PROG" x="10.16" y="0" length="short" direction="in" rot="R180"/>
+<pin name="STAT" x="-10.16" y="-2.54" length="short" direction="out"/>
+<pin name="VBAT" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="VSS" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP73831" prefix="U">
+<description>Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller&lt;br&gt;
+http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf&lt;br&gt;
+IC-09995</description>
+<gates>
+<gate name="G$1" symbol="MCP73831" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="PROG" pad="5"/>
+<connect gate="G$1" pin="STAT" pad="1"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MCP73832T-2DCI/OT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18303,6 +18500,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C31" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="C32" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="U$9" library="PaxInstruments-FreqCtrl" deviceset="NX3225GD" device=""/>
+<part name="U2" library="PaxInstruments-PowerIC" deviceset="MCP73831" device=""/>
+<part name="GND45" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
+<part name="R21" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="C33" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRA140"/>
+<part name="R22" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="P+9" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -18395,10 +18605,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="292.1" y="187.96" size="3.81" layer="94">Module 2: Grove</text>
 <wire x1="381" y1="139.7" x2="381" y2="193.04" width="0.2032" layer="94"/>
 <wire x1="289.56" y1="139.7" x2="381" y2="139.7" width="0.2032" layer="94"/>
-<text x="119.38" y="114.3" size="2.54" layer="97" align="top-left">NOTES
+<text x="114.3" y="167.64" size="2.54" layer="97" align="top-left">NOTES
 - Implement battery charging
-- VBAT_1/2 and SD_DETECT can reused as output if throw on some diodes.
-- Add CAN tranciever chip</text>
+- VBAT_1/2 and SD_DETECT can
+  reused as output if throw on some diodes.
+- Add CAN tranciever chip
+- Connect power form VBAT and 3.3V
+- Put battery chargind stuff on the left
+  side of the board. Use VBUS is needed.
+  Only run VBAT to the battery side.</text>
 <text x="193.04" y="22.86" size="1.27" layer="97" font="fixed" align="top-left">ESP01 Module
  TXO 2 1 GND
 CHPD 4 3 GPIO2
@@ -18453,6 +18668,11 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="287.02" y1="91.44" x2="287.02" y2="132.08" width="0.2032" layer="94"/>
 <wire x1="236.22" y1="132.08" x2="287.02" y2="132.08" width="0.2032" layer="94"/>
 <text x="238.76" y="127" size="3.81" layer="94">USART1</text>
+<wire x1="233.68" y1="91.44" x2="233.68" y2="132.08" width="0.2032" layer="94"/>
+<wire x1="182.88" y1="132.08" x2="233.68" y2="132.08" width="0.2032" layer="94"/>
+<wire x1="182.88" y1="91.44" x2="233.68" y2="91.44" width="0.2032" layer="94"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="132.08" width="0.2032" layer="94"/>
+<text x="185.42" y="127" size="3.81" layer="94">Orphan Nets</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -18601,7 +18821,10 @@ PWM     GND VCC PWM PWM</text>
 <attribute name="MPN" x="226.06" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="GND4" gate="G$1" x="137.16" y="66.04"/>
-<instance part="D3" gate="G$1" x="86.36" y="182.88" rot="R180"/>
+<instance part="D3" gate="G$1" x="86.36" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="91.44" y="182.3974" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="88.9" y="183.1086" size="1.778" layer="96"/>
+</instance>
 <instance part="C6" gate="G$1" x="132.08" y="73.66" rot="R180"/>
 <instance part="C9" gate="G$1" x="142.24" y="73.66" rot="R180"/>
 <instance part="GND5" gate="G$1" x="129.54" y="58.42"/>
@@ -18786,6 +19009,22 @@ PWM     GND VCC PWM PWM</text>
 <instance part="C31" gate="G$1" x="213.36" y="76.2"/>
 <instance part="C32" gate="G$1" x="223.52" y="76.2"/>
 <instance part="U$9" gate="G$1" x="27.94" y="104.14"/>
+<instance part="U2" gate="G$1" x="241.3" y="165.1"/>
+<instance part="GND45" gate="G$1" x="264.16" y="160.02"/>
+<instance part="R21" gate="G$1" x="259.08" y="165.1" rot="R90">
+<attribute name="MPN" x="259.08" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="POPULATE" x="259.08" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C33" gate="G$1" x="259.08" y="167.64" rot="R270"/>
+<instance part="D1" gate="G$1" x="71.12" y="182.88" smashed="yes">
+<attribute name="NAME" x="66.04" y="183.3626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="180.1114" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R22" gate="G$1" x="223.52" y="172.72" rot="R180">
+<attribute name="MPN" x="223.52" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATE" x="223.52" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="P+9" gate="G$1" x="223.52" y="177.8" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -18994,6 +19233,11 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="175.26" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -19286,6 +19530,20 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="195.58" y1="33.02" x2="198.12" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND45" gate="G$1" pin="GND"/>
+<wire x1="264.16" y1="160.02" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VSS"/>
+<wire x1="251.46" y1="162.56" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="165.1" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="165.1" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
+<junction x="264.16" y="162.56"/>
+<pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="167.64" x2="264.16" y2="165.1" width="0.1524" layer="91"/>
+<junction x="264.16" y="165.1"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -19315,6 +19573,9 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="71.12" y1="175.26" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="175.26"/>
 <label x="66.04" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
+<junction x="76.2" y="182.88"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="185.42" x2="48.26" y2="185.42" width="0.1524" layer="91"/>
@@ -19325,6 +19586,12 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="U1" gate="PORTC_H" pin="PC9"/>
 <wire x1="60.96" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="231.14" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="167.64" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
+<label x="228.6" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SW_D_(BOOT0)" class="0">
@@ -19705,18 +19972,6 @@ PWM     GND VCC PWM PWM</text>
 <label x="22.86" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SD_DETECT" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="DETECT"/>
-<wire x1="137.16" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
-<label x="134.62" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC1"/>
-<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="USART1_TX" class="0">
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA9"/>
@@ -19800,11 +20055,30 @@ PWM     GND VCC PWM PWM</text>
 <label x="27.94" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="VBAT" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VBAT"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<junction x="162.56" y="78.74"/>
+<wire x1="162.56" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
+<label x="160.02" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VBAT"/>
+<wire x1="256.54" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="254" y1="167.64" x2="251.46" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="254" y1="167.64" x2="254" y2="172.72" width="0.1524" layer="91"/>
+<junction x="254" y="167.64"/>
+<wire x1="254" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
+<label x="256.54" y="172.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
+<label x="66.04" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_RX" class="0">
@@ -20716,6 +20990,29 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="91.44" y1="71.12" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
 <junction x="91.44" y="71.12"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="PROG"/>
+<wire x1="256.54" y1="165.1" x2="251.46" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BATT_STAT" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="STAT"/>
+<wire x1="231.14" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
+<label x="220.98" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="170.18" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
+<junction x="223.52" y="162.56"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC1"/>
+<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
