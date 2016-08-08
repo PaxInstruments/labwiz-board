@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
@@ -238,6 +238,22 @@ v0.1</text>
 <wire x1="81.26" y1="23.5" x2="80.25" y2="23.5" width="0.127" layer="20"/>
 <wire x1="16.25" y1="22.5" x2="15.26" y2="22.5" width="0.127" layer="20"/>
 <wire x1="15.26" y1="23.5" x2="16.25" y2="23.5" width="0.127" layer="20"/>
+<text x="18.5" y="22" size="1.778" layer="47" rot="R90">MOSI1</text>
+<text x="21" y="22" size="1.778" layer="47" rot="R90">MISO1</text>
+<text x="23.5" y="22" size="1.778" layer="47" rot="R90">SCLK1</text>
+<text x="26" y="22" size="1.778" layer="47" rot="R90">PA4</text>
+<text x="29" y="22" size="1.778" layer="47" rot="R90">PB0</text>
+<text x="31.5" y="22" size="1.778" layer="47" rot="R90">PA3</text>
+<text x="34" y="22" size="1.778" layer="47" rot="R90">PA2</text>
+<text x="36.5" y="22" size="1.778" layer="47" rot="R90">PA1</text>
+<text x="39" y="22" size="1.778" layer="47" rot="R90">PB10</text>
+<text x="41.5" y="22" size="1.778" layer="47" rot="R90">PB1</text>
+<text x="44" y="22" size="1.778" layer="47" rot="R90">PC3</text>
+<text x="46.5" y="22" size="1.778" layer="47" rot="R90">PC2</text>
+<text x="49" y="22" size="1.778" layer="47" rot="R90">PC1</text>
+<text x="51.5" y="22" size="1.778" layer="47" rot="R90">PC0</text>
+<text x="54" y="22" size="1.778" layer="47" rot="R90">PC4</text>
+<text x="57" y="22" size="1.778" layer="47" rot="R90">PC13</text>
 </plain>
 <libraries>
 <library name="SparkFun">

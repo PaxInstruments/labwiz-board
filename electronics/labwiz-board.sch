@@ -17907,10 +17907,9 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <wire x1="381" y1="139.7" x2="381" y2="193.04" width="0.2032" layer="94"/>
 <wire x1="289.56" y1="139.7" x2="381" y2="139.7" width="0.2032" layer="94"/>
 <text x="119.38" y="114.3" size="2.54" layer="97" align="top-left">NOTES
-- Add labels to SWD pogo pads
-- Move the Cortex debug header to the right spot
 - Implement battery charging
-- VBAT_1/2 and SD_DETECT can reused as output if throw on some diodes.</text>
+- VBAT_1/2 and SD_DETECT can reused as output if throw on some diodes.
+- Add CAN tranciever chip</text>
 <text x="193.04" y="22.86" size="1.27" layer="97" font="fixed" align="top-left">ESP01 Module
  TXO 2 1 GND
 CHPD 4 3 GPIO2
