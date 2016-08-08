@@ -17932,6 +17932,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="PaxInstruments-FreqCtrl">
+<packages>
+<package name="NX3225GD">
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
+<smd name="P$1" x="0.95" y="0" dx="2.7" dy="1.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.95" y="0" dx="2.7" dy="1.5" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRYSTAL">
+<pin name="P$1" x="-2.54" y="0" length="point" rot="R180"/>
+<pin name="P$2" x="2.54" y="0" length="point"/>
+<wire x1="-0.9525" y1="1.905" x2="-0.9525" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.9525" y1="0" x2="-0.9525" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.9525" y1="1.905" x2="0.9525" y2="0" width="0.254" layer="94"/>
+<wire x1="0.9525" y1="0" x2="0.9525" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.9525" y2="0" width="0.254" layer="94"/>
+<wire x1="0.9525" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.3175" y1="1.905" x2="0.3175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.3175" y1="1.905" x2="0.3175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.3175" y1="-1.905" x2="-0.3175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-0.3175" y1="-1.905" x2="-0.3175" y2="1.905" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NX3225GD">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NX3225GD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18119,7 +18165,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND29" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="C19" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
 <part name="C20" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="3.2X1.5MM" value="32.768kHz"/>
 <part name="C21" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
 <part name="MODULE1" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE2" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
@@ -18261,6 +18306,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C30" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="C31" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="C32" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="U$9" library="PaxInstruments-FreqCtrl" deviceset="NX3225GD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18594,7 +18640,6 @@ PWM     GND VCC PWM PWM</text>
 <instance part="GND29" gate="G$1" x="27.94" y="96.52"/>
 <instance part="C19" gate="G$1" x="22.86" y="99.06" rot="R180"/>
 <instance part="C20" gate="G$1" x="33.02" y="99.06" rot="R180"/>
-<instance part="Y1" gate="G$1" x="27.94" y="104.14"/>
 <instance part="C21" gate="G$1" x="63.5" y="121.92" rot="R270"/>
 <instance part="MODULE1" gate="G$1" x="40.64" y="223.52"/>
 <instance part="MODULE2" gate="G$1" x="104.14" y="223.52"/>
@@ -18748,6 +18793,7 @@ PWM     GND VCC PWM PWM</text>
 <instance part="C30" gate="G$1" x="205.74" y="60.96"/>
 <instance part="C31" gate="G$1" x="213.36" y="76.2"/>
 <instance part="C32" gate="G$1" x="223.52" y="76.2"/>
+<instance part="U$9" gate="G$1" x="27.94" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -19516,9 +19562,9 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="104.14" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 <junction x="33.02" y="104.14"/>
+<pinref part="U$9" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -20058,8 +20104,8 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="22.86" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="104.14" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="22.86" y="104.14"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
 <label x="22.86" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="LCD_CS_(SPI3_NSS)" class="0">

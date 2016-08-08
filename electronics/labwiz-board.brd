@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
@@ -36,23 +36,23 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -8979,6 +8979,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="PaxInstruments-FreqCtrl">
+<packages>
+<package name="NX3225GD">
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.25" x2="1.6" y2="1.25" width="0.127" layer="21"/>
+<smd name="P$1" x="0.95" y="0" dx="2.7" dy="1.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.95" y="0" dx="2.7" dy="1.5" layer="1" rot="R90"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9312,11 +9324,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MF" value="C&amp;K Components" x="3.804" y="11.022" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D3" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="8.5" y="11.75" rot="R270"/>
-<element name="C6" library="PaxInstruments-RCL" package="0402" value="8pF" x="33.75" y="3.5" rot="R90">
-<attribute name="VALUE" value="8pF" x="33.75" y="3.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C6" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="2.5">
+<attribute name="VALUE" value="8pF" x="35.25" y="2.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="3.5" rot="R90">
-<attribute name="VALUE" value="8pF" x="38.75" y="3.5" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C9" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="1.25">
+<attribute name="VALUE" value="8pF" x="35.25" y="1.25" size="1.778" layer="27" display="off"/>
 </element>
 <element name="BAT1" library="PaxInstruments-Electromechanical" package="BATTCON_12MM" value="" x="88.5" y="16.5" rot="MR90">
 <attribute name="MPN" value="3000TR" x="88.5" y="16.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -9337,8 +9349,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="BC-4-3P (77H)" x="80.26" y="11.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="80.26" y="11.6" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="36.25" y="3.5">
-<attribute name="PROD_ID" value="XTAL-13062" x="36.25" y="3.5" size="1.778" layer="27" display="off"/>
+<element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="33.25" y="2.75" rot="R270">
+<attribute name="PROD_ID" value="XTAL-13062" x="33.25" y="2.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="SAMTECH_FTSH-105-01" value="CORTEX_DEBUGSMD" x="9.25" y="38.75" rot="MR180"/>
 <element name="C5" library="PaxInstruments-RCL" package="0402" value="100nF" x="16.75" y="2.5" rot="R90">
@@ -9362,14 +9374,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="R26" library="PaxInstruments-RCL" package="0402" value="10K" x="82" y="11">
 <attribute name="VALUE" value="_10K" x="82" y="11" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C19" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="5.75" rot="R270">
-<attribute name="VALUE" value="8pF" x="38.75" y="5.75" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C19" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="6.5">
+<attribute name="VALUE" value="8pF" x="38.75" y="6.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C20" library="PaxInstruments-RCL" package="0402" value="8pF" x="33.75" y="5.75" rot="R270">
-<attribute name="VALUE" value="8pF" x="33.75" y="5.75" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="Y1" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="36.25" y="5.75" rot="R180">
-<attribute name="PROD_ID" value="XTAL-13062" x="41.750003125" y="8.500003125" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C20" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="5">
+<attribute name="VALUE" value="8pF" x="38.75" y="5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C21" library="PaxInstruments-RCL" package="0402" value="10uF" x="30.25" y="13" rot="R90">
 <attribute name="VALUE" value="10uF" x="30.25" y="13" size="1.778" layer="27" rot="R90" display="off"/>
@@ -9501,6 +9510,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="C30" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.5" y="26" rot="R180"/>
 <element name="C31" library="PaxInstruments-RCL" package="0402" value="100nF" x="3.5" y="36.5"/>
 <element name="C32" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.5" y="7" rot="R180"/>
+<element name="U$9" library="PaxInstruments-FreqCtrl" package="NX3225GD" value="NX3225GD" x="36.25" y="5.75" rot="R90"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -9807,9 +9817,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="30" y="11.5" extent="1-16" drill="0.2"/>
 <via x="27.5" y="3" extent="1-16" drill="0.2"/>
 <via x="41.5" y="4.5" extent="1-16" drill="0.2"/>
-<via x="32.75" y="4.5" extent="1-16" drill="0.2"/>
-<via x="36.25" y="4.5" extent="1-16" drill="0.2"/>
-<via x="39.5" y="4.5" extent="1-16" drill="0.2"/>
+<via x="34.5" y="4.5" extent="1-16" drill="0.2"/>
+<via x="40" y="4.5" extent="1-16" drill="0.2"/>
 <via x="22" y="8.75" extent="1-16" drill="0.2"/>
 <via x="26.75" y="17.25" extent="1-16" drill="0.2"/>
 <via x="40.75" y="17.25" extent="1-16" drill="0.2"/>
@@ -10218,12 +10227,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="OSC_IN">
 <contactref element="U1" pad="5"/>
 <contactref element="C20" pad="1"/>
-<contactref element="Y1" pad="P$2"/>
-<wire x1="29.95" y1="5" x2="31.75" y2="5" width="0.25" layer="1"/>
-<wire x1="31.75" y1="5" x2="33" y2="6.25" width="0.25" layer="1"/>
-<wire x1="33" y1="6.25" x2="33.75" y2="6.25" width="0.25" layer="1"/>
-<wire x1="33.75" y1="6.25" x2="35" y2="6.25" width="0.25" layer="1"/>
-<wire x1="35" y1="6.25" x2="35" y2="5.75" width="0.25" layer="1"/>
+<contactref element="U$9" pad="P$2"/>
+<wire x1="29.95" y1="5" x2="36.05" y2="5" width="0.25" layer="1"/>
+<wire x1="36.05" y1="5" x2="36.25" y2="4.8" width="0.25" layer="1"/>
+<wire x1="38.25" y1="5" x2="36.45" y2="5" width="0.25" layer="1"/>
+<wire x1="36.45" y1="5" x2="36.25" y2="4.8" width="0.25" layer="1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="R20" pad="1"/>
@@ -10322,10 +10330,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="RTC_BAT" class="2">
 <contactref element="U1" pad="1"/>
 <contactref element="BAT1" pad="PWR@1"/>
-<wire x1="29.95" y1="3" x2="31.25" y2="3" width="0.25" layer="1"/>
-<wire x1="31.25" y1="3" x2="32.75" y2="1.5" width="0.25" layer="1"/>
-<wire x1="32.75" y1="1.5" x2="48.5" y2="1.5" width="0.25" layer="1"/>
-<wire x1="48.5" y1="1.5" x2="49.5" y2="2.5" width="0.25" layer="1"/>
+<wire x1="29.95" y1="3" x2="31.5" y2="3" width="0.25" layer="1"/>
+<wire x1="32" y1="0.5" x2="48" y2="0.5" width="0.25" layer="1"/>
+<wire x1="48" y1="0.5" x2="49.5" y2="2.5" width="0.25" layer="1"/>
 <wire x1="49.5" y1="2.5" x2="66.25" y2="2.5" width="0.25" layer="16"/>
 <wire x1="66.25" y1="2.5" x2="66.5" y2="2.25" width="0.25" layer="16"/>
 <wire x1="66.5" y1="2.25" x2="77.5" y2="2.25" width="0.25" layer="16"/>
@@ -10333,6 +10340,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="77.75" y1="2.5" x2="88.5" y2="2.5" width="0.25" layer="16"/>
 <via x="49.5" y="2.5" extent="1-16" drill="0.2"/>
 <wire x1="88.5" y1="2.5" x2="88.5" y2="8.626" width="0.25" layer="16"/>
+<wire x1="31.5" y1="3" x2="32" y2="2.5" width="0.25" layer="1"/>
+<wire x1="32" y1="2.5" x2="32" y2="0.5" width="0.25" layer="1"/>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U1" pad="16"/>
@@ -10848,33 +10857,32 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="3"/>
 <contactref element="C9" pad="1"/>
 <contactref element="Y3" pad="P$2"/>
-<wire x1="29.95" y1="4" x2="31.5" y2="4" width="0.25" layer="1"/>
-<wire x1="31.5" y1="4" x2="33.25" y2="2.25" width="0.25" layer="1"/>
-<wire x1="33.25" y1="2.25" x2="37.5" y2="2.25" width="0.25" layer="1"/>
-<wire x1="37.5" y1="3.5" x2="37.5" y2="3" width="0.25" layer="1"/>
-<wire x1="37.5" y1="3" x2="37.5" y2="2.25" width="0.25" layer="1"/>
-<wire x1="38.75" y1="3" x2="37.5" y2="3" width="0.25" layer="1"/>
+<wire x1="29.95" y1="4" x2="31.25" y2="4" width="0.25" layer="1"/>
+<wire x1="31.25" y1="4" x2="33" y2="2.25" width="0.25" layer="1"/>
+<wire x1="33" y1="2.25" x2="33" y2="1.75" width="0.25" layer="1"/>
+<wire x1="33" y1="1.75" x2="33.25" y2="1.5" width="0.25" layer="1"/>
+<wire x1="34.75" y1="1.25" x2="33.5" y2="1.25" width="0.25" layer="1"/>
+<wire x1="33.5" y1="1.25" x2="33.25" y2="1.5" width="0.25" layer="1"/>
 </signal>
 <signal name="RTC_OSC_OUT">
 <contactref element="U1" pad="4"/>
 <contactref element="C6" pad="1"/>
 <contactref element="Y3" pad="P$1"/>
 <wire x1="29.95" y1="4.5" x2="31.75" y2="4.5" width="0.25" layer="1"/>
-<wire x1="31.75" y1="4.5" x2="33.25" y2="3" width="0.25" layer="1"/>
-<wire x1="33.25" y1="3" x2="33.75" y2="3" width="0.25" layer="1"/>
-<wire x1="33.75" y1="3" x2="35" y2="3" width="0.25" layer="1"/>
-<wire x1="35" y1="3" x2="35" y2="3.5" width="0.25" layer="1"/>
+<wire x1="31.75" y1="4.5" x2="32.25" y2="4" width="0.25" layer="1"/>
+<wire x1="32.25" y1="4" x2="33.25" y2="4" width="0.25" layer="1"/>
+<wire x1="34.75" y1="2.5" x2="33.25" y2="4" width="0.25" layer="1"/>
 </signal>
 <signal name="OSC_OUT">
 <contactref element="U1" pad="6"/>
 <contactref element="C19" pad="1"/>
-<contactref element="Y1" pad="P$1"/>
-<wire x1="29.95" y1="5.5" x2="31.5" y2="5.5" width="0.25" layer="1"/>
-<wire x1="31.5" y1="5.5" x2="33" y2="7" width="0.25" layer="1"/>
-<wire x1="33" y1="7" x2="37.5" y2="7" width="0.25" layer="1"/>
-<wire x1="37.5" y1="7" x2="37.5" y2="6.25" width="0.25" layer="1"/>
-<wire x1="37.5" y1="6.25" x2="37.5" y2="5.75" width="0.25" layer="1"/>
-<wire x1="38.75" y1="6.25" x2="37.5" y2="6.25" width="0.25" layer="1"/>
+<contactref element="U$9" pad="P$1"/>
+<wire x1="29.95" y1="5.5" x2="33.75" y2="5.5" width="0.25" layer="1"/>
+<wire x1="33.75" y1="5.5" x2="34.5" y2="6.25" width="0.25" layer="1"/>
+<wire x1="34.5" y1="6.25" x2="35.8" y2="6.25" width="0.25" layer="1"/>
+<wire x1="35.8" y1="6.25" x2="36.25" y2="6.7" width="0.25" layer="1"/>
+<wire x1="38.25" y1="6.5" x2="36.45" y2="6.5" width="0.25" layer="1"/>
+<wire x1="36.45" y1="6.5" x2="36.25" y2="6.7" width="0.25" layer="1"/>
 </signal>
 <signal name="LCD_CS_(SPI3_NSS)">
 <contactref element="U1" pad="50"/>
