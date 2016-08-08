@@ -17814,6 +17814,16 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <part name="J41" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
 <part name="J42" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
 <part name="J43" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="P+3" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="R5" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="100K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="R6" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="100K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="P+4" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -17954,6 +17964,16 @@ analog  GND VCC   A   A
 PWM     GND VCC PWM PWM</text>
 <circle x="378.46" y="43.18" radius="1.27" width="0.1524" layer="94"/>
 <circle x="378.46" y="45.72" radius="1.27" width="0.1524" layer="97"/>
+<wire x1="287.02" y1="139.7" x2="287.02" y2="193.04" width="0.2032" layer="94"/>
+<wire x1="195.58" y1="193.04" x2="287.02" y2="193.04" width="0.2032" layer="94"/>
+<wire x1="195.58" y1="139.7" x2="287.02" y2="139.7" width="0.2032" layer="94"/>
+<wire x1="195.58" y1="139.7" x2="195.58" y2="193.04" width="0.2032" layer="94"/>
+<text x="198.12" y="187.96" size="3.81" layer="94">Battery charging</text>
+<wire x1="236.22" y1="91.44" x2="287.02" y2="91.44" width="0.2032" layer="94"/>
+<wire x1="236.22" y1="91.44" x2="236.22" y2="132.08" width="0.2032" layer="94"/>
+<wire x1="287.02" y1="91.44" x2="287.02" y2="132.08" width="0.2032" layer="94"/>
+<wire x1="236.22" y1="132.08" x2="287.02" y2="132.08" width="0.2032" layer="94"/>
+<text x="238.76" y="127" size="3.81" layer="94">USART1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -18256,7 +18276,17 @@ PWM     GND VCC PWM PWM</text>
 <instance part="J40" gate="G$1" x="353.06" y="60.96"/>
 <instance part="J41" gate="G$1" x="353.06" y="43.18"/>
 <instance part="J42" gate="G$1" x="353.06" y="33.02"/>
-<instance part="J43" gate="G$1" x="228.6" y="33.02"/>
+<instance part="J43" gate="G$1" x="243.84" y="101.6"/>
+<instance part="P+3" gate="G$1" x="264.16" y="119.38" rot="MR0"/>
+<instance part="R5" gate="G$1" x="259.08" y="111.76">
+<attribute name="MPN" x="259.08" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="259.08" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R6" gate="G$1" x="264.16" y="111.76">
+<attribute name="MPN" x="264.16" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="264.16" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+4" gate="G$1" x="259.08" y="119.38" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -18443,6 +18473,16 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="180.34" y1="25.4" x2="177.8" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="P+4" gate="G$1" pin="3.3V"/>
+<wire x1="259.08" y1="114.3" x2="259.08" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="P+3" gate="G$1" pin="3.3V"/>
+<wire x1="264.16" y1="114.3" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -19139,8 +19179,12 @@ PWM     GND VCC PWM PWM</text>
 </segment>
 <segment>
 <pinref part="J43" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="33.02" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
-<label x="238.76" y="33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="251.46" y1="101.6" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<label x="269.24" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="101.6" x2="269.24" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="109.22" x2="264.16" y2="101.6" width="0.1524" layer="91"/>
+<junction x="264.16" y="101.6"/>
 </segment>
 </net>
 <net name="USART1_RX" class="0">
@@ -19161,8 +19205,12 @@ PWM     GND VCC PWM PWM</text>
 </segment>
 <segment>
 <pinref part="J43" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="35.56" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
-<label x="238.76" y="35.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="251.46" y1="104.14" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
+<label x="269.24" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="104.14" x2="269.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="109.22" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
+<junction x="259.08" y="104.14"/>
 </segment>
 </net>
 <net name="SWDIO_M" class="0">
