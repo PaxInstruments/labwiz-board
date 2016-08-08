@@ -17824,6 +17824,8 @@ Source: www.ti.com .. ADS7828.pdf</description>
 <attribute name="POPULATE" value=""/>
 </part>
 <part name="P+4" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="R17" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="SUPPLY23" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -18287,6 +18289,8 @@ PWM     GND VCC PWM PWM</text>
 <attribute name="POPULATE" x="264.16" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="G$1" x="259.08" y="119.38" rot="MR0"/>
+<instance part="R17" gate="G$1" x="104.14" y="76.2" rot="MR0"/>
+<instance part="SUPPLY23" gate="G$1" x="104.14" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -18483,6 +18487,11 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 <wire x1="264.16" y1="114.3" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
+<wire x1="104.14" y1="78.74" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -18970,6 +18979,9 @@ PWM     GND VCC PWM PWM</text>
 <label x="96.52" y="68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
 <wire x1="104.14" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="71.12" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<junction x="104.14" y="71.12"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="NRESET"/>
