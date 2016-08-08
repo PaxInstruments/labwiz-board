@@ -18216,10 +18216,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C24" library="PaxInstruments-RCL" deviceset="C0402" device="_1UF" value="1uF"/>
 <part name="U$7" library="PaxInstruments-Connectors" deviceset="THERMOCOUPLE_MINI" device="_INSIDE"/>
 <part name="U$8" library="PaxInstruments-Aesthetics" deviceset="PAX-LOGO" device="_0.25IN" value="0.25 in"/>
-<part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
-<part name="TP6" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
-<part name="TP8" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
-<part name="TP9" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
 <part name="SUPPLY12" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND18" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
@@ -18699,10 +18695,6 @@ PWM     GND VCC PWM PWM</text>
 <attribute name="NAME" x="309.88" y="216.662" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="U$8" gate="G$1" x="292.1" y="200.66"/>
-<instance part="TP5" gate="G$1" x="254" y="35.56" rot="R180"/>
-<instance part="TP6" gate="G$1" x="254" y="33.02" rot="R180"/>
-<instance part="TP8" gate="G$1" x="254" y="38.1" rot="R180"/>
-<instance part="TP9" gate="G$1" x="254" y="30.48" rot="R180"/>
 <instance part="J3" gate="G$1" x="187.96" y="27.94" rot="MR0"/>
 <instance part="SUPPLY12" gate="G$1" x="177.8" y="25.4" rot="R90"/>
 <instance part="GND18" gate="G$1" x="198.12" y="33.02" rot="R90"/>
@@ -18982,11 +18974,6 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="58.42" y="132.08"/>
-</segment>
-<segment>
-<pinref part="TP8" gate="G$1" pin="P$1"/>
-<wire x1="256.54" y1="38.1" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
-<label x="259.08" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
@@ -19293,11 +19280,6 @@ PWM     GND VCC PWM PWM</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TP9" gate="G$1" pin="P$1"/>
-<wire x1="256.54" y1="30.48" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
-<label x="259.08" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -19794,11 +19776,6 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="266.7" y1="25.4" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
 <label x="256.54" y="25.4" size="1.27" layer="95"/>
 </segment>
-<segment>
-<pinref part="TP5" gate="G$1" pin="P$1"/>
-<wire x1="256.54" y1="35.56" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
-<label x="259.08" y="35.56" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="SWDCLK_M" class="0">
 <segment>
@@ -19806,11 +19783,6 @@ PWM     GND VCC PWM PWM</text>
 <wire x1="266.7" y1="22.86" x2="256.54" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <label x="256.54" y="22.86" size="1.27" layer="95"/>
-</segment>
-<segment>
-<pinref part="TP6" gate="G$1" pin="P$1"/>
-<wire x1="256.54" y1="33.02" x2="259.08" y2="33.02" width="0.1524" layer="91"/>
-<label x="259.08" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT_1/2" class="0">
