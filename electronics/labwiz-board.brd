@@ -9,7 +9,7 @@
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="3.3V" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="3.3V" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -34,31 +34,31 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -77,64 +77,64 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
 <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -143,31 +143,31 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
-<text x="53" y="3" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">Armwiz
-v0.1</text>
+<text x="53" y="3" size="1.524" layer="22" font="vector" ratio="15" rot="MR0">LabWiz 0.1
+rev2</text>
 <circle x="92.45" y="47.09" radius="2.54" width="0.254" layer="48"/>
 <circle x="3.55" y="47.09" radius="2.54" width="0.254" layer="48"/>
 <circle x="3.55" y="3.91" radius="2.54" width="0.254" layer="48"/>
 <circle x="92.45" y="3.91" radius="2.54" width="0.254" layer="48"/>
-<wire x1="92" y1="0" x2="4" y2="0" width="0.127" layer="20"/>
+<wire x1="92" y1="0" x2="3" y2="0" width="0.127" layer="20"/>
 <wire x1="0" y1="36.1" x2="0" y2="47" width="0.127" layer="20"/>
 <wire x1="96" y1="47" x2="96" y2="36.1" width="0.127" layer="20"/>
 <wire x1="96" y1="36.1" x2="94.4" y2="36.1" width="0.127" layer="20"/>
@@ -177,7 +177,7 @@ v0.1</text>
 <wire x1="96" y1="35.1" x2="96" y2="4" width="0.127" layer="20"/>
 <wire x1="96" y1="47" x2="92" y2="51" width="0.127" layer="20" curve="90"/>
 <wire x1="4" y1="51" x2="0" y2="47" width="0.127" layer="20" curve="90"/>
-<wire x1="0" y1="3" x2="4" y2="0" width="0.127" layer="20" curve="90"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.127" layer="20" curve="90"/>
 <wire x1="92" y1="0" x2="96" y2="4" width="0.127" layer="20" curve="90"/>
 <hole x="92.45" y="3.91" drill="4.5"/>
 <hole x="92.45" y="47.09" drill="4.5"/>
@@ -204,7 +204,7 @@ v0.1</text>
 <wire x1="16" y1="51" x2="16" y2="50" width="0.127" layer="20"/>
 <wire x1="16" y1="50" x2="15" y2="50" width="0.127" layer="20"/>
 <wire x1="15" y1="49" x2="16" y2="49" width="0.127" layer="20"/>
-<text x="53" y="14" size="3.81" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">Pax Instruments</text>
+<text x="53.5" y="12.5" size="3.81" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">Pax Instruments</text>
 <rectangle x1="14.98" y1="1.37" x2="81.02" y2="52.17" layer="43"/>
 <wire x1="16" y1="49" x2="16" y2="19" width="0.127" layer="20"/>
 <wire x1="16" y1="19" x2="31.5" y2="19" width="0.127" layer="20"/>
@@ -259,19 +259,16 @@ v0.1</text>
 <wire x1="32" y1="20" x2="32" y2="48" width="0.75" layer="46"/>
 <wire x1="48" y1="20" x2="48" y2="48" width="0.75" layer="46"/>
 <wire x1="64" y1="20" x2="64" y2="48" width="0.75" layer="46"/>
-<text x="18.5" y="24" size="1.016" layer="21" rot="R90">3.3V</text>
-<text x="21" y="24" size="1.016" layer="21" rot="R90">GND</text>
+<text x="18.25" y="24" size="1.016" layer="21" rot="R90">3.3V</text>
+<text x="20.75" y="24" size="1.016" layer="21" rot="R90">GND</text>
 <text x="23.5" y="24" size="1.016" layer="21" rot="R90">SDA</text>
-<text x="28.5" y="24" size="1.016" layer="21" rot="R90">SCL</text>
+<text x="25.75" y="24" size="1.016" layer="21" rot="R90">SCL</text>
 <text x="17" y="24" size="1.016" layer="22" rot="MR90">3.3V</text>
 <text x="19.5" y="24" size="1.016" layer="22" rot="MR90">GND</text>
 <text x="22.5" y="24" size="1.016" layer="22" rot="MR90">SDA</text>
-<text x="27" y="24" size="1.016" layer="22" rot="MR90">SCL</text>
+<text x="25.25" y="24" size="1.016" layer="22" rot="MR90">SCL</text>
 <text x="27" y="46.5" size="1.016" layer="22" rot="MR270">MCP9800</text>
 <text x="29" y="28.5" size="1.016" layer="21" rot="R90">MCP3424</text>
-<text x="24.5" y="36" size="1.016" layer="21" rot="R90">100nF</text>
-<text x="19.5" y="30.5" size="1.016" layer="21" rot="R90">100nF</text>
-<text x="18" y="30.5" size="1.016" layer="21" rot="R90">1uF</text>
 <text x="37" y="35" size="1.016" layer="21" align="center-left">SDA</text>
 <text x="37" y="32" size="1.016" layer="21" align="center-left">TX</text>
 <text x="37" y="29" size="1.016" layer="21" align="center-left">D0</text>
@@ -294,25 +291,119 @@ v0.1</text>
 <wire x1="32" y1="51.25" x2="32" y2="49.75" width="0.75" layer="46"/>
 <wire x1="48" y1="51.25" x2="48" y2="49.75" width="0.75" layer="46"/>
 <wire x1="64" y1="51.25" x2="64" y2="49.75" width="0.75" layer="46"/>
-<text x="2.5" y="26.75" size="1" layer="22" rot="MR0" align="bottom-right">GND</text>
-<text x="2.5" y="25.25" size="1" layer="22" rot="MR0" align="bottom-right">SWDCLK</text>
-<text x="2.5" y="23.75" size="1" layer="22" rot="MR0" align="bottom-right">SWDIO</text>
-<text x="2.5" y="22.25" size="1" layer="22" rot="MR0" align="bottom-right">3.3V</text>
-<wire x1="2.25" y1="23" x2="1.75" y2="23.5" width="0.2" layer="22"/>
-<wire x1="1.75" y1="33.75" x2="1.75" y2="28" width="0.2" layer="22"/>
-<wire x1="1.75" y1="28" x2="1.75" y2="26.5" width="0.2" layer="22"/>
-<wire x1="1.75" y1="26.5" x2="1.75" y2="25" width="0.2" layer="22"/>
-<wire x1="1.75" y1="25" x2="2.25" y2="24.5" width="0.2" layer="22"/>
-<wire x1="1.75" y1="26.5" x2="2.25" y2="26" width="0.2" layer="22"/>
-<wire x1="1.75" y1="28" x2="2.25" y2="27.5" width="0.2" layer="22"/>
-<wire x1="1.75" y1="25" x2="1.75" y2="23.5" width="0.2" layer="22"/>
-<wire x1="1.75" y1="33.75" x2="1.25" y2="34.25" width="0.2" layer="22"/>
 <text x="7.5" y="45" size="1" layer="22" rot="MR90">USART1</text>
 <text x="14" y="49.5" size="1" layer="22" rot="MR0">TX</text>
 <text x="11.25" y="49.5" size="1" layer="22" rot="MR0">RX</text>
-<text x="5.5" y="41.25" size="1" layer="22" rot="MR270">CORTEX</text>
-<text x="9.5" y="33.75" size="1" layer="22" rot="MR0">ESP8266</text>
-<text x="6" y="8.75" size="1" layer="22" rot="MR0">BOOT0</text>
+<text x="12" y="42.25" size="1" layer="22" rot="MR0">CORTEX</text>
+<text x="13.5" y="29.5" size="1" layer="22" rot="MR90">ESP8266</text>
+<text x="5.75" y="7.75" size="1" layer="22" rot="MR0">BOOT0</text>
+<wire x1="0" y1="51" x2="0" y2="0" width="0.1" layer="48"/>
+<text x="18" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">3V3</text>
+<text x="20" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+MOSI</text>
+<text x="22" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+MISO</text>
+<text x="24" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+SCK</text>
+<text x="26" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+NSS</text>
+<text x="28" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">MOD1
+GPIO1</text>
+<text x="18" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">GND</text>
+<text x="20" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANL</text>
+<text x="22" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANH</text>
+<text x="24" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C1
+SDA</text>
+<text x="26" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C1
+SCL</text>
+<text x="28.25" y="16.5" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+RX</text>
+<text x="30.25" y="16.5" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+TX</text>
+<text x="34" y="16" size="0.65" layer="21" rot="R270" align="center-left">3V3</text>
+<text x="36" y="16" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+MOSI</text>
+<text x="38" y="16" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+MISO</text>
+<text x="40" y="16" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+SCK</text>
+<text x="42.25" y="17.5" size="0.65" layer="21" rot="R270" align="center-left">M2
+GPIO0</text>
+<text x="44.25" y="17.75" size="0.65" layer="21" rot="R270" align="center-left">M2
+GPIO1</text>
+<text x="49.25" y="17" size="0.65" layer="21" rot="R270" align="center-left">3V3</text>
+<text x="51.25" y="17.5" size="0.65" layer="21" rot="R270" align="center-left">SPI1</text>
+<text x="54.25" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">MISO</text>
+<text x="56" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI2
+SCK</text>
+<text x="58" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">SPI1
+NSS</text>
+<text x="60" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">MOD3
+GPIO1</text>
+<text x="66" y="16.25" size="0.65" layer="21" rot="R270" align="center-left">3V3</text>
+<text x="68.75" y="17.25" size="0.65" layer="21" rot="R270" align="center-left">MOSI</text>
+<text x="70.75" y="17.25" size="0.65" layer="21" rot="R270" align="center-left">MISO</text>
+<text x="72.75" y="17.75" size="0.65" layer="21" rot="R270" align="center-left">SCK</text>
+<text x="74.5" y="17.75" size="0.65" layer="21" rot="R270" align="center-left">M4
+GPIO0</text>
+<text x="76.5" y="17.75" size="0.65" layer="21" rot="R270" align="center-left">M4
+GPIO1</text>
+<text x="52.75" y="17.5" size="0.65" layer="21" rot="R270" align="center-left">MOSI</text>
+<text x="67.25" y="17" size="0.65" layer="21" rot="R270" align="center-left">SPI1</text>
+<text x="34" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">GND</text>
+<text x="36" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANL</text>
+<text x="38" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANH</text>
+<text x="40" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C1
+SDA</text>
+<text x="42" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C1
+SCL</text>
+<text x="44.25" y="16.5" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+RX</text>
+<text x="46.25" y="16.5" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+TX</text>
+<text x="50" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">GND</text>
+<text x="52" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANL</text>
+<text x="54" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANH</text>
+<text x="56" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C2
+SDA</text>
+<text x="58" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C2
+SCL</text>
+<text x="60.25" y="17.25" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+RX</text>
+<text x="62.25" y="17.25" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+TX</text>
+<text x="66" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">GND</text>
+<text x="68" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANL</text>
+<text x="70" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">CANH</text>
+<text x="72" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C2
+SDA</text>
+<text x="74" y="16.25" size="0.65" layer="22" rot="MR270" align="center-left">I2C2
+SCL</text>
+<text x="76.25" y="17.25" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+RX</text>
+<text x="78.25" y="17.25" size="0.65" layer="22" rot="MR270" align="center-left">USART2
+TX</text>
+<text x="90" y="43.75" size="1.27" layer="21" align="center-left">SW_A</text>
+<text x="89.75" y="29.25" size="1.27" layer="21" align="center-left">SW_B</text>
+<text x="89.75" y="14.75" size="1.27" layer="21" align="center-left">SW_C</text>
+<text x="1.5" y="43.75" size="1.27" layer="21" align="center-left">SW_D</text>
+<text x="1" y="28" size="1.27" layer="21" rot="R90" align="center-left">SW_E</text>
+<text x="0.5" y="6.75" size="0.85" layer="21" align="center-left">SW_PWR</text>
+<text x="13" y="29.25" size="0.65" layer="22" rot="MR90" align="center-right">USART1
+TX</text>
+<text x="12.5" y="32.75" size="0.65" layer="22" rot="MR270" align="center-right">3V3</text>
+<text x="3.25" y="33.25" size="0.65" layer="22" rot="MR90" align="center-left">USART1
+RX</text>
+<text x="5.5" y="33.25" size="0.65" layer="22" rot="MR270" align="center-right">WIFI_EN</text>
+<text x="3.5" y="28.25" size="0.65" layer="22" rot="MR90" align="center-right">GND</text>
+<text x="0.75" y="43.75" size="0.65" layer="22" rot="MR0" align="center-right">RESET</text>
+<text x="68.75" y="7" size="0.65" layer="22" rot="MR180" align="center-left">PC1</text>
+<text x="47" y="35.75" size="1.3" layer="22" rot="MR0" align="center-left">Pax Instruments
+Grove module</text>
+<text x="62.25" y="35.75" size="1.3" layer="22" rot="MR0" align="center-left">Pax Instruments
+Grove module</text>
+<text x="78" y="35.5" size="1.3" layer="22" rot="MR0" align="center-left">Pax Instruments
+Grove module</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -8797,6 +8888,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <text x="-1.905" y="8.89" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-2.54" y="4.445" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
 </package>
+<package name="PAD_1MM">
+<smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+<text x="-0.7" y="0" size="0.4" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.7" y="0" size="0.4" layer="27" align="center-left">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="PaxInstruments-Resistors">
@@ -9228,350 +9324,468 @@ These are the default Design Rules for LumberDAQ.</description>
 <elements>
 <element name="U4" library="SparkFun" package="SOT23-5" value="MIC5219-3.3V" x="11.75" y="17.5" smashed="yes">
 <attribute name="MPN" value="MIC5219-3.3YM5 TR" x="11.75" y="17.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.845" y="17.5" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="13.25" y="18.75" size="0.5" layer="25" align="center-left"/>
 <attribute name="MF" value="Micrel" x="11.75" y="17.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="PaxInstruments-Resistors" package="R0402" value="22R" x="7.25" y="19.75">
+<element name="R9" library="PaxInstruments-Resistors" package="R0402" value="22R" x="7.25" y="19.75" smashed="yes">
 <attribute name="MPN" value="" x="7.25" y="19.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6" y="19.75" size="0.5" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="R10" library="PaxInstruments-Resistors" package="R0402" value="22R" x="7.25" y="21">
+<element name="R10" library="PaxInstruments-Resistors" package="R0402" value="22R" x="7.25" y="21" smashed="yes">
 <attribute name="MPN" value="" x="7.25" y="21" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6" y="21" size="0.5" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="C4" library="PaxInstruments-RCL" package="0402" value="470pF" x="13" y="20.75" rot="R90">
+<element name="C4" library="PaxInstruments-RCL" package="0402" value="470pF" x="13" y="20.75" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="13" y="20.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="13.25" y="22" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C1" library="PaxInstruments-RCL" package="0402" value="4.7uF" x="11.75" y="14.25" rot="R90">
+<element name="C1" library="PaxInstruments-RCL" package="0402" value="4.7uF" x="11.75" y="14.25" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="11.75" y="14.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="12.25" y="15" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C2" library="PaxInstruments-RCL" package="0402" value="100nF" x="10.75" y="14.25" rot="R90">
+<element name="C2" library="PaxInstruments-RCL" package="0402" value="100nF" x="10.75" y="14.25" smashed="yes" rot="R90">
 <attribute name="MPN" value="" x="10.75" y="14.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="10" y="13.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="Z1" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7.5" y="17.25" rot="R180">
+<element name="Z1" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7.5" y="17.25" smashed="yes" rot="R180">
 <attribute name="MPN" value="PGB1010603NRHF" x="7.5" y="17.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Littelfuse" x="7.5" y="17.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6" y="17.5" size="0.5" layer="25" font="vector" rot="R180" align="center-left"/>
 </element>
-<element name="Z2" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7" y="22.25" rot="R180">
+<element name="Z2" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7" y="22.25" smashed="yes" rot="R180">
 <attribute name="MPN" value="PGB1010603NRHF" x="7" y="22.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Littelfuse" x="7" y="22.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="4.75" y="22" size="0.5" layer="25" font="vector"/>
 </element>
-<element name="R8" library="PaxInstruments-RCL" package="0402" value="10K" x="57" y="4" rot="R270">
-<attribute name="MPN" value="" x="57" y="4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATE" value="" x="57" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R8" library="PaxInstruments-RCL" package="0402" value="10K" x="58" y="5.25" smashed="yes" rot="R270">
+<attribute name="MPN" value="" x="58" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATE" value="" x="58" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="58" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R11" library="PaxInstruments-RCL" package="0402" value="10K" x="58.5" y="4" rot="R270">
-<attribute name="MPN" value="" x="58.5" y="4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATE" value="" x="58.5" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R11" library="PaxInstruments-RCL" package="0402" value="10K" x="59" y="5.25" smashed="yes" rot="R270">
+<attribute name="MPN" value="" x="59" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATE" value="" x="59" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="59" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R12" library="PaxInstruments-RCL" package="0402" value="10K" x="60" y="4" rot="R270">
-<attribute name="MPN" value="" x="60" y="4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATE" value="" x="60" y="4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R12" library="PaxInstruments-RCL" package="0402" value="10K" x="60" y="5.25" smashed="yes" rot="R270">
+<attribute name="MPN" value="" x="60" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATE" value="" x="60" y="5.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="60" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R15" library="PaxInstruments-RCL" package="0402" value="10K" x="3.5" y="35.25" rot="R180">
+<element name="R15" library="PaxInstruments-RCL" package="0402" value="10K" x="3.5" y="35.25" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="3.5" y="35.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATE" value="" x="3.5" y="35.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="4.5" y="35.25" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="R16" library="PaxInstruments-RCL" package="0402" value="10K" x="7.5" y="25" rot="R180">
+<element name="R16" library="PaxInstruments-RCL" package="0402" value="10K" x="7.5" y="25" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="7.5" y="25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATE" value="" x="7.5" y="25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="8" y="24.25" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C26" library="PaxInstruments-RCL" package="0402" value="10uF" x="11" y="20.75" rot="R270">
+<element name="C26" library="PaxInstruments-RCL" package="0402" value="10uF" x="11" y="20.75" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="11" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.25" y="20.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C27" library="PaxInstruments-RCL" package="0402" value="100nF" x="12" y="20.75" rot="R270">
+<element name="C27" library="PaxInstruments-RCL" package="0402" value="100nF" x="12" y="20.75" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="12" y="20.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.5" y="21.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.196" y="11.022" locked="yes" smashed="yes">
-<attribute name="NAME" x="95.52975" y="10.99025" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="88.75" y="9" size="0.5" layer="25" rot="R180" align="center-left"/>
 <attribute name="MF" value="C&amp;K Components" x="92.196" y="11.022" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="92.196" y="11.022" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S2" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.196" y="25.5" locked="yes">
+<element name="S2" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.196" y="25.5" locked="yes" smashed="yes">
 <attribute name="MF" value="C&amp;K Components" x="92.196" y="25.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="92.196" y="25.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="88.75" y="23.5" size="0.5" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="S3" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.196" y="39.978" locked="yes">
+<element name="S3" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.196" y="39.978" locked="yes" smashed="yes">
 <attribute name="MF" value="C&amp;K Components" x="92.196" y="39.978" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="92.196" y="39.978" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="88.5" y="38" size="0.5" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="S4" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="39.978" locked="yes">
+<element name="S4" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="39.978" locked="yes" smashed="yes">
 <attribute name="MF" value="C&amp;K Components" x="3.804" y="39.978" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="3.804" y="39.978" size="1.778" layer="27" display="off"/>
 </element>
-<element name="S5" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="25.5" locked="yes" rot="R180">
+<element name="S5" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="25.5" locked="yes" smashed="yes" rot="R180">
 <attribute name="MF" value="C&amp;K Components" x="3.804" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="3.804" y="25.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="7.25" y="23.5" size="0.5" layer="25" align="center-left"/>
 </element>
 <element name="U$5" library="charlespax" package="LG132643-DG" value="LG132643-DG" x="48" y="25.5" locked="yes" rot="MR0">
 <attribute name="MPN" value="LG132643-DW" x="48" y="25.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" x="48" y="25.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R19" library="PaxInstruments-RCL" package="0402" value="3.3R" x="52" y="14.75" rot="R180">
+<element name="R19" library="PaxInstruments-RCL" package="0402" value="3.3R" x="52" y="14.75" smashed="yes" rot="R180">
 <attribute name="MPN" x="52" y="14.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="51" y="14.75" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C35" library="PaxInstruments-RCL" package="0402" value="1uF" x="44.25" y="14.75" rot="R180">
+<element name="C35" library="PaxInstruments-RCL" package="0402" value="1uF" x="44.25" y="14.75" smashed="yes" rot="R180">
 <attribute name="MPN" value="" x="44.25" y="14.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="43.25" y="14.5" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C36" library="PaxInstruments-RCL" package="0402" value="1uF" x="41.25" y="13.25">
+<element name="C36" library="PaxInstruments-RCL" package="0402" value="1uF" x="41.25" y="13.25" smashed="yes">
 <attribute name="MPN" value="" x="41.25" y="13.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.25" y="13.25" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="U$1" library="blinkinlabs" package="USB_MICRO_THRUHOLE" value="USB_MICROSMT+THRUHULE" x="1.01" y="18.388" locked="yes" rot="R270">
+<element name="U$1" library="blinkinlabs" package="USB_MICRO_THRUHOLE" value="USB_MICROSMT+THRUHULE" x="1.01" y="18.388" locked="yes" smashed="yes" rot="R270">
 <attribute name="MPN" value="10118194-0001LF" x="1.01" y="18.388" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="FCI" x="1.01" y="18.388" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J1" library="PaxInstruments-Connectors" package="SD_MICRO_1" value="SD_MICRO_SDIO_1BIT" x="72.765" y="6.6" locked="yes" rot="R270"/>
-<element name="U$6" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.5IN" value="" x="67" y="2" rot="MR0"/>
-<element name="R14" library="PaxInstruments-RCL" package="0402" value="10K" x="61" y="7" rot="R90">
-<attribute name="VALUE" value="_10K" x="61" y="7" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J1" library="PaxInstruments-Connectors" package="SD_MICRO_1" value="SD_MICRO_SDIO_1BIT" x="72.765" y="6.6" locked="yes" smashed="yes" rot="R270"/>
+<element name="U$6" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.5IN" value="" x="66.75" y="0.75" rot="MR0"/>
+<element name="R14" library="PaxInstruments-RCL" package="0402" value="10K" x="61" y="5.25" smashed="yes" rot="R90">
+<attribute name="VALUE" value="_10K" x="61" y="5.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="61" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="C14" library="PaxInstruments-RCL" package="0402" value="100nF" x="72.5" y="15.5" rot="R180">
+<element name="C14" library="PaxInstruments-RCL" package="0402" value="100nF" x="72.5" y="15.5" smashed="yes" rot="R180">
 <attribute name="VALUE" value="100nF" x="72.5" y="15.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="71.285" y="15.335" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="U1" library="stm32" package="TQFP64" value="STM32F10XRXT6" x="24.25" y="6.75" rot="R180"/>
-<element name="C3" library="PaxInstruments-RCL" package="0402" value="100nF" x="12.5" y="38.75" rot="R270">
+<element name="U1" library="stm32" package="TQFP64" value="STM32F10XRXT6" x="24.25" y="6.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.81" y="7.646" size="1.778" layer="25" rot="R180"/>
+</element>
+<element name="C3" library="PaxInstruments-RCL" package="0402" value="100nF" x="12.5" y="38.75" smashed="yes" rot="R270">
 <attribute name="VALUE" value="100nF" x="12.5" y="38.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.5" y="37.75" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="C10" library="PaxInstruments-RCL" package="0402" value="100nF" x="46.25" y="14.75">
+<element name="C10" library="PaxInstruments-RCL" package="0402" value="100nF" x="46.25" y="14.75" smashed="yes">
 <attribute name="VALUE" value="100nF" x="46.25" y="14.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="47.25" y="14.75" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C11" library="PaxInstruments-RCL" package="0402" value="100nF" x="19.25" y="12.25" rot="R180">
+<element name="C11" library="PaxInstruments-RCL" package="0402" value="100nF" x="19.25" y="12.25" smashed="yes" rot="R180">
 <attribute name="VALUE" value="100nF" x="19.25" y="12.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.25" y="12.25" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C13" library="PaxInstruments-RCL" package="0402" value="100nF" x="29.25" y="13" rot="R90">
+<element name="C13" library="PaxInstruments-RCL" package="0402" value="100nF" x="29.25" y="13" smashed="yes" rot="R90">
 <attribute name="VALUE" value="100nF" x="29.25" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="29.25" y="14" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C15" library="PaxInstruments-RCL" package="0402" value="100nF" x="56" y="14" rot="R180">
-<attribute name="VALUE" value="100nF" x="56" y="14" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C15" library="PaxInstruments-RCL" package="0402" value="100nF" x="56" y="13" smashed="yes" rot="R180">
+<attribute name="VALUE" value="100nF" x="56" y="13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="57" y="13" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C8" library="PaxInstruments-RCL" package="0402" value="100nF" x="33.25" y="13.5" rot="R45">
-<attribute name="VALUE" value="100nF" x="33.25" y="13.5" size="1.778" layer="27" rot="R45" display="off"/>
+<element name="C8" library="PaxInstruments-RCL" package="0402" value="100nF" x="33.25" y="12.75" smashed="yes">
+<attribute name="VALUE" value="100nF" x="33.25" y="12.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.25" y="12.75" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C18" library="PaxInstruments-RCL" package="0402" value="100nF" x="13.5" y="38.75" rot="R90">
+<element name="C18" library="PaxInstruments-RCL" package="0402" value="100nF" x="13.5" y="38.75" smashed="yes" rot="R90">
 <attribute name="VALUE" value="100nF" x="13.5" y="38.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="13.5" y="39.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R2" library="PaxInstruments-RCL" package="0402" value="10K" x="11.25" y="41" rot="R90">
+<element name="R2" library="PaxInstruments-RCL" package="0402" value="10K" x="11.25" y="41" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="11.25" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="11.25" y="42" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R4" library="PaxInstruments-RCL" package="0402" value="10K" x="8.75" y="38.5" rot="R90">
+<element name="R4" library="PaxInstruments-RCL" package="0402" value="10K" x="8.75" y="38.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="8.75" y="38.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.75" y="37.5" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R1" library="PaxInstruments-RCL" package="0402" value="10K" x="5.5" y="7.75">
+<element name="R1" library="PaxInstruments-RCL" package="0402" value="10K" x="5.5" y="7.75" smashed="yes">
 <attribute name="MPN" value="" x="5.5" y="7.75" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATE" value="" x="5.5" y="7.75" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="_10K" x="5.5" y="7.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="4.5" y="7.75" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="S6" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="11.022" locked="yes">
+<element name="S6" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="3.804" y="11.022" locked="yes" smashed="yes">
 <attribute name="MPN" value="RS-187R05A2-DS MT RT" x="3.804" y="11.022" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="C&amp;K Components" x="3.804" y="11.022" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1" y="13.75" size="0.5" layer="25" align="center-left"/>
 </element>
-<element name="D3" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="10" y="12.5" rot="R180"/>
-<element name="C6" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="2.5">
+<element name="D3" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="10" y="12.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="8" y="13.5" size="0.5" layer="25"/>
+</element>
+<element name="C6" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="2.5" smashed="yes">
 <attribute name="VALUE" value="8pF" x="35.25" y="2.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36.25" y="2.5" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C9" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="1.25">
-<attribute name="VALUE" value="8pF" x="35.25" y="1.25" size="1.778" layer="27" display="off"/>
+<element name="C9" library="PaxInstruments-RCL" package="0402" value="8pF" x="35.25" y="1.5" smashed="yes">
+<attribute name="VALUE" value="8pF" x="35.25" y="1.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36.25" y="1.5" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
 <element name="BAT1" library="PaxInstruments-Electromechanical" package="BATTCON_12MM" value="" x="88.5" y="16.5" rot="MR90">
 <attribute name="MPN" value="3000TR" x="88.5" y="16.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Keystone Electronics" x="88.5" y="16.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U$2" library="SparkFun-Aesthetics" package="FOUR_LAYER_WARNING" value="FOUR_LAYER_WARNING" x="0" y="-3"/>
-<element name="R7" library="PaxInstruments-RCL" package="0402" value="10K" x="62.5" y="7" rot="R90">
-<attribute name="VALUE" value="_10K" x="62.5" y="7" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="FOUR_LAYER_WARNING" value="FOUR_LAYER_WARNING" x="0" y="-3" smashed="yes"/>
+<element name="R7" library="PaxInstruments-RCL" package="0402" value="10K" x="62" y="5.25" smashed="yes" rot="R90">
+<attribute name="VALUE" value="_10K" x="62" y="5.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R13" library="PaxInstruments-RCL" package="0402" value="10K" x="64" y="7" rot="R90"/>
-<element name="R18" library="PaxInstruments-RCL" package="0402" value="100R" x="11" y="38.75" rot="R270">
+<element name="R13" library="PaxInstruments-RCL" package="0402" value="10K" x="63" y="5.25" smashed="yes" rot="R90">
+<attribute name="NAME" x="63" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
+</element>
+<element name="R18" library="PaxInstruments-RCL" package="0402" value="100R" x="11" y="38.75" smashed="yes" rot="R270">
 <attribute name="VALUE" value="100R" x="11" y="38.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="11" y="37.75" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R20" library="PaxInstruments-RCL" package="0402" value="100R" x="7.75" y="38.5" rot="R90">
+<element name="R20" library="PaxInstruments-RCL" package="0402" value="100R" x="7.75" y="38.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="100R" x="7.75" y="38.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.75" y="37.5" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
 <element name="U$3" library="PaxInstruments-Connectors" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="80.26" y="11.6" locked="yes" rot="MR270">
 <attribute name="MPN" value="BC-4-3P (77H)" x="80.26" y="11.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="80.26" y="11.6" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="33.25" y="2.75" rot="R270">
+<element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="33.25" y="2.75" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="XTAL-13062" x="33.25" y="2.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="32.393" y="5.25" size="0.5" layer="25" rot="R270" align="bottom-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="SAMTECH_FTSH-105-01" value="CORTEX_DEBUGSMD" x="9.25" y="38.75" rot="MR180"/>
-<element name="C5" library="PaxInstruments-RCL" package="0402" value="100nF" x="17.25" y="2.5" rot="R270">
+<element name="J2" library="SparkFun-Connectors" package="SAMTECH_FTSH-105-01" value="CORTEX_DEBUGSMD" x="9.25" y="38.75" smashed="yes" rot="MR180">
+<attribute name="NAME" x="13" y="38.75" size="0.5" layer="26" rot="MR180" align="bottom-center"/>
+</element>
+<element name="C5" library="PaxInstruments-RCL" package="0402" value="100nF" x="17.25" y="2.5" smashed="yes" rot="R270">
 <attribute name="VALUE" value="100nF" x="17.25" y="2.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="17.25" y="3.5" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C7" library="PaxInstruments-RCL" package="0402" value="100nF" x="30" y="1.5" rot="R90">
+<element name="C7" library="PaxInstruments-RCL" package="0402" value="100nF" x="30" y="1.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="100nF" x="30" y="1.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="29.5" y="1" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C12" library="PaxInstruments-RCL" package="0402" value="10uF" x="19.25" y="13.25" rot="R180">
+<element name="C12" library="PaxInstruments-RCL" package="0402" value="10uF" x="19.25" y="13.25" smashed="yes" rot="R180">
 <attribute name="VALUE" value="10uF" x="19.25" y="13.25" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="18.25" y="13.25" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C16" library="PaxInstruments-RCL" package="0402" value="10uF" x="16.25" y="2.25" rot="R270">
+<element name="C16" library="PaxInstruments-RCL" package="0402" value="10uF" x="16.25" y="2.25" smashed="yes" rot="R270">
 <attribute name="VALUE" value="10uF" x="16.25" y="2.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="16.25" y="3.25" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C17" library="PaxInstruments-RCL" package="0402" value="10uF" x="31" y="1.5" rot="R90">
+<element name="C17" library="PaxInstruments-RCL" package="0402" value="10uF" x="31" y="1.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="10uF" x="31" y="1.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="31.25" y="2.5" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R25" library="PaxInstruments-RCL" package="0402" value="10K" x="82" y="9.5" rot="R180">
-<attribute name="VALUE" value="_10K" x="82" y="9.5" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R25" library="PaxInstruments-RCL" package="0402" value="10K" x="82" y="9.75" smashed="yes" rot="R180">
+<attribute name="VALUE" value="_10K" x="82" y="9.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="83" y="9.75" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="R26" library="PaxInstruments-RCL" package="0402" value="10K" x="82" y="11">
-<attribute name="VALUE" value="_10K" x="82" y="11" size="1.778" layer="27" display="off"/>
+<element name="R26" library="PaxInstruments-RCL" package="0402" value="10K" x="82" y="10.75" smashed="yes">
+<attribute name="VALUE" value="_10K" x="82" y="10.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="83" y="10.75" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C19" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="6.5">
-<attribute name="VALUE" value="8pF" x="38.75" y="6.5" size="1.778" layer="27" display="off"/>
+<element name="C19" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.25" y="6" smashed="yes">
+<attribute name="VALUE" value="8pF" x="38.25" y="6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.25" y="6" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C20" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.75" y="5">
-<attribute name="VALUE" value="8pF" x="38.75" y="5" size="1.778" layer="27" display="off"/>
+<element name="C20" library="PaxInstruments-RCL" package="0402" value="8pF" x="38.25" y="5" smashed="yes">
+<attribute name="VALUE" value="8pF" x="38.25" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.25" y="5" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C21" library="PaxInstruments-RCL" package="0402" value="10uF" x="30.25" y="13" rot="R90">
+<element name="C21" library="PaxInstruments-RCL" package="0402" value="10uF" x="30.25" y="13" smashed="yes" rot="R90">
 <attribute name="VALUE" value="10uF" x="30.25" y="13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="30.25" y="14" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="MODULE1" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="18" y="17">
+<element name="MODULE1" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="18" y="17" smashed="yes">
 <attribute name="MPN" value="PIxxxx" x="18" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="18" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="PI-module-female" x="18" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="MODULE2" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="34" y="17">
+<element name="MODULE2" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="34" y="17" smashed="yes">
 <attribute name="MPN" value="PIxxxx" x="34" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="34" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="PI-module-female" x="34" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="MODULE3" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="50" y="17">
+<element name="MODULE3" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="50" y="17" smashed="yes">
 <attribute name="MPN" value="PIxxxx" x="50" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="50" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="PI-module-female" x="50" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="MODULE4" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="66" y="17">
+<element name="MODULE4" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-female" x="66" y="17" smashed="yes">
 <attribute name="MPN" value="PIxxxx" x="66" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="66" y="17" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="PI-module-female" x="66" y="17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X2" library="PaxInstruments-Connectors" package="FPC_12P_1MM" value="M12_BOTTOM_CONTACTS_FPC_1MM" x="48" y="11" locked="yes">
+<element name="X2" library="PaxInstruments-Connectors" package="FPC_12P_1MM" value="M12_BOTTOM_CONTACTS_FPC_1MM" x="48" y="11" locked="yes" smashed="yes">
 <attribute name="MPN" value="FH12-12S-1SH(55)" x="48" y="11" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Hirose Connector" x="48" y="11" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="PaxInstruments-RCL" package="0402" value="10K" x="18.5" y="1.75" rot="R270">
+<element name="R3" library="PaxInstruments-RCL" package="0402" value="10K" x="18.5" y="1.75" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="18.5" y="1.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="" x="18.5" y="1.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18" y="0.75" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="MODULE5" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="30" y="20" rot="R180">
+<element name="MODULE5" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="30" y="20" smashed="yes" rot="R180">
 <attribute name="MPN" value="PIxxxx" x="30" y="20" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="30" y="20" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$4" library="PaxInstruments-DigitalIC" package="SOT23-5L" value="MCP9800A0" x="24" y="45">
+<element name="U$4" library="PaxInstruments-DigitalIC" package="SOT23-5L" value="MCP9800A0" x="24" y="45" smashed="yes">
 <attribute name="MPN" value="MCP9800A0T-M/OT" x="24" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="I2C_ADDRESS" value="000" x="24" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Microchip Technology" x="24" y="45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="23.75" y="47.25" size="0.5" layer="25"/>
 </element>
-<element name="C22" library="PaxInstruments-RCL" package="0402" value="100nF" x="24" y="41.5" rot="R180"/>
-<element name="TP1" library="PaxInstruments-Connectors" package="M01_TH" value="" x="22.86" y="22.86"/>
-<element name="TP2" library="PaxInstruments-Connectors" package="M01_TH" value="" x="27.94" y="22.86"/>
-<element name="TP3" library="PaxInstruments-Connectors" package="M01_TH" value="" x="17.78" y="22.86"/>
-<element name="TP4" library="PaxInstruments-Connectors" package="M01_TH" value="" x="20.32" y="22.86"/>
-<element name="MODULE6" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="46" y="20" rot="R180">
+<element name="C22" library="PaxInstruments-RCL" package="0402" value="100nF" x="24" y="41.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="25" y="39.5" size="0.5" layer="25" rot="R270" align="center-right"/>
+</element>
+<element name="TP1" library="PaxInstruments-Connectors" package="M01_TH" value="" x="22.86" y="22.86" smashed="yes"/>
+<element name="TP2" library="PaxInstruments-Connectors" package="M01_TH" value="" x="25.4" y="22.86" smashed="yes"/>
+<element name="TP3" library="PaxInstruments-Connectors" package="M01_TH" value="" x="17.78" y="22.86" smashed="yes"/>
+<element name="TP4" library="PaxInstruments-Connectors" package="M01_TH" value="" x="20.32" y="22.86" smashed="yes"/>
+<element name="MODULE6" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="46" y="20" smashed="yes" rot="R180">
 <attribute name="MPN" value="PIxxxx" x="46.5" y="20" size="0.8" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="46.5" y="20" size="0.8" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC1" library="PaxInstruments-DigitalIC" package="SO14" value="MCP3424" x="24" y="31.5" rot="R270">
+<element name="IC1" library="PaxInstruments-DigitalIC" package="SO14" value="MCP3424" x="24" y="31.5" smashed="yes" rot="R270">
 <attribute name="MPN" value="MCP3424-E/SL" x="24" y="31.5" size="0.8" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Microchip Technology" x="24" y="31.5" size="0.8" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="22.75" y="36" size="0.5" layer="27"/>
+<attribute name="NAME" x="23" y="36.75" size="0.5" layer="25"/>
 </element>
-<element name="C23" library="PaxInstruments-RCL" package="0402" value="100nF" x="19" y="29.5" rot="R270"/>
-<element name="C24" library="PaxInstruments-RCL" package="0402" value="1uF" x="17.5" y="29.5" rot="R270"/>
-<element name="U$7" library="PaxInstruments-Connectors" package="THERMOCOUPLE_CLIP_INSIDE" value="THERMOCOUPLE_MINI_INSIDE" x="24" y="43" rot="R180">
+<element name="C23" library="PaxInstruments-RCL" package="0402" value="100nF" x="19" y="29.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="19" y="30.5" size="0.5" layer="25" rot="R270" align="center-right"/>
+</element>
+<element name="C24" library="PaxInstruments-RCL" package="0402" value="1uF" x="17.5" y="29.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.5" y="30.5" size="0.5" layer="25" rot="R270" align="center-right"/>
+</element>
+<element name="U$7" library="PaxInstruments-Connectors" package="THERMOCOUPLE_CLIP_INSIDE" value="THERMOCOUPLE_MINI_INSIDE" x="24" y="43" smashed="yes" rot="R180">
 <attribute name="MPN" value="PI1024 (2x)" x="24" y="43" size="0.8" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="24" y="43" size="0.8" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$8" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="0.25 in" x="25" y="29.5" rot="MR0"/>
-<element name="J3" library="SparkFun-Connectors" package="2X4" value="" x="7.25" y="30.75"/>
-<element name="J4" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="40" y="42"/>
-<element name="J14" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="32"/>
-<element name="J7" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="32"/>
-<element name="J8" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="35"/>
-<element name="J9" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="32"/>
-<element name="J10" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="32"/>
-<element name="J11" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="35"/>
-<element name="J12" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="29"/>
-<element name="J13" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="29"/>
-<element name="J15" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="29"/>
-<element name="J16" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="35"/>
-<element name="J17" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="35"/>
-<element name="J18" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="29"/>
-<element name="MODULE7" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="62" y="20" rot="R180">
+<element name="J3" library="SparkFun-Connectors" package="2X4" value="" x="7.25" y="30.75" smashed="yes">
+<attribute name="NAME" x="-2.92" y="33.675" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="2.17" y="26.305" size="1.27" layer="27"/>
+</element>
+<element name="J4" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="40" y="42" smashed="yes">
+<attribute name="NAME" x="39.25" y="47" size="0.5" layer="25" font="vector" ratio="11"/>
+</element>
+<element name="J14" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="32" smashed="yes"/>
+<element name="J7" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="32" smashed="yes"/>
+<element name="J8" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="35" smashed="yes"/>
+<element name="J9" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="32" smashed="yes"/>
+<element name="J10" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="32" smashed="yes"/>
+<element name="J11" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="35" smashed="yes"/>
+<element name="J12" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="36" y="29" smashed="yes"/>
+<element name="J13" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="44" y="29" smashed="yes"/>
+<element name="J15" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="29" smashed="yes"/>
+<element name="J16" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="46" y="35" smashed="yes"/>
+<element name="J17" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="35" smashed="yes"/>
+<element name="J18" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="34" y="29" smashed="yes"/>
+<element name="MODULE7" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="62" y="20" smashed="yes" rot="R180">
 <attribute name="MPN" value="PIxxxx" x="62" y="7" size="1.016" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="62" y="7" size="1.016" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J5" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="56" y="42"/>
-<element name="J6" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="32"/>
-<element name="J19" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="32"/>
-<element name="J20" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="35"/>
-<element name="J21" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="32"/>
-<element name="J22" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="32"/>
-<element name="J23" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="35"/>
-<element name="J24" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="29"/>
-<element name="J25" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="29"/>
-<element name="J26" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="29"/>
-<element name="J27" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="35"/>
-<element name="J28" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="35"/>
-<element name="J29" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="29"/>
-<element name="MODULE8" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="78" y="20" rot="R180">
+<element name="J5" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="56" y="42" smashed="yes">
+<attribute name="NAME" x="55.25" y="47" size="0.5" layer="25" font="vector" ratio="11"/>
+</element>
+<element name="J6" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="32" smashed="yes"/>
+<element name="J19" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="32" smashed="yes"/>
+<element name="J20" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="35" smashed="yes"/>
+<element name="J21" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="32" smashed="yes"/>
+<element name="J22" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="32" smashed="yes"/>
+<element name="J23" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="35" smashed="yes"/>
+<element name="J24" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="52" y="29" smashed="yes"/>
+<element name="J25" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="60" y="29" smashed="yes"/>
+<element name="J26" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="29" smashed="yes"/>
+<element name="J27" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="62" y="35" smashed="yes"/>
+<element name="J28" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="35" smashed="yes"/>
+<element name="J29" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="50" y="29" smashed="yes"/>
+<element name="MODULE8" library="PaxInstruments-Connectors" package="M07X2_2MM_EDGE" value="PI-module-male" x="78" y="20" smashed="yes" rot="R180">
 <attribute name="MPN" value="PIxxxx" x="78" y="7" size="1.016" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Pax Instruments" x="78" y="7" size="1.016" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J30" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="72" y="42"/>
-<element name="J31" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="32"/>
-<element name="J32" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="32"/>
-<element name="J33" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="35"/>
-<element name="J34" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="32"/>
-<element name="J35" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="32"/>
-<element name="J36" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="35"/>
-<element name="J37" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="29"/>
-<element name="J38" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="29"/>
-<element name="J39" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="29"/>
-<element name="J40" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="35"/>
-<element name="J41" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="35"/>
-<element name="J42" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="29"/>
-<element name="J43" library="SparkFun-Connectors" package="1X02" value="" x="13" y="47.75" rot="MR0"/>
-<element name="R5" library="PaxInstruments-RCL" package="0402" value="100K" x="9" y="45.75">
+<element name="J30" library="PaxInstruments-Connectors" package="HW4-SMD-2.0-90D" value="4P-SMD-2.0-90D" x="72" y="42" smashed="yes">
+<attribute name="NAME" x="70.75" y="47" size="0.5" layer="25" font="vector" ratio="11"/>
+</element>
+<element name="J31" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="32" smashed="yes"/>
+<element name="J32" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="32" smashed="yes"/>
+<element name="J33" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="35" smashed="yes"/>
+<element name="J34" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="32" smashed="yes"/>
+<element name="J35" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="32" smashed="yes"/>
+<element name="J36" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="35" smashed="yes"/>
+<element name="J37" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="68" y="29" smashed="yes"/>
+<element name="J38" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="76" y="29" smashed="yes"/>
+<element name="J39" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="29" smashed="yes"/>
+<element name="J40" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="78" y="35" smashed="yes"/>
+<element name="J41" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="35" smashed="yes"/>
+<element name="J42" library="SparkFun-Connectors" package="PAD-1.5X4.5" value="" x="66" y="29" smashed="yes"/>
+<element name="J43" library="SparkFun-Connectors" package="1X02" value="" x="13" y="47.75" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="14.27" y="44.575" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="R5" library="PaxInstruments-RCL" package="0402" value="100K" x="9" y="45.75" smashed="yes">
 <attribute name="MPN" value="" x="9" y="45.75" size="1" layer="27" display="off"/>
 <attribute name="POPULATE" value="" x="9" y="45.75" size="1" layer="27" display="off"/>
+<attribute name="NAME" x="8" y="45.75" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="R6" library="PaxInstruments-RCL" package="0402" value="100K" x="10.5" y="43.5" rot="R270">
+<element name="R6" library="PaxInstruments-RCL" package="0402" value="100K" x="10.5" y="43.5" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="10.5" y="43.5" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="" x="10.5" y="43.5" size="1" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="10.5" y="44.5" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R17" library="PaxInstruments-RCL" package="0402" value="10K" x="13.5" y="36.75" rot="R90"/>
-<element name="JP1" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_YES_SILK" value="JUMPER-PAD-2-NOYES_SILK" x="4.5" y="10" rot="MR270"/>
-<element name="S7" library="PaxInstruments-Electromechanical" package="TACTILE_SWITCH_SMD-3" value="SWITCH-MOMENTARY-2SMD-3" x="2.25" y="40.75" rot="MR90"/>
-<element name="C25" library="PaxInstruments-RCL" package="0402" value="100nF" x="88.5" y="36.5" rot="R180"/>
-<element name="C28" library="PaxInstruments-RCL" package="0402" value="100nF" x="89" y="20" rot="R180"/>
-<element name="C29" library="PaxInstruments-RCL" package="0402" value="100nF" x="89.5" y="7.5" rot="R180"/>
-<element name="C30" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.5" y="26" rot="R180"/>
-<element name="C31" library="PaxInstruments-RCL" package="0402" value="100nF" x="3.5" y="36.5"/>
-<element name="C32" library="PaxInstruments-RCL" package="0402" value="100nF" x="1.25" y="7.75" rot="R180"/>
-<element name="U$9" library="PaxInstruments-FreqCtrl" package="NX3225GD" value="NX3225GD" x="36.25" y="5.75" rot="R90"/>
-<element name="U2" library="PaxInstruments-PowerIC" package="SOT23-5" value="MCP73831" x="10" y="9.5">
+<element name="R17" library="PaxInstruments-RCL" package="0402" value="10K" x="13.5" y="36.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="13" y="35.75" size="0.5" layer="25" rot="R90" align="center-right"/>
+</element>
+<element name="JP1" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_YES_SILK" value="JUMPER-PAD-2-NOYES_SILK" x="4.5" y="10" smashed="yes" rot="MR270">
+<attribute name="NAME" x="3.23" y="10.908" size="0.4064" layer="26" rot="MR270"/>
+</element>
+<element name="S7" library="PaxInstruments-Electromechanical" package="TACTILE_SWITCH_SMD-3" value="SWITCH-MOMENTARY-2SMD-3" x="2.25" y="40.75" smashed="yes" rot="MR90"/>
+<element name="C25" library="PaxInstruments-RCL" package="0402" value="100nF" x="88.5" y="36.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.5" y="36.5" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="C28" library="PaxInstruments-RCL" package="0402" value="100nF" x="89" y="20" smashed="yes" rot="R180">
+<attribute name="NAME" x="90" y="20" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="C29" library="PaxInstruments-RCL" package="0402" value="100nF" x="89.5" y="7.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="90.5" y="7.5" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="C30" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.5" y="26" smashed="yes" rot="R180">
+<attribute name="NAME" x="8" y="26.75" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="C31" library="PaxInstruments-RCL" package="0402" value="100nF" x="3.5" y="36.5" smashed="yes">
+<attribute name="NAME" x="4.5" y="36.5" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="C32" library="PaxInstruments-RCL" package="0402" value="100nF" x="1.25" y="7.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.25" y="8" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="U$9" library="PaxInstruments-FreqCtrl" package="NX3225GD" value="NX3225GD" x="35.75" y="5.5" smashed="yes" rot="R90"/>
+<element name="U2" library="PaxInstruments-PowerIC" package="SOT23-5" value="MCP73831" x="10" y="9.5" smashed="yes">
 <attribute name="MPN" value="MCP73832T-2DCI/OT" x="10" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Microchip Technology" x="10" y="9.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.5" y="8" size="0.5" layer="25" align="center-left"/>
 </element>
-<element name="R21" library="PaxInstruments-RCL" package="0402" value="10K" x="7.75" y="9.75" rot="R270">
+<element name="R21" library="PaxInstruments-RCL" package="0402" value="10K" x="7.75" y="9.75" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="7.75" y="9.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="" x="7.75" y="9.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="7.75" y="10.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C33" library="PaxInstruments-RCL" package="0402" value="10uF" x="12.75" y="9.25"/>
-<element name="R22" library="PaxInstruments-RCL" package="0402" value="10K" x="7.75" y="7.75" rot="R270">
+<element name="C33" library="PaxInstruments-RCL" package="0402" value="10uF" x="12.75" y="9.25" smashed="yes">
+<attribute name="NAME" x="13.75" y="9.25" size="0.5" layer="25" rot="R180" align="center-right"/>
+</element>
+<element name="R22" library="PaxInstruments-RCL" package="0402" value="10K" x="7.75" y="7.75" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="7.75" y="7.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="" x="7.75" y="7.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="8.25" y="6.75" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="R23" library="PaxInstruments-Resistors" package="R0402" value="1K5" x="8" y="18.5">
+<element name="R23" library="PaxInstruments-Resistors" package="R0402" value="1K5" x="8" y="18.5" smashed="yes">
 <attribute name="MPN" value="" x="8" y="18.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.75" y="18.5" size="0.5" layer="25" rot="R180" align="center-left"/>
 </element>
-<element name="D4" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="7.5" y="15.5" rot="R180"/>
-<element name="D2" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="13.25" y="12.5" rot="R270"/>
-<element name="C34" library="PaxInstruments-RCL" package="0402" value="10uF" x="13.5" y="32.25" rot="R90"/>
-<element name="R24" library="PaxInstruments-RCL" package="0402" value="10K" x="13.5" y="30.25" rot="R270">
+<element name="D4" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="7.5" y="15.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.5" y="14.5" size="0.5" layer="25" rot="R180" align="center-left"/>
+</element>
+<element name="D2" library="SparkFun-DiscreteSemi" package="SOD-123" value="1N4148W" x="13.25" y="12.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="14" y="14.25" size="0.5" layer="25"/>
+</element>
+<element name="C34" library="PaxInstruments-RCL" package="0402" value="10uF" x="13.5" y="32.25" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.75" y="33.25" size="0.5" layer="25" rot="R270" align="center-right"/>
+</element>
+<element name="R24" library="PaxInstruments-RCL" package="0402" value="10K" x="13.5" y="30.25" smashed="yes" rot="R270">
 <attribute name="MPN" value="" x="13.5" y="30.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="" x="13.5" y="30.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="13.5" y="29.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="U$10" library="PaxInstruments-DigitalIC" package="SO08" value="SN65HVD" x="11.5" y="2.5" rot="R270"/>
-<element name="C37" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.75" y="5.5" rot="R180"/>
+<element name="U$10" library="PaxInstruments-DigitalIC" package="SO08" value="SN65HVD" x="11.5" y="2.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="10.25" y="5.25" size="0.5" layer="27"/>
+<attribute name="NAME" x="13.25" y="5.25" size="0.5" layer="25"/>
+</element>
+<element name="C37" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.75" y="5.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.75" y="5.75" size="0.5" layer="25" align="center-right"/>
+</element>
+<element name="TP5" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="69.75" y="8" rot="MR0"/>
+<element name="U$11" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="0.25 in" x="46.75" y="38.25" rot="MR0"/>
+<element name="U$12" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="0.25 in" x="62.5" y="38" rot="MR0"/>
+<element name="U$13" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.25IN" value="0.25 in" x="78" y="38" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -9653,7 +9867,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="46.75" y1="14.25" x2="46.75" y2="14.75" width="0.25" layer="1"/>
 <via x="46.75" y="15.5" extent="1-16" drill="0.2"/>
 <wire x1="46.75" y1="14.75" x2="46.75" y2="15.5" width="0.25" layer="1"/>
-<wire x1="55.5" y1="14" x2="55.5" y2="14.75" width="0.3048" layer="1"/>
+<wire x1="55.5" y1="13" x2="55.5" y2="14.75" width="0.3048" layer="1"/>
 <via x="55.5" y="14.75" extent="1-16" drill="0.2"/>
 <wire x1="55.5" y1="14.75" x2="53.75" y2="14.75" width="0.3048" layer="16"/>
 <via x="53.75" y="14.75" extent="1-16" drill="0.2"/>
@@ -9672,19 +9886,16 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="28.25" y="6.5" extent="1-16" drill="0.2"/>
 <wire x1="29.95" y1="9" x2="28.25" y2="9" width="0.3048" layer="1"/>
 <wire x1="28.25" y1="9" x2="28.25" y2="6.5" width="0.3048" layer="1"/>
-<via x="55.5" y="13.25" extent="1-16" drill="0.2"/>
-<wire x1="55.5" y1="14" x2="55.5" y2="13.25" width="0.3048" layer="1"/>
-<via x="63.25" y="8.5" extent="1-16" drill="0.2"/>
-<wire x1="61" y1="7.5" x2="62.5" y2="7.5" width="0.3048" layer="1"/>
-<wire x1="64" y1="7.5" x2="63.25" y2="7.5" width="0.3048" layer="1"/>
-<wire x1="63.25" y1="7.5" x2="62.5" y2="7.5" width="0.3048" layer="1"/>
-<wire x1="63.25" y1="8.5" x2="63.25" y2="7.5" width="0.3048" layer="1"/>
+<via x="63" y="8.5" extent="1-16" drill="0.2"/>
+<wire x1="61" y1="5.75" x2="62" y2="5.75" width="0.3048" layer="1"/>
+<wire x1="63" y1="5.75" x2="62" y2="5.75" width="0.3048" layer="1"/>
+<wire x1="63" y1="8.5" x2="63" y2="5.75" width="0.3048" layer="1"/>
 <wire x1="29.95" y1="9" x2="30.75" y2="9" width="0.25" layer="1"/>
 <wire x1="30.75" y1="9" x2="31" y2="9.25" width="0.25" layer="1"/>
 <wire x1="31" y1="9.25" x2="31" y2="9.542890625" width="0.25" layer="1"/>
 <wire x1="31" y1="9.542890625" x2="32.5" y2="11" width="0.25" layer="1"/>
 <wire x1="32.5" y1="11" x2="32.5" y2="12.75" width="0.25" layer="1"/>
-<wire x1="32.5" y1="12.75" x2="32.89644375" y2="13.14644375" width="0.25" layer="1"/>
+<wire x1="32.5" y1="12.75" x2="32.75" y2="12.75" width="0.25" layer="1"/>
 <wire x1="11" y1="20.25" x2="12" y2="20.25" width="0.3048" layer="1"/>
 <wire x1="11" y1="20.25" x2="11" y2="18.8001" width="0.3048" layer="1"/>
 <wire x1="11" y1="18.8001" x2="10.8" y2="18.8001" width="0.3048" layer="1"/>
@@ -9695,17 +9906,19 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="1.264" y1="10" x2="1.25" y2="10" width="0.3048" layer="1"/>
 <via x="13.5" y="40" extent="1-16" drill="0.2"/>
 <wire x1="13.5" y1="39.25" x2="13.5" y2="40" width="0.25" layer="1"/>
-<via x="57.75" y="3.5" extent="1-16" drill="0.2"/>
-<wire x1="57" y1="4.5" x2="57.75" y2="4.5" width="0.4064" layer="1"/>
-<wire x1="57.75" y1="4.5" x2="57.75" y2="3.5" width="0.4064" layer="1"/>
-<wire x1="60" y1="4.5" x2="58.5" y2="4.5" width="0.4064" layer="1"/>
-<wire x1="58.5" y1="4.5" x2="57.75" y2="4.5" width="0.4064" layer="1"/>
+<via x="57.25" y="4.5" extent="1-16" drill="0.2"/>
+<wire x1="58" y1="5.75" x2="57.25" y2="5.75" width="0.4064" layer="1"/>
+<wire x1="57.25" y1="5.75" x2="57.25" y2="4.5" width="0.4064" layer="1"/>
+<wire x1="60" y1="5.75" x2="59" y2="5.75" width="0.4064" layer="1"/>
+<wire x1="59" y1="5.75" x2="58" y2="5.75" width="0.4064" layer="1"/>
 <via x="16.75" y="3.75" extent="1-16" drill="0.2"/>
 <wire x1="16.75" y1="3.75" x2="16.25" y2="3.25" width="0.4064" layer="1"/>
 <wire x1="16.25" y1="3.25" x2="16.25" y2="2.75" width="0.4064" layer="1"/>
 <via x="6" y="41" extent="1-16" drill="0.2"/>
 <wire x1="6.71" y1="41.163" x2="6.75" y2="41.163" width="0.3048" layer="16"/>
-<wire x1="6.75" y1="41.163" x2="6" y2="41" width="0.3048" layer="16"/>
+<wire x1="6.75" y1="41.163" x2="6.75" y2="41.25" width="0.3048" layer="16"/>
+<wire x1="6.75" y1="41.25" x2="6.75" y2="41" width="0.3048" layer="16"/>
+<wire x1="6.75" y1="41" x2="6" y2="41" width="0.3048" layer="16"/>
 <contactref element="J3" pad="8"/>
 <contactref element="S4" pad="1"/>
 <via x="1.75" y="41" extent="1-16" drill="0.2"/>
@@ -9897,7 +10110,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="30" y="11.5" extent="1-16" drill="0.2"/>
 <via x="28.25" y="3.5" extent="1-16" drill="0.2"/>
 <via x="41.5" y="4.5" extent="1-16" drill="0.2"/>
-<via x="34.5" y="4.5" extent="1-16" drill="0.2"/>
 <via x="40" y="4.5" extent="1-16" drill="0.2"/>
 <via x="26.75" y="17.25" extent="1-16" drill="0.2"/>
 <via x="40.75" y="17.25" extent="1-16" drill="0.2"/>
@@ -9905,7 +10117,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="52.5" y="15.5" extent="1-16" drill="0.2"/>
 <via x="47.75" y="17" extent="1-16" drill="0.2"/>
 <via x="55" y="15.75" extent="1-16" drill="0.2"/>
-<via x="56.5" y="13" extent="1-16" drill="0.2"/>
+<via x="57.25" y="13.25" extent="1-16" drill="0.2"/>
 <via x="60.5" y="15.5" extent="1-16" drill="0.2"/>
 <via x="60.75" y="13.5" extent="1-16" drill="0.2"/>
 <via x="60.5" y="12" extent="1-16" drill="0.2"/>
@@ -9914,9 +10126,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="62.5" y="13.25" extent="1-16" drill="0.2"/>
 <via x="62.5" y="15.25" extent="1-16" drill="0.2"/>
 <via x="63.75" y="12" extent="1-16" drill="0.2"/>
-<via x="67.5" y="8.25" extent="1-16" drill="0.2"/>
+<via x="67.75" y="8.5" extent="1-16" drill="0.2"/>
 <via x="69.5" y="10.25" extent="1-16" drill="0.2"/>
-<via x="69.75" y="8.25" extent="1-16" drill="0.2"/>
+<via x="70.25" y="8.75" extent="1-16" drill="0.2"/>
 <via x="71.25" y="8.75" extent="1-16" drill="0.2"/>
 <via x="72.5" y="9.75" extent="1-16" drill="0.2"/>
 <via x="72.5" y="12" extent="1-16" drill="0.2"/>
@@ -9933,14 +10145,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="72" y="4.5" extent="1-16" drill="0.2"/>
 <via x="20" y="9" extent="1-16" drill="0.2"/>
 <via x="42.5" y="14.5" extent="1-16" drill="0.2"/>
-<via x="35.75" y="8" extent="1-16" drill="0.2"/>
+<via x="35" y="8" extent="1-16" drill="0.2"/>
 <via x="71.75" y="3" extent="1-16" drill="0.2"/>
 <via x="34" y="14.5" extent="1-16" drill="0.2"/>
 <via x="15.75" y="6.25" extent="1-16" drill="0.2"/>
 <via x="8.5" y="14" extent="1-16" drill="0.2"/>
 <contactref element="R3" pad="1"/>
-<via x="54.25" y="3.25" extent="1-16" drill="0.2"/>
-<via x="62.25" y="3.25" extent="1-16" drill="0.2"/>
+<via x="54.25" y="2.75" extent="1-16" drill="0.2"/>
+<via x="62.5" y="2.75" extent="1-16" drill="0.2"/>
 <via x="78" y="3.5" extent="1-16" drill="0.2"/>
 <via x="94.25" y="7.25" extent="1-16" drill="0.2"/>
 <via x="84.25" y="29.5" extent="1-16" drill="0.2"/>
@@ -9976,13 +10188,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="C33" pad="2"/>
 <via x="14.25" y="9.5" extent="1-16" drill="0.2"/>
 <via x="7.5" y="15.5" extent="1-16" drill="0.2"/>
-<via x="11.75" y="5.75" extent="1-16" drill="0.2"/>
+<via x="11" y="5.75" extent="1-16" drill="0.2"/>
 <via x="10.25" y="9.75" extent="1-16" drill="0.2"/>
 <via x="13.25" y="10" extent="1-16" drill="0.2"/>
 <via x="12.5" y="11.75" extent="1-16" drill="0.2"/>
 <via x="10" y="22" extent="1-16" drill="0.2"/>
 <via x="3.75" y="24" extent="1-16" drill="0.2"/>
-<via x="12.5" y="25.25" extent="1-16" drill="0.2"/>
+<via x="12.75" y="25" extent="1-16" drill="0.2"/>
 <via x="5" y="27" extent="1-16" drill="0.2"/>
 <via x="12.5" y="31.25" extent="1-16" drill="0.2"/>
 <via x="12.75" y="36" extent="1-16" drill="0.2"/>
@@ -9995,7 +10207,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="13.75" y="42" extent="1-16" drill="0.2"/>
 <via x="9" y="20.25" extent="1-16" drill="0.2"/>
 <via x="1" y="11.25" extent="1-16" drill="0.2"/>
-<via x="84.75" y="18" extent="1-16" drill="0.2"/>
+<via x="82.75" y="22.25" extent="1-16" drill="0.2"/>
 <via x="89.5" y="29.25" extent="1-16" drill="0.2"/>
 <via x="94" y="18" extent="1-16" drill="0.2"/>
 <via x="86" y="6.5" extent="1-16" drill="0.2"/>
@@ -10019,6 +10231,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="69.5" y="15.5" extent="1-16" drill="0.2"/>
 <contactref element="C37" pad="1"/>
 <via x="7.25" y="2" extent="1-16" drill="0.2"/>
+<via x="20.75" y="15.5" extent="1-16" drill="0.2"/>
+<via x="22.75" y="15.5" extent="1-16" drill="0.2"/>
+<via x="32" y="6.5" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -10119,13 +10334,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="21.5" y1="1.05" x2="21.5" y2="2.5" width="0.25" layer="1"/>
 <via x="21.5" y="2.5" extent="1-16" drill="0.2"/>
 <wire x1="21.5" y1="2.5" x2="21.5" y2="1" width="0.25" layer="16"/>
-<wire x1="21.5" y1="1" x2="57.75" y2="1" width="0.25" layer="16"/>
-<wire x1="57.75" y1="1" x2="58.5" y2="1.75" width="0.25" layer="16"/>
-<wire x1="58.5" y1="1.75" x2="60.25" y2="1.75" width="0.25" layer="16"/>
+<wire x1="21.5" y1="1" x2="58.25" y2="1" width="0.25" layer="16"/>
+<wire x1="58.25" y1="1" x2="59" y2="1.75" width="0.25" layer="16"/>
+<wire x1="59" y1="1.75" x2="60.25" y2="1.75" width="0.25" layer="16"/>
 <wire x1="60.25" y1="1.75" x2="60.75" y2="1.25" width="0.25" layer="16"/>
 <wire x1="60.75" y1="1.25" x2="88.5" y2="1.25" width="0.25" layer="16"/>
-<wire x1="58.5" y1="3.5" x2="58.5" y2="1.75" width="0.25" layer="1"/>
-<via x="58.5" y="1.75" extent="1-16" drill="0.2"/>
+<wire x1="59" y1="4.75" x2="59" y2="1.75" width="0.25" layer="1"/>
+<via x="59" y="1.75" extent="1-16" drill="0.2"/>
 <via x="88.5" y="1.25" extent="1-16" drill="0.2"/>
 <wire x1="89.656" y1="23.595" x2="88.5" y2="23.595" width="0.25" layer="1"/>
 <wire x1="88.5" y1="23.595" x2="88.5" y2="20" width="0.25" layer="1"/>
@@ -10152,7 +10367,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="59.25" y1="0.5" x2="60" y2="1.25" width="0.25" layer="16"/>
 <wire x1="60" y1="1.25" x2="60.5" y2="0.75" width="0.25" layer="16"/>
 <wire x1="60.5" y1="0.75" x2="89" y2="0.75" width="0.25" layer="16"/>
-<wire x1="60" y1="3.5" x2="60" y2="1.25" width="0.25" layer="1"/>
+<wire x1="60" y1="4.75" x2="60" y2="1.25" width="0.25" layer="1"/>
 <via x="60" y="1.25" extent="1-16" drill="0.2"/>
 <via x="89" y="0.75" extent="1-16" drill="0.2"/>
 <wire x1="89" y1="0.75" x2="89" y2="7.5" width="0.25" layer="1"/>
@@ -10167,13 +10382,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="22" y1="1.05" x2="22" y2="2" width="0.25" layer="1"/>
 <via x="22" y="2" extent="1-16" drill="0.2"/>
 <wire x1="22" y1="2" x2="22" y2="1.5" width="0.25" layer="16"/>
-<wire x1="22" y1="1.5" x2="56.25" y2="1.5" width="0.25" layer="16"/>
-<wire x1="56.25" y1="1.5" x2="57" y2="2.25" width="0.25" layer="16"/>
-<wire x1="57" y1="2.25" x2="60.5" y2="2.25" width="0.25" layer="16"/>
+<wire x1="22" y1="1.5" x2="57.25" y2="1.5" width="0.25" layer="16"/>
+<wire x1="57.25" y1="1.5" x2="58" y2="2.25" width="0.25" layer="16"/>
+<wire x1="58" y1="2.25" x2="60.5" y2="2.25" width="0.25" layer="16"/>
 <wire x1="60.5" y1="2.25" x2="61" y2="1.75" width="0.25" layer="16"/>
 <wire x1="61" y1="1.75" x2="88" y2="1.75" width="0.25" layer="16"/>
-<wire x1="57" y1="3.5" x2="57" y2="2.25" width="0.25" layer="1"/>
-<via x="57" y="2.25" extent="1-16" drill="0.2"/>
+<wire x1="58" y1="4.75" x2="58" y2="2.25" width="0.25" layer="1"/>
+<via x="58" y="2.25" extent="1-16" drill="0.2"/>
 <via x="88" y="1.75" extent="1-16" drill="0.2"/>
 <wire x1="88" y1="1.75" x2="88" y2="2.25" width="0.25" layer="1"/>
 <wire x1="88" y1="2.25" x2="87.5" y2="2.75" width="0.25" layer="1"/>
@@ -10267,12 +10482,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="24" y1="8.5" x2="24.75" y2="8.5" width="0.25" layer="16"/>
 <wire x1="24.75" y1="8.5" x2="25" y2="8.25" width="0.25" layer="16"/>
 <wire x1="25" y1="8.25" x2="25" y2="7.5" width="0.25" layer="16"/>
-<wire x1="25" y1="7.5" x2="65" y2="7.5" width="0.25" layer="16"/>
+<wire x1="25" y1="7.5" x2="63.75" y2="7.5" width="0.25" layer="16"/>
 <contactref element="R13" pad="1"/>
-<via x="65" y="7.5" extent="1-16" drill="0.2"/>
-<wire x1="65" y1="7.5" x2="65" y2="6.5" width="0.25" layer="1"/>
-<wire x1="65" y1="6.5" x2="64" y2="6.5" width="0.25" layer="1"/>
-<wire x1="65" y1="7.5" x2="68.5" y2="7.5" width="0.25" layer="16"/>
+<via x="63.75" y="7.5" extent="1-16" drill="0.2"/>
+<wire x1="63.75" y1="7.5" x2="63.75" y2="4.75" width="0.25" layer="1"/>
+<wire x1="63.75" y1="4.75" x2="63" y2="4.75" width="0.25" layer="1"/>
+<wire x1="63.75" y1="7.5" x2="68.5" y2="7.5" width="0.25" layer="16"/>
 <via x="68.5" y="7.5" extent="1-16" drill="0.2"/>
 <wire x1="68.5" y1="7.5" x2="68.5" y2="14.093" width="0.254" layer="1"/>
 <wire x1="68.5" y1="14.093" x2="68.579" y2="14.093" width="0.254" layer="1"/>
@@ -10287,13 +10502,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="22.25" y1="4" x2="22.75" y2="4.5" width="0.25" layer="16"/>
 <wire x1="22.75" y1="4.5" x2="31.75" y2="4.5" width="0.25" layer="16"/>
 <wire x1="31.75" y1="4.5" x2="32.25" y2="4" width="0.25" layer="16"/>
-<wire x1="32.25" y1="4" x2="51.25" y2="4" width="0.25" layer="16"/>
-<wire x1="51.25" y1="4" x2="51.75" y2="4.5" width="0.25" layer="16"/>
-<wire x1="51.75" y1="4.5" x2="62.5" y2="4.5" width="0.25" layer="16"/>
+<wire x1="32.25" y1="4" x2="62.5" y2="4" width="0.25" layer="16"/>
 <contactref element="R7" pad="1"/>
-<via x="62.5" y="4.5" extent="1-16" drill="0.2"/>
-<wire x1="62.5" y1="4.5" x2="62.5" y2="6.5" width="0.25" layer="1"/>
-<wire x1="62.5" y1="4.5" x2="70.75" y2="4.5" width="0.25" layer="16"/>
+<via x="62.5" y="4" extent="1-16" drill="0.2"/>
+<wire x1="62.5" y1="4" x2="62" y2="4.5" width="0.25" layer="1"/>
+<wire x1="62" y1="4.5" x2="62" y2="4.75" width="0.25" layer="1"/>
+<wire x1="62.5" y1="4" x2="66.5" y2="4" width="0.25" layer="16"/>
+<wire x1="66.5" y1="4" x2="67" y2="4.5" width="0.25" layer="16"/>
+<wire x1="67" y1="4.5" x2="70.75" y2="4.5" width="0.25" layer="16"/>
 <via x="70.75" y="4.5" extent="1-16" drill="0.2"/>
 <wire x1="70.75" y1="4.5" x2="70.75" y2="14.093" width="0.254" layer="1"/>
 <wire x1="70.75" y1="14.093" x2="70.779" y2="14.093" width="0.254" layer="1"/>
@@ -10305,15 +10521,18 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="23" y="4" extent="1-16" drill="0.2"/>
 <wire x1="23" y1="4" x2="31.5" y2="4" width="0.25" layer="16"/>
 <wire x1="31.5" y1="4" x2="32" y2="3.5" width="0.25" layer="16"/>
-<wire x1="32" y1="3.5" x2="51.5" y2="3.5" width="0.25" layer="16"/>
-<wire x1="51.5" y1="3.5" x2="52" y2="4" width="0.25" layer="16"/>
-<wire x1="52" y1="4" x2="61" y2="4" width="0.25" layer="16"/>
+<wire x1="32" y1="3.5" x2="61.5" y2="3.5" width="0.25" layer="16"/>
 <contactref element="R14" pad="1"/>
-<via x="61" y="4" extent="1-16" drill="0.2"/>
-<wire x1="61" y1="4" x2="61" y2="6.5" width="0.25" layer="1"/>
-<wire x1="61" y1="4" x2="73" y2="4" width="0.25" layer="16"/>
-<via x="73" y="4" extent="1-16" drill="0.2"/>
-<wire x1="73" y1="4" x2="73" y2="14.093" width="0.254" layer="1"/>
+<via x="61.5" y="3.5" extent="1-16" drill="0.2"/>
+<wire x1="61.5" y1="3.5" x2="61" y2="4" width="0.25" layer="1"/>
+<wire x1="61" y1="4" x2="61" y2="4.75" width="0.25" layer="1"/>
+<wire x1="61.5" y1="3.5" x2="66.75" y2="3.5" width="0.25" layer="16"/>
+<wire x1="66.75" y1="3.5" x2="67.25" y2="4" width="0.25" layer="16"/>
+<wire x1="67.25" y1="4" x2="68.5" y2="4" width="0.25" layer="16"/>
+<wire x1="68.5" y1="4" x2="68.75" y2="3.75" width="0.25" layer="16"/>
+<wire x1="68.75" y1="3.75" x2="73" y2="3.75" width="0.25" layer="16"/>
+<via x="73" y="3.75" extent="1-16" drill="0.2"/>
+<wire x1="73" y1="3.75" x2="73" y2="14.093" width="0.254" layer="1"/>
 <wire x1="73" y1="14.093" x2="72.979" y2="14.093" width="0.254" layer="1"/>
 </signal>
 <signal name="NRST">
@@ -10371,9 +10590,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="C20" pad="1"/>
 <contactref element="U$9" pad="P$2"/>
 <wire x1="29.95" y1="5" x2="36.05" y2="5" width="0.25" layer="1"/>
-<wire x1="36.05" y1="5" x2="36.25" y2="4.8" width="0.25" layer="1"/>
-<wire x1="38.25" y1="5" x2="36.45" y2="5" width="0.25" layer="1"/>
-<wire x1="36.45" y1="5" x2="36.25" y2="4.8" width="0.25" layer="1"/>
+<wire x1="36.05" y1="5" x2="35.75" y2="4.55" width="0.25" layer="1"/>
+<wire x1="37.75" y1="5" x2="36.75" y2="5" width="0.25" layer="1"/>
+<wire x1="36.75" y1="5" x2="36.75" y2="4.5" width="0.25" layer="1"/>
+<wire x1="36.75" y1="4.5" x2="36.45" y2="5" width="0.25" layer="1"/>
+<wire x1="36.45" y1="5" x2="35.75" y2="4.55" width="0.25" layer="1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="R20" pad="1"/>
@@ -10390,9 +10611,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="6" y1="17.75" x2="6" y2="19.25" width="0.25" layer="16"/>
 <wire x1="6" y1="19.25" x2="6.5" y2="19.75" width="0.25" layer="16"/>
 <wire x1="6.5" y1="19.75" x2="6.5" y2="22.75" width="0.25" layer="16"/>
-<wire x1="6.5" y1="22.75" x2="4" y2="25.75" width="0.25" layer="16"/>
-<wire x1="4" y1="25.75" x2="4" y2="26" width="0.25" layer="16"/>
-<wire x1="4" y1="26" x2="1" y2="26" width="0.25" layer="1"/>
+<wire x1="6.5" y1="22.75" x2="3.5" y2="25.75" width="0.25" layer="16"/>
+<wire x1="3.5" y1="25.75" x2="3.5" y2="26" width="0.25" layer="16"/>
+<wire x1="3.5" y1="26" x2="1" y2="26" width="0.25" layer="1"/>
 <wire x1="8.75" y1="38" x2="7.75" y2="38" width="0.25" layer="1"/>
 <via x="1.5" y="34" extent="1-16" drill="0.2"/>
 <wire x1="7.25" y1="34" x2="1.5" y2="34" width="0.25" layer="1"/>
@@ -10402,17 +10623,20 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="7.25" y="37.25" extent="1-16" drill="0.2"/>
 <wire x1="7.25" y1="37.25" x2="7.25" y2="34" width="0.25" layer="16"/>
 <via x="7.25" y="34" extent="1-16" drill="0.2"/>
-<via x="4" y="26" extent="1-16" drill="0.2"/>
+<via x="3.5" y="26" extent="1-16" drill="0.2"/>
 <via x="1" y="26" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="LCD_A0">
 <contactref element="X2" pad="8"/>
 <wire x1="49.5" y1="13.2975" x2="49.5" y2="6.5" width="0.25" layer="1"/>
 <via x="49.5" y="6.5" extent="1-16" drill="0.2"/>
-<wire x1="49.5" y1="6.5" x2="31" y2="6.5" width="0.25" layer="16"/>
-<via x="31" y="6.5" extent="1-16" drill="0.2"/>
+<wire x1="49.5" y1="6.5" x2="33.5" y2="6.5" width="0.25" layer="16"/>
+<via x="33.5" y="6.5" extent="1-16" drill="0.2"/>
 <contactref element="U1" pad="8"/>
-<wire x1="29.95" y1="6.5" x2="31" y2="6.5" width="0.25" layer="1"/>
+<wire x1="29.95" y1="6.5" x2="30.75" y2="6.5" width="0.25" layer="1"/>
+<wire x1="30.75" y1="6.5" x2="31.25" y2="6" width="0.25" layer="1"/>
+<wire x1="31.25" y1="6" x2="33" y2="6" width="0.25" layer="1"/>
+<wire x1="33" y1="6" x2="33.5" y2="6.5" width="0.25" layer="1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U1" pad="21"/>
@@ -10468,8 +10692,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="25" y1="10.75" x2="25" y2="10.5" width="0.25" layer="16"/>
 <wire x1="25" y1="10.5" x2="50" y2="10.5" width="0.25" layer="16"/>
 <wire x1="50" y1="10.5" x2="68" y2="10.5" width="0.25" layer="16"/>
-<wire x1="52" y1="17" x2="51.5" y2="17" width="0.25" layer="1"/>
-<wire x1="51.5" y1="17" x2="50" y2="15.5" width="0.25" layer="1"/>
+<wire x1="52" y1="17" x2="52" y2="16.25" width="0.25" layer="1"/>
+<wire x1="52" y1="16.25" x2="50.75" y2="16.25" width="0.25" layer="1"/>
+<wire x1="50.75" y1="16.25" x2="50" y2="15.5" width="0.25" layer="1"/>
 <wire x1="50" y1="15.5" x2="50" y2="10.5" width="0.2" layer="1"/>
 <via x="50" y="10.5" extent="1-16" drill="0.2"/>
 <via x="68" y="10.5" extent="1-16" drill="0.2"/>
@@ -10505,15 +10730,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="61.25" y="16.5" extent="1-16" drill="0.2"/>
 <wire x1="61.25" y1="16.5" x2="61.25" y2="11.5" width="0.25" layer="1"/>
 <via x="61.25" y="11.5" extent="1-16" drill="0.2"/>
-<wire x1="46" y1="17" x2="46.5" y2="16.25" width="0.25" layer="16"/>
+<wire x1="46" y1="17" x2="46" y2="16.5" width="0.25" layer="16"/>
+<wire x1="46" y1="16.5" x2="46.25" y2="16.25" width="0.25" layer="16"/>
 <via x="48" y="16.25" extent="1-16" drill="0.2"/>
 <wire x1="48" y1="16.25" x2="48" y2="11.5" width="0.2" layer="1"/>
 <via x="48" y="11.5" extent="1-16" drill="0.2"/>
 <wire x1="30.5" y1="10.5" x2="29.95" y2="10.5" width="0.25" layer="1"/>
 <wire x1="33" y1="15" x2="45" y2="15" width="0.25" layer="16"/>
 <wire x1="45" y1="15" x2="46.25" y2="16.25" width="0.25" layer="16"/>
-<wire x1="46.25" y1="16.25" x2="46.5" y2="16.25" width="0.25" layer="16"/>
-<wire x1="46.5" y1="16.25" x2="48" y2="16.25" width="0.25" layer="16"/>
+<wire x1="46.25" y1="16.25" x2="48" y2="16.25" width="0.25" layer="16"/>
 <wire x1="30.5" y1="10.5" x2="31.5" y2="11.5" width="0.25" layer="1"/>
 <via x="33" y="15" extent="1-16" drill="0.2"/>
 <via x="78" y="11.5" extent="1-16" drill="0.2"/>
@@ -10533,9 +10758,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="MODULE1" pad="P$12"/>
 <contactref element="MODULE2" pad="P$12"/>
 <wire x1="28" y1="15.25" x2="28.75" y2="16" width="0.25" layer="1"/>
-<wire x1="28.75" y1="16" x2="28.75" y2="17" width="0.25" layer="1"/>
-<via x="28.75" y="17" extent="1-16" drill="0.2"/>
-<wire x1="28.75" y1="17" x2="28" y2="17" width="0.25" layer="16"/>
+<wire x1="28.75" y1="16" x2="28.75" y2="16.5" width="0.25" layer="1"/>
+<via x="28.75" y="16.5" extent="1-16" drill="0.2"/>
+<wire x1="28.75" y1="16.5" x2="28" y2="16.5" width="0.25" layer="16"/>
+<wire x1="28" y1="16.5" x2="28" y2="17" width="0.25" layer="16"/>
 <wire x1="28" y1="12.45" x2="28" y2="14.5" width="0.25" layer="1"/>
 <wire x1="28" y1="15.25" x2="28" y2="14.5" width="0.25" layer="1"/>
 <via x="76" y="6.5" extent="1-16" drill="0.2"/>
@@ -10680,7 +10906,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R25" pad="2"/>
 <contactref element="R26" pad="1"/>
 <contactref element="U1" pad="26"/>
-<wire x1="81.5" y1="10.25" x2="81.5" y2="9.5" width="0.25" layer="1"/>
+<wire x1="81.5" y1="10.25" x2="81.5" y2="9.75" width="0.25" layer="1"/>
 <wire x1="23.5" y1="12.45" x2="23.5" y2="10.5" width="0.25" layer="1"/>
 <wire x1="23.5" y1="10.5" x2="22.5" y2="9.5" width="0.25" layer="1"/>
 <wire x1="22.5" y1="9.5" x2="22.5" y2="6.75" width="0.25" layer="1"/>
@@ -10690,13 +10916,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="24" y1="5" x2="79" y2="5" width="0.25" layer="16"/>
 <wire x1="79" y1="5" x2="79" y2="10.25" width="0.25" layer="1"/>
 <wire x1="79" y1="10.25" x2="81.5" y2="10.25" width="0.25" layer="1"/>
-<wire x1="81.5" y1="10.25" x2="81.5" y2="11" width="0.25" layer="1"/>
+<wire x1="81.5" y1="10.25" x2="81.5" y2="10.75" width="0.25" layer="1"/>
 <via x="79" y="5" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U$3" pad="P$1"/>
 <contactref element="R25" pad="1"/>
-<wire x1="82.5" y1="9.5" x2="82.5" y2="8.5" width="0.25" layer="1"/>
+<wire x1="82.5" y1="9.75" x2="82.5" y2="8.5" width="0.25" layer="1"/>
 <via x="82.5" y="8.5" extent="1-16" drill="0.2"/>
 <wire x1="82.5" y1="8.5" x2="80.46" y2="8.5" width="0.25" layer="16"/>
 <contactref element="C33" pad="1"/>
@@ -10911,21 +11137,21 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="34"/>
 <contactref element="MODULE1" pad="P$7"/>
 <contactref element="MODULE2" pad="P$7"/>
-<via x="36.25" y="13.5" extent="1-16" drill="0.2" diameter="0.25"/>
-<wire x1="36.25" y1="13.5" x2="38.25" y2="15.5" width="0.25" layer="1"/>
-<wire x1="38.25" y1="15.5" x2="38.75" y2="15.5" width="0.25" layer="1"/>
+<via x="35.5" y="13.5" extent="1-16" drill="0.2" diameter="0.25"/>
+<wire x1="35.5" y1="13.5" x2="38" y2="16" width="0.25" layer="1"/>
 <wire x1="40" y1="16.75" x2="40" y2="17" width="0.25" layer="1"/>
 <wire x1="18.55" y1="10" x2="17.5" y2="10" width="0.25" layer="1"/>
 <wire x1="17.5" y1="10" x2="17.5" y2="13.25" width="0.25" layer="1"/>
 <wire x1="24" y1="17" x2="24" y2="13.5" width="0.25" layer="1"/>
 <via x="24" y="13.5" extent="1-16" drill="0.2"/>
 <via x="17.5" y="13.25" extent="1-16" drill="0.2"/>
-<wire x1="36.25" y1="13.5" x2="24" y2="13.5" width="0.25" layer="16"/>
+<wire x1="35.5" y1="13.5" x2="24" y2="13.5" width="0.25" layer="16"/>
 <wire x1="17.5" y1="13.25" x2="17.75" y2="13.5" width="0.25" layer="16"/>
 <wire x1="17.75" y1="13.5" x2="24" y2="13.5" width="0.25" layer="16"/>
-<wire x1="38.75" y1="15.5" x2="39.25" y2="16" width="0.25" layer="1"/>
-<wire x1="39.25" y1="16" x2="39.25" y2="17" width="0.25" layer="1"/>
-<wire x1="39.25" y1="17" x2="40" y2="17" width="0.25" layer="1"/>
+<wire x1="38" y1="16" x2="38.5" y2="16" width="0.25" layer="1"/>
+<wire x1="38.5" y1="16" x2="38.75" y2="16.25" width="0.25" layer="1"/>
+<wire x1="38.75" y1="16.25" x2="38.75" y2="17" width="0.25" layer="1"/>
+<wire x1="38.75" y1="17" x2="40" y2="17" width="0.25" layer="1"/>
 </signal>
 <signal name="SPI2_MISO">
 <contactref element="U1" pad="35"/>
@@ -10955,14 +11181,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="20" y="15" extent="1-16" drill="0.2" diameter="0.25"/>
 <wire x1="20" y1="15" x2="31.5" y2="15" width="0.25" layer="16"/>
 <via x="31.5" y="15" extent="1-16" drill="0.2" diameter="0.25"/>
-<wire x1="35.5" y1="17" x2="36" y2="17" width="0.25" layer="1"/>
+<wire x1="36" y1="16.25" x2="36" y2="17" width="0.25" layer="1"/>
 <wire x1="18.55" y1="9" x2="17" y2="9" width="0.25" layer="1"/>
 <wire x1="17" y1="9" x2="16.5" y2="9.5" width="0.25" layer="1"/>
 <wire x1="16.5" y1="9.5" x2="16.5" y2="15" width="0.25" layer="1"/>
 <via x="16.5" y="15" extent="1-16" drill="0.2"/>
 <wire x1="16.5" y1="15" x2="20" y2="15" width="0.25" layer="16"/>
-<wire x1="35.5" y1="17" x2="34.5" y2="16" width="0.25" layer="1"/>
-<wire x1="34.5" y1="16" x2="32.5" y2="16" width="0.25" layer="1"/>
+<wire x1="36" y1="16.25" x2="35.75" y2="16" width="0.25" layer="1"/>
+<wire x1="35.75" y1="16" x2="32.5" y2="16" width="0.25" layer="1"/>
 <wire x1="32.5" y1="16" x2="31.5" y2="15" width="0.25" layer="1"/>
 </signal>
 <signal name="RTC_OSC_IN">
@@ -10973,7 +11199,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="31.25" y1="4" x2="33" y2="2.25" width="0.25" layer="1"/>
 <wire x1="33" y1="2.25" x2="33" y2="1.75" width="0.25" layer="1"/>
 <wire x1="33" y1="1.75" x2="33.25" y2="1.5" width="0.25" layer="1"/>
-<wire x1="34.75" y1="1.25" x2="33.5" y2="1.25" width="0.25" layer="1"/>
+<wire x1="34.75" y1="1.5" x2="33.75" y2="1.5" width="0.25" layer="1"/>
+<wire x1="33.75" y1="1.5" x2="33.5" y2="1.25" width="0.25" layer="1"/>
 <wire x1="33.5" y1="1.25" x2="33.25" y2="1.5" width="0.25" layer="1"/>
 </signal>
 <signal name="RTC_OSC_OUT">
@@ -10989,12 +11216,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U1" pad="6"/>
 <contactref element="C19" pad="1"/>
 <contactref element="U$9" pad="P$1"/>
-<wire x1="29.95" y1="5.5" x2="33.75" y2="5.5" width="0.25" layer="1"/>
-<wire x1="33.75" y1="5.5" x2="34.5" y2="6.25" width="0.25" layer="1"/>
-<wire x1="34.5" y1="6.25" x2="35.8" y2="6.25" width="0.25" layer="1"/>
-<wire x1="35.8" y1="6.25" x2="36.25" y2="6.7" width="0.25" layer="1"/>
-<wire x1="38.25" y1="6.5" x2="36.45" y2="6.5" width="0.25" layer="1"/>
-<wire x1="36.45" y1="6.5" x2="36.25" y2="6.7" width="0.25" layer="1"/>
+<wire x1="29.95" y1="5.5" x2="33.25" y2="5.5" width="0.25" layer="1"/>
+<wire x1="33.25" y1="5.5" x2="34" y2="6.25" width="0.25" layer="1"/>
+<wire x1="34" y1="6.25" x2="35.8" y2="6.25" width="0.25" layer="1"/>
+<wire x1="35.8" y1="6.25" x2="35.75" y2="6.45" width="0.25" layer="1"/>
+<wire x1="37.75" y1="6" x2="37" y2="6" width="0.25" layer="1"/>
+<wire x1="37" y1="6" x2="36.45" y2="6.5" width="0.25" layer="1"/>
+<wire x1="36.45" y1="6.5" x2="35.75" y2="6.45" width="0.25" layer="1"/>
 </signal>
 <signal name="LCD_CS">
 <contactref element="U1" pad="50"/>
@@ -11052,14 +11280,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="MOD3_GPIO1">
 <contactref element="MODULE3" pad="P$11"/>
 <contactref element="U1" pad="10"/>
-<via x="33.75" y="8.5" extent="1-16" drill="0.2"/>
-<wire x1="33.75" y1="8.5" x2="60" y2="8.5" width="0.25" layer="16"/>
+<via x="34.5" y="8.5" extent="1-16" drill="0.2"/>
+<wire x1="34.5" y1="8.5" x2="60" y2="8.5" width="0.25" layer="16"/>
 <via x="60" y="8.5" extent="1-16" drill="0.2"/>
 <wire x1="60" y1="8.5" x2="60" y2="17" width="0.25" layer="1"/>
-<wire x1="33.75" y1="8.5" x2="33.25" y2="8" width="0.25" layer="1"/>
-<wire x1="33.25" y1="8" x2="31.5" y2="8" width="0.25" layer="1"/>
-<wire x1="31.5" y1="8" x2="31" y2="7.5" width="0.25" layer="1"/>
-<wire x1="31" y1="7.5" x2="29.95" y2="7.5" width="0.25" layer="1"/>
+<wire x1="34.5" y1="8.5" x2="33.5" y2="7.5" width="0.25" layer="1"/>
+<wire x1="33.5" y1="7.5" x2="29.95" y2="7.5" width="0.25" layer="1"/>
 </signal>
 <signal name="MOD1_GPIO1">
 <contactref element="MODULE1" pad="P$11"/>
@@ -11120,11 +11346,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="32.75" y1="9" x2="37" y2="13.25" width="0.25" layer="1"/>
 <wire x1="37" y1="13.25" x2="37" y2="13.5" width="0.25" layer="1"/>
 <via x="37" y="13.5" extent="1-16" drill="0.2"/>
-<wire x1="44" y1="17" x2="42.75" y2="17" width="0.25" layer="1"/>
-<wire x1="42.75" y1="17" x2="42.75" y2="15.75" width="0.25" layer="1"/>
-<wire x1="42.75" y1="15.75" x2="41.5" y2="14.5" width="0.25" layer="1"/>
-<wire x1="41.5" y1="14.5" x2="40.75" y2="14.5" width="0.25" layer="1"/>
-<wire x1="40.75" y1="14.5" x2="39.75" y2="13.5" width="0.25" layer="1"/>
+<wire x1="44" y1="17" x2="43.5" y2="17" width="0.25" layer="1"/>
+<wire x1="43.5" y1="17" x2="42.5" y2="16" width="0.25" layer="1"/>
+<wire x1="42.5" y1="16" x2="42.25" y2="16" width="0.25" layer="1"/>
+<wire x1="42.25" y1="16" x2="39.75" y2="13.5" width="0.25" layer="1"/>
 <wire x1="39.75" y1="13.5" x2="38.5" y2="13.5" width="0.25" layer="1"/>
 <via x="38.5" y="13.5" extent="1-16" drill="0.2"/>
 <wire x1="38.5" y1="13.5" x2="37" y2="13.5" width="0.25" layer="16"/>
@@ -11168,26 +11393,22 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="25" y1="3.5" x2="25.5" y2="4" width="0.25" layer="1"/>
 <wire x1="25.5" y1="4" x2="25.5" y2="8" width="0.25" layer="1"/>
 <via x="25.5" y="8" extent="1-16" drill="0.2"/>
-<wire x1="25.25" y1="15.5" x2="41.75" y2="15.5" width="0.25" layer="16"/>
-<wire x1="25.5" y1="8" x2="34.25" y2="8" width="0.25" layer="16"/>
-<via x="34.25" y="8" extent="1-16" drill="0.2"/>
-<wire x1="34.25" y1="8" x2="34.25" y2="9" width="0.25" layer="1"/>
-<wire x1="34.25" y1="9" x2="38" y2="12.75" width="0.25" layer="1"/>
+<wire x1="25.25" y1="15.5" x2="41" y2="15.5" width="0.25" layer="16"/>
+<wire x1="25.5" y1="8" x2="33.25" y2="8" width="0.25" layer="16"/>
+<via x="33.25" y="8" extent="1-16" drill="0.2"/>
+<wire x1="33.25" y1="8" x2="38" y2="12.75" width="0.25" layer="1"/>
 <wire x1="38" y1="12.75" x2="38" y2="13.75" width="0.25" layer="1"/>
 <wire x1="38" y1="13.75" x2="38.25" y2="14" width="0.25" layer="1"/>
 <wire x1="38.25" y1="14" x2="39.5" y2="14" width="0.25" layer="1"/>
-<wire x1="39.5" y1="14" x2="40.5" y2="15" width="0.25" layer="1"/>
-<wire x1="40.5" y1="15" x2="41.25" y2="15" width="0.25" layer="1"/>
-<wire x1="41.25" y1="15" x2="41.75" y2="15.5" width="0.25" layer="1"/>
-<via x="41.75" y="15.5" extent="1-16" drill="0.2"/>
+<wire x1="39.5" y1="14" x2="41" y2="15.5" width="0.25" layer="1"/>
+<via x="41" y="15.5" extent="1-16" drill="0.2"/>
 <via x="25.25" y="15.5" extent="1-16" drill="0.2"/>
 <wire x1="25.25" y1="15.5" x2="25.25" y2="16.5" width="0.25" layer="1"/>
 <via x="25.25" y="16.5" extent="1-16" drill="0.2"/>
 <wire x1="25.25" y1="16.5" x2="26" y2="16.5" width="0.25" layer="16"/>
 <wire x1="26" y1="16.5" x2="26" y2="17" width="0.25" layer="16"/>
-<wire x1="42" y1="17" x2="42.25" y2="17" width="0.25" layer="16"/>
-<wire x1="42.25" y1="17" x2="42.25" y2="16" width="0.25" layer="16"/>
-<wire x1="42.25" y1="16" x2="41.75" y2="15.5" width="0.25" layer="16"/>
+<wire x1="42" y1="17" x2="42" y2="16.5" width="0.25" layer="16"/>
+<wire x1="42" y1="16.5" x2="41" y2="15.5" width="0.25" layer="16"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="U1" pad="29"/>
@@ -11272,7 +11493,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="30" y="33" extent="1-16" drill="0.6" shape="square"/>
 <via x="30" y="27" extent="1-16" drill="0.6" shape="square"/>
 <via x="30" y="22.5" extent="1-16" drill="0.6" shape="square"/>
-<via x="25" y="23.5" extent="1-16" drill="0.6" shape="square"/>
+<via x="24" y="25.54" extent="1-16" drill="0.6" shape="square"/>
 <via x="19" y="27" extent="1-16" drill="0.6" shape="square"/>
 <via x="17.5" y="34.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="23.5" y="50" extent="1-16" drill="0.6" shape="square"/>
@@ -11312,10 +11533,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="22.86" y1="26.2138" x2="22.86" y2="22.86" width="0.4064" layer="1"/>
 <wire x1="22.86" y1="22.86" x2="23" y2="23" width="0.4064" layer="16"/>
 <wire x1="23" y1="23" x2="23" y2="46.5" width="0.4064" layer="16"/>
-<wire x1="23" y1="46.5" x2="23.25" y2="47.75" width="0.4064" layer="16"/>
+<wire x1="23" y1="46.5" x2="23" y2="47.5" width="0.4064" layer="16"/>
+<wire x1="23" y1="47.5" x2="23.25" y2="47.75" width="0.4064" layer="16"/>
 <via x="23.25" y="47.75" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="23.25" y1="47.75" x2="23.05" y2="46.45" width="0.4064" layer="1"/>
-<wire x1="23.05" y1="46.45" x2="23.05" y2="46.3" width="0.4064" layer="1"/>
+<wire x1="23.25" y1="47.75" x2="23.25" y2="47.5" width="0.4064" layer="1"/>
+<wire x1="23.25" y1="47.5" x2="23.05" y2="47.3" width="0.4064" layer="1"/>
+<wire x1="23.05" y1="47.3" x2="23.05" y2="46.3" width="0.4064" layer="1"/>
 <wire x1="24" y1="21.72" x2="22.86" y2="22.86" width="0.4064" layer="16"/>
 </signal>
 <signal name="SCL_1">
@@ -11323,16 +11546,18 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U$4" pad="4"/>
 <contactref element="TP2" pad="P$1"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="26" y1="20" x2="26" y2="20.92" width="0.4064" layer="16"/>
-<wire x1="26.6162" y1="27.69" x2="27.94" y2="26.3662" width="0.4064" layer="1"/>
-<wire x1="27.94" y1="26.3662" x2="27.94" y2="22.86" width="0.4064" layer="1"/>
-<wire x1="27.94" y1="22.86" x2="25" y2="25.8" width="0.4064" layer="16"/>
-<wire x1="25" y1="25.8" x2="25" y2="48" width="0.4064" layer="16"/>
-<wire x1="25" y1="48" x2="24.75" y2="48.75" width="0.4064" layer="16"/>
-<via x="24.75" y="48.75" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="24.75" y1="48.75" x2="24.95" y2="47.95" width="0.4064" layer="1"/>
-<wire x1="24.95" y1="47.95" x2="24.95" y2="46.3" width="0.4064" layer="1"/>
-<wire x1="26" y1="20.92" x2="27.94" y2="22.86" width="0.4064" layer="16"/>
+<wire x1="26" y1="20" x2="26" y2="22.17" width="0.4064" layer="16"/>
+<wire x1="26.6162" y1="27.69" x2="26.6162" y2="27.6162" width="0.4064" layer="1"/>
+<wire x1="26.6162" y1="27.6162" x2="26.5" y2="27.5" width="0.4064" layer="1"/>
+<wire x1="26.5" y1="27.5" x2="26.5" y2="24" width="0.4064" layer="1"/>
+<wire x1="26.5" y1="24" x2="26.25" y2="23.75" width="0.4064" layer="1"/>
+<wire x1="26.25" y1="23.75" x2="25.4" y2="22.86" width="0.4064" layer="1"/>
+<wire x1="25.4" y1="22.86" x2="25" y2="23.55" width="0.4064" layer="16"/>
+<wire x1="25" y1="23.55" x2="25" y2="48.75" width="0.4064" layer="16"/>
+<via x="25" y="48.75" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="25" y1="48.75" x2="24.95" y2="48.7" width="0.4064" layer="1"/>
+<wire x1="24.95" y1="48.7" x2="24.95" y2="46.3" width="0.4064" layer="1"/>
+<wire x1="26" y1="22.17" x2="25.4" y2="22.86" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$7">
 </signal>
@@ -11791,14 +12016,13 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 <signal name="PC1">
 <contactref element="U1" pad="9"/>
-<wire x1="29.95" y1="7" x2="31.25" y2="7" width="0.25" layer="1"/>
-<wire x1="31.25" y1="7" x2="31.75" y2="7.5" width="0.25" layer="1"/>
+<wire x1="29.95" y1="7" x2="33.75" y2="7" width="0.25" layer="1"/>
+<wire x1="33.75" y1="7" x2="34.25" y2="7.5" width="0.25" layer="1"/>
 <via x="36.5" y="8" extent="1-16" drill="0.2"/>
-<wire x1="36.5" y1="8" x2="66.25" y2="8" width="0.25" layer="16"/>
-<wire x1="31.75" y1="7.5" x2="34.5" y2="7.5" width="0.25" layer="1"/>
-<wire x1="34.5" y1="7.5" x2="35.5" y2="8.5" width="0.25" layer="1"/>
-<wire x1="35.5" y1="8.5" x2="36" y2="8.5" width="0.25" layer="1"/>
-<wire x1="36" y1="8.5" x2="36.5" y2="8" width="0.25" layer="1"/>
+<wire x1="36.5" y1="8" x2="69.75" y2="8" width="0.25" layer="16"/>
+<wire x1="34.25" y1="7.5" x2="36" y2="7.5" width="0.25" layer="1"/>
+<wire x1="36" y1="7.5" x2="36.5" y2="8" width="0.25" layer="1"/>
+<contactref element="TP5" pad="P$1"/>
 </signal>
 <signal name="CANH">
 <contactref element="U$10" pad="7"/>
@@ -11810,7 +12034,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="21.25" y="17" extent="1-16" drill="0.2" diameter="0.25"/>
 <via x="53" y="17" extent="1-16" drill="0.2" diameter="0.25"/>
 <wire x1="53" y1="17" x2="54" y2="17" width="0.25" layer="16"/>
-<via x="38.75" y="16.5" extent="1-16" drill="0.2" diameter="0.25"/>
+<via x="39.25" y="16.5" extent="1-16" drill="0.2" diameter="0.25"/>
 <via x="70" y="9.5" extent="1-16" drill="0.2"/>
 <wire x1="31.75" y1="9.5" x2="53" y2="9.5" width="0.25" layer="16"/>
 <wire x1="53" y1="9.5" x2="70" y2="9.5" width="0.25" layer="16"/>
@@ -11831,14 +12055,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="21.25" y="16" extent="1-16" drill="0.2"/>
 <wire x1="21.25" y1="16" x2="21.25" y2="17" width="0.25" layer="1"/>
 <wire x1="31.75" y1="9.5" x2="32.5" y2="9.5" width="0.25" layer="1"/>
-<wire x1="32.5" y1="9.5" x2="33.5" y2="10.5" width="0.25" layer="1"/>
-<wire x1="33.5" y1="10.5" x2="33.5" y2="11.5" width="0.25" layer="1"/>
-<wire x1="33.5" y1="11.5" x2="38" y2="16" width="0.25" layer="1"/>
-<wire x1="38" y1="16" x2="38.5" y2="16" width="0.25" layer="1"/>
-<wire x1="38.5" y1="16" x2="38.75" y2="16.25" width="0.25" layer="1"/>
-<wire x1="38.75" y1="16.25" x2="38.75" y2="16.5" width="0.25" layer="1"/>
+<wire x1="32.5" y1="9.5" x2="36.5" y2="13.5" width="0.25" layer="1"/>
+<wire x1="36.5" y1="13.5" x2="36.5" y2="13.75" width="0.25" layer="1"/>
+<wire x1="36.5" y1="13.75" x2="38.25" y2="15.5" width="0.25" layer="1"/>
+<wire x1="38.25" y1="15.5" x2="38.75" y2="15.5" width="0.25" layer="1"/>
+<wire x1="38.75" y1="15.5" x2="39.25" y2="16" width="0.25" layer="1"/>
+<wire x1="39.25" y1="16" x2="39.25" y2="16.5" width="0.25" layer="1"/>
 <wire x1="38" y1="17" x2="38" y2="16.5" width="0.25" layer="16"/>
-<wire x1="38" y1="16.5" x2="38.75" y2="16.5" width="0.25" layer="16"/>
+<wire x1="38" y1="16.5" x2="39.25" y2="16.5" width="0.25" layer="16"/>
 <wire x1="14.1162" y1="3.135" x2="14.635" y2="3.135" width="0.25" layer="1"/>
 <wire x1="14.635" y1="3.135" x2="15.75" y2="4.25" width="0.25" layer="1"/>
 <wire x1="15.75" y1="4.25" x2="15.75" y2="4.75" width="0.25" layer="1"/>
@@ -11857,9 +12081,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="MODULE2" pad="P$4"/>
 <wire x1="16" y1="14" x2="20" y2="10" width="0.25" layer="16"/>
 <wire x1="20" y1="10" x2="32.25" y2="10" width="0.25" layer="16"/>
-<via x="19.25" y="17" extent="1-16" drill="0.2"/>
+<via x="19.25" y="16.5" extent="1-16" drill="0.2"/>
 <wire x1="16" y1="14.5" x2="16" y2="14" width="0.25" layer="16"/>
-<wire x1="19.25" y1="17" x2="20" y2="17" width="0.25" layer="16"/>
+<wire x1="19.25" y1="16.5" x2="20" y2="16.5" width="0.25" layer="16"/>
+<wire x1="20" y1="16.5" x2="20" y2="17" width="0.25" layer="16"/>
 <wire x1="36" y1="17" x2="36" y2="16.5" width="0.25" layer="16"/>
 <wire x1="36" y1="16.5" x2="37.25" y2="16.5" width="0.25" layer="16"/>
 <via x="37.25" y="16.5" extent="1-16" drill="0.2"/>
@@ -11873,19 +12098,20 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="51" y1="14.25" x2="51" y2="10" width="0.2" layer="1"/>
 <via x="51" y="10" extent="1-16" drill="0.2"/>
 <wire x1="51" y1="10" x2="32.25" y2="10" width="0.25" layer="16"/>
-<wire x1="68" y1="17" x2="67" y2="17" width="0.25" layer="16"/>
-<via x="67" y="17" extent="1-16" drill="0.2"/>
+<wire x1="68" y1="17" x2="68" y2="16.75" width="0.25" layer="16"/>
+<wire x1="68" y1="16.75" x2="67" y2="15.75" width="0.25" layer="16"/>
+<via x="67" y="15.75" extent="1-16" drill="0.2"/>
 <via x="67" y="10" extent="1-16" drill="0.2"/>
 <wire x1="67" y1="10" x2="51" y2="10" width="0.25" layer="16"/>
 <wire x1="67" y1="10" x2="67" y2="13" width="0.25" layer="1"/>
 <via x="67" y="13" extent="1-16" drill="0.2"/>
-<wire x1="67" y1="13" x2="67" y2="17" width="0.25" layer="16"/>
+<wire x1="67" y1="13" x2="67" y2="15.75" width="0.25" layer="16"/>
 <wire x1="16" y1="15.5" x2="19.25" y2="15.5" width="0.25" layer="16"/>
 <via x="19.25" y="15.5" extent="1-16" drill="0.2"/>
-<wire x1="19.25" y1="15.5" x2="19.25" y2="17" width="0.25" layer="1"/>
-<wire x1="32.25" y1="10" x2="33" y2="10.75" width="0.25" layer="1"/>
-<wire x1="33" y1="10.75" x2="33" y2="11.75" width="0.25" layer="1"/>
-<wire x1="33" y1="11.75" x2="37.25" y2="16" width="0.25" layer="1"/>
+<wire x1="19.25" y1="15.5" x2="19.25" y2="16.5" width="0.25" layer="1"/>
+<wire x1="32.25" y1="10" x2="35" y2="12.75" width="0.25" layer="1"/>
+<wire x1="35" y1="12.75" x2="35" y2="13.75" width="0.25" layer="1"/>
+<wire x1="35" y1="13.75" x2="37.25" y2="16" width="0.25" layer="1"/>
 <wire x1="37.25" y1="16" x2="37.25" y2="16.5" width="0.25" layer="1"/>
 <wire x1="14.1162" y1="1.865" x2="14.865" y2="1.865" width="0.25" layer="1"/>
 <wire x1="14.865" y1="1.865" x2="15.5" y2="2.5" width="0.25" layer="1"/>
@@ -11940,12 +12166,372 @@ These are the default Design Rules for LumberDAQ.</description>
 <errors>
 <approved hash="18,29,2e7e2bd39fdd2d83"/>
 <approved hash="18,29,047623ef4e8b949a"/>
+<approved hash="18,29,1776a4863f22715b"/>
+<approved hash="18,29,1356be99dc6d881a"/>
+<approved hash="18,29,2be0a4d3a18578bc"/>
+<approved hash="18,29,26fbff4a798e5db7"/>
+<approved hash="18,29,defe30003004defa"/>
+<approved hash="18,29,1effe001e0051efb"/>
+<approved hash="18,29,acddd946aeb830e2"/>
+<approved hash="18,29,2d5f58ab342ac923"/>
+<approved hash="18,29,ac854abd3d1930e0"/>
 <approved hash="18,29,77e96a0b7188e497"/>
+<approved hash="18,29,77ee6e015785c690"/>
+<approved hash="18,29,398c423928a9bd2e"/>
+<approved hash="18,29,077620fa6f9fb59b"/>
+<approved hash="18,29,f605bc034974e735"/>
+<approved hash="18,29,d6f89bf04634f6b5"/>
+<approved hash="18,29,d2f8812940e0ea89"/>
+<approved hash="18,29,d2f8812efd5a5734"/>
+<approved hash="18,29,d0177ec4c7513036"/>
+<approved hash="18,29,255b4b878cf61699"/>
+<approved hash="18,29,153f71b006cca69d"/>
+<approved hash="18,29,f97e79e7994c1a22"/>
+<approved hash="18,29,106e0cc32ca6cb92"/>
+<approved hash="18,29,077e7cf9626ee43a"/>
+<approved hash="18,29,f6a0547e6332acbe"/>
+<approved hash="18,29,5608040878383258"/>
+<approved hash="18,29,b51c14f839bde8ce"/>
+<approved hash="18,29,f0099309931af01a"/>
+<approved hash="18,29,9218c818c7487208"/>
+<approved hash="18,29,76ba2c6faf78ef6f"/>
+<approved hash="18,29,6afc00f9e6e96ef7"/>
+<approved hash="18,29,abd4d9eb72cf61f9"/>
+<approved hash="18,29,e19a3a4e9a5d5f4b"/>
+<approved hash="18,29,650cc7cc8704a43a"/>
+<approved hash="18,29,3278461846281248"/>
+<approved hash="18,29,a5b80a6df8bd422a"/>
+<approved hash="18,29,30095309531a301a"/>
+<approved hash="18,29,720838081b385618"/>
+<approved hash="18,29,a1820e2306d884eb"/>
+<approved hash="18,29,7b1cc4cf5566c56b"/>
+<approved hash="18,29,710a6bdc9838d351"/>
+<approved hash="18,29,2d8dc0b3b31fe4d9"/>
+<approved hash="18,29,44ddd5dcff5d9b7a"/>
+<approved hash="18,29,4dc5474ded3c36cb"/>
+<approved hash="18,29,a6f87f5d669942b4"/>
+<approved hash="18,29,a5bf728131a36e51"/>
+<approved hash="18,29,14d776cb78013a6e"/>
+<approved hash="18,29,bd78206c7b800c79"/>
+<approved hash="18,29,26a58e21002c5fc2"/>
+<approved hash="18,29,2319938067c27897"/>
+<approved hash="18,29,046f40d1e75a0218"/>
+<approved hash="18,29,a9887666765ca782"/>
+<approved hash="18,29,047e7a275de08279"/>
+<approved hash="18,29,a9e876067643a7af"/>
+<approved hash="18,29,235b9526e159f8e6"/>
+<approved hash="18,29,363e0e0e0e1e362e"/>
+<approved hash="18,29,3b204a9f17ef3ea5"/>
+<approved hash="18,29,d3c2363a36d1d329"/>
+<approved hash="18,29,d35a621c1be9f25a"/>
+<approved hash="18,29,a3dffade7b26aada"/>
+<approved hash="18,29,93c2763a76d19329"/>
+<approved hash="18,29,13b9b6bbeeacd252"/>
+<approved hash="18,29,d34b58eaa1537207"/>
+<approved hash="18,29,3afe060606463abe"/>
+<approved hash="18,29,23b99ab2d8a5f852"/>
+<approved hash="18,29,5d830a5042118d3e"/>
+<approved hash="18,29,3a9e066606573aaf"/>
+<approved hash="18,29,3b6c4c399174bed4"/>
+<approved hash="18,29,249d7c9f52949a84"/>
+<approved hash="18,29,dbb03f612ba6a349"/>
+<approved hash="18,29,d458617a55abb484"/>
+<approved hash="18,29,2c764c017105b183"/>
+<approved hash="18,29,134487dbe8ccd252"/>
+<approved hash="18,29,ba18291a29ecbaee"/>
+<approved hash="18,29,0f31c9c49c3d5db2"/>
+<approved hash="18,29,5a100a100a307a10"/>
+<approved hash="18,29,39ea321ebe082d1c"/>
+<approved hash="18,29,34317531752e342e"/>
+<approved hash="18,29,1200406041607200"/>
+<approved hash="18,29,a2c1a25af8bfc97e"/>
+<approved hash="18,29,b678212a21dcb68e"/>
+<approved hash="18,29,26d63cecb81f5225"/>
+<approved hash="18,29,27b1f1fed045a1fc"/>
+<approved hash="18,29,3a182d262d163a28"/>
+<approved hash="18,29,130f2b012b34133a"/>
+<approved hash="18,29,2ab684ecf7ffd969"/>
+<approved hash="18,29,470752188f85f202"/>
+<approved hash="18,29,3aadc55219636bca"/>
+<approved hash="18,29,e31743abc1a47eee"/>
+<approved hash="18,29,0a32020202190a29"/>
+<approved hash="18,29,3f607c085b0c8198"/>
+<approved hash="18,29,2a13bc8bf648eca9"/>
+<approved hash="18,29,cb9e94a4d69aeb2c"/>
+<approved hash="18,29,d34b58d8a1617207"/>
+<approved hash="18,29,3afe060606463abe"/>
+<approved hash="18,29,23b99ac4d8d3f852"/>
+<approved hash="18,29,4a8d0699d72dccd8"/>
+<approved hash="18,29,1edb7aa4888317ce"/>
+<approved hash="18,29,dacc20322025dadb"/>
+<approved hash="18,29,2d5f5a5f16dee923"/>
+<approved hash="18,29,dae0201e2065da9b"/>
+<approved hash="18,29,058c07e807c005a4"/>
+<approved hash="18,29,cd8c09e809c0cda4"/>
+<approved hash="18,29,158c17e817c015a4"/>
 <approved hash="18,29,c85ad740784935aa"/>
 <approved hash="18,29,c18c827810221bb6"/>
 <approved hash="18,29,b420d745063613d0"/>
-<approved hash="18,29,df6fb7024ba323ce"/>
+<approved hash="18,29,3bf83202320b3bf1"/>
+<approved hash="18,29,3bf83202320d3bf7"/>
+<approved hash="18,29,343e817eca7a9bca"/>
+<approved hash="18,29,3bf83202320b3bf1"/>
+<approved hash="18,29,3af83302330b3af1"/>
+<approved hash="18,29,af572e1cec1e9f5f"/>
+<approved hash="18,29,3bf8320232093bf3"/>
+<approved hash="18,29,285ec94e643b47a3"/>
+<approved hash="18,29,2d5ece99e314882e"/>
+<approved hash="18,29,2d4f545f78ce8923"/>
+<approved hash="18,29,f43a5c0f5aa58a61"/>
+<approved hash="18,29,7621f717856f8ca4"/>
+<approved hash="18,29,2d5f5a1376928923"/>
+<approved hash="18,29,dae0201e2065da9b"/>
+<approved hash="18,29,76356c2db6722497"/>
+<approved hash="18,29,76f5e1563bce2490"/>
+<approved hash="18,29,5e9ea778d7f43fc7"/>
+<approved hash="18,29,daec2012202ddad3"/>
+<approved hash="18,29,2d5f471bfb96192f"/>
+<approved hash="18,29,7665fa0220022498"/>
+<approved hash="18,29,5e97c7b541346be8"/>
+<approved hash="18,29,bcf6248da7526ac6"/>
+<approved hash="18,29,434444f9b4e11d89"/>
+<approved hash="18,29,69f80b360b2569eb"/>
+<approved hash="18,29,d8f8a674f84c8537"/>
+<approved hash="18,29,26f8a36e036e7b2b"/>
+<approved hash="18,29,acf84e6f8bbb92b5"/>
+<approved hash="18,29,df83a86d715c34cd"/>
+<approved hash="18,29,294e2aa5f03b7b2a"/>
+<approved hash="18,29,77dcf92b5c5210b0"/>
+<approved hash="18,29,2959ce94c11eae29"/>
+<approved hash="18,29,93cc00b8f0c16906"/>
+<approved hash="18,29,7a45ada3f63d1a23"/>
+<approved hash="18,29,5ee35d4d44582820"/>
+<approved hash="18,29,90e49254440f5220"/>
+<approved hash="18,29,76326827907f0690"/>
+<approved hash="18,29,e9f8f70ef71ee9e8"/>
+<approved hash="18,29,09f0070607f8090e"/>
+<approved hash="18,29,ec1a328626999ab8"/>
+<approved hash="18,29,e9f8f6d0b91464b4"/>
+<approved hash="18,29,c719c30f3da4821b"/>
+<approved hash="18,29,c9484edbac2db244"/>
+<approved hash="18,29,8dcb2e7141db48db"/>
+<approved hash="18,29,11dbddfe20171727"/>
+<approved hash="18,29,9e07e0c4e5380201"/>
+<approved hash="18,29,d677fb283b97eb33"/>
+<approved hash="18,29,294e2c7077eefa2a"/>
+<approved hash="18,29,0e738f1a50a6e447"/>
+<approved hash="18,29,6ee29f74330d4a61"/>
+<approved hash="18,29,2c6c280828202c44"/>
+<approved hash="18,29,106e3e8a3a6fef33"/>
+<approved hash="18,29,6b258dadb26376cc"/>
+<approved hash="18,29,2d48cfea3af7aba8"/>
+<approved hash="18,29,2d4817cee3ebaa90"/>
+<approved hash="18,29,fa4da5806982c5b9"/>
+<approved hash="18,29,766ebb974367fd63"/>
+<approved hash="18,29,76261333ebcbfd23"/>
+<approved hash="18,29,179bd0828633bc27"/>
+<approved hash="18,29,6278fb3306d48420"/>
+<approved hash="18,29,0d40b2cf9624f158"/>
+<approved hash="18,29,762738d1bbac2da9"/>
+<approved hash="18,29,f16d7953a0e08b5a"/>
+<approved hash="18,29,0d5d322a20189aa2"/>
+<approved hash="18,29,a42ccc353032543d"/>
+<approved hash="18,29,2d46147521e3a022"/>
+<approved hash="18,29,56ea9b7969081c69"/>
+<approved hash="18,29,a463e607e62fa44b"/>
+<approved hash="18,29,08c9433cbda3edf0"/>
+<approved hash="18,29,294817c5f8e74990"/>
+<approved hash="18,29,766ebf9ba16ce763"/>
+<approved hash="18,29,4949afe291f9fea9"/>
+<approved hash="18,29,1627773dbec35622"/>
+<approved hash="18,29,f3302177fd38bfc9"/>
+<approved hash="18,29,25300c265c7ce6e8"/>
+<approved hash="18,29,6e16b3c80f47411b"/>
+<approved hash="18,29,d0f800778503ae34"/>
+<approved hash="18,29,054fd7a77eba15af"/>
+<approved hash="18,29,6ef54a3eb42e2918"/>
+<approved hash="18,29,d3cc1032101dd3e3"/>
+<approved hash="18,29,054fde7b779e1557"/>
+<approved hash="18,29,d3cc1032102fd3d1"/>
+<approved hash="18,29,6e69696597972966"/>
+<approved hash="18,29,0541f46e5d7715a5"/>
+<approved hash="18,29,0549fe18d60194ad"/>
+<approved hash="18,29,6e213ba6545eb824"/>
+<approved hash="18,29,d3881076106dd393"/>
+<approved hash="18,29,6e294dea221ab824"/>
+<approved hash="18,29,054fd094d085bca3"/>
+<approved hash="18,29,6e255bdd3413b816"/>
+<approved hash="18,29,6e256dcb82353826"/>
+<approved hash="18,29,d30010fe10e3d31d"/>
+<approved hash="18,29,055df150495504a5"/>
+<approved hash="18,29,294671dddf4b0f32"/>
+<approved hash="18,29,762ad9018040a789"/>
+<approved hash="18,29,00763d5878ccbcba"/>
+<approved hash="18,29,7b7e396206f7c7a3"/>
+<approved hash="18,29,7e0e78413fa5f010"/>
+<approved hash="18,29,254a668a7f13a42a"/>
+<approved hash="18,29,6e21d4522b2909a3"/>
+<approved hash="18,29,1579f2d5c3d3ed85"/>
+<approved hash="18,29,7e0e784affae3010"/>
+<approved hash="18,29,68d4fdfd83f716de"/>
+<approved hash="18,29,082973158f10f42c"/>
+<approved hash="18,29,1ab33b1d2e53d629"/>
+<approved hash="18,29,981267fc67f89816"/>
+<approved hash="18,29,86a37a6d7a6986a7"/>
+<approved hash="18,29,29787b5fe9590284"/>
+<approved hash="18,29,7ef2dc3d89229217"/>
+<approved hash="18,29,960fa048e8ad4d11"/>
+<approved hash="18,29,0dc3864f864a0dc6"/>
+<approved hash="18,29,cd781add7fda3b84"/>
+<approved hash="18,29,960fa04328a68d11"/>
+<approved hash="18,29,e2f821ed67f95db4"/>
+<approved hash="18,29,99f825cf19cb26b4"/>
+<approved hash="18,29,303d8f402cb23a32"/>
+<approved hash="18,29,3238ed43bfb48b37"/>
+<approved hash="18,29,8c817fbd9e698092"/>
+<approved hash="18,29,49230f897bb094e7"/>
+<approved hash="18,29,2b260d8fcab307e2"/>
+<approved hash="18,29,748a442ee1e1c0a6"/>
+<approved hash="18,29,605eac5824ad1222"/>
+<approved hash="18,29,0e8306c88a0974b8"/>
+<approved hash="18,29,f463f8472b47569a"/>
+<approved hash="18,29,b19889d4778e1023"/>
+<approved hash="18,29,a664de4717475e97"/>
+<approved hash="18,29,b69e90dfdb034ba5"/>
+<approved hash="18,29,783d0d97f17984d3"/>
+<approved hash="18,29,70d25b78a7708cda"/>
+<approved hash="18,29,cc1611f516283d31"/>
+<approved hash="18,29,2206a38aa396221a"/>
+<approved hash="18,29,9cbc11b07bbdf6b1"/>
+<approved hash="18,29,5a0ba9ff293f6c2c"/>
+<approved hash="18,29,f2a7b4b0f8d438f8"/>
+<approved hash="18,29,32e1a88cad8937e4"/>
+<approved hash="18,29,cdf8ffc63d82f535"/>
+<approved hash="18,29,4b7872130cee3585"/>
+<approved hash="18,29,d54042bf52248d38"/>
+<approved hash="18,29,7e3769014e5c1189"/>
+<approved hash="18,29,9fd56b3b6b3f9fd1"/>
+<approved hash="18,29,84eb7425742184ef"/>
+<approved hash="18,29,9a5a69b469b09a5e"/>
+<approved hash="18,29,58e7a9ca6cce9de3"/>
+<approved hash="18,29,29496a8bb0ad6495"/>
+<approved hash="18,29,6e6edd1cefe8cb60"/>
+<approved hash="18,29,295942a3b022a321"/>
+<approved hash="18,29,7e2e95076040f390"/>
+<approved hash="18,29,2d41528eeea0229d"/>
+<approved hash="18,29,5666d911a9ed9568"/>
+<approved hash="18,29,c27b37d54d7345ca"/>
+<approved hash="18,29,c47f3caf402d43f6"/>
+<approved hash="18,29,0c181a8c088be510"/>
+<approved hash="18,29,05f00ccb1776ef28"/>
+<approved hash="18,29,52487974a268639f"/>
+<approved hash="18,29,34a0addb1a9c2f3a"/>
+<approved hash="18,29,3b047759e128147d"/>
+<approved hash="18,29,37fec3cd67dadb84"/>
+<approved hash="18,29,3a0f5e24fcad4697"/>
+<approved hash="18,29,046e03080cedf613"/>
+<approved hash="18,29,007e0d2f860b7223"/>
+<approved hash="18,29,c1ee121012edc113"/>
+<approved hash="18,29,1c7e112a5cf0a8dd"/>
+<approved hash="18,29,9c958d927436cffd"/>
+<approved hash="18,29,87c112156c10f9c4"/>
+<approved hash="18,29,26e7dfa99bfd9f2b"/>
+<approved hash="18,29,22e7d1bf110b1b2a"/>
+<approved hash="18,29,386e19b7c8032b53"/>
+<approved hash="18,29,086e12c8f0ae18bb"/>
+<approved hash="18,29,773817987d941d34"/>
+<approved hash="18,29,edf8094ee5bef3bb"/>
+<approved hash="18,29,ddf801d7dd13c3b5"/>
+<approved hash="18,29,9b7ed9fe5ceb9d23"/>
+<approved hash="18,29,02f0cd06a71268e4"/>
+<approved hash="18,29,6e31ffe65e3d5c17"/>
+<approved hash="18,29,6e2fd3fff33a0709"/>
+<approved hash="18,29,163ef3f7d823c218"/>
+<approved hash="18,29,19066694a40b4a7d"/>
+<approved hash="18,29,bfd9932a22c2090d"/>
+<approved hash="18,29,b9f8056293e6ac34"/>
+<approved hash="18,29,9d7b6b6d1573e365"/>
+<approved hash="18,29,d97d09707777a77a"/>
+<approved hash="18,29,141e5d030626bea3"/>
+<approved hash="18,29,caf87d97035245a5"/>
+<approved hash="18,29,f989f277f26af994"/>
+<approved hash="18,29,1c1e550908acb023"/>
+<approved hash="18,29,c6f8719a194e5fb4"/>
+<approved hash="18,29,dd8e3670366cdd92"/>
+<approved hash="18,29,181e5134ea805232"/>
+<approved hash="18,29,def869a47ff03934"/>
+<approved hash="18,29,1b1e522e098bb123"/>
+<approved hash="18,29,8e2d774b8f2351be"/>
+<approved hash="18,29,c6f8704061142634"/>
+<approved hash="18,29,fc663258b88ee74f"/>
+<approved hash="18,29,e06ea760ef8b5212"/>
+<approved hash="18,29,cdf874df76873537"/>
+<approved hash="18,29,d5416f1f66218f82"/>
+<approved hash="18,29,7e053c8c186c0918"/>
+<approved hash="18,29,09494f100d26d285"/>
+<approved hash="18,29,5e02e08b45636210"/>
+<approved hash="18,29,29486728a81f6984"/>
+<approved hash="18,29,7603c0b2fe5bc711"/>
+<approved hash="18,29,253e71a641ab86ce"/>
+<approved hash="18,29,6e31ffd6230d2117"/>
+<approved hash="18,29,092071a11ab22bd0"/>
+<approved hash="18,29,6e2fd3cf8e0a7a09"/>
+<approved hash="18,29,293109b8dfba00c1"/>
+<approved hash="18,29,f7126c3112d2257d"/>
+<approved hash="18,29,163ef3c7a513bf18"/>
+<approved hash="18,29,10765c7bbc6e093a"/>
+<approved hash="18,29,edf85fcf895bc235"/>
+<approved hash="18,29,10762681be2775a3"/>
+<approved hash="18,29,085e39e56510b622"/>
+<approved hash="18,29,cdf8026d1c293135"/>
+<approved hash="18,29,d5f81d0e773642b3"/>
+<approved hash="18,29,1776a52721026eda"/>
+<approved hash="18,29,28564a952076803a"/>
+<approved hash="18,29,105637a4d2510f1a"/>
+<approved hash="18,29,2aff66575413e532"/>
+<approved hash="18,29,e9f8750235426b37"/>
+<approved hash="18,29,d1f80802e376c035"/>
+<approved hash="18,29,bca45f4d8ac8dec1"/>
+<approved hash="18,29,bcdc9647c3ba5ec1"/>
+<approved hash="18,30,72d79f202d259732"/>
+<approved hash="18,30,6f41113409566767"/>
+<approved hash="18,30,f32adebc7c634911"/>
+<approved hash="18,29,12718cdbdf0bb281"/>
+<approved hash="18,29,21db051b69bbb665"/>
+<approved hash="18,29,d514fc2ffba4bea1"/>
+<approved hash="18,29,e9057374c69b6a17"/>
+<approved hash="18,29,f504b36fdc9e4809"/>
+<approved hash="18,29,292981220ad8b767"/>
+<approved hash="18,29,1f6da075e54a0238"/>
+<approved hash="18,29,bb8626d3782a9282"/>
+<approved hash="18,29,7466605382405d89"/>
+<approved hash="18,29,eb17171aa464558a"/>
+<approved hash="18,29,db0d131f867b4390"/>
+<approved hash="18,29,707f8f4f864f797f"/>
+<approved hash="18,29,0e6b4e70bf705ca1"/>
+<approved hash="18,29,593a31ba0db2dcc6"/>
+<approved hash="18,29,5b3733b5bcb04fcb"/>
+<approved hash="18,29,593231b72fb7bece"/>
+<approved hash="18,29,5f352fb2d6b551c9"/>
+<approved hash="18,29,5136314c494880ca"/>
+<approved hash="18,29,5333334ff84e33cf"/>
+<approved hash="18,29,513631496b4d62cb"/>
+<approved hash="18,29,4f3a374be24cf5c6"/>
+<approved hash="18,29,031b6bb2e775cfb8"/>
+<approved hash="18,29,acc750dfd02b9bc0"/>
+<approved hash="18,29,8a7acd4c184d6182"/>
+<approved hash="18,29,097e501d986acfe2"/>
+<approved hash="18,29,4a70c9493a424b8b"/>
+<approved hash="18,29,8a72cd58dad1a60a"/>
+<approved hash="18,29,8fd7332a7c80fbac"/>
+<approved hash="18,29,626f10a917a966cb"/>
+<approved hash="18,29,aefb63f8604ecc44"/>
+<approved hash="18,29,5fa30a0a97fbd387"/>
+<approved hash="18,29,80dc632d7b6f7b6f"/>
 <approved hash="18,29,d3f6a2a55f4a2e51"/>
+<approved hash="18,29,df6fb7024ba323ce"/>
+<approved hash="18,29,3f9b26d1602b2bd5"/>
+<approved hash="18,29,3f9e556060195e82"/>
 <approved hash="18,29,21c68bf58bf521c6"/>
 <approved hash="18,29,a61515c815c8a615"/>
 <approved hash="18,29,cc8fae2ab4b656eb"/>
@@ -11953,6 +12539,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="18,29,f8c0515dd15d78c0"/>
 <approved hash="18,29,f32161f540ecf81b"/>
 <approved hash="18,29,7b45f4c31d86b067"/>
+<approved hash="18,29,97e805ac05ac97e8"/>
+<approved hash="18,29,3920ac436c4af929"/>
+<approved hash="18,29,f55c683fa8073564"/>
+<approved hash="18,29,5976cc150c1c997f"/>
+<approved hash="18,29,14ad89ce49c9d4aa"/>
+<approved hash="18,29,78c4eda72daeb8cd"/>
+<approved hash="18,29,34f3a990699bf4f8"/>
 <approved hash="18,29,230d6516abbdc4b3"/>
 <approved hash="18,29,72d2f14d3151b2ce"/>
 <approved hash="18,29,d75b9c68dec72c0e"/>
@@ -11973,101 +12566,109 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="18,29,3051ae3668c99f57"/>
 <approved hash="18,29,365cb037ffcb165b"/>
 <approved hash="18,29,a4828e1d4e2664b9"/>
-<approved hash="18,29,e9057374c69b6a17"/>
-<approved hash="18,29,f504b36fdc9e4809"/>
-<approved hash="18,29,3920ac436c4af929"/>
-<approved hash="18,29,f55c683fa8073564"/>
-<approved hash="18,29,5976cc150c1c997f"/>
-<approved hash="18,29,14ad89ce49c9d4aa"/>
-<approved hash="18,29,78c4eda72daeb8cd"/>
-<approved hash="18,29,34f3a990699bf4f8"/>
-<approved hash="18,29,7e0e78413fa5f010"/>
+<approved hash="18,29,59b74d288d2b99b4"/>
+<approved hash="18,29,7bb26b2dab30bbaf"/>
+<approved hash="18,29,829724a1474aab3f"/>
+<approved hash="18,29,725b05685bae9aea"/>
+<approved hash="18,29,149b7d98c4f05ce5"/>
+<approved hash="18,29,735eee2e158f89ed"/>
+<approved hash="18,29,4f6c4287ed32ae76"/>
+<approved hash="18,29,0b3f6ae305c5898f"/>
+<approved hash="18,29,46da88b8e1d3f591"/>
 <approved hash="18,29,9b9eaa3d1bf163ad"/>
-<approved hash="18,29,707f8f4f864f797f"/>
-<approved hash="18,29,bd9b2e112e15bd9f"/>
-<approved hash="18,29,817a12f012f4817e"/>
-<approved hash="18,29,a0b9313f313ba0bd"/>
-<approved hash="18,29,bf082c8e2c8abf0c"/>
-<approved hash="18,29,9390001600129394"/>
+<approved hash="18,29,55085fb26e8098ae"/>
+<approved hash="18,29,8e2577ef4f8f91b6"/>
 <approved hash="18,29,9501068706839505"/>
-<approved hash="18,29,a23637ac37a8a232"/>
 <approved hash="18,29,96be0b340b3096ba"/>
-<approved hash="18,29,9a5c0fd20fd69a58"/>
-<approved hash="18,29,9fcd0c430c479fc9"/>
+<approved hash="18,29,9390001600129394"/>
 <approved hash="18,29,982f09a509a1982b"/>
-<approved hash="18,29,ae630399039dae67"/>
+<approved hash="18,29,9fcd0c430c479fc9"/>
+<approved hash="18,29,817a12f012f4817e"/>
+<approved hash="18,29,9a5c0fd20fd69a58"/>
 <approved hash="18,29,a7a735dd35d9a7a3"/>
-<approved hash="18,29,a9d43a4a3a4ea9d0"/>
-<approved hash="18,29,acf23d683d6cacf6"/>
+<approved hash="18,29,ae630399039dae67"/>
+<approved hash="18,29,a0b9313f313ba0bd"/>
+<approved hash="18,29,bd9b2e112e15bd9f"/>
+<approved hash="18,29,bf082c8e2c8abf0c"/>
+<approved hash="18,29,a23637ac37a8a232"/>
 <approved hash="18,29,ab4538fb38ffab41"/>
-<approved hash="18,29,960fa048e8ad4d11"/>
+<approved hash="18,29,acf23d683d6cacf6"/>
+<approved hash="18,29,a9d43a4a3a4ea9d0"/>
+<approved hash="18,29,8e296fd97ab594ba"/>
 <approved hash="18,29,4b96d20f52c2a4a1"/>
-<approved hash="18,29,0e6b4e70bf705ca1"/>
-<approved hash="18,29,9e789fca1fcd1e7f"/>
+<approved hash="18,29,0e6587f0bf7e9521"/>
 <approved hash="18,29,282225b3a5b4a825"/>
+<approved hash="18,29,9e789fca1fcd1e7f"/>
 <approved hash="18,29,0f7d0ecf8ece8f7c"/>
 <approved hash="18,29,b927b4b634b73926"/>
-<approved hash="18,29,c629c7b847b94628"/>
+<approved hash="18,29,8e2f67d0c6bbc8bc"/>
 <approved hash="18,29,70737dc1fdc0f072"/>
-<approved hash="18,29,e171ecc36cc26170"/>
+<approved hash="18,29,c629c7b847b94628"/>
 <approved hash="18,29,572b56bad6bbd72a"/>
+<approved hash="18,29,e171ecc36cc26170"/>
 <approved hash="18,29,9b910603ddcf49a0"/>
-<approved hash="18,29,527663c4e3c7d275"/>
+<approved hash="18,29,1851148014871856"/>
 <approved hash="18,29,e42cd9bd59be642f"/>
+<approved hash="18,29,527663c4e3c7d275"/>
 <approved hash="18,29,c374d2c652d9436b"/>
 <approved hash="18,29,752e68bfe8a0f531"/>
-<approved hash="18,29,32e1a88cad8937e4"/>
+<approved hash="18,29,7404153d403d2104"/>
+<approved hash="18,29,8e2f6fcab2a00cbc"/>
 <approved hash="18,29,8233fba27ba30232"/>
 <approved hash="18,29,346941dbc1dab468"/>
-<approved hash="18,29,13350aa48aa59334"/>
 <approved hash="18,29,a56fb0dd30dc256e"/>
-<approved hash="18,29,a0369da71da82039"/>
+<approved hash="18,29,13350aa48aa59334"/>
 <approved hash="18,29,166c27dea7d19663"/>
-<approved hash="18,29,31382ca9acaab13b"/>
+<approved hash="18,29,a0369da71da82039"/>
+<approved hash="18,29,db91961054db12a1"/>
 <approved hash="18,29,876296d016d30761"/>
-<approved hash="18,29,086705d585d48866"/>
+<approved hash="18,29,31382ca9acaab13b"/>
+<approved hash="18,29,8ed797c47e564044"/>
 <approved hash="18,29,be3dbfac3fad3e3c"/>
-<approved hash="18,29,c02cb079f7ad62d7"/>
+<approved hash="18,29,086705d585d48866"/>
 <approved hash="18,29,c62ea3f2e23064f5"/>
-<approved hash="18,29,575d6c8c0913212c"/>
-<approved hash="18,29,c20ca98f6c41e0d6"/>
 <approved hash="18,29,facea5c45814d81a"/>
 <approved hash="18,29,c6309f17debf64f3"/>
-<approved hash="18,29,796574d7f4d6f964"/>
+<approved hash="18,29,c02cb079f7ad62d7"/>
+<approved hash="18,29,c20ca98f6c41e0d6"/>
+<approved hash="18,29,575d6c8c0913212c"/>
 <approved hash="18,29,cf3fceae4eaf4f3e"/>
+<approved hash="18,29,796574d7f4d6f964"/>
 <approved hash="18,29,5cc15150d151dcc0"/>
 <approved hash="18,29,ea9beb296b286a9a"/>
-<approved hash="18,29,edc2e05360546dc5"/>
 <approved hash="18,29,5b985a2ada2ddb9f"/>
-<approved hash="18,29,2b9162e72f295fa2"/>
-<approved hash="18,29,cc9ec92c492f4c9d"/>
+<approved hash="18,29,edc2e05360546dc5"/>
+<approved hash="18,29,8e272f3e2a5c84b4"/>
+<approved hash="18,29,17eb543e0e37b0d7"/>
 <approved hash="18,29,7ac47355f356fac7"/>
-<approved hash="18,29,3d933821b820bd92"/>
+<approved hash="18,29,cc9ec92c492f4c9d"/>
 <approved hash="18,29,8bc9825802590bc8"/>
-<approved hash="18,29,94355ccf5cd39429"/>
-<approved hash="18,29,9382651c6500939e"/>
-<approved hash="18,29,96a4623e622296b8"/>
-<approved hash="18,29,986068fa68e6987c"/>
-<approved hash="18,29,9df16a8b6a979ded"/>
-<approved hash="18,29,a59b53155309a587"/>
+<approved hash="18,29,3d933821b820bd92"/>
+<approved hash="18,29,62d964066d3090e4"/>
 <approved hash="18,29,911367ad67b1910f"/>
-<approved hash="18,29,87cd7147715b87d1"/>
-<approved hash="18,29,a00a50845098a016"/>
-<approved hash="18,29,af5759d159cdaf4b"/>
-<approved hash="18,29,ace85462547eacf4"/>
-<approved hash="18,29,bb2c4da64dbabb30"/>
-<approved hash="18,29,a27956f356efa265"/>
-<approved hash="18,29,a9c65f405f5ca9da"/>
-<approved hash="18,29,855e73d873c48542"/>
+<approved hash="18,29,9382651c6500939e"/>
+<approved hash="18,29,986068fa68e6987c"/>
+<approved hash="18,29,96a4623e622296b8"/>
 <approved hash="18,29,9aef6e696e759af3"/>
-<approved hash="18,29,031b3d233ae504dd"/>
-<approved hash="18,29,bf48f9a2ab059617"/>
-<approved hash="18,29,4654c2a2cb042a0a"/>
-<approved hash="18,29,039b3da33d65035d"/>
-<approved hash="18,29,2c2954e47a7d7948"/>
-<approved hash="18,29,1734ade5c67d1954"/>
-<approved hash="18,29,84bbf1db0fdb7abb"/>
+<approved hash="18,29,9df16a8b6a979ded"/>
+<approved hash="18,29,a9c65f405f5ca9da"/>
+<approved hash="18,29,94355ccf5cd39429"/>
+<approved hash="18,29,ace85462547eacf4"/>
+<approved hash="18,29,a59b53155309a587"/>
+<approved hash="18,29,a27956f356efa265"/>
+<approved hash="18,29,bb2c4da64dbabb30"/>
+<approved hash="18,29,af5759d159cdaf4b"/>
+<approved hash="18,29,a00a50845098a016"/>
+<approved hash="18,29,87cd7147715b87d1"/>
+<approved hash="18,29,855e73d873c48542"/>
+<approved hash="18,29,25191b211ae524dd"/>
+<approved hash="18,29,3c654060047f5d82"/>
+<approved hash="18,29,e179a360e07f799e"/>
+<approved hash="18,29,24991aa11ae524dd"/>
+<approved hash="18,29,a903ef238f00ecd8"/>
+<approved hash="18,29,4a1f3223ab0008c4"/>
 <approved hash="18,29,ba0fde6f206f440f"/>
+<approved hash="18,29,84bbf1db0fdb7abb"/>
 <approved hash="18,29,8bd1cf05310575d1"/>
 <approved hash="18,29,bbd500d755dbeed9"/>
 <approved hash="18,29,2ed1e0d011bad3a8"/>
@@ -12076,16 +12677,29 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="18,29,23a998abcdae76ac"/>
 <approved hash="18,29,68e5efce11ce96e5"/>
 <approved hash="18,29,593afea400a4a73a"/>
+<approved hash="18,29,be3ef202f20abe36"/>
+<approved hash="18,29,d569137b2688d267"/>
+<approved hash="18,29,3e3e0202020a3e36"/>
+<approved hash="18,29,19691371c085c466"/>
+<approved hash="18,29,f393391801d87721"/>
+<approved hash="18,29,f7d9a3008a983bba"/>
 <approved hash="18,29,6a63eeb710b79463"/>
-<approved hash="18,29,6509d0692e699b09"/>
 <approved hash="18,29,5bbdffdd01dda5bd"/>
+<approved hash="18,29,6509d0692e699b09"/>
+<approved hash="18,29,41fe692df37f3e57"/>
+<approved hash="18,29,474c751988411bfb"/>
 <approved hash="18,29,9a6721657469cf6b"/>
+<approved hash="18,29,8b0055685f64da1f"/>
+<approved hash="18,29,ee0b49544cf399d9"/>
 <approved hash="18,29,501e913360b4adb6"/>
+<approved hash="18,29,8e376eb6f3c5cca4"/>
 <approved hash="18,29,902d3677cbcc5e49"/>
 <approved hash="18,29,467cb0e24ee2b87c"/>
 <approved hash="18,29,027bb979ec7c577e"/>
 <approved hash="18,29,49178e3c703cb717"/>
 <approved hash="18,29,78c89f56615686c8"/>
+<approved hash="18,29,8e2f16a0bfca00bc"/>
+<approved hash="18,29,8e2fae9a6bf044bc"/>
 <approved hash="18,29,c1db08cc70b4b9e1"/>
 <approved hash="18,29,7297ef99dc2f783e"/>
 <approved hash="18,29,9372eab9eab89373"/>
@@ -12099,31 +12713,140 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="18,29,7bf82be76beb3bf4"/>
 <approved hash="18,29,1af2c8ed88f05aef"/>
 <approved hash="18,29,4fa90ccb37b50d07"/>
+<approved hash="18,29,ce2936f9ae9531ba"/>
+<approved hash="18,29,90aa3ea30c202845"/>
+<approved hash="18,29,b2fb53615f3270b8"/>
+<approved hash="18,29,3fa07b033f0a10c0"/>
+<approved hash="18,29,0f93c818f8d88e99"/>
+<approved hash="18,29,7bf39f93619385f3"/>
 <approved hash="18,29,4547b0274e27bb47"/>
 <approved hash="18,29,4a2d8ef970f9b42d"/>
-<approved hash="18,29,7bf39f93619385f3"/>
+<approved hash="18,29,57250475a3fc4e9d"/>
+<approved hash="18,29,f0e52b01eb4f3cad"/>
+<approved hash="18,29,b46bb82fddf64cd8"/>
 <approved hash="18,29,7a36c13494372f35"/>
+<approved hash="18,29,8b250c7483fd5687"/>
+<approved hash="18,29,e34875dedd25e7c7"/>
+<approved hash="18,29,81adffa4b9da0e0e"/>
+<approved hash="18,29,61a44efe71e9fb6d"/>
+<approved hash="18,29,51fe78b37ae1b657"/>
+<approved hash="18,29,fdeec3bd086a282c"/>
 <approved hash="18,29,263290ac6eacd832"/>
+<approved hash="18,29,cf8c745744e218d1"/>
 <approved hash="18,29,e20559070c0bb709"/>
 <approved hash="18,29,2959ae725072d759"/>
 <approved hash="18,29,1886bf184118e686"/>
+<approved hash="18,29,3e3e7202720a3e36"/>
+<approved hash="18,29,6548ef0c30f7d6c7"/>
+<approved hash="18,29,98b1057f0887170a"/>
+<approved hash="18,29,aaf89f1ef54de68d"/>
+<approved hash="18,29,be3e0202020abe36"/>
 <approved hash="18,29,fad60781b11d69a6"/>
 <approved hash="18,29,2d12f9e7a5ce6126"/>
 <approved hash="18,29,fd97105ded616053"/>
 <approved hash="18,29,a74b1f801f8fa744"/>
-<approved hash="18,30,1e60061c060c1e70"/>
+<approved hash="18,29,1bddc82d40a097c0"/>
+<approved hash="18,29,992f4ac6c0b9cc31"/>
+<approved hash="18,30,7f9baa6478b7119b"/>
 <approved hash="18,30,cf3a970c5b315b37"/>
+<approved hash="18,30,8e2577ef4e8f90b6"/>
 <approved hash="18,30,0dc50de20de10dc6"/>
 <approved hash="18,30,993b39025f3b5f3f"/>
+<approved hash="18,30,8e296fd97bb595ba"/>
+<approved hash="18,30,8e2f67d0c6bbc8bc"/>
 <approved hash="18,30,f739cf009b3d1b24"/>
-<approved hash="18,30,c9851f355875a5d8"/>
+<approved hash="18,30,0451148014870456"/>
+<approved hash="18,30,8e2f6fcab3a00dbc"/>
+<approved hash="18,30,8ed797c47f564144"/>
+<approved hash="18,30,8e272ec6aba404b4"/>
+<approved hash="18,30,4e2ea6d177ba78bd"/>
+<approved hash="18,30,4e29b71d6e7170ba"/>
+<approved hash="18,30,ce352f171b67f5a6"/>
+<approved hash="18,30,4e26a70ee66228b5"/>
+<approved hash="18,30,ce2f2f78d3126dbc"/>
+<approved hash="18,30,4e2f97729f18a1bc"/>
+<approved hash="18,30,ce276e94cbf664b4"/>
+<approved hash="18,30,8e17669e97cc5884"/>
+<approved hash="18,30,8e2d774b8e2350be"/>
+<approved hash="18,30,8e296f45bb2955ba"/>
+<approved hash="18,30,8e2566bf07df88b6"/>
+<approved hash="18,30,8e376eb6f2c5cda4"/>
+<approved hash="18,30,70e7fcebf4d478d8"/>
+<approved hash="18,30,a4e920ed38e1bce5"/>
+<approved hash="18,30,68e3e4e7fcd870dc"/>
+<approved hash="18,30,9cfd18f110fd94f1"/>
+<approved hash="18,30,50f7dcfbd4c458c8"/>
+<approved hash="18,30,8ce508f900f584e9"/>
+<approved hash="18,30,40efccf3c4cc48d0"/>
+<approved hash="18,30,84f900fd18f19cf5"/>
+<approved hash="18,30,48f3c4f7dcc850cc"/>
+<approved hash="18,30,94f110f568f9ecfd"/>
+<approved hash="18,30,58fbd4ffacc020c4"/>
+<approved hash="18,30,b4e130e508e98ced"/>
+<approved hash="18,30,78ebf4efccd040d4"/>
+<approved hash="18,30,fccd78c170cdf4c1"/>
+<approved hash="18,30,30c7bccbb4f438f8"/>
+<approved hash="18,30,e4c960cd78c1fcc5"/>
+<approved hash="18,30,28c3a4c7bcf830fc"/>
+<approved hash="18,30,f4c170c548c9cccd"/>
+<approved hash="18,30,38cbb4cf8cf000f4"/>
+<approved hash="18,30,c4d940dd58d1dcd5"/>
+<approved hash="18,30,08d384d79ce810ec"/>
+<approved hash="18,30,ccc548d940d5c4c9"/>
+<approved hash="18,30,00cf8cd384ec08f0"/>
+<approved hash="18,30,dcdd58d150ddd4d1"/>
+<approved hash="18,30,10d79cdb94e418e8"/>
+<approved hash="18,30,2cd5a8a9a0a524d9"/>
+<approved hash="18,30,e0df6ca3649ce8e0"/>
+<approved hash="18,30,d4d150d5a8d92cdd"/>
+<approved hash="18,30,18db94df6ce0e0e4"/>
+<approved hash="18,30,24a9a0adb8a13ca5"/>
+<approved hash="18,30,e8a364a77c98f09c"/>
+<approved hash="18,30,0ca588b980b504a9"/>
+<approved hash="18,30,c0af4cb3448cc890"/>
+<approved hash="18,30,04b980bd98b11cb5"/>
+<approved hash="18,30,c8b344b75c88d08c"/>
+<approved hash="18,30,14b190b5e8b96cbd"/>
+<approved hash="18,30,d8bb54bf2c80a084"/>
+<approved hash="18,30,1cbd98b190bd14b1"/>
+<approved hash="18,30,d0b75cbb5484d888"/>
+<approved hash="18,30,34a1b0a588a90cad"/>
+<approved hash="18,30,f8ab74af4c90c094"/>
+<approved hash="18,30,3cadb8a1b0ad34a1"/>
+<approved hash="18,30,f0a77cab7494f898"/>
+<approved hash="18,30,6cb5e889e08564b9"/>
+<approved hash="18,30,a0bf2c8324bca880"/>
+<approved hash="18,30,6489e08df8817c85"/>
+<approved hash="18,30,a88324873cb8b0bc"/>
+<approved hash="18,30,7481f085c8894c8d"/>
+<approved hash="18,30,b88b348f0cb080b4"/>
+<approved hash="18,30,4c85c899c0954489"/>
+<approved hash="18,30,808f0c9304ac88b0"/>
+<approved hash="18,30,7c8df881f08d7481"/>
+<approved hash="18,30,b0873c8b34b4b8b8"/>
+<approved hash="18,30,4499c09dd8915c95"/>
+<approved hash="18,30,889304971ca890ac"/>
+<approved hash="18,30,5c9dd891d09d5491"/>
+<approved hash="18,30,90971c9b14a498a8"/>
+<approved hash="18,30,5491d096289aac9d"/>
+<approved hash="18,30,989b149ceca360a4"/>
+<approved hash="18,30,8e2f16a0beca01bc"/>
+<approved hash="18,30,8e2fabb46ede44bc"/>
+<approved hash="18,30,ce3723ba32c8b8a4"/>
+<approved hash="18,30,ce2936f9af9530ba"/>
+<approved hash="18,30,4e2daef35a9bb5be"/>
+<approved hash="18,30,ce2926ed2781e8ba"/>
+<approved hash="18,30,4e16aee712b42d85"/>
+<approved hash="18,30,ce2716dedebc61b4"/>
+<approved hash="18,30,4e2f6be68e8ca4bc"/>
+<approved hash="18,30,8e2f63ec528698bc"/>
 <approved hash="18,30,18d0b1ecb1e318df"/>
-<approved hash="18,30,09bda0c9a0c609b2"/>
 <approved hash="18,30,7e9ad036d0397e95"/>
+<approved hash="18,30,09bda0c9a0c609b2"/>
 <approved hash="4,1,273fbb9dba45e026"/>
-<approved hash="4,1,15c2c95b6cacb65a"/>
 <approved hash="4,1,2cfb8a158a4ddae2"/>
 <approved hash="4,1,7644885feda015d8"/>
+<approved hash="4,1,15c2c95b6cacb65a"/>
 <approved hash="4,1,026bd51a615055c8"/>
 <approved hash="4,1,8a69dd66d52ca1f8"/>
 <approved hash="4,1,026bd54c4107b5c8"/>

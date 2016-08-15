@@ -18038,7 +18038,7 @@ IC-09995</description>
 <part name="C23" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="C24" library="PaxInstruments-RCL" deviceset="C0402" device="_1UF" value="1uF"/>
 <part name="U$7" library="PaxInstruments-Connectors" deviceset="THERMOCOUPLE_MINI" device="_INSIDE"/>
-<part name="U$8" library="PaxInstruments-Aesthetics" deviceset="PAX-LOGO" device="_0.25IN" value="0.25 in"/>
+<part name="U$13" library="PaxInstruments-Aesthetics" deviceset="PAX-LOGO" device="_0.25IN" value="0.25 in"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M04X2" device=""/>
 <part name="SUPPLY12" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND18" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
@@ -18158,6 +18158,7 @@ IC-09995</description>
 <part name="C37" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="P+15" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND49" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
+<part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -18556,7 +18557,7 @@ PWM     GND VCC PWM PWM</text>
 <instance part="U$7" gate="G$1" x="297.18" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="309.88" y="216.662" size="1.27" layer="95" rot="R180"/>
 </instance>
-<instance part="U$8" gate="G$1" x="292.1" y="200.66"/>
+<instance part="U$13" gate="G$1" x="292.1" y="200.66"/>
 <instance part="J3" gate="G$1" x="190.5" y="27.94" rot="MR0"/>
 <instance part="SUPPLY12" gate="G$1" x="177.8" y="25.4" rot="R90"/>
 <instance part="GND18" gate="G$1" x="200.66" y="33.02" rot="R90"/>
@@ -18686,6 +18687,7 @@ PWM     GND VCC PWM PWM</text>
 <instance part="C37" gate="G$1" x="281.94" y="190.5"/>
 <instance part="P+15" gate="G$1" x="281.94" y="195.58" rot="MR0"/>
 <instance part="GND49" gate="G$1" x="281.94" y="185.42"/>
+<instance part="TP5" gate="G$1" x="154.94" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -20676,8 +20678,9 @@ PWM     GND VCC PWM PWM</text>
 <label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="233.68" x2="147.32" y2="233.68" width="0.1524" layer="91"/>
-<label x="147.32" y="233.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="152.4" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
+<label x="149.86" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="CANH" class="0">
