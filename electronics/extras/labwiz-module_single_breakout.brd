@@ -424,7 +424,7 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 </elements>
 <signals>
-<signal name="GND" class="5">
+<signal name="GND">
 <polygon width="0.25" layer="16">
 <vertex x="0" y="32"/>
 <vertex x="0" y="0"/>
@@ -437,6 +437,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <vertex x="0" y="0"/>
 <vertex x="0" y="32"/>
 </polygon>
+<contactref element="MODULE5" pad="P$14"/>
 <contactref element="MODULE5" pad="P$14"/>
 </signal>
 <signal name="N$3">

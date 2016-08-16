@@ -553,7 +553,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="MODULE5" gate="G$1" x="48.26" y="215.9"/>
 <instance part="SUPPLY1" gate="G$1" x="27.94" y="236.22"/>
-<instance part="GND1" gate="G$1" x="68.58" y="233.68" rot="R90"/>
+<instance part="GND1" gate="G$1" x="66.04" y="233.68" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -647,7 +647,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <segment>
 <pinref part="MODULE5" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
-<wire x1="63.5" y1="233.68" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="233.68" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
