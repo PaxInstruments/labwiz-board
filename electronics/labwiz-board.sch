@@ -5798,6 +5798,7 @@ IC-09995</description>
 <part name="P+15" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND49" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
 <part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
+<part name="C22" library="PaxInstruments-RCL" deviceset="C0402" device="_4.7UF" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6037,11 +6038,11 @@ CHPD 4 3 GPIO2
 <instance part="C3" gate="G$1" x="101.6" y="66.04" rot="MR180"/>
 <instance part="C10" gate="G$1" x="261.62" y="71.12" rot="MR90"/>
 <instance part="C11" gate="G$1" x="73.66" y="137.16" rot="MR270"/>
-<instance part="C13" gate="G$1" x="73.66" y="121.92" rot="MR270"/>
+<instance part="C13" gate="G$1" x="73.66" y="116.84" rot="MR270"/>
 <instance part="C15" gate="G$1" x="261.62" y="53.34" rot="MR90"/>
-<instance part="C8" gate="G$1" x="43.18" y="137.16" rot="MR180"/>
-<instance part="GND23" gate="G$1" x="43.18" y="132.08"/>
-<instance part="SUPPLY3" gate="G$1" x="43.18" y="142.24"/>
+<instance part="C8" gate="G$1" x="40.64" y="132.08" rot="MR90"/>
+<instance part="GND23" gate="G$1" x="45.72" y="132.08" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="35.56" y="132.08" rot="R90"/>
 <instance part="C18" gate="G$1" x="279.4" y="35.56"/>
 <instance part="SUPPLY7" gate="G$1" x="279.4" y="40.64"/>
 <instance part="GND25" gate="G$1" x="279.4" y="30.48"/>
@@ -6094,7 +6095,7 @@ CHPD 4 3 GPIO2
 <instance part="GND29" gate="G$1" x="27.94" y="96.52"/>
 <instance part="C19" gate="G$1" x="22.86" y="99.06" rot="R180"/>
 <instance part="C20" gate="G$1" x="33.02" y="99.06" rot="R180"/>
-<instance part="C21" gate="G$1" x="63.5" y="121.92" rot="R270"/>
+<instance part="C21" gate="G$1" x="63.5" y="116.84" rot="R270"/>
 <instance part="MODULE1" gate="G$1" x="40.64" y="223.52"/>
 <instance part="MODULE2" gate="G$1" x="104.14" y="223.52"/>
 <instance part="MODULE3" gate="G$1" x="40.64" y="198.12"/>
@@ -6121,7 +6122,7 @@ CHPD 4 3 GPIO2
 <instance part="GND41" gate="G$1" x="116.84" y="20.32"/>
 <instance part="SUPPLY9" gate="G$1" x="116.84" y="30.48" rot="MR0"/>
 <instance part="SUPPLY1" gate="G$1" x="58.42" y="139.7"/>
-<instance part="GND16" gate="G$1" x="68.58" y="119.38"/>
+<instance part="GND16" gate="G$1" x="68.58" y="111.76"/>
 <instance part="R3" gate="G$1" x="86.36" y="66.04" rot="R180">
 <attribute name="MPN" x="86.36" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="POPULATE" x="86.36" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
@@ -6206,6 +6207,7 @@ CHPD 4 3 GPIO2
 <instance part="P+15" gate="G$1" x="281.94" y="195.58" rot="MR0"/>
 <instance part="GND49" gate="G$1" x="281.94" y="185.42"/>
 <instance part="TP5" gate="G$1" x="154.94" y="231.14"/>
+<instance part="C22" gate="G$1" x="73.66" y="124.46" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6286,8 +6288,10 @@ CHPD 4 3 GPIO2
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="121.92" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
 <junction x="78.74" y="121.92"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="124.46" x2="78.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -6370,7 +6374,7 @@ CHPD 4 3 GPIO2
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="43.18" y1="139.7" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
@@ -6386,8 +6390,8 @@ CHPD 4 3 GPIO2
 <junction x="58.42" y="137.16"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="132.08" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="127" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="127" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <junction x="58.42" y="127"/>
@@ -6656,7 +6660,7 @@ CHPD 4 3 GPIO2
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="G$1" pin="GND"/>
-<wire x1="43.18" y1="134.62" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
@@ -6690,9 +6694,9 @@ CHPD 4 3 GPIO2
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<junction x="68.58" y="121.92"/>
+<wire x1="71.12" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="127" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<junction x="68.58" y="116.84"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <junction x="68.58" y="137.16"/>
@@ -6701,9 +6705,11 @@ CHPD 4 3 GPIO2
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="119.38" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="111.76" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="124.46" x2="68.58" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="POWER" pin="VSS_4"/>
