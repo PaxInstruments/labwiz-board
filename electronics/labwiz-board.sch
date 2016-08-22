@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="13" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -4890,14 +4890,12 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Capacitors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
 <package name="0402">
-<description>&lt;b&gt;SMD 0401 Metric&lt;/b&gt;
-Surface mount footprint for metric 0402 components.</description>
+<description>&lt;b&gt;SMD 0401 Inch&lt;/b&gt;
+Surface mount footprint for inch 0402 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="39"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="39"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="39"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="39"/>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -4907,12 +4905,10 @@ Surface mount footprint for metric 0402 components.</description>
 <text x="1" y="0" size="0.5" layer="27" align="center-left">&gt;VALUE</text>
 </package>
 <package name="0603">
-<description>&lt;b&gt;SMD 0603 Metric&lt;/b&gt;
-Surface mount footprint for metric 0603 components.</description>
-<wire x1="-1.5" y1="0.6" x2="1.5" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.6" x2="1.5" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.6" x2="-1.5" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.6" x2="-1.5" y2="0.6" width="0.0508" layer="39"/>
+<description>&lt;b&gt;SMD 0603 Inch&lt;/b&gt;
+Surface mount footprint for inch 0603 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -4924,8 +4920,10 @@ Surface mount footprint for metric 0603 components.</description>
 <text x="1.5" y="0" size="0.6" layer="27" align="center-left">&gt;VALUE</text>
 </package>
 <package name="0201">
-<description>&lt;b&gt;SMD 0201 Metric&lt;/b&gt;
-Surface mount footprint for metric 0201 components.</description>
+<description>&lt;b&gt;SMD 0201 Inch&lt;/b&gt;
+Surface mount footprint for inch 0201 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
 <rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
 <rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
@@ -4934,16 +4932,15 @@ Surface mount footprint for metric 0201 components.</description>
 <smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
 <text x="-0.5" y="0" size="0.3" layer="25" rot="R180" align="center-left">&gt;NAME</text>
 <text x="0.5" y="0" size="0.3" layer="27" align="center-left">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="35"/>
 </package>
 <package name="0805">
-<description>&lt;b&gt;SMD 0805 Metric&lt;/b&gt;
-Surface mount footprint for metric 0805 components.</description>
-<wire x1="-1.7" y1="0.8" x2="1.7" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.7" y1="-0.8" x2="-1.7" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="0.8" width="0.0508" layer="39"/>
+<description>&lt;b&gt;SMD 0805 Inch&lt;/b&gt;
+Surface mount footprint for inch 0805 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.7" y1="0.8" x2="1.7" y2="-0.8" width="0.0508" layer="39"/>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -4953,12 +4950,10 @@ Surface mount footprint for metric 0805 components.</description>
 <text x="1.75" y="0" size="0.8" layer="27" align="center-left">&gt;VALUE</text>
 </package>
 <package name="1206">
-<description>&lt;b&gt;SMD 1206 Metric&lt;/b&gt;
-Surface mount footprint for metric 1206 components.</description>
-<wire x1="-2.3" y1="1" x2="2.3" y2="1" width="0.0508" layer="39"/>
-<wire x1="2.3" y1="-1" x2="-2.3" y2="-1" width="0.0508" layer="39"/>
-<wire x1="-2.3" y1="-1" x2="-2.3" y2="1" width="0.0508" layer="39"/>
-<wire x1="2.3" y1="1" x2="2.3" y2="-1" width="0.0508" layer="39"/>
+<description>&lt;b&gt;SMD 1206 Inch&lt;/b&gt;
+Surface mount footprint for inch 1206 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
@@ -5003,7 +4998,7 @@ Schematic symbol for a fixed resistor.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAPACITOR_FIXED">
+<deviceset name="CAPACITOR_FIXED" prefix="C">
 <gates>
 <gate name="G$1" symbol="CAPACITOR_FIXED" x="0" y="0"/>
 </gates>
@@ -5019,6 +5014,9 @@ Schematic symbol for a fixed resistor.</description>
 </technology>
 <technology name="_100NF">
 <attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
 </technology>
 <technology name="_10UF">
 <attribute name="VALUE" value="10uF" constant="no"/>
@@ -5049,6 +5047,9 @@ Schematic symbol for a fixed resistor.</description>
 <technology name="_100NF">
 <attribute name="VALUE" value="100nF" constant="no"/>
 </technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
 <technology name="_10UF">
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
@@ -5077,6 +5078,9 @@ Schematic symbol for a fixed resistor.</description>
 </technology>
 <technology name="_100NF">
 <attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
 </technology>
 <technology name="_10UF">
 <attribute name="VALUE" value="10uF" constant="no"/>
@@ -5107,6 +5111,9 @@ Schematic symbol for a fixed resistor.</description>
 <technology name="_100NF">
 <attribute name="VALUE" value="100nF" constant="no"/>
 </technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
 <technology name="_10UF">
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
@@ -5135,6 +5142,9 @@ Schematic symbol for a fixed resistor.</description>
 </technology>
 <technology name="_100NF">
 <attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
 </technology>
 <technology name="_10UF">
 <attribute name="VALUE" value="10uF" constant="no"/>
@@ -5768,7 +5778,7 @@ IC-09995</description>
 <part name="C11" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="C13" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="C15" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
-<part name="C8" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
+<part name="C8" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_10NF" value="10nF"/>
 <part name="GND23" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY3" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="C18" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
@@ -5806,15 +5816,11 @@ IC-09995</description>
 <part name="C5" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="C7" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="SUPPLY4" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C12" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_10UF" value="10uF"/>
-<part name="C16" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_10UF" value="10uF"/>
-<part name="C17" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_10UF" value="10uF"/>
 <part name="R25" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K"/>
 <part name="R26" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K"/>
 <part name="GND29" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="C19" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_8PF" value="8pF"/>
 <part name="C20" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_8PF" value="8pF"/>
-<part name="C21" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_10UF" value="10uF"/>
 <part name="MODULE1" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE2" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE3" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
@@ -5837,7 +5843,6 @@ IC-09995</description>
 <part name="GND40" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND41" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY9" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="SUPPLY1" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND16" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="R3" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K">
 <attribute name="MPN" value=""/>
@@ -5912,6 +5917,9 @@ IC-09995</description>
 <part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>
 <part name="C22" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_4.7UF" value="4.7uF"/>
 <part name="R27" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_1.5K" value="1.5K"/>
+<part name="C38" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_1UF" value="1uF"/>
+<part name="SUPPLY1" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="GND9" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -6151,11 +6159,11 @@ CHPD 4 3 GPIO2
 <instance part="C3" gate="G$1" x="101.6" y="66.04" rot="MR180"/>
 <instance part="C10" gate="G$1" x="261.62" y="71.12" rot="MR90"/>
 <instance part="C11" gate="G$1" x="73.66" y="137.16" rot="MR270"/>
-<instance part="C13" gate="G$1" x="73.66" y="116.84" rot="MR270"/>
+<instance part="C13" gate="G$1" x="73.66" y="121.92" rot="MR270"/>
 <instance part="C15" gate="G$1" x="261.62" y="53.34" rot="MR90"/>
-<instance part="C8" gate="G$1" x="40.64" y="132.08" rot="MR90"/>
-<instance part="GND23" gate="G$1" x="45.72" y="132.08" rot="R90"/>
-<instance part="SUPPLY3" gate="G$1" x="35.56" y="132.08" rot="R90"/>
+<instance part="C8" gate="G$1" x="43.18" y="132.08" rot="MR180"/>
+<instance part="GND23" gate="G$1" x="43.18" y="127"/>
+<instance part="SUPPLY3" gate="G$1" x="43.18" y="137.16"/>
 <instance part="C18" gate="G$1" x="279.4" y="35.56"/>
 <instance part="SUPPLY7" gate="G$1" x="279.4" y="40.64"/>
 <instance part="GND25" gate="G$1" x="279.4" y="30.48"/>
@@ -6200,15 +6208,11 @@ CHPD 4 3 GPIO2
 <instance part="C5" gate="G$1" x="73.66" y="132.08" rot="MR270"/>
 <instance part="C7" gate="G$1" x="73.66" y="127" rot="MR270"/>
 <instance part="SUPPLY4" gate="G$1" x="78.74" y="139.7"/>
-<instance part="C12" gate="G$1" x="63.5" y="137.16" rot="R270"/>
-<instance part="C16" gate="G$1" x="63.5" y="132.08" rot="R270"/>
-<instance part="C17" gate="G$1" x="63.5" y="127" rot="R270"/>
 <instance part="R25" gate="G$1" x="157.48" y="78.74" rot="MR90"/>
 <instance part="R26" gate="G$1" x="154.94" y="73.66" rot="MR0"/>
 <instance part="GND29" gate="G$1" x="27.94" y="96.52"/>
 <instance part="C19" gate="G$1" x="22.86" y="99.06" rot="R180"/>
 <instance part="C20" gate="G$1" x="33.02" y="99.06" rot="R180"/>
-<instance part="C21" gate="G$1" x="63.5" y="116.84" rot="R270"/>
 <instance part="MODULE1" gate="G$1" x="40.64" y="223.52"/>
 <instance part="MODULE2" gate="G$1" x="104.14" y="223.52"/>
 <instance part="MODULE3" gate="G$1" x="40.64" y="198.12"/>
@@ -6234,7 +6238,6 @@ CHPD 4 3 GPIO2
 <instance part="GND40" gate="G$1" x="256.54" y="71.12" rot="R270"/>
 <instance part="GND41" gate="G$1" x="116.84" y="20.32"/>
 <instance part="SUPPLY9" gate="G$1" x="116.84" y="30.48" rot="MR0"/>
-<instance part="SUPPLY1" gate="G$1" x="58.42" y="139.7"/>
 <instance part="GND16" gate="G$1" x="68.58" y="111.76"/>
 <instance part="R3" gate="G$1" x="86.36" y="66.04" rot="R180">
 <attribute name="MPN" x="86.36" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
@@ -6319,6 +6322,9 @@ CHPD 4 3 GPIO2
 <instance part="TP5" gate="G$1" x="154.94" y="231.14"/>
 <instance part="C22" gate="G$1" x="73.66" y="124.46" rot="R270"/>
 <instance part="R27" gate="G$1" x="45.72" y="170.18" rot="R90"/>
+<instance part="C38" gate="G$1" x="48.26" y="132.08"/>
+<instance part="SUPPLY1" gate="G$1" x="48.26" y="137.16"/>
+<instance part="GND9" gate="G$1" x="48.26" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -6399,7 +6405,7 @@ CHPD 4 3 GPIO2
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="121.92" x2="76.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="121.92" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <junction x="78.74" y="121.92"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="124.46" x2="78.74" y2="127" width="0.1524" layer="91"/>
@@ -6485,30 +6491,12 @@ CHPD 4 3 GPIO2
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="38.1" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="134.62" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="30.48" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="58.42" y1="139.7" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="137.16" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
-<junction x="58.42" y="137.16"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="132.08" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="127" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<junction x="58.42" y="127"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
-<junction x="58.42" y="132.08"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
@@ -6556,6 +6544,11 @@ CHPD 4 3 GPIO2
 <pinref part="C37" gate="G$1" pin="2"/>
 <pinref part="P+15" gate="G$1" pin="3.3V"/>
 <wire x1="281.94" y1="193.04" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<wire x1="48.26" y1="134.62" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -6771,7 +6764,7 @@ CHPD 4 3 GPIO2
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="G$1" pin="GND"/>
-<wire x1="43.18" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="129.54" x2="43.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
@@ -6805,22 +6798,15 @@ CHPD 4 3 GPIO2
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<junction x="68.58" y="116.84"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-<junction x="68.58" y="137.16"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="132.08" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="116.84" x2="66.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="127" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<junction x="68.58" y="121.92"/>
 <pinref part="GND16" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="111.76" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="124.46" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="111.76" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="124.46" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<junction x="68.58" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U1" gate="POWER" pin="VSS_4"/>
@@ -6884,6 +6870,11 @@ CHPD 4 3 GPIO2
 <pinref part="GND49" gate="G$1" pin="GND"/>
 <pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="185.42" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="G$1" pin="GND"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="127" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
