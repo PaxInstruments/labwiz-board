@@ -4523,18 +4523,18 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </symbol>
 <symbol name="PAX_MODULE">
 <pin name="3V3" x="-15.24" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND2" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="SPI_MOSI" x="-15.24" y="15.24" visible="pin" length="short"/>
 <pin name="UART_RX" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_MISO" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="CAN_RX" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="CANL" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_SCK" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="CAN_TX" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="CANH" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
 <pin name="GPIO0" x="-15.24" y="7.62" visible="pin" length="short"/>
 <pin name="I2C_SDA" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
 <pin name="GPIO1" x="-15.24" y="5.08" visible="pin" length="short"/>
 <pin name="I2C_SCL" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="KEY" x="-15.24" y="2.54" visible="pin" length="short" direction="nc"/>
+<pin name="GND1" x="-15.24" y="2.54" visible="pin" length="short"/>
 <pin name="UART_TX" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="0" width="0.254" layer="94"/>
@@ -4632,14 +4632,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <device name="_EDGE_FEMALE_HOST" package="M07X2_2MM_EDGE">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$1"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$4"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$6"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="CANH" pad="P$6"/>
+<connect gate="G$1" pin="CANL" pad="P$4"/>
+<connect gate="G$1" pin="GND1" pad="P$13"/>
+<connect gate="G$1" pin="GND2" pad="P$2"/>
 <connect gate="G$1" pin="GPIO0" pad="P$9"/>
 <connect gate="G$1" pin="GPIO1" pad="P$11"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$10"/>
 <connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$13"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$5"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$3"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
@@ -4657,14 +4657,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <device name="_EDGE_MALE_MODULE" package="M07X2_2MM_EDGE">
 <connects>
 <connect gate="G$1" pin="3V3" pad="P$13"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$12"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$10"/>
-<connect gate="G$1" pin="GND" pad="P$14"/>
+<connect gate="G$1" pin="CANH" pad="P$10"/>
+<connect gate="G$1" pin="CANL" pad="P$12"/>
+<connect gate="G$1" pin="GND1" pad="P$1"/>
+<connect gate="G$1" pin="GND2" pad="P$14"/>
 <connect gate="G$1" pin="GPIO0" pad="P$5"/>
 <connect gate="G$1" pin="GPIO1" pad="P$3"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$6"/>
 <connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$1"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$9"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$11"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
@@ -5932,6 +5932,10 @@ IC-09995</description>
 <part name="R34" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_1.5K" value="1.5K"/>
 <part name="SUPPLY10" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="SUPPLY11" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="GND12" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
+<part name="GND14" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
+<part name="GND17" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
+<part name="GND21" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -6349,6 +6353,10 @@ CHPD 4 3 GPIO2
 <instance part="R34" gate="G$1" x="147.32" y="215.9"/>
 <instance part="SUPPLY10" gate="G$1" x="71.12" y="220.98"/>
 <instance part="SUPPLY11" gate="G$1" x="147.32" y="220.98"/>
+<instance part="GND12" gate="G$1" x="22.86" y="226.06" rot="R270"/>
+<instance part="GND14" gate="G$1" x="22.86" y="200.66" rot="R270"/>
+<instance part="GND17" gate="G$1" x="99.06" y="226.06" rot="R270"/>
+<instance part="GND21" gate="G$1" x="99.06" y="200.66" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6798,22 +6806,22 @@ CHPD 4 3 GPIO2
 <wire x1="33.02" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="MODULE1" gate="G$1" pin="GND"/>
+<pinref part="MODULE1" gate="G$1" pin="GND2"/>
 <wire x1="58.42" y1="241.3" x2="55.88" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MODULE2" gate="G$1" pin="GND"/>
+<pinref part="MODULE2" gate="G$1" pin="GND2"/>
 <wire x1="134.62" y1="241.3" x2="132.08" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MODULE3" gate="G$1" pin="GND"/>
+<pinref part="MODULE3" gate="G$1" pin="GND2"/>
 <wire x1="55.88" y1="215.9" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND37" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="MODULE4" gate="G$1" pin="GND"/>
+<pinref part="MODULE4" gate="G$1" pin="GND2"/>
 <pinref part="GND36" gate="G$1" pin="GND"/>
 <wire x1="132.08" y1="215.9" x2="134.62" y2="215.9" width="0.1524" layer="91"/>
 </segment>
@@ -6931,6 +6939,26 @@ CHPD 4 3 GPIO2
 <pinref part="GND9" gate="G$1" pin="GND"/>
 <pinref part="C38" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="127" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="G$1" pin="GND"/>
+<pinref part="MODULE2" gate="G$1" pin="GND1"/>
+<wire x1="99.06" y1="226.06" x2="101.6" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="G$1" pin="GND"/>
+<pinref part="MODULE4" gate="G$1" pin="GND1"/>
+<wire x1="99.06" y1="200.66" x2="101.6" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="G$1" pin="GND"/>
+<pinref part="MODULE3" gate="G$1" pin="GND1"/>
+<wire x1="22.86" y1="200.66" x2="25.4" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="G$1" pin="GND"/>
+<pinref part="MODULE1" gate="G$1" pin="GND1"/>
+<wire x1="22.86" y1="226.06" x2="25.4" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7961,22 +7989,22 @@ CHPD 4 3 GPIO2
 <label x="335.28" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE1" gate="G$1" pin="CAN_TX"/>
+<pinref part="MODULE1" gate="G$1" pin="CANH"/>
 <wire x1="55.88" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
 <label x="58.42" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE3" gate="G$1" pin="CAN_TX"/>
+<pinref part="MODULE3" gate="G$1" pin="CANH"/>
 <wire x1="55.88" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
 <label x="58.42" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE2" gate="G$1" pin="CAN_TX"/>
+<pinref part="MODULE2" gate="G$1" pin="CANH"/>
 <wire x1="132.08" y1="236.22" x2="134.62" y2="236.22" width="0.1524" layer="91"/>
 <label x="134.62" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE4" gate="G$1" pin="CAN_TX"/>
+<pinref part="MODULE4" gate="G$1" pin="CANH"/>
 <wire x1="132.08" y1="210.82" x2="134.62" y2="210.82" width="0.1524" layer="91"/>
 <label x="134.62" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7988,22 +8016,22 @@ CHPD 4 3 GPIO2
 <label x="335.28" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE1" gate="G$1" pin="CAN_RX"/>
+<pinref part="MODULE1" gate="G$1" pin="CANL"/>
 <wire x1="55.88" y1="238.76" x2="58.42" y2="238.76" width="0.1524" layer="91"/>
 <label x="58.42" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE3" gate="G$1" pin="CAN_RX"/>
+<pinref part="MODULE3" gate="G$1" pin="CANL"/>
 <wire x1="55.88" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
 <label x="58.42" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE4" gate="G$1" pin="CAN_RX"/>
+<pinref part="MODULE4" gate="G$1" pin="CANL"/>
 <wire x1="132.08" y1="213.36" x2="134.62" y2="213.36" width="0.1524" layer="91"/>
 <label x="134.62" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE2" gate="G$1" pin="CAN_RX"/>
+<pinref part="MODULE2" gate="G$1" pin="CANL"/>
 <wire x1="132.08" y1="238.76" x2="134.62" y2="238.76" width="0.1524" layer="91"/>
 <label x="134.62" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>

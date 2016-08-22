@@ -6030,6 +6030,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="C22" pad="1"/>
 <contactref element="C38" pad="1"/>
 <via x="16.5" y="4.5" extent="1-16" drill="0.2"/>
+<contactref element="MODULE2" pad="P$13"/>
+<contactref element="MODULE4" pad="P$13"/>
+<contactref element="MODULE3" pad="P$13"/>
+<contactref element="MODULE1" pad="P$13"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -6522,8 +6526,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="48" y1="11.5" x2="61.25" y2="11.5" width="0.25" layer="16"/>
 <wire x1="61.25" y1="11.5" x2="78" y2="11.5" width="0.25" layer="16"/>
 <wire x1="30" y1="17" x2="30" y2="16.75" width="0.25" layer="16"/>
-<wire x1="30" y1="16.75" x2="30.75" y2="16.75" width="0.25" layer="16"/>
-<via x="30.75" y="16.75" extent="1-16" drill="0.2"/>
+<wire x1="30" y1="16.75" x2="31" y2="16.75" width="0.25" layer="16"/>
+<via x="31" y="16.75" extent="1-16" drill="0.2"/>
 <wire x1="62" y1="17" x2="62" y2="16.5" width="0.25" layer="16"/>
 <wire x1="62" y1="16.5" x2="61.25" y2="16.5" width="0.25" layer="16"/>
 <via x="61.25" y="16.5" extent="1-16" drill="0.2"/>
@@ -6542,7 +6546,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="32.75" y="15" extent="1-16" drill="0.2"/>
 <via x="78" y="11.5" extent="1-16" drill="0.2"/>
 <wire x1="30.75" y1="10.75" x2="30.75" y2="14.5" width="0.25" layer="1"/>
-<wire x1="30.75" y1="14.5" x2="30.75" y2="16.75" width="0.25" layer="1"/>
+<wire x1="30.75" y1="14.5" x2="30.75" y2="16.5" width="0.25" layer="1"/>
+<wire x1="30.75" y1="16.5" x2="31" y2="16.75" width="0.25" layer="1"/>
 <wire x1="78" y1="11.5" x2="78" y2="15.75" width="0.25" layer="1"/>
 <via x="78" y="15.75" extent="1-16" drill="0.2"/>
 <wire x1="78" y1="15.75" x2="78" y2="17" width="0.25" layer="16"/>
