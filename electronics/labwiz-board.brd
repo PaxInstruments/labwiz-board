@@ -5565,6 +5565,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="C38" library="PaxInstruments-RCL" package="0402" value="1uF" x="32.5" y="13" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.5" y="13" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
+<element name="R23" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-13.75"/>
+<element name="R28" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-15.5"/>
+<element name="R29" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-17.25"/>
+<element name="R30" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-19"/>
+<element name="R31" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-20.75"/>
+<element name="R32" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-22.5"/>
+<element name="R33" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-24.25"/>
+<element name="R34" library="PaxInstruments-RCL" package="0402" value="1.5K" x="-10.75" y="-26"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -5744,6 +5752,22 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="17.25" y1="3" x2="16.5" y2="3" width="0.3048" layer="1"/>
 <wire x1="16.5" y1="3" x2="16.5" y2="3.5" width="0.3048" layer="1"/>
 <wire x1="32" y1="13" x2="32" y2="12" width="0.3048" layer="1"/>
+<contactref element="R23" pad="1"/>
+<contactref element="R28" pad="1"/>
+<contactref element="R29" pad="1"/>
+<contactref element="R30" pad="1"/>
+<contactref element="R32" pad="1"/>
+<contactref element="R31" pad="1"/>
+<contactref element="R34" pad="1"/>
+<contactref element="R33" pad="1"/>
+<wire x1="-11.25" y1="-24.25" x2="-11.25" y2="-26" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-22.5" x2="-11.25" y2="-24.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-20.75" x2="-11.25" y2="-22.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-19" x2="-11.25" y2="-20.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-17.25" x2="-11.25" y2="-19" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-15.5" x2="-11.25" y2="-17.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.25" y1="-13.75" x2="-11.25" y2="-15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="6.75" x2="-11.25" y2="-13.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="5">
 <contactref element="U4" pad="2"/>
@@ -7092,6 +7116,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="26" y1="3.75" x2="25.5" y2="3.25" width="0.25" layer="1"/>
 <wire x1="25.5" y1="3.25" x2="25.5" y2="1.05" width="0.25" layer="1"/>
 <wire x1="32" y1="8.5" x2="33" y2="8.5" width="0.25" layer="1"/>
+<contactref element="R23" pad="2"/>
+<contactref element="R29" pad="2"/>
+<wire x1="-10.25" y1="-13.75" x2="25.5" y2="1.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.25" y1="-17.25" x2="-10.25" y2="-13.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOD2_GPIO0">
 <contactref element="MODULE2" pad="P$9"/>
@@ -7182,6 +7210,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="26" y1="16.5" x2="26" y2="17" width="0.25" layer="16"/>
 <wire x1="42" y1="17" x2="42" y2="16.5" width="0.25" layer="16"/>
 <wire x1="42" y1="16.5" x2="41" y2="15.5" width="0.25" layer="16"/>
+<contactref element="R28" pad="2"/>
+<contactref element="R30" pad="2"/>
+<wire x1="-10.25" y1="-15.5" x2="-10.25" y2="-19" width="0" layer="19" extent="1-1"/>
+<wire x1="25" y1="1.05" x2="-10.25" y2="-15.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SCL">
 <contactref element="U1" pad="29"/>
@@ -7200,6 +7232,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="74" y1="15.5" x2="74" y2="17" width="0.25" layer="16"/>
 <wire x1="73.25" y1="12.5" x2="73.25" y2="14.75" width="0.25" layer="16"/>
 <wire x1="73.25" y1="14.75" x2="74" y2="15.5" width="0.25" layer="16"/>
+<contactref element="R32" pad="2"/>
+<contactref element="R34" pad="2"/>
+<wire x1="-10.25" y1="-22.5" x2="-10.25" y2="-26" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="11.5" x2="-10.25" y2="-22.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SDA" class="1">
 <contactref element="U1" pad="30"/>
@@ -7221,6 +7257,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="72" y1="7" x2="72" y2="13" width="0.25" layer="1"/>
 <via x="72" y="13" extent="1-16" drill="0.2"/>
 <wire x1="72" y1="13" x2="72" y2="17" width="0.25" layer="16"/>
+<contactref element="R31" pad="2"/>
+<contactref element="R33" pad="2"/>
+<wire x1="-10.25" y1="-20.75" x2="-10.25" y2="-24.25" width="0" layer="19" extent="1-1"/>
+<wire x1="21.5" y1="6.25" x2="-10.25" y2="-20.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <wire x1="0.7" y1="14.9" x2="1.3" y2="14.9" width="1" layer="15"/>
