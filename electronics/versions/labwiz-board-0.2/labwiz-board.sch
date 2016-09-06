@@ -17929,7 +17929,7 @@ IC-09995</description>
 </part>
 <part name="J1" library="PaxInstruments-Connectors" deviceset="SD_MICRO_SDIO_1BIT" device=""/>
 <part name="GND11" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="R14" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R14" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="DNP_10K"/>
 <part name="SUPPLY13" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="C14" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="U1" library="stm32" deviceset="STM32F10XRXT6" device=""/>
@@ -17948,8 +17948,8 @@ IC-09995</description>
 <part name="C18" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="SUPPLY7" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND25" library="PaxInstruments-Aesthetics" deviceset="SYM_GND" device="" technology="_GND" value="GND"/>
-<part name="R2" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R4" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R2" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="DNP_10K"/>
+<part name="R4" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="DNP_10K"/>
 <part name="R1" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K">
 <attribute name="MPN" value=""/>
 <attribute name="POPULATE" value=""/>
@@ -17965,8 +17965,8 @@ IC-09995</description>
 <part name="GND5" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="BAT1" library="PaxInstruments-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="FOUR_LAYER_WARNING" device=""/>
-<part name="R7" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
-<part name="R13" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
+<part name="R7" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="DNP_10K"/>
+<part name="R13" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="DNP_10K"/>
 <part name="R18" library="PaxInstruments-RCL" deviceset="R0402" device="_100R" value="100R"/>
 <part name="R20" library="PaxInstruments-RCL" deviceset="R0402" device="_100R" value="100R"/>
 <part name="GND15" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
@@ -17980,15 +17980,15 @@ IC-09995</description>
 <part name="C5" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="C7" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
 <part name="SUPPLY4" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C12" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
-<part name="C16" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
-<part name="C17" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="C12" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="DNP_10uF"/>
+<part name="C16" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="DNP_10uF"/>
+<part name="C17" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="4.7uF (was 10uF)"/>
 <part name="R25" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
 <part name="R26" library="PaxInstruments-RCL" deviceset="R0402" device="_10K" value="10K"/>
 <part name="GND29" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="C19" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
 <part name="C20" library="PaxInstruments-RCL" deviceset="C0402" device="_8PF" value="8pF"/>
-<part name="C21" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="10uF"/>
+<part name="C21" library="PaxInstruments-RCL" deviceset="C0402" device="_10UF" value="DNP_10uF"/>
 <part name="MODULE1" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE2" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
 <part name="MODULE3" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_FEMALE_HOST" value="PI-module-female"/>
@@ -18154,8 +18154,8 @@ IC-09995</description>
 <part name="GND47" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="P+14" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND48" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
-<part name="U$10" library="PaxInstruments-DigitalIC" deviceset="SN65HVD" device=""/>
-<part name="C37" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="100nF"/>
+<part name="U$10" library="PaxInstruments-DigitalIC" deviceset="SN65HVD" device="" value="DNP_SN65HVD"/>
+<part name="C37" library="PaxInstruments-RCL" deviceset="C0402" device="_100NF" value="DNP_100nF"/>
 <part name="P+15" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND49" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
 <part name="TP5" library="PaxInstruments-Connectors" deviceset="M01" device="_PAD_1MM"/>

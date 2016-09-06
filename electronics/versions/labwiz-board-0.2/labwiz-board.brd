@@ -9436,7 +9436,7 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="J1" library="PaxInstruments-Connectors" package="SD_MICRO_1" value="SD_MICRO_SDIO_1BIT" x="72.765" y="6.6" locked="yes" smashed="yes" rot="R270"/>
 <element name="U$6" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.5IN" value="" x="66.75" y="0.75" rot="MR0"/>
-<element name="R14" library="PaxInstruments-RCL" package="0402" value="10K" x="61" y="5.25" smashed="yes" rot="R90">
+<element name="R14" library="PaxInstruments-RCL" package="0402" value="DNP_10K" x="61" y="5.25" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="61" y="5.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="61" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
@@ -9475,11 +9475,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="VALUE" value="100nF" x="13.5" y="38.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.5" y="39.75" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R2" library="PaxInstruments-RCL" package="0402" value="10K" x="11.25" y="41" smashed="yes" rot="R90">
+<element name="R2" library="PaxInstruments-RCL" package="0402" value="DNP_10K" x="11.25" y="41" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="11.25" y="41" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.25" y="42" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="R4" library="PaxInstruments-RCL" package="0402" value="10K" x="8.75" y="38.5" smashed="yes" rot="R90">
+<element name="R4" library="PaxInstruments-RCL" package="0402" value="DNP_10K" x="8.75" y="38.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="8.75" y="38.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.75" y="37.5" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
@@ -9510,11 +9510,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MF" value="Keystone Electronics" x="88.5" y="16.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" package="FOUR_LAYER_WARNING" value="FOUR_LAYER_WARNING" x="0" y="-3" smashed="yes"/>
-<element name="R7" library="PaxInstruments-RCL" package="0402" value="10K" x="62" y="5.25" smashed="yes" rot="R90">
+<element name="R7" library="PaxInstruments-RCL" package="0402" value="DNP_10K" x="62" y="5.25" smashed="yes" rot="R90">
 <attribute name="VALUE" value="_10K" x="62" y="5.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="62" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="R13" library="PaxInstruments-RCL" package="0402" value="10K" x="63" y="5.25" smashed="yes" rot="R90">
+<element name="R13" library="PaxInstruments-RCL" package="0402" value="DNP_10K" x="63" y="5.25" smashed="yes" rot="R90">
 <attribute name="NAME" x="63" y="4.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
 <element name="R18" library="PaxInstruments-RCL" package="0402" value="100R" x="11" y="38.75" smashed="yes" rot="R270">
@@ -9544,15 +9544,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="VALUE" value="100nF" x="30" y="1.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="29.5" y="1" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C12" library="PaxInstruments-RCL" package="0402" value="10uF" x="19.25" y="13.25" smashed="yes" rot="R180">
+<element name="C12" library="PaxInstruments-RCL" package="0402" value="DNP_10uF" x="19.25" y="13.25" smashed="yes" rot="R180">
 <attribute name="VALUE" value="10uF" x="19.25" y="13.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.25" y="13.25" size="0.5" layer="25" align="center-right"/>
 </element>
-<element name="C16" library="PaxInstruments-RCL" package="0402" value="10uF" x="16.25" y="2.25" smashed="yes" rot="R270">
+<element name="C16" library="PaxInstruments-RCL" package="0402" value="DNP_10uF" x="16.25" y="2.25" smashed="yes" rot="R270">
 <attribute name="VALUE" value="10uF" x="16.25" y="2.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.25" y="3.25" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
-<element name="C17" library="PaxInstruments-RCL" package="0402" value="10uF" x="31" y="1.5" smashed="yes" rot="R90">
+<element name="C17" library="PaxInstruments-RCL" package="0402" value="4.7uF (was 10uF)" x="31" y="1.5" smashed="yes" rot="R90">
 <attribute name="VALUE" value="10uF" x="31" y="1.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.25" y="2.5" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
@@ -9572,7 +9572,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="VALUE" value="8pF" x="38.25" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="39.25" y="5" size="0.5" layer="25" rot="R180" align="center-right"/>
 </element>
-<element name="C21" library="PaxInstruments-RCL" package="0402" value="10uF" x="30.25" y="13" smashed="yes" rot="R90">
+<element name="C21" library="PaxInstruments-RCL" package="0402" value="DNP_10uF" x="30.25" y="13" smashed="yes" rot="R90">
 <attribute name="VALUE" value="10uF" x="30.25" y="13" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.25" y="14" size="0.5" layer="25" rot="R270" align="center-right"/>
 </element>
@@ -9775,11 +9775,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="POPULATE" value="" x="13.5" y="30.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.5" y="29.25" size="0.5" layer="25" rot="R90" align="center-right"/>
 </element>
-<element name="U$10" library="PaxInstruments-DigitalIC" package="SO08" value="SN65HVD" x="11.5" y="2.5" smashed="yes" rot="R270">
+<element name="U$10" library="PaxInstruments-DigitalIC" package="SO08" value="DNP_SN65HVD" x="11.5" y="2.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="10.25" y="5.25" size="0.5" layer="27"/>
 <attribute name="NAME" x="13.25" y="5.25" size="0.5" layer="25"/>
 </element>
-<element name="C37" library="PaxInstruments-RCL" package="0402" value="100nF" x="7.75" y="5.5" smashed="yes" rot="R180">
+<element name="C37" library="PaxInstruments-RCL" package="0402" value="DNP_100nF" x="7.75" y="5.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.75" y="5.75" size="0.5" layer="25" align="center-right"/>
 </element>
 <element name="TP5" library="PaxInstruments-Connectors" package="PAD_1MM" value="" x="69.75" y="8" rot="MR0"/>
