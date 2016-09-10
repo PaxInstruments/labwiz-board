@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -156,10 +156,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="20.32" width="0.254" layer="20"/>
-<wire x1="-0.635" y1="20.32" x2="10.795" y2="20.32" width="0.254" layer="20"/>
-<wire x1="10.795" y1="20.32" x2="10.795" y2="0" width="0.254" layer="20"/>
-<wire x1="10.795" y1="0" x2="-0.635" y2="0" width="0.254" layer="20"/>
+<wire x1="9.525" y1="0" x2="0.635" y2="0" width="0.254" layer="20"/>
+<wire x1="0.635" y1="0" x2="-0.127" y2="0.635" width="0.254" layer="20" curve="-90"/>
+<wire x1="-0.127" y1="0.635" x2="-0.127" y2="19.685" width="0.254" layer="20"/>
+<wire x1="-0.127" y1="19.685" x2="0.635" y2="20.32" width="0.254" layer="20" curve="-90"/>
+<wire x1="0.635" y1="20.32" x2="9.525" y2="20.32" width="0.254" layer="20"/>
+<wire x1="9.525" y1="20.32" x2="10.287" y2="19.685" width="0.254" layer="20" curve="-90"/>
+<wire x1="10.287" y1="19.685" x2="10.287" y2="0.635" width="0.254" layer="20"/>
+<wire x1="10.287" y1="0.635" x2="9.525" y2="0" width="0.254" layer="20" curve="-90"/>
 <text x="10.16" y="15.24" size="1.016" layer="51" align="center-left">RST</text>
 <text x="0" y="12.7" size="1.016" layer="51" rot="R180" align="center-left">GND</text>
 <text x="10.16" y="12.7" size="1.016" layer="51" align="center-left">GND</text>
@@ -167,16 +171,30 @@
 <text x="0" y="15.24" size="1.016" layer="51" rot="R180" align="center-left">SWDIO</text>
 <text x="0" y="7.62" size="1.016" layer="51" rot="R180" align="center-left">3.3V</text>
 <text x="10.16" y="7.62" size="1.016" layer="51" align="center-left">3.3V</text>
-<text x="0.635" y="19.05" size="1.016" layer="22" rot="MR180" align="center-left">SWDIO</text>
-<text x="0.635" y="17.78" size="1.016" layer="22" rot="MR180" align="center-left">GND</text>
-<text x="0.635" y="16.51" size="1.016" layer="22" rot="MR180" align="center-left">SWCLK</text>
-<text x="0.635" y="15.24" size="1.016" layer="22" rot="MR180" align="center-left">3.3V</text>
-<text x="9.525" y="19.05" size="1.016" layer="22" rot="MR0" align="center-left">RST</text>
-<text x="9.525" y="15.24" size="1.016" layer="22" rot="MR0" align="center-left">3.3V</text>
-<text x="9.525" y="17.78" size="1.016" layer="22" rot="MR0" align="center-left">GND</text>
-<text x="9.525" y="6.35" size="1.4224" layer="22" rot="MR0" align="top-left">ST-Link v2
-Cortex
-Adapter</text>
+<text x="0.635" y="19.05" size="1.016" layer="22" font="vector" rot="MR180" align="center-left">SWDIO</text>
+<text x="0.635" y="17.78" size="1.016" layer="22" font="vector" rot="MR180" align="center-left">GND</text>
+<text x="0.635" y="16.51" size="1.016" layer="22" font="vector" rot="MR180" align="center-left">SWCLK</text>
+<text x="0.635" y="15.24" size="1.016" layer="22" font="vector" rot="MR180" align="center-left">3.3V</text>
+<text x="9.525" y="19.05" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">RST</text>
+<text x="9.525" y="15.24" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">3.3V</text>
+<text x="9.525" y="17.78" size="1.016" layer="22" font="vector" rot="MR0" align="center-left">GND</text>
+<text x="9.525" y="3.81" size="1.143" layer="22" font="vector" rot="MR0" align="top-left">ST-Linkv2
+Cortex</text>
+<polygon width="0.4064" layer="21">
+<vertex x="7.62" y="16.764"/>
+<vertex x="9.144" y="16.256"/>
+<vertex x="9.144" y="17.272"/>
+</polygon>
+<text x="9.525" y="19.05" size="1.016" layer="21" font="vector" rot="R180" align="center-left">RST</text>
+<text x="9.525" y="17.78" size="1.016" layer="21" font="vector" rot="R180" align="center-left">GND</text>
+<text x="0.635" y="19.05" size="1.016" layer="21" font="vector" align="center-left">SWDIO</text>
+<text x="0.635" y="17.78" size="1.016" layer="21" font="vector" align="center-left">GND</text>
+<text x="0.635" y="16.51" size="1.016" layer="21" font="vector" align="center-left">SWCLK</text>
+<polygon width="0.4064" layer="22">
+<vertex x="8.89" y="14.478"/>
+<vertex x="9.398" y="14.478"/>
+<vertex x="9.144" y="13.716"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -477,9 +495,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="J1" pad="3"/>
 <wire x1="2.286" y1="7.62" x2="7.874" y2="7.62" width="0.6096" layer="1"/>
 <wire x1="7.874" y1="7.62" x2="7.874" y2="7.366" width="0.6096" layer="1"/>
-<wire x1="7.874" y1="7.366" x2="8.89" y2="6.35" width="0.6096" layer="1"/>
-<via x="8.89" y="6.35" extent="1-16" drill="0.5"/>
-<wire x1="8.89" y1="6.35" x2="8.89" y2="12.7" width="0.6096" layer="16"/>
+<wire x1="7.874" y1="7.366" x2="8.89" y2="6.477" width="0.6096" layer="1"/>
+<via x="8.89" y="6.477" extent="1-16" drill="0.2"/>
+<wire x1="8.89" y1="6.477" x2="8.89" y2="12.7" width="0.6096" layer="16"/>
 <wire x1="8.89" y1="12.7" x2="7.493" y2="12.7" width="0.6096" layer="16"/>
 </signal>
 <signal name="GND" class="5" airwireshidden="yes">
@@ -488,23 +506,24 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="J15" pad="5"/>
 <contactref element="J1" pad="7"/>
 <contactref element="J1" pad="8"/>
-<via x="2.54" y="3.175" extent="1-16" drill="0.6" shape="square"/>
-<via x="5.08" y="17.78" extent="1-16" drill="0.6" shape="square"/>
+<via x="2.54" y="1.905" extent="1-16" drill="0.2" shape="square"/>
+<via x="5.08" y="17.78" extent="1-16" drill="0.2" shape="square"/>
 <polygon width="0.254" layer="1">
-<vertex x="-0.635" y="0"/>
-<vertex x="10.795" y="0"/>
-<vertex x="10.795" y="20.32"/>
-<vertex x="-0.635" y="20.32"/>
+<vertex x="0" y="0"/>
+<vertex x="10.16" y="0"/>
+<vertex x="10.16" y="20.32"/>
+<vertex x="0" y="20.32"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="-0.635" y="0"/>
-<vertex x="10.795" y="0"/>
-<vertex x="10.795" y="20.32"/>
-<vertex x="-0.635" y="20.32"/>
+<vertex x="0" y="0"/>
+<vertex x="10.16" y="0"/>
+<vertex x="10.16" y="20.32"/>
+<vertex x="0" y="20.32"/>
 </polygon>
-<via x="8.89" y="13.97" extent="1-16" drill="0.5"/>
-<via x="1.27" y="13.97" extent="1-16" drill="0.5"/>
-<via x="1.27" y="8.89" extent="1-16" drill="0.5"/>
+<via x="7.874" y="13.97" extent="1-16" drill="0.2"/>
+<via x="1.27" y="13.97" extent="1-16" drill="0.2"/>
+<via x="1.016" y="8.89" extent="1-16" drill="0.2"/>
+<via x="5.08" y="6.223" extent="1-16" drill="0.2" shape="square"/>
 </signal>
 <signal name="N$3">
 </signal>
@@ -563,7 +582,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="J1" pad="10"/>
 <wire x1="2.286" y1="15.24" x2="3.81" y2="15.24" width="0.6096" layer="1"/>
 <wire x1="3.81" y1="15.24" x2="3.81" y2="13.97" width="0.6096" layer="1"/>
-<via x="3.81" y="13.97" extent="1-16" drill="0.5"/>
+<via x="3.81" y="13.97" extent="1-16" drill="0.2"/>
 <wire x1="3.81" y1="13.97" x2="2.667" y2="13.97" width="0.6096" layer="16"/>
 <wire x1="2.667" y1="13.97" x2="2.667" y2="12.7" width="0.6096" layer="16"/>
 </signal>
@@ -571,7 +590,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="J1" pad="6"/>
 <contactref element="J15" pad="4"/>
 <wire x1="2.667" y1="11.43" x2="1.27" y2="11.43" width="0.6096" layer="16"/>
-<via x="1.27" y="11.43" extent="1-16" drill="0.5"/>
+<via x="1.27" y="11.43" extent="1-16" drill="0.2"/>
 <wire x1="1.27" y1="11.43" x2="1.27" y2="10.16" width="0.6096" layer="1"/>
 <wire x1="1.27" y1="10.16" x2="2.286" y2="10.16" width="0.6096" layer="1"/>
 </signal>
@@ -581,7 +600,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="7.874" y1="15.24" x2="6.985" y2="15.24" width="0.6096" layer="1"/>
 <wire x1="6.985" y1="15.24" x2="5.08" y2="13.335" width="0.6096" layer="1"/>
 <wire x1="5.08" y1="13.335" x2="5.08" y2="8.89" width="0.6096" layer="1"/>
-<via x="5.08" y="8.89" extent="1-16" drill="0.5"/>
+<via x="5.08" y="8.89" extent="1-16" drill="0.2"/>
 <wire x1="5.08" y1="8.89" x2="3.81" y2="7.62" width="0.6096" layer="16"/>
 <wire x1="3.81" y1="7.62" x2="2.667" y2="7.62" width="0.6096" layer="16"/>
 </signal>
