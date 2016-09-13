@@ -356,16 +356,18 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <smd name="P$13" x="12" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
 <smd name="P$14" x="12" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
 <wire x1="-0.5" y1="1" x2="0.6" y2="1" width="0.1" layer="48"/>
-<wire x1="0.6" y1="0.7" x2="1" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="1" y1="0.3" x2="1.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="1" width="0.1" layer="48"/>
+<wire x1="0.6" y1="0.3" x2="1" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="1" y1="-0.1" x2="1.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="1.4" y1="0.3" x2="1.4" y2="1" width="0.1" layer="48"/>
 <wire x1="1.4" y1="1" x2="10.6" y2="1" width="0.1" layer="48"/>
 <wire x1="11.4" y1="1" x2="12.5" y2="1" width="0.1" layer="48"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="0.7" width="0.1" layer="48"/>
-<wire x1="10.6" y1="0.7" x2="11" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="11" y1="0.3" x2="11.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="11.4" y1="0.7" x2="11.4" y2="1" width="0.1" layer="48"/>
-<wire x1="10.6" y1="1" x2="10.6" y2="0.7" width="0.1" layer="48"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="0.3" width="0.1" layer="48"/>
+<wire x1="10.6" y1="0.3" x2="11" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="11" y1="-0.1" x2="11.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="11.4" y1="0.3" x2="11.4" y2="1" width="0.1" layer="48"/>
+<wire x1="10.6" y1="1" x2="10.6" y2="0.3" width="0.1" layer="48"/>
+<wire x1="1" y1="0.3" x2="1" y2="1.3" width="0.8" layer="46"/>
+<wire x1="11" y1="0.3" x2="11" y2="1.3" width="0.8" layer="46"/>
 </package>
 <package name="TC-CLIP-SINGLE">
 <smd name="P$1" x="-0.5" y="0" dx="5" dy="8.4" layer="1"/>
