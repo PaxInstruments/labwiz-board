@@ -4327,8 +4327,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="11" y1="-0.1" x2="11.4" y2="0.3" width="0.1" layer="48" curve="90"/>
 <wire x1="11.4" y1="0.3" x2="11.4" y2="1" width="0.1" layer="48"/>
 <wire x1="10.6" y1="1" x2="10.6" y2="0.3" width="0.1" layer="48"/>
-<wire x1="1" y1="0.3" x2="1" y2="1.3" width="0.8" layer="46"/>
-<wire x1="11" y1="0.3" x2="11" y2="1.3" width="0.8" layer="46"/>
 </package>
 <package name="SD_MICRO_1">
 <wire x1="-6.1" y1="7.5" x2="1.6" y2="7.5" width="0.127" layer="21"/>
