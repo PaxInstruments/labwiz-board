@@ -636,11 +636,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="1" y="15" extent="1-16" drill="0.6" shape="square"/>
 <via x="1" y="18.738" extent="1-16" drill="0.6" shape="square"/>
 <via x="14" y="8.25" extent="1-16" drill="0.6" shape="square"/>
-<via x="6" y="15.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="15.0052" y="15.4332" extent="1-16" drill="0.6" shape="square"/>
 <via x="7.25" y="8.25" extent="1-16" drill="0.6" shape="square"/>
 <via x="14.0668" y="6.7432" extent="1-16" drill="0.6" shape="square"/>
-<via x="8" y="3" extent="1-16" drill="0.6" shape="square"/>
+<via x="4.25" y="5" extent="1-16" drill="0.6" shape="square"/>
 <via x="1" y="26.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="15" y="26.8048" extent="1-16" drill="0.6" shape="square"/>
 <via x="12.9624" y="19.738" extent="1-16" drill="0.6" shape="square"/>
@@ -854,21 +853,36 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U3" pad="3"/>
 <wire x1="10.1284" y1="16.8184" x2="14.9352" y2="16.8184" width="0.4064" layer="1"/>
 <wire x1="14.9352" y1="16.8184" x2="14.9352" y2="21.6624" width="0.4064" layer="1"/>
+<contactref element="MODULE5" pad="P$8"/>
+<wire x1="10.1284" y1="16.8184" x2="9.0684" y2="16.8184" width="0.4064" layer="1"/>
+<wire x1="9.0684" y1="16.8184" x2="7.75" y2="15.5" width="0.4064" layer="1"/>
+<wire x1="7.75" y1="15.5" x2="7.25" y2="15.5" width="0.4064" layer="1"/>
+<wire x1="7.25" y1="15.5" x2="5.75" y2="14" width="0.4064" layer="1"/>
+<wire x1="5.75" y1="14" x2="5.75" y2="10.25" width="0.4064" layer="1"/>
+<via x="5.75" y="10.25" extent="1-16" drill="0.3" shape="square"/>
+<wire x1="5.75" y1="10.25" x2="5.75" y2="5.5" width="0.4064" layer="16"/>
+<via x="5.75" y="5.5" extent="1-16" drill="0.3" shape="square"/>
+<wire x1="5.75" y1="5.5" x2="5.75" y2="4.5" width="0.4064" layer="1"/>
+<wire x1="5.75" y1="4.5" x2="7" y2="3.25" width="0.4064" layer="1"/>
+<via x="7" y="3.25" extent="1-16" drill="0.3" shape="square"/>
+<wire x1="7" y1="3.25" x2="7.75" y2="3.25" width="0.4064" layer="16"/>
+<wire x1="7.75" y1="3.25" x2="8" y2="3" width="0.4064" layer="16"/>
+<wire x1="8" y1="3" x2="8" y2="1.25" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <errors>
 <approved hash="4,1,a753a0d4699f1e16"/>
-<approved hash="4,1,fef47baeb9cc72bd"/>
 <approved hash="4,1,1a68eed0105b0a2c"/>
+<approved hash="4,1,fef47baeb9cc72bd"/>
 <approved hash="4,1,d7e94e498741e8e0"/>
-<approved hash="4,1,bbb499f511c74530"/>
 <approved hash="4,1,eb45e4c22d81e208"/>
 <approved hash="4,1,2f4f28c8f18ba602"/>
 <approved hash="4,1,73716cf6b5bc6a34"/>
 <approved hash="4,1,b77ab0fd79a62e2f"/>
 <approved hash="4,1,fb6cf4eb3da8f221"/>
-<approved hash="4,1,eef3db9995fb5ebd"/>
+<approved hash="4,1,bbb499f511c74530"/>
 <approved hash="4,1,ba6f46d0105cda2b"/>
+<approved hash="4,1,eef3db9995fb5ebd"/>
 <approved hash="4,1,87e9661ae31294e0"/>
 <approved hash="4,1,3f16389101d2b65b"/>
 <approved hash="4,1,dbb4c9f511c72d30"/>
@@ -876,14 +890,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="4,16,1a68eed0105b0a2c"/>
 <approved hash="4,16,fef47baeb9cc72bd"/>
 <approved hash="4,16,d7e94e498741e8e0"/>
-<approved hash="4,16,bbb499f511c74530"/>
 <approved hash="4,16,eb45e4c22d81e208"/>
 <approved hash="4,16,2f4f28c8f18ba602"/>
 <approved hash="4,16,73716cf6b5bc6a34"/>
 <approved hash="4,16,b77ab0fd79a62e2f"/>
 <approved hash="4,16,fb6cf4eb3da8f221"/>
-<approved hash="4,16,eef3db9995fb5ebd"/>
+<approved hash="4,16,bbb499f511c74530"/>
 <approved hash="4,16,ba6f46d0105cda2b"/>
+<approved hash="4,16,eef3db9995fb5ebd"/>
 <approved hash="4,16,87e9661ae31294e0"/>
 <approved hash="4,16,dbb4c9f511c72d30"/>
 <approved hash="4,16,3f16389101d2b65b"/>
