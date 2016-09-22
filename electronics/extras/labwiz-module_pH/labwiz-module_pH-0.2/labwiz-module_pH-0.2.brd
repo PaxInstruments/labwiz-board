@@ -574,7 +574,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="8.3784" y="20.3784" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="8.738" y="15.5136" size="0.5" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R1" library="PaxInstruments-RCL" package="0603" value="" x="9.3716" y="23.6524" smashed="yes" rot="R270">
+<element name="R1" library="PaxInstruments-RCL" package="0603" value="510k" x="9.3716" y="23.6524" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.3716" y="24.6524" size="0.5" layer="25" font="vector" rot="R270" align="center-right"/>
 <attribute name="VALUE" value="" x="9.3716" y="22.6524" size="0.5" layer="27" rot="R270" align="center-left"/>
 </element>
@@ -586,19 +586,19 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="1.3048" y="20.7928" size="0.5" layer="25" font="vector" rot="R90" align="center-right"/>
 <attribute name="VALUE" value="100nF" x="1.3048" y="24.012" size="0.5" layer="27" font="vector" rot="R90" align="center-left"/>
 </element>
-<element name="R2" library="PaxInstruments-RCL" package="0603" value="" x="3.012" y="22.3976" smashed="yes" rot="R90">
+<element name="R2" library="PaxInstruments-RCL" package="0603" value="510k" x="3.012" y="22.3976" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.7072" y="20.788" size="0.5" layer="25" font="vector" rot="R90" align="center-right"/>
 <attribute name="VALUE" value="" x="3.012" y="23.3976" size="0.5" layer="27" rot="R90" align="center-left"/>
 </element>
-<element name="C3" library="PaxInstruments-RCL" package="0603" value="" x="5.75" y="17.738" smashed="yes" rot="R90">
+<element name="C3" library="PaxInstruments-RCL" package="0603" value="51pF" x="5.75" y="17.738" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.75" y="19.3476" size="0.5" layer="25" font="vector" rot="R270" align="center-right"/>
 <attribute name="VALUE" value="" x="5.75" y="16.738" size="0.5" layer="27" rot="R270" align="center-left"/>
 </element>
-<element name="R4" library="PaxInstruments-RCL" package="0603" value="" x="4.5" y="17.738" smashed="yes" rot="R270">
+<element name="R4" library="PaxInstruments-RCL" package="0603" value="51k" x="4.5" y="17.738" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.5" y="19.3476" size="0.5" layer="25" font="vector" rot="R270" align="center-right"/>
 <attribute name="VALUE" value="" x="4.5" y="16.738" size="0.5" layer="27" rot="R270" align="center-left"/>
 </element>
-<element name="C4" library="PaxInstruments-RCL" package="0603" value="" x="3.25" y="17.738" smashed="yes" rot="R270">
+<element name="C4" library="PaxInstruments-RCL" package="0603" value="51pF" x="3.25" y="17.738" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.4024" y="19.3476" size="0.5" layer="25" font="vector" rot="R270" align="center-right"/>
 <attribute name="VALUE" value="" x="3.25" y="16.738" size="0.5" layer="27" rot="R270" align="center-left"/>
 </element>

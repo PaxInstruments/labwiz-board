@@ -262,140 +262,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
 </package>
-<package name="EIA3216">
-<wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.2" x2="-1" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="1" y1="-1.2" x2="2.1" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-1.2" x2="2.5" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-0.8" x2="2.5" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="0.8" x2="2.1" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="21"/>
-<smd name="C" x="-1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<smd name="A" x="1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<text x="-2.54" y="1.381" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.408" y="1.332" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="EIA3528">
-<wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-1.6" x2="-2.6" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="21"/>
-<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<text x="-2.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.24" y="-1.37" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="CPOL-RADIAL-100UF-25V">
-<wire x1="-0.635" y1="1.27" x2="-1.905" y2="1.27" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.25" width="0.2032" layer="21"/>
-<pad name="2" x="-1.27" y="0" drill="0.7"/>
-<pad name="1" x="1.27" y="0" drill="0.7" shape="square"/>
-<text x="-1.905" y="-4.318" size="0.8128" layer="21">&gt;Value</text>
-<text x="-0.762" y="1.651" size="0.4064" layer="25">&gt;Name</text>
-</package>
-<package name="CPOL-RADIAL-10UF-25V">
-<wire x1="-0.645" y1="0.92" x2="-1.915" y2="0.92" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
-<pad name="1" x="1.27" y="0" drill="0.7" shape="square"/>
-<pad name="2" x="-1.27" y="0" drill="0.7"/>
-<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.905" y="-3.683" size="0.8128" layer="21">&gt;Value</text>
-</package>
-<package name="EIA7343">
-<wire x1="-5" y1="2.5" x2="-2" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="2.5" x2="-5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-2.5" x2="-2" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="2.5" x2="5" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-1.5" x2="4" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="4" y1="-2.5" x2="2" y2="-2.5" width="0.2032" layer="21"/>
-<smd name="C" x="-3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
-<smd name="A" x="3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="PANASONIC_G">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G&lt;/b&gt;</description>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
-<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.2032" layer="21"/>
-<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.2032" layer="21"/>
-<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.2032" layer="21"/>
-<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.2032" layer="21"/>
-<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.2032" layer="21"/>
-<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.2032" layer="21"/>
-<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.2032" layer="21" curve="156.699401" cap="flat"/>
-<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.2032" layer="21" curve="-156.699401" cap="flat"/>
-<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
-<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
-<smd name="-" x="-4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-<smd name="+" x="4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
-<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-3.3" y="3.6"/>
-<vertex x="-4.05" y="2.75"/>
-<vertex x="-4.65" y="1.55"/>
-<vertex x="-4.85" y="0.45"/>
-<vertex x="-4.85" y="-0.45"/>
-<vertex x="-4.65" y="-1.55"/>
-<vertex x="-4.05" y="-2.75"/>
-<vertex x="-3.3" y="-3.6"/>
-<vertex x="-3.3" y="3.55"/>
-</polygon>
-</package>
-<package name="PANASONIC_E">
-<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
-<wire x1="-4.1" y1="0.9" x2="-4.1" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="1.8" x2="4.1" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-0.9" x2="4.1" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.2032" layer="21"/>
-<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.9" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
-<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.2032" layer="21" curve="-153.684915" cap="flat"/>
-<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.2032" layer="21" curve="153.684915" cap="flat"/>
-<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
-<smd name="-" x="-3" y="0" dx="3.8" dy="1.4" layer="1"/>
-<smd name="+" x="3" y="0" dx="3.8" dy="1.4" layer="1"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.5" y1="-0.35" x2="-3.8" y2="0.35" layer="51"/>
-<rectangle x1="3.8" y1="-0.35" x2="4.5" y2="0.35" layer="51"/>
-<polygon width="0.1016" layer="51">
-<vertex x="-2.25" y="3.2"/>
-<vertex x="-3" y="2.5"/>
-<vertex x="-3.6" y="1.5"/>
-<vertex x="-3.85" y="0.65"/>
-<vertex x="-3.85" y="-0.65"/>
-<vertex x="-3.55" y="-1.6"/>
-<vertex x="-2.95" y="-2.55"/>
-<vertex x="-2.25" y="-3.2"/>
-<vertex x="-2.25" y="3.15"/>
-</polygon>
-</package>
 <package name="INDUCTOR-1206">
 <wire x1="-1.778" y1="2.032" x2="-3.81" y2="2.032" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="2.032" x2="-3.81" y2="-2.032" width="0.127" layer="21"/>
@@ -650,18 +516,6 @@ chip</description>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="CAP_POL">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="INDUCTOR">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -765,78 +619,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAP_POL" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Capacitor Polarized&lt;/b&gt;
-These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties. Always verify the external diameter of the through hole cap, it varies with capacity, voltage, and manufacturer. The EIA devices should be standard.</description>
-<gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="EIA3216">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3528" package="EIA3528">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH1" package="CPOL-RADIAL-100UF-25V">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH2" package="CPOL-RADIAL-10UF-25V">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="7343" package="EIA7343">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="G" package="PANASONIC_G">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="E" package="PANASONIC_E">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -953,51 +735,49 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
 <package name="M07X2_2MM_EDGE">
-<smd name="P$1" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$3" x="2" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="2" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$5" x="4" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$6" x="4" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$7" x="6" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$8" x="6" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$9" x="8" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$10" x="8" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$11" x="10" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$12" x="10" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$13" x="12" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$14" x="12" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
+<smd name="P$1" x="0" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$3" x="2" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$4" x="2" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$5" x="4" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$6" x="4" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$7" x="6" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$8" x="6" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$9" x="8" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$10" x="8" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$11" x="10" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$12" x="10" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$13" x="12" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$14" x="12" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
 <wire x1="-0.5" y1="1" x2="0.6" y2="1" width="0.1" layer="48"/>
-<wire x1="0.6" y1="0.7" x2="1" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="1" y1="0.3" x2="1.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="1" width="0.1" layer="48"/>
+<wire x1="0.6" y1="0.3" x2="1" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="1" y1="-0.1" x2="1.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="1.4" y1="0.3" x2="1.4" y2="1" width="0.1" layer="48"/>
 <wire x1="1.4" y1="1" x2="10.6" y2="1" width="0.1" layer="48"/>
 <wire x1="11.4" y1="1" x2="12.5" y2="1" width="0.1" layer="48"/>
-<wire x1="1" y1="1.1" x2="1" y2="0.75" width="0.75" layer="46"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="0.7" width="0.1" layer="48"/>
-<wire x1="10.6" y1="0.7" x2="11" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="11" y1="0.3" x2="11.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="11.4" y1="0.7" x2="11.4" y2="1" width="0.1" layer="48"/>
-<wire x1="11" y1="1.1" x2="11" y2="0.75" width="0.75" layer="46"/>
-<wire x1="10.6" y1="1" x2="10.6" y2="0.7" width="0.1" layer="48"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="0.3" width="0.1" layer="48"/>
+<wire x1="10.6" y1="0.3" x2="11" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="11" y1="-0.1" x2="11.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="11.4" y1="0.3" x2="11.4" y2="1" width="0.1" layer="48"/>
+<wire x1="10.6" y1="1" x2="10.6" y2="0.3" width="0.1" layer="48"/>
 </package>
 </packages>
 <symbols>
 <symbol name="PAX_MODULE">
-<pin name="3V3" x="-15.24" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="3V3_A" x="-15.24" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="GND_A" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="SPI_MOSI" x="-15.24" y="15.24" visible="pin" length="short"/>
-<pin name="UART_RX" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="I2C_SDA" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_MISO" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="CAN_RX" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="UART_RX" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_SCK" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="CAN_TX" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="GPIO0" x="-15.24" y="7.62" visible="pin" length="short"/>
-<pin name="I2C_SDA" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="GPIO1" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="UART_TX" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO1" x="-15.24" y="7.62" visible="pin" length="short"/>
+<pin name="VBUS" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO2" x="-15.24" y="5.08" visible="pin" length="short"/>
 <pin name="I2C_SCL" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="KEY" x="-15.24" y="2.54" visible="pin" length="short" direction="nc"/>
-<pin name="UART_TX" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="3V3_B" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="GND_B" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
@@ -1014,20 +794,20 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <devices>
 <device name="_EDGE_FEMALE_HOST" package="M07X2_2MM_EDGE">
 <connects>
-<connect gate="G$1" pin="3V3" pad="P$1"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$4"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$6"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="GPIO0" pad="P$9"/>
-<connect gate="G$1" pin="GPIO1" pad="P$11"/>
+<connect gate="G$1" pin="3V3_A" pad="P$1"/>
+<connect gate="G$1" pin="3V3_B" pad="P$13"/>
+<connect gate="G$1" pin="GND_A" pad="P$2"/>
+<connect gate="G$1" pin="GND_B" pad="P$14"/>
+<connect gate="G$1" pin="GPIO1" pad="P$9"/>
+<connect gate="G$1" pin="GPIO2" pad="P$11"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$10"/>
-<connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$13"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$12"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$5"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$3"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
-<connect gate="G$1" pin="UART_RX" pad="P$12"/>
-<connect gate="G$1" pin="UART_TX" pad="P$14"/>
+<connect gate="G$1" pin="UART_RX" pad="P$4"/>
+<connect gate="G$1" pin="UART_TX" pad="P$6"/>
+<connect gate="G$1" pin="VBUS" pad="P$8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1039,20 +819,20 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </device>
 <device name="_EDGE_MALE_MODULE" package="M07X2_2MM_EDGE">
 <connects>
-<connect gate="G$1" pin="3V3" pad="P$13"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$12"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$10"/>
-<connect gate="G$1" pin="GND" pad="P$14"/>
-<connect gate="G$1" pin="GPIO0" pad="P$5"/>
-<connect gate="G$1" pin="GPIO1" pad="P$3"/>
+<connect gate="G$1" pin="3V3_A" pad="P$13"/>
+<connect gate="G$1" pin="3V3_B" pad="P$1"/>
+<connect gate="G$1" pin="GND_A" pad="P$14"/>
+<connect gate="G$1" pin="GND_B" pad="P$2"/>
+<connect gate="G$1" pin="GPIO1" pad="P$5"/>
+<connect gate="G$1" pin="GPIO2" pad="P$3"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$6"/>
-<connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$1"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$4"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$9"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$11"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
-<connect gate="G$1" pin="UART_RX" pad="P$4"/>
-<connect gate="G$1" pin="UART_TX" pad="P$2"/>
+<connect gate="G$1" pin="UART_RX" pad="P$12"/>
+<connect gate="G$1" pin="UART_TX" pad="P$10"/>
+<connect gate="G$1" pin="VBUS" pad="P$8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1080,13 +860,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <packages>
 </packages>
 <symbols>
-<symbol name="VCC">
-<wire x1="0.508" y1="1.016" x2="0" y2="1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="1.778" x2="-0.508" y2="1.016" width="0.254" layer="94"/>
-<text x="0" y="2.032" size="1.016" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="3.3V" x="0" y="0" visible="off" length="point" direction="sup" rot="R90"/>
-<wire x1="0" y1="1.778" x2="0" y2="0" width="0.254" layer="94"/>
-</symbol>
 <symbol name="GND">
 <wire x1="-1.016" y1="-1.27" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
 <text x="0" y="-1.524" size="1.016" layer="96" align="top-center">&gt;VALUE</text>
@@ -1095,27 +868,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SYM_VCC" prefix="SUPPLY" uservalue="yes">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="VCC"/>
-</technology>
-<technology name="3.3V">
-<attribute name="VALUE" value="3.3V" constant="no"/>
-</technology>
-<technology name="5V">
-<attribute name="VALUE" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GND" prefix="GND">
 <gates>
 <gate name="G$1" symbol="GND" x="0" y="0"/>
@@ -1828,6 +1580,281 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="PaxInstruments-RCL">
+<description>&lt;h3&gt;Pax Instruments Capacitors Eagle Library&lt;/h3&gt;
+This library contains...
+&lt;br&gt;&lt;br&gt;
+If you are interested in opensource lab instruments or related development tools, please consider purchasing one of our products at http://paxinstruments.com/products/
+&lt;br&gt;&lt;br&gt;
+We work hard to keep our libraries accurate and functional, but we provide no guarantee they will work or be appropriate for your application. It is your responsibility to ensure your design is suitable for your purpose. If you find an error or have a suggestion for improvement, please submit an issue to our Github repository (https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries).
+&lt;br&gt;&lt;br&gt;
+The latest version of this library can be downloaded from https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Capacitors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
+<packages>
+<package name="0201">
+<description>&lt;b&gt;SMD 0201 Inch&lt;/b&gt;
+Surface mount footprint for inch 0201 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
+<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<text x="-0.5" y="0" size="0.3" layer="25" rot="R180" align="center-left">&gt;NAME</text>
+<text x="0.5" y="0" size="0.3" layer="27" align="center-left">&gt;VALUE</text>
+<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="35"/>
+</package>
+<package name="0402">
+<description>&lt;b&gt;SMD 0401 Inch&lt;/b&gt;
+Surface mount footprint for inch 0402 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-1" y="0" size="0.5" layer="25" align="center-right">&gt;NAME</text>
+<text x="1" y="0" size="0.5" layer="27" align="center-left">&gt;VALUE</text>
+</package>
+<package name="0603">
+<description>&lt;b&gt;SMD 0603 Inch&lt;/b&gt;
+Surface mount footprint for inch 0603 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-1.5" y="0" size="0.6" layer="25" align="center-right">&gt;NAME</text>
+<text x="1.5" y="0" size="0.6" layer="27" align="center-left">&gt;VALUE</text>
+</package>
+<package name="0805">
+<description>&lt;b&gt;SMD 0805 Inch&lt;/b&gt;
+Surface mount footprint for inch 0805 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.75" y="0" size="0.8" layer="25" align="center-right">&gt;NAME</text>
+<text x="1.75" y="0" size="0.8" layer="27" align="center-left">&gt;VALUE</text>
+</package>
+<package name="1206">
+<description>&lt;b&gt;SMD 1206 Inch&lt;/b&gt;
+Surface mount footprint for inch 1206 components.
+
+Reference: http://www.topline.tv/images/Chip_Capacitor_Library.pdf</description>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-2.5" y="0" size="1" layer="25" align="center-right">&gt;NAME</text>
+<text x="2.5" y="0" size="1" layer="27" align="center-left">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR_FIXED">
+<description>&lt;b&gt;Fixed Capacitor&lt;/b&gt;
+Schematic symbol for a fixed capacitor.</description>
+<pin name="1" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="2" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="-1.016" y1="-0.254" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="0" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="0.254" x2="1.016" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0.254" width="0.254" layer="94"/>
+<text x="-0.254" y="-0.762" size="1.016" layer="95" rot="R90" align="bottom-right">&gt;NAME</text>
+<text x="-0.254" y="0.762" size="1.016" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPACITOR_FIXED" prefix="C">
+<description>Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_FIXED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0201" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100NF">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_10UF">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_1UF">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_4.7UF">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_8PF">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100NF">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_10UF">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_1UF">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_4.7UF">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_8PF">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100NF">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_10UF">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_1UF">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_4.7UF">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_8PF">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100NF">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_10UF">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_1UF">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_4.7UF">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_8PF">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="_100NF">
+<attribute name="VALUE" value="100nF" constant="no"/>
+</technology>
+<technology name="_10NF">
+<attribute name="VALUE" value="10nF" constant="no"/>
+</technology>
+<technology name="_10UF">
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+<technology name="_1UF">
+<attribute name="VALUE" value="1uF" constant="no"/>
+</technology>
+<technology name="_4.7UF">
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+<technology name="_470PF">
+<attribute name="VALUE" value="470pF" constant="no"/>
+</technology>
+<technology name="_8PF">
+<attribute name="VALUE" value="8pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1856,7 +1883,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-A3" device=""/>
 <part name="MODULE5" library="PaxInstruments-Connectors" deviceset="PAX_MODULE" device="_EDGE_MALE_MODULE" value="PI-module-male"/>
-<part name="SUPPLY1" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="GND1" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M03" device="1X03_SMD_RA_MALE_POST_SMALLEST"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M03" device="1X03_SMD_RA_MALE_POST_SMALLEST"/>
@@ -1864,8 +1890,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="U1" library="SparkFun" deviceset="V_REG_NCP1400" device="SOT23-5" value="NCP1402"/>
 <part name="D1" library="SparkFun" deviceset="DIODE" device="SMA" value="MBRA140"/>
-<part name="C1" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uF"/>
-<part name="C2" library="SparkFun" deviceset="CAP_POL" device="3528" value="68uF"/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="CR54" value="47uH"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
@@ -1873,7 +1897,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="SUPPLY5" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="GND4" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
+<part name="C1" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" technology="_10UF" value="10uF"/>
+<part name="C3" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" value="68uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1889,7 +1915,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="MODULE5" gate="G$1" x="48.26" y="215.9"/>
-<instance part="SUPPLY1" gate="G$1" x="27.94" y="236.22"/>
 <instance part="GND1" gate="G$1" x="66.04" y="233.68" rot="R90"/>
 <instance part="J1" gate="J$1" x="124.46" y="238.76"/>
 <instance part="J2" gate="J$1" x="124.46" y="218.44"/>
@@ -1900,8 +1925,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="134.62" y="185.9026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="185.6486" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="104.14" y="170.18"/>
-<instance part="C2" gate="G$1" x="162.56" y="170.18"/>
 <instance part="L1" gate="G$1" x="116.84" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="114.3" y="177.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.3" y="172.72" size="1.778" layer="96"/>
@@ -1912,95 +1935,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY2" gate="G$1" x="144.78" y="238.76" rot="R270"/>
 <instance part="SUPPLY3" gate="G$1" x="142.24" y="218.44" rot="R270"/>
 <instance part="SUPPLY4" gate="G$1" x="172.72" y="180.34"/>
-<instance part="SUPPLY5" gate="G$1" x="96.52" y="180.34"/>
+<instance part="GND4" gate="G$1" x="66.04" y="218.44" rot="R90"/>
+<instance part="C1" gate="G$1" x="104.14" y="170.18"/>
+<instance part="C3" gate="G$1" x="162.56" y="167.64"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="CANL" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="CAN_RX"/>
-<wire x1="63.5" y1="231.14" x2="66.04" y2="231.14" width="0.1524" layer="91"/>
-<label x="66.04" y="231.14" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CANH" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="CAN_TX"/>
-<wire x1="63.5" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
-<label x="66.04" y="228.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="I2C_SDA" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="I2C_SDA"/>
-<wire x1="63.5" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
-<label x="66.04" y="226.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="I2C_SCL" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="I2C_SCL"/>
-<wire x1="63.5" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
-<label x="66.04" y="223.52" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USART_RX" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="UART_RX"/>
-<wire x1="63.5" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
-<label x="66.04" y="220.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USART_TX" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="UART_TX"/>
-<wire x1="63.5" y1="218.44" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
-<label x="66.04" y="218.44" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SPI_SCK" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="SPI_SCK"/>
-<wire x1="33.02" y1="226.06" x2="30.48" y2="226.06" width="0.1524" layer="91"/>
-<label x="30.48" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI_MISO" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="SPI_MISO"/>
-<wire x1="33.02" y1="228.6" x2="30.48" y2="228.6" width="0.1524" layer="91"/>
-<label x="30.48" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI_MOSI" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="SPI_MOSI"/>
-<wire x1="33.02" y1="231.14" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
-<label x="30.48" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="MODULE5" gate="G$1" pin="3V3"/>
-<wire x1="33.02" y1="233.68" x2="27.94" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="27.94" y1="233.68" x2="27.94" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="109.22" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="175.26" x2="104.14" y2="172.72" width="0.1524" layer="91"/>
-<junction x="104.14" y="175.26"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="96.52" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="180.34" x2="96.52" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GND"/>
+<pinref part="MODULE5" gate="G$1" pin="GND_A"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="233.68" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
 </segment>
@@ -2016,8 +1960,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="162.56" y1="165.1" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
@@ -2026,9 +1970,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="165.1" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="104.14" y1="167.64" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="MODULE5" gate="G$1" pin="GND_B"/>
+<pinref part="GND4" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="218.44" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SERVO1" class="0">
@@ -2038,7 +1987,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="134.62" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GPIO0"/>
+<pinref part="MODULE5" gate="G$1" pin="GPIO1"/>
 <wire x1="33.02" y1="223.52" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
 <label x="30.48" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2050,7 +1999,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="134.62" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GPIO1"/>
+<pinref part="MODULE5" gate="G$1" pin="GPIO2"/>
 <wire x1="33.02" y1="220.98" x2="30.48" y2="220.98" width="0.1524" layer="91"/>
 <label x="30.48" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2077,14 +2026,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="142.24" y1="185.42" x2="152.4" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="185.42" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="175.26" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="175.26" x2="162.56" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 <junction x="152.4" y="175.26"/>
 <junction x="162.56" y="175.26"/>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
@@ -2095,6 +2044,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="J$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <wire x1="132.08" y1="218.44" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="MODULE5" gate="G$1" pin="VBUS"/>
+<wire x1="63.5" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
+<label x="66.04" y="226.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
+<junction x="104.14" y="175.26"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="175.26" x2="104.14" y2="175.26" width="0.1524" layer="91"/>
+<label x="96.52" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="175.26" x2="104.14" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

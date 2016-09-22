@@ -1888,17 +1888,17 @@ Schematic symbol for a fixed capacitor.</description>
 <part name="C7" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" technology="_10UF" value="10uF"/>
 <part name="C8" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" technology="_100NF" value="100nF"/>
 <part name="U3" library="IC" deviceset="XC6206" device="MR" value="XC6206P182MR"/>
-<part name="R1" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value=""/>
+<part name="R1" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value="510k"/>
 <part name="U4" library="IC" deviceset="OPA333" device="DBV"/>
 <part name="C1" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" technology="_100NF" value="100nF"/>
 <part name="GND3" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="GND4" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="R2" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value=""/>
+<part name="R2" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value="510k"/>
 <part name="SUPPLY3" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
-<part name="C3" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" value=""/>
+<part name="C3" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" value="51pF"/>
 <part name="GND5" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="R4" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value=""/>
-<part name="C4" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" value=""/>
+<part name="R4" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0603" value="51k"/>
+<part name="C4" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0603" value="51pF"/>
 <part name="GND6" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M03" device="LOCK_LONGPADS"/>
 <part name="GND7" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
