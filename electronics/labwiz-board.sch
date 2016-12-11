@@ -4828,7 +4828,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP73831" prefix="U">
+<deviceset name="MCP73831/2" prefix="U">
 <description>Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller&lt;br&gt;
 http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf&lt;br&gt;
 IC-09995</description>
@@ -5144,7 +5144,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="C31" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="C32" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
 <part name="U$9" library="PaxInstruments-FreqCtrl" deviceset="NX3225GD" device="" value="8MHz"/>
-<part name="U2" library="PaxInstruments-PowerIC" deviceset="MCP73831" device=""/>
+<part name="U2" library="PaxInstruments-PowerIC" deviceset="MCP73831/2" device=""/>
 <part name="GND45" library="PaxInstruments-Aesthetics" deviceset="GND" device=""/>
 <part name="R21" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K">
 <attribute name="MPN" value=""/>
