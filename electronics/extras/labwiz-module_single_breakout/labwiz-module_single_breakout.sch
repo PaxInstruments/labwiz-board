@@ -322,51 +322,49 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
 <package name="M07X2_2MM_EDGE">
-<smd name="P$1" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$3" x="2" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="2" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$5" x="4" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$6" x="4" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$7" x="6" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$8" x="6" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$9" x="8" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$10" x="8" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$11" x="10" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$12" x="10" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$13" x="12" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$14" x="12" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
+<smd name="P$1" x="0" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$3" x="2" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$4" x="2" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$5" x="4" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$6" x="4" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$7" x="6" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$8" x="6" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$9" x="8" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$10" x="8" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$11" x="10" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$12" x="10" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$13" x="12" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$14" x="12" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
 <wire x1="-0.5" y1="1" x2="0.6" y2="1" width="0.1" layer="48"/>
-<wire x1="0.6" y1="0.7" x2="1" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="1" y1="0.3" x2="1.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="1" width="0.1" layer="48"/>
+<wire x1="0.6" y1="0.3" x2="1" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="1" y1="-0.1" x2="1.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="1.4" y1="0.3" x2="1.4" y2="1" width="0.1" layer="48"/>
 <wire x1="1.4" y1="1" x2="10.6" y2="1" width="0.1" layer="48"/>
 <wire x1="11.4" y1="1" x2="12.5" y2="1" width="0.1" layer="48"/>
-<wire x1="1" y1="1.1" x2="1" y2="0.75" width="0.75" layer="46"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="0.7" width="0.1" layer="48"/>
-<wire x1="10.6" y1="0.7" x2="11" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="11" y1="0.3" x2="11.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="11.4" y1="0.7" x2="11.4" y2="1" width="0.1" layer="48"/>
-<wire x1="11" y1="1.1" x2="11" y2="0.75" width="0.75" layer="46"/>
-<wire x1="10.6" y1="1" x2="10.6" y2="0.7" width="0.1" layer="48"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="0.3" width="0.1" layer="48"/>
+<wire x1="10.6" y1="0.3" x2="11" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="11" y1="-0.1" x2="11.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="11.4" y1="0.3" x2="11.4" y2="1" width="0.1" layer="48"/>
+<wire x1="10.6" y1="1" x2="10.6" y2="0.3" width="0.1" layer="48"/>
 </package>
 </packages>
 <symbols>
 <symbol name="PAX_MODULE">
-<pin name="3V3" x="-15.24" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="3V3_A" x="-15.24" y="17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="GND_A" x="15.24" y="17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="SPI_MOSI" x="-15.24" y="15.24" visible="pin" length="short"/>
-<pin name="UART_RX" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="I2C_SDA" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_MISO" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="CAN_RX" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="UART_RX" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="SPI_SCK" x="-15.24" y="10.16" visible="pin" length="short"/>
-<pin name="CAN_TX" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="GPIO0" x="-15.24" y="7.62" visible="pin" length="short"/>
-<pin name="I2C_SDA" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="GPIO1" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="UART_TX" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO1" x="-15.24" y="7.62" visible="pin" length="short"/>
+<pin name="VBUS" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="GPIO2" x="-15.24" y="5.08" visible="pin" length="short"/>
 <pin name="I2C_SCL" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="KEY" x="-15.24" y="2.54" visible="pin" length="short" direction="nc"/>
-<pin name="UART_TX" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="3V3_B" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="GND_B" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
 <wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
@@ -383,20 +381,20 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <devices>
 <device name="_EDGE_FEMALE_HOST" package="M07X2_2MM_EDGE">
 <connects>
-<connect gate="G$1" pin="3V3" pad="P$1"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$4"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$6"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="GPIO0" pad="P$9"/>
-<connect gate="G$1" pin="GPIO1" pad="P$11"/>
+<connect gate="G$1" pin="3V3_A" pad="P$1"/>
+<connect gate="G$1" pin="3V3_B" pad="P$13"/>
+<connect gate="G$1" pin="GND_A" pad="P$2"/>
+<connect gate="G$1" pin="GND_B" pad="P$14"/>
+<connect gate="G$1" pin="GPIO1" pad="P$9"/>
+<connect gate="G$1" pin="GPIO2" pad="P$11"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$10"/>
-<connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$13"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$12"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$5"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$3"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
-<connect gate="G$1" pin="UART_RX" pad="P$12"/>
-<connect gate="G$1" pin="UART_TX" pad="P$14"/>
+<connect gate="G$1" pin="UART_RX" pad="P$4"/>
+<connect gate="G$1" pin="UART_TX" pad="P$6"/>
+<connect gate="G$1" pin="VBUS" pad="P$8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -408,20 +406,20 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </device>
 <device name="_EDGE_MALE_MODULE" package="M07X2_2MM_EDGE">
 <connects>
-<connect gate="G$1" pin="3V3" pad="P$13"/>
-<connect gate="G$1" pin="CAN_RX" pad="P$12"/>
-<connect gate="G$1" pin="CAN_TX" pad="P$10"/>
-<connect gate="G$1" pin="GND" pad="P$14"/>
-<connect gate="G$1" pin="GPIO0" pad="P$5"/>
-<connect gate="G$1" pin="GPIO1" pad="P$3"/>
+<connect gate="G$1" pin="3V3_A" pad="P$13"/>
+<connect gate="G$1" pin="3V3_B" pad="P$1"/>
+<connect gate="G$1" pin="GND_A" pad="P$14"/>
+<connect gate="G$1" pin="GND_B" pad="P$2"/>
+<connect gate="G$1" pin="GPIO1" pad="P$5"/>
+<connect gate="G$1" pin="GPIO2" pad="P$3"/>
 <connect gate="G$1" pin="I2C_SCL" pad="P$6"/>
-<connect gate="G$1" pin="I2C_SDA" pad="P$8"/>
-<connect gate="G$1" pin="KEY" pad="P$1"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$4"/>
 <connect gate="G$1" pin="SPI_MISO" pad="P$9"/>
 <connect gate="G$1" pin="SPI_MOSI" pad="P$11"/>
 <connect gate="G$1" pin="SPI_SCK" pad="P$7"/>
-<connect gate="G$1" pin="UART_RX" pad="P$4"/>
-<connect gate="G$1" pin="UART_TX" pad="P$2"/>
+<connect gate="G$1" pin="UART_RX" pad="P$12"/>
+<connect gate="G$1" pin="UART_TX" pad="P$10"/>
+<connect gate="G$1" pin="VBUS" pad="P$8"/>
 </connects>
 <technologies>
 <technology name="">
@@ -560,21 +558,21 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <nets>
 <net name="CANL" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="CAN_RX"/>
+<pinref part="MODULE5" gate="G$1" pin="UART_RX"/>
 <wire x1="63.5" y1="231.14" x2="66.04" y2="231.14" width="0.1524" layer="91"/>
 <label x="66.04" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="CAN_TX"/>
+<pinref part="MODULE5" gate="G$1" pin="UART_TX"/>
 <wire x1="63.5" y1="228.6" x2="66.04" y2="228.6" width="0.1524" layer="91"/>
 <label x="66.04" y="228.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="I2C_SDA"/>
+<pinref part="MODULE5" gate="G$1" pin="VBUS"/>
 <wire x1="63.5" y1="226.06" x2="66.04" y2="226.06" width="0.1524" layer="91"/>
 <label x="66.04" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -588,28 +586,28 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </net>
 <net name="USART_RX" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="UART_RX"/>
+<pinref part="MODULE5" gate="G$1" pin="I2C_SDA"/>
 <wire x1="63.5" y1="220.98" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
 <label x="66.04" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="USART_TX" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="UART_TX"/>
+<pinref part="MODULE5" gate="G$1" pin="GND_B"/>
 <wire x1="63.5" y1="218.44" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
 <label x="66.04" y="218.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GPIO1"/>
+<pinref part="MODULE5" gate="G$1" pin="GPIO2"/>
 <wire x1="33.02" y1="220.98" x2="30.48" y2="220.98" width="0.1524" layer="91"/>
 <label x="30.48" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GPIO0"/>
+<pinref part="MODULE5" gate="G$1" pin="GPIO1"/>
 <wire x1="33.02" y1="223.52" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
 <label x="30.48" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -637,7 +635,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="3V3"/>
+<pinref part="MODULE5" gate="G$1" pin="3V3_A"/>
 <wire x1="33.02" y1="233.68" x2="27.94" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 <wire x1="27.94" y1="233.68" x2="27.94" y2="236.22" width="0.1524" layer="91"/>
@@ -645,7 +643,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="MODULE5" gate="G$1" pin="GND"/>
+<pinref part="MODULE5" gate="G$1" pin="GND_A"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
 <wire x1="63.5" y1="233.68" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
 </segment>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
@@ -182,6 +182,28 @@
 <text x="10" y="2" size="1.25" layer="22" rot="MR90" align="center-left">I2C1_SCL</text>
 <text x="12" y="2" size="1.25" layer="22" rot="MR90" align="center-left">USART2_RX</text>
 <text x="14" y="2" size="1.25" layer="22" rot="MR90" align="center-left">USART2_TX</text>
+<polygon width="0" layer="49">
+<vertex x="-0.7" y="0"/>
+<vertex x="2.6" y="0"/>
+<vertex x="2.6" y="0.7" curve="-90"/>
+<vertex x="3" y="1.1" curve="-90"/>
+<vertex x="3.4" y="0.7"/>
+<vertex x="3.4" y="0"/>
+<vertex x="12.6" y="0"/>
+<vertex x="12.6" y="0.7" curve="-90"/>
+<vertex x="13" y="1.1" curve="-90"/>
+<vertex x="13.4" y="0.7"/>
+<vertex x="13.4" y="0"/>
+<vertex x="16.7" y="0"/>
+<vertex x="16.7" y="24.75" curve="-90"/>
+<vertex x="15.7" y="25.75" curve="-90"/>
+<vertex x="16.7" y="26.75"/>
+<vertex x="16.7" y="31.25"/>
+<vertex x="-0.7" y="31.25"/>
+<vertex x="-0.7" y="26.75" curve="-90"/>
+<vertex x="0.3" y="25.75" curve="-90"/>
+<vertex x="-0.7" y="24.75"/>
+</polygon>
 </plain>
 <libraries>
 <library name="PaxInstruments-Connectors">
@@ -197,33 +219,31 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
 <package name="M07X2_2MM_EDGE">
-<smd name="P$1" x="0" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$3" x="2" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="2" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$5" x="4" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$6" x="4" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$7" x="6" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$8" x="6" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$9" x="8" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$10" x="8" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$11" x="10" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$12" x="10" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
-<smd name="P$13" x="12" y="0" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$14" x="12" y="0" dx="1.27" dy="0.635" layer="16" rot="R90"/>
+<smd name="P$1" x="0" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$3" x="2" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$4" x="2" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$5" x="4" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$6" x="4" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$7" x="6" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$8" x="6" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$9" x="8" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$10" x="8" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$11" x="10" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$12" x="10" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
+<smd name="P$13" x="12" y="-0.25" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="P$14" x="12" y="-0.25" dx="2" dy="0.75" layer="16" rot="R90"/>
 <wire x1="-0.5" y1="1" x2="0.6" y2="1" width="0.1" layer="48"/>
-<wire x1="0.6" y1="0.7" x2="1" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="1" y1="0.3" x2="1.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="1" width="0.1" layer="48"/>
+<wire x1="0.6" y1="0.3" x2="1" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="1" y1="-0.1" x2="1.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="1.4" y1="0.3" x2="1.4" y2="1" width="0.1" layer="48"/>
 <wire x1="1.4" y1="1" x2="10.6" y2="1" width="0.1" layer="48"/>
 <wire x1="11.4" y1="1" x2="12.5" y2="1" width="0.1" layer="48"/>
-<wire x1="1" y1="1.1" x2="1" y2="0.75" width="0.75" layer="46"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="0.7" width="0.1" layer="48"/>
-<wire x1="10.6" y1="0.7" x2="11" y2="0.3" width="0.1" layer="48" curve="90"/>
-<wire x1="11" y1="0.3" x2="11.4" y2="0.7" width="0.1" layer="48" curve="90"/>
-<wire x1="11.4" y1="0.7" x2="11.4" y2="1" width="0.1" layer="48"/>
-<wire x1="11" y1="1.1" x2="11" y2="0.75" width="0.75" layer="46"/>
-<wire x1="10.6" y1="1" x2="10.6" y2="0.7" width="0.1" layer="48"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="0.3" width="0.1" layer="48"/>
+<wire x1="10.6" y1="0.3" x2="11" y2="-0.1" width="0.1" layer="48" curve="90"/>
+<wire x1="11" y1="-0.1" x2="11.4" y2="0.3" width="0.1" layer="48" curve="90"/>
+<wire x1="11.4" y1="0.3" x2="11.4" y2="1" width="0.1" layer="48"/>
+<wire x1="10.6" y1="1" x2="10.6" y2="0.3" width="0.1" layer="48"/>
 </package>
 </packages>
 </library>
