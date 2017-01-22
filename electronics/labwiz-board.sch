@@ -6341,9 +6341,9 @@ so it can be measured using the ADC.</text>
 <junction x="193.04" y="66.04"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PORTC_H" pin="PC9"/>
-<wire x1="60.96" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
-<label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_L" pin="PC7"/>
+<wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<label x="27.94" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -6998,9 +6998,9 @@ so it can be measured using the ADC.</text>
 <junction x="129.54" y="27.94"/>
 </segment>
 <segment>
-<pinref part="U1" gate="PORTC_L" pin="PC7"/>
-<wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="PORTC_H" pin="PC9"/>
+<wire x1="60.96" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+<label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
