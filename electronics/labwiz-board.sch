@@ -5446,6 +5446,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="R7" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100K" value="100K"/>
 <part name="R13" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100K" value="100K"/>
 <part name="SUPPLY5" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="C17" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_1UF" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5622,9 +5623,9 @@ so it can be measured using the ADC.</text>
 <attribute name="MPN" x="215.9" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="POPULATE" x="215.9" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R16" gate="G$1" x="223.52" y="73.66">
-<attribute name="MPN" x="223.52" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATE" x="223.52" y="73.66" size="1.778" layer="96" display="off"/>
+<instance part="R16" gate="G$1" x="223.52" y="63.5" rot="MR180">
+<attribute name="MPN" x="223.52" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="POPULATE" x="223.52" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="134.62" y="170.18">
 <attribute name="MPN" x="134.62" y="170.18" size="1.778" layer="96" display="off"/>
@@ -5650,9 +5651,9 @@ so it can be measured using the ADC.</text>
 <attribute name="MF" x="215.9" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="215.9" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="S5" gate="G$1" x="223.52" y="60.96" smashed="yes" rot="MR90">
-<attribute name="MF" x="223.52" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="223.52" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="S5" gate="G$1" x="223.52" y="76.2" smashed="yes" rot="R270">
+<attribute name="MF" x="223.52" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="223.52" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="266.7" y="55.88" rot="R270">
 <attribute name="MPN" x="266.7" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
@@ -5774,7 +5775,7 @@ so it can be measured using the ADC.</text>
 <attribute name="NAME" x="106.68" y="60.96" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="P+6" gate="G$1" x="233.68" y="83.82" rot="MR0"/>
-<instance part="P+7" gate="G$1" x="223.52" y="78.74" rot="MR0"/>
+<instance part="P+7" gate="G$1" x="223.52" y="83.82" rot="MR0"/>
 <instance part="P+8" gate="G$1" x="215.9" y="83.82" rot="MR0"/>
 <instance part="P+10" gate="G$1" x="193.04" y="78.74" rot="MR0"/>
 <instance part="P+11" gate="G$1" x="200.66" y="78.74" rot="MR0"/>
@@ -5787,7 +5788,7 @@ so it can be measured using the ADC.</text>
 <instance part="C25" gate="G$1" x="190.5" y="60.96"/>
 <instance part="C28" gate="G$1" x="198.12" y="60.96"/>
 <instance part="C29" gate="G$1" x="205.74" y="60.96"/>
-<instance part="C30" gate="G$1" x="220.98" y="60.96"/>
+<instance part="C30" gate="G$1" x="220.98" y="76.2" rot="MR180"/>
 <instance part="C31" gate="G$1" x="213.36" y="76.2"/>
 <instance part="C32" gate="G$1" x="231.14" y="76.2"/>
 <instance part="U$9" gate="G$1" x="27.94" y="104.14" smashed="yes"/>
@@ -5868,6 +5869,7 @@ so it can be measured using the ADC.</text>
 <instance part="R7" gate="G$1" x="256.54" y="119.38" rot="R90"/>
 <instance part="R13" gate="G$1" x="256.54" y="116.84" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="243.84" y="121.92"/>
+<instance part="C17" gate="G$1" x="83.82" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -5898,11 +5900,6 @@ so it can be measured using the ADC.</text>
 <wire x1="233.68" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="81.28" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
 <junction x="233.68" y="81.28"/>
-</segment>
-<segment>
-<pinref part="P+7" gate="G$1" pin="3.3V"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S4" gate="G$1" pin="1"/>
@@ -6089,6 +6086,15 @@ so it can be measured using the ADC.</text>
 <wire x1="254" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
 <junction x="243.84" y="119.38"/>
 </segment>
+<segment>
+<pinref part="S5" gate="G$1" pin="1"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="81.28" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="G$1" pin="3.3V"/>
+<wire x1="223.52" y1="81.28" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+<junction x="223.52" y="81.28"/>
+</segment>
 </net>
 <net name="GND" class="5">
 <segment>
@@ -6159,15 +6165,6 @@ so it can be measured using the ADC.</text>
 <wire x1="200.66" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="58.42" width="0.1524" layer="91"/>
 <junction x="200.66" y="55.88"/>
-</segment>
-<segment>
-<pinref part="S5" gate="G$1" pin="1"/>
-<pinref part="GND33" gate="G$1" pin="GND"/>
-<wire x1="223.52" y1="53.34" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="55.88" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="55.88" x2="220.98" y2="58.42" width="0.1524" layer="91"/>
-<junction x="223.52" y="55.88"/>
 </segment>
 <segment>
 <pinref part="GND44" gate="G$1" pin="GND"/>
@@ -6365,6 +6362,10 @@ so it can be measured using the ADC.</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="60.96" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="63.5" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+<junction x="86.36" y="60.96"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -6440,6 +6441,11 @@ so it can be measured using the ADC.</text>
 <wire x1="274.32" y1="119.38" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="119.38" x2="271.78" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="TP10" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="GND33" gate="G$1" pin="GND"/>
+<wire x1="223.52" y1="60.96" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7257,7 +7263,7 @@ so it can be measured using the ADC.</text>
 <label x="63.5" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="BOOT0" class="0">
+<net name="PC1_BOOT0" class="0">
 <segment>
 <pinref part="U1" gate="RESET" pin="BOOT0"/>
 <wire x1="86.36" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
@@ -7266,6 +7272,20 @@ so it can be measured using the ADC.</text>
 <wire x1="91.44" y1="71.12" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
 <junction x="91.44" y="71.12"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="68.58" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<junction x="86.36" y="71.12"/>
+</segment>
+<segment>
+<pinref part="U1" gate="PORTC_L" pin="PC1"/>
+<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="302.26" y1="96.52" x2="304.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="304.8" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -7330,15 +7350,15 @@ so it can be measured using the ADC.</text>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="S5" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="66.04" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="68.58" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="220.98" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="223.52" y1="71.12" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="68.58" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="220.98" y="68.58" size="1.27" layer="95" rot="MR270" xref="yes"/>
 <wire x1="220.98" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
 <junction x="223.52" y="68.58"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="66.04" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
-<junction x="223.52" y="66.04"/>
+<wire x1="223.52" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="71.12" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
+<junction x="223.52" y="71.12"/>
 </segment>
 </net>
 <net name="LCD_SCK" class="0">
@@ -7464,18 +7484,6 @@ so it can be measured using the ADC.</text>
 <pinref part="U1" gate="PORTC_L" pin="PC4"/>
 <wire x1="25.4" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="27.94" y="20.32" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PC1" class="0">
-<segment>
-<pinref part="U1" gate="PORTC_L" pin="PC1"/>
-<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="27.94" y="27.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="302.26" y1="96.52" x2="304.8" y2="96.52" width="0.1524" layer="91"/>
-<label x="304.8" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="USB_VCC" class="0">
