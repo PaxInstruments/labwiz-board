@@ -5443,6 +5443,9 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MF" value="Littelfuse"/>
 <attribute name="MPN" value="PGB1010603NRHF"/>
 </part>
+<part name="R7" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100K" value="100K"/>
+<part name="R13" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100K" value="100K"/>
+<part name="SUPPLY5" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -5862,6 +5865,9 @@ so it can be measured using the ADC.</text>
 <attribute name="MPN" x="38.1" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="38.1" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="R7" gate="G$1" x="256.54" y="119.38" rot="R90"/>
+<instance part="R13" gate="G$1" x="256.54" y="116.84" rot="R90"/>
+<instance part="SUPPLY5" gate="G$1" x="243.84" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -6072,6 +6078,16 @@ so it can be measured using the ADC.</text>
 <wire x1="256.54" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="96.52" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
 <junction x="251.46" y="99.06"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<wire x1="254" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="116.84" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="119.38" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="254" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
+<junction x="243.84" y="119.38"/>
 </segment>
 </net>
 <net name="GND" class="5">
@@ -6849,8 +6865,13 @@ so it can be measured using the ADC.</text>
 </segment>
 <segment>
 <label x="259.08" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="259.08" y1="124.46" x2="274.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="124.46" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="TP8" gate="G$1" pin="P$1"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="124.46" x2="274.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="119.38" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="119.38" x2="264.16" y2="124.46" width="0.1524" layer="91"/>
+<junction x="264.16" y="124.46"/>
 </segment>
 <segment>
 <label x="27.94" y="40.64" size="1.27" layer="95" xref="yes"/>
@@ -6866,8 +6887,13 @@ so it can be measured using the ADC.</text>
 </segment>
 <segment>
 <label x="259.08" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="259.08" y1="121.92" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="TP9" gate="G$1" pin="P$1"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="121.92" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="116.84" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
+<junction x="266.7" y="121.92"/>
 </segment>
 <segment>
 <label x="27.94" y="38.1" size="1.27" layer="95" xref="yes"/>
