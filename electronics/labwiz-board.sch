@@ -3742,6 +3742,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="-1.7526" y1="-1.7145" x2="-2.0574" y2="-1.7145" width="0.2032" layer="21"/>
 <text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-2.7432" y1="-3.175" x2="-2.3368" y2="-1.9685" layer="51" rot="R180"/>
 </package>
 <package name="2X5-PTH-1.27MM">
 <description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
