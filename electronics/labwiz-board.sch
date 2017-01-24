@@ -5158,6 +5158,115 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_3_1-NC_TRACE_SILK">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="1"/>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK">
+<smd name="1" x="-1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.016" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="1.016" y2="0" width="0.254" layer="1"/>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SMT-JUMPER_3_1-NC_TRACE">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-SMT_3_1-NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper (1 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). The other connection is normally open (NO). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection, or to close the NO connection.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_3_1-NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SILK" package="SMT-JUMPER_3_1-NC_TRACE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_NO-SILK" package="SMT-JUMPER_3_1-NC_TRACE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5447,6 +5556,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="R13" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100K" value="100K"/>
 <part name="SUPPLY5" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="C17" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_1UF" value="1uF"/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -5571,6 +5681,9 @@ so it can be measured using the ADC.</text>
 <text x="292.1" y="127" size="3.81" layer="94">Test Points</text>
 <text x="309.88" y="111.76" size="1.778" layer="97" align="center-left">Place on left</text>
 <text x="309.88" y="116.84" size="1.778" layer="97" align="center-left">Place on right</text>
+<text x="45.72" y="165.1" size="1.27" layer="97" rot="MR180">Jumper used to select either
+USB full-speed/high-speed or
+USB low-speed</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5579,11 +5692,11 @@ so it can be measured using the ADC.</text>
 <attribute name="MPN" x="116.84" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="116.84" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R9" gate="G$1" x="48.26" y="177.8" rot="MR270">
-<attribute name="MPN" x="48.26" y="177.8" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R9" gate="G$1" x="45.72" y="177.8" rot="MR270">
+<attribute name="MPN" x="45.72" y="177.8" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="48.26" y="180.34" rot="MR270">
-<attribute name="MPN" x="48.26" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="R10" gate="G$1" x="45.72" y="180.34" rot="MR270">
+<attribute name="MPN" x="45.72" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="P+2" gate="G$1" x="134.62" y="177.8"/>
 <instance part="C4" gate="G$1" x="129.54" y="165.1" rot="R270">
@@ -5804,7 +5917,7 @@ so it can be measured using the ADC.</text>
 <attribute name="POPULATE" x="132.08" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="P+9" gate="G$1" x="132.08" y="121.92" rot="MR0"/>
-<instance part="P+13" gate="G$1" x="60.96" y="172.72"/>
+<instance part="P+13" gate="G$1" x="68.58" y="172.72"/>
 <instance part="D2" gate="G$1" x="99.06" y="182.88" smashed="yes">
 <attribute name="NAME" x="101.6" y="182.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.44" y="180.34" size="1.778" layer="96" align="center-left"/>
@@ -5818,7 +5931,7 @@ so it can be measured using the ADC.</text>
 </instance>
 <instance part="GND47" gate="G$1" x="129.54" y="15.24"/>
 <instance part="C22" gate="G$1" x="73.66" y="124.46" rot="R270"/>
-<instance part="R27" gate="G$1" x="55.88" y="170.18" rot="R90"/>
+<instance part="R27" gate="G$1" x="63.5" y="170.18" rot="R90"/>
 <instance part="C38" gate="G$1" x="48.26" y="132.08"/>
 <instance part="SUPPLY1" gate="G$1" x="48.26" y="137.16"/>
 <instance part="GND9" gate="G$1" x="48.26" y="127"/>
@@ -5860,7 +5973,7 @@ so it can be measured using the ADC.</text>
 <instance part="TP8" gate="G$1" x="276.86" y="124.46"/>
 <instance part="TP9" gate="G$1" x="276.86" y="121.92"/>
 <instance part="TP10" gate="G$1" x="276.86" y="119.38"/>
-<instance part="F1" gate="G$1" x="48.26" y="185.42" rot="MR270"/>
+<instance part="F1" gate="G$1" x="45.72" y="185.42" rot="MR270"/>
 <instance part="Z3" gate="G$1" x="38.1" y="167.64" smashed="yes" rot="R90">
 <attribute name="VALUE" x="41.148" y="160.528" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="38.1" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
@@ -5870,6 +5983,9 @@ so it can be measured using the ADC.</text>
 <instance part="R13" gate="G$1" x="256.54" y="116.84" rot="R90"/>
 <instance part="SUPPLY5" gate="G$1" x="243.84" y="121.92"/>
 <instance part="C17" gate="G$1" x="83.82" y="66.04"/>
+<instance part="JP2" gate="G$1" x="53.34" y="170.18" smashed="yes" rot="MR0">
+<attribute name="NAME" x="58.42" y="173.101" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6031,8 +6147,8 @@ so it can be measured using the ADC.</text>
 <pinref part="P+9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="58.42" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="170.18" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="170.18" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="170.18" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="G$1" pin="3.3V"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 </segment>
@@ -6488,7 +6604,7 @@ so it can be measured using the ADC.</text>
 </segment>
 <segment>
 <label x="60.96" y="185.42" size="1.27" layer="95" xref="yes"/>
-<wire x1="50.8" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -6626,7 +6742,7 @@ so it can be measured using the ADC.</text>
 <wire x1="33.02" y1="172.72" x2="33.02" y2="180.34" width="0.1524" layer="91"/>
 <junction x="33.02" y="180.34"/>
 <wire x1="22.86" y1="180.34" x2="33.02" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="180.34" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="180.34" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
 <label x="22.86" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6634,7 +6750,7 @@ so it can be measured using the ADC.</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D+"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="177.8" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="Z1" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="172.72" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="177.8"/>
@@ -6991,7 +7107,11 @@ so it can be measured using the ADC.</text>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <label x="60.96" y="180.34" size="1.27" layer="95" xref="yes"/>
-<wire x1="50.8" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="180.34" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="175.26" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
+<junction x="53.34" y="180.34"/>
 </segment>
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA11"/>
@@ -7008,11 +7128,12 @@ so it can be measured using the ADC.</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <label x="60.96" y="177.8" size="1.27" layer="95" xref="yes"/>
-<wire x1="50.8" y1="177.8" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="170.18" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
-<junction x="53.34" y="177.8"/>
+<wire x1="48.26" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="53.34" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="165.1" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
+<junction x="50.8" y="177.8"/>
 </segment>
 <segment>
 <pinref part="U1" gate="PORTA_H" pin="PA12"/>
@@ -7492,12 +7613,19 @@ so it can be measured using the ADC.</text>
 <wire x1="22.86" y1="182.88" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="182.88" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="185.42" x2="43.18" y2="185.42" width="0.1524" layer="91"/>
 <label x="22.86" y="182.88" size="1.27" layer="95"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="Z3" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="172.72" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
 <junction x="38.1" y="182.88"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
