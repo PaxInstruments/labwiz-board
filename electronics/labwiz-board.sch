@@ -403,19 +403,26 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="FOUR_LAYER_WARNING">
+<description>&lt;h3&gt;Four-Layer Board Warning - tDoc Layer&lt;/h3&gt;
+&lt;p&gt;Warning text which will appear on both the schematic and the board file, notifying viewers that the design is a four-layer PCB.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FOUR_LAYER_WARNING&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="1.27" layer="51" font="vector">THIS IS A FOUR-LAYER BOARD!</text>
 </package>
 </packages>
 <symbols>
 <symbol name="FOUR_LAYER_WARNING">
+<description>&lt;h3&gt;Four-Layer Board Warning - Symbol Layer&lt;/h3&gt;
+&lt;p&gt;Warning text which will appear on both the schematic and the board file, notifying viewers that the design is a four-layer PCB.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FOUR_LAYER_WARNING&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="1.778" layer="94">THIS IS A FOUR-LAYER BOARD!</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FOUR_LAYER_WARNING">
-<description>Warning text which will appear on both the schematic&lt;BR&gt;
-and the board file, notifying viewers that the design is a&lt;br&gt;
-four-layer PCB.</description>
+<deviceset name="FOUR_LAYER_WARNING" prefix="LOGO">
+<description>&lt;h3&gt;Four-Layer Board Warning - tDoc Layer&lt;/h3&gt;
+&lt;p&gt;Warning text which will appear on both the schematic and the board file, notifying viewers that the design is a four-layer PCB.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FOUR_LAYER_WARNING" x="0" y="0"/>
 </gates>
@@ -3013,74 +3020,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SAMTECH_FTSH-105-01">
-<description>&lt;h3&gt;2x5 Connector (Cortex Debug Connector)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://www.samtec.com/ftppub/cpdf/FTSH-1XX-XX-XXX-DV-XXX-MKT.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="-3.175" y1="1.7145" x2="3.175" y2="1.7145" width="0.127" layer="51"/>
-<rectangle x1="-0.2032" y1="1.7145" x2="0.2032" y2="2.921" layer="51"/>
-<rectangle x1="1.0668" y1="1.7145" x2="1.4732" y2="2.921" layer="51"/>
-<rectangle x1="2.3368" y1="1.7145" x2="2.7432" y2="2.921" layer="51"/>
-<rectangle x1="-1.4732" y1="1.7145" x2="-1.0668" y2="2.921" layer="51"/>
-<rectangle x1="-2.7432" y1="1.7145" x2="-2.3368" y2="2.921" layer="51"/>
-<rectangle x1="-0.2032" y1="-2.921" x2="0.2032" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="-1.4732" y1="-2.921" x2="-1.0668" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="-2.7432" y1="-2.921" x2="-2.3368" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="1.0668" y1="-2.921" x2="1.4732" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="2.3368" y1="-2.921" x2="2.7432" y2="-1.7145" layer="51" rot="R180"/>
-<smd name="6" x="0" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="8" x="1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="10" x="2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="4" x="-1.27" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="2" x="-2.54" y="2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="1" x="-2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="3" x="-1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="5" x="0" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="7" x="1.27" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<smd name="9" x="2.54" y="-2.413" dx="0.508" dy="1.27" layer="1"/>
-<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="1.7145" x2="-3.0226" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="3.0226" y1="1.7145" x2="3.175" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.7145" x2="3.0226" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-3.0226" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-2.0574" y1="1.7145" x2="-1.7526" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="-0.7874" y1="1.7145" x2="-0.4826" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="0.4826" y1="1.7145" x2="0.7874" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="1.7526" y1="1.7145" x2="2.0574" y2="1.7145" width="0.2032" layer="21"/>
-<wire x1="2.0574" y1="-1.7145" x2="1.7526" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="0.7874" y1="-1.7145" x2="0.4826" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-0.4826" y1="-1.7145" x2="-0.7874" y2="-1.7145" width="0.2032" layer="21"/>
-<wire x1="-1.7526" y1="-1.7145" x2="-2.0574" y2="-1.7145" width="0.2032" layer="21"/>
-<text x="0" y="0" size="0.8128" layer="25" align="bottom-center">&gt;Name</text>
-<text x="0" y="0" size="0.8128" layer="27" align="top-center">&gt;Value</text>
-</package>
-<package name="2X5-PTH-1.27MM">
-<description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
-&lt;p&gt;For debuggers and/or programemrs that support the Cortex Debug Connector (10-pin) interface.&lt;/p&gt;
-&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072"&gt;Example Digikey Part&lt;/a&gt;&lt;/p&gt;</description>
-<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
-<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
-<text x="-3.048" y="1.397" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.921" y="-1.397" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
-<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
-</package>
 <package name="2X4">
 <wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
@@ -3129,26 +3068,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="CORTEX_DEBUG">
-<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<pin name="VCC" x="-15.24" y="5.08" length="short"/>
-<pin name="GND@3" x="-15.24" y="2.54" length="short"/>
-<pin name="GND@5" x="-15.24" y="0" length="short"/>
-<pin name="KEY" x="-15.24" y="-2.54" length="short"/>
-<pin name="GNDDTCT" x="-15.24" y="-5.08" length="short"/>
-<pin name="NRESET" x="17.78" y="-5.08" length="short" rot="R180"/>
-<pin name="NC/TDI" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="SWO/TDO" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="SWDCLK/TCK" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="SWDIO/TMS" x="17.78" y="5.08" length="short" rot="R180"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="7.874" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
-</symbol>
 <symbol name="M04X2">
 <wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
 <wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
@@ -3175,49 +3094,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CORTEX_DEBUG" prefix="J">
-<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CORTEX_DEBUG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="SAMTECH_FTSH-105-01">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GNDDTCT" pad="9"/>
-<connect gate="G$1" pin="KEY" pad="7"/>
-<connect gate="G$1" pin="NC/TDI" pad="8"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
-<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="G$1" pin="SWO/TDO" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="2X5-PTH-1.27MM">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GNDDTCT" pad="9"/>
-<connect gate="G$1" pin="KEY" pad="7"/>
-<connect gate="G$1" pin="NC/TDI" pad="8"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
-<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
-<connect gate="G$1" pin="SWO/TDO" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M04X2" prefix="J" uservalue="yes">
 <description>.1" header, two rows of four.</description>
 <gates>
@@ -3816,6 +3692,86 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <smd name="P$4" x="1.55" y="5.9" dx="1.5" dy="1.5" layer="1" rot="R180"/>
 <smd name="P$5" x="-1.55" y="5.9" dx="1.5" dy="1.5" layer="1" rot="R180"/>
 </package>
+<package name="SAMTECH_FTSH-105-01">
+<description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.05"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.samtec.com/ftppub/cpdf/FTSH-1XX-XX-XXX-DV-XXX-MKT.pdf"&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CORTEX_DEBUG&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="1.7145" x2="3.175" y2="1.7145" width="0.127" layer="51"/>
+<rectangle x1="-0.2032" y1="1.7145" x2="0.2032" y2="2.921" layer="51"/>
+<rectangle x1="1.0668" y1="1.7145" x2="1.4732" y2="2.921" layer="51"/>
+<rectangle x1="2.3368" y1="1.7145" x2="2.7432" y2="2.921" layer="51"/>
+<rectangle x1="-1.4732" y1="1.7145" x2="-1.0668" y2="2.921" layer="51"/>
+<rectangle x1="-2.7432" y1="1.7145" x2="-2.3368" y2="2.921" layer="51"/>
+<rectangle x1="-0.2032" y1="-2.921" x2="0.2032" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="-1.4732" y1="-2.921" x2="-1.0668" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="-2.7432" y1="-2.921" x2="-2.3368" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="1.0668" y1="-2.921" x2="1.4732" y2="-1.7145" layer="51" rot="R180"/>
+<rectangle x1="2.3368" y1="-2.921" x2="2.7432" y2="-1.7145" layer="51" rot="R180"/>
+<smd name="6" x="0" y="2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="8" x="1.27" y="2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="10" x="2.54" y="2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="4" x="-1.27" y="2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="2" x="-2.54" y="2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="1" x="-2.54" y="-2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="3" x="-1.27" y="-2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="5" x="0" y="-2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="7" x="1.27" y="-2.413" dx="0.508" dy="1.778" layer="1"/>
+<smd name="9" x="2.54" y="-2.413" dx="0.508" dy="1.778" layer="1"/>
+<wire x1="-3.175" y1="-1.7145" x2="-3.175" y2="1.7145" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="1.7145" x2="-3.0226" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="3.0226" y1="1.7145" x2="3.175" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.7145" x2="3.175" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.7145" x2="3.0226" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-3.0226" y1="-1.7145" x2="-3.175" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-2.0574" y1="1.7145" x2="-1.7526" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="-0.7874" y1="1.7145" x2="-0.4826" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="0.4826" y1="1.7145" x2="0.7874" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="1.7526" y1="1.7145" x2="2.0574" y2="1.7145" width="0.2032" layer="21"/>
+<wire x1="2.0574" y1="-1.7145" x2="1.7526" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="0.7874" y1="-1.7145" x2="0.4826" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-0.4826" y1="-1.7145" x2="-0.7874" y2="-1.7145" width="0.2032" layer="21"/>
+<wire x1="-1.7526" y1="-1.7145" x2="-2.0574" y2="-1.7145" width="0.2032" layer="21"/>
+<text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="2X5-PTH-1.27MM">
+<description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
+&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:10&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.27mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://portal.fciconnect.com/Comergent//fci/drawing/20021111.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_05x2&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
+<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
+<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
+<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
+<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
+<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
+<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
+<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
+<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
+<text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PAX_MODULE">
@@ -3909,6 +3865,26 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pin name="VBAT" x="-7.62" y="12.7" visible="pin" length="short"/>
 <text x="-5.08" y="15.748" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-0.508" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="CORTEX_DEBUG">
+<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="GND@3" x="-15.24" y="2.54" length="short"/>
+<pin name="GND@5" x="-15.24" y="0" length="short"/>
+<pin name="KEY" x="-15.24" y="-2.54" length="short"/>
+<pin name="GNDDTCT" x="-15.24" y="-5.08" length="short"/>
+<pin name="!RESET" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="NC/TDI" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="SWO/TDO" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="SWDCLK/TCK" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="SWDIO/TMS" x="17.78" y="5.08" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-12.7" y="-9.906" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4092,6 +4068,56 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="BC-4-3P (77H)" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CORTEX_DEBUG" prefix="J">
+<description>&lt;h3&gt;Cortex Debug Connector - 10 pin&lt;/h3&gt;
+&lt;p&gt;Supports JTAG debug, Serial Wire debug, and Serial Wire Viewer.
+PTH and SMD connector options available.&lt;/p&gt;
+&lt;p&gt; &lt;ul&gt;&lt;a href=”http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf”&gt;General Connector Information&lt;/a&gt;
+&lt;p&gt;&lt;b&gt; Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”http://www.digikey.com/product-detail/en/cnc-tech/3220-10-0100-00/1175-1627-ND/3883661”&gt;PTH Connector&lt;/a&gt; -via Digi-Key&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13229”&gt;SparkFun PSoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13810”&gt;SparkFun T&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CORTEX_DEBUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMD" package="SAMTECH_FTSH-105-01">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GNDDTCT" pad="9"/>
+<connect gate="G$1" pin="KEY" pad="7"/>
+<connect gate="G$1" pin="NC/TDI" pad="8"/>
+<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="SWO/TDO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_PTH" package="2X5-PTH-1.27MM">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="10"/>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GNDDTCT" pad="9"/>
+<connect gate="G$1" pin="KEY" pad="7"/>
+<connect gate="G$1" pin="NC/TDI" pad="8"/>
+<connect gate="G$1" pin="SWDCLK/TCK" pad="4"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
+<connect gate="G$1" pin="SWO/TDO" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5420,7 +5446,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R20" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_100R" value="100R"/>
 <part name="Y3" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="3.2X1.5MM" value="32.768kHz"/>
 <part name="GND20" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CORTEX_DEBUG" device="SMD"/>
+<part name="J2" library="PaxInstruments-Connectors" deviceset="CORTEX_DEBUG" device="_SMD" value="CORTEX_DEBUGSMD_original"/>
 <part name="GND13" library="PaxInstruments-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="P+1" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="C5" library="PaxInstruments-RCL" deviceset="CAPACITOR_FIXED" device="_0402" technology="_100NF" value="100nF"/>
@@ -6805,7 +6831,7 @@ USB low-speed</text>
 <wire x1="101.6" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="NRESET"/>
+<pinref part="J2" gate="G$1" pin="!RESET"/>
 <wire x1="213.36" y1="17.78" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
 <label x="213.36" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
