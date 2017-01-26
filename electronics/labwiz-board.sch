@@ -1867,16 +1867,18 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </package>
 </packages>
 <symbols>
-<symbol name="BATTERY">
-<wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
-<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
-<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
-<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="BATTERY_CLIP">
+<wire x1="3.81" y1="1.27" x2="-3.81" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="94"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<text x="5.08" y="3.81" size="1.778" layer="95" rot="R270">&gt;NAME</text>
+<text x="-6.35" y="3.81" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
+<pin name="+1" x="2.54" y="5.08" visible="off" length="short" direction="pwr" rot="R270"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.524" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="SWITCH-MOMENTARY-2">
 <circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
@@ -1996,12 +1998,13 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </deviceset>
 <deviceset name="CR1025">
 <gates>
-<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+<gate name="G$1" symbol="BATTERY_CLIP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="CR2025">
 <connects>
-<connect gate="G$1" pin="+" pad="P$2 P$3"/>
+<connect gate="G$1" pin="+" pad="P$2"/>
+<connect gate="G$1" pin="+1" pad="P$3"/>
 <connect gate="G$1" pin="-" pad="P$1"/>
 </connects>
 <technologies>
@@ -5413,7 +5416,7 @@ USB low-speed</text>
 </instance>
 <instance part="C6" gate="G$1" x="132.08" y="73.66" rot="R180"/>
 <instance part="C9" gate="G$1" x="142.24" y="73.66" rot="R180"/>
-<instance part="GND5" gate="G$1" x="129.54" y="53.34"/>
+<instance part="GND5" gate="G$1" x="127" y="53.34"/>
 <instance part="U$2" gate="G$1" x="342.9" y="15.24"/>
 <instance part="R18" gate="G$1" x="269.24" y="25.4" rot="MR90"/>
 <instance part="R20" gate="G$1" x="269.24" y="27.94" rot="R270"/>
@@ -5570,7 +5573,7 @@ USB low-speed</text>
 <instance part="GND28" gate="G$1" x="121.92" y="22.86"/>
 <instance part="SUPPLY10" gate="G$1" x="121.92" y="33.02"/>
 <instance part="TP1" gate="G$1" x="116.84" y="27.94" rot="R180"/>
-<instance part="U$8" gate="G$1" x="129.54" y="60.96" rot="R270"/>
+<instance part="U$8" gate="G$1" x="127" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -5935,7 +5938,7 @@ USB low-speed</text>
 <segment>
 <pinref part="GND5" gate="G$1" pin="GND"/>
 <pinref part="U$8" gate="G$1" pin="-"/>
-<wire x1="129.54" y1="53.34" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="G$1" pin="GND"/>
@@ -6502,9 +6505,9 @@ USB low-speed</text>
 <label x="127" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="66.04" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="+"/>
+<pinref part="U$8" gate="G$1" pin="+1"/>
+<wire x1="129.54" y1="71.12" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART2_TX" class="0">
