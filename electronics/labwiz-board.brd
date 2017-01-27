@@ -5795,6 +5795,14 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="R9" library="PaxInstruments-RCL" package="0402" value="68k" x="-10.668" y="-13.5636"/>
 <element name="R10" library="PaxInstruments-RCL" package="0402" value="47k" x="-10.668" y="-15.0876"/>
+<element name="R14" library="PaxInstruments-RCL" package="0402" value="10K" x="-10.668" y="-16.6116">
+<attribute name="MPN" value="" x="-10.668" y="-16.6116" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATE" value="" x="-10.668" y="-16.6116" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="PaxInstruments-RCL" package="0402" value="10K" x="-10.668" y="-18.1356">
+<attribute name="MPN" value="" x="-10.668" y="-18.1356" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATE" value="" x="-10.668" y="-18.1356" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -6018,6 +6026,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="86.606" y1="6.858" x2="86.606" y2="8.4916" width="0.1524" layer="1"/>
 <wire x1="86.606" y1="8.4916" x2="85.344" y2="9.7536" width="0.1524" layer="1"/>
 <wire x1="85.344" y1="9.7536" x2="85.344" y2="10.668" width="0.1524" layer="1"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R23" pad="1"/>
+<wire x1="-11.168" y1="-16.6116" x2="-11.168" y2="-18.1356" width="0" layer="19" extent="1-1"/>
+<wire x1="0.762" y1="8.2296" x2="-11.168" y2="-16.6116" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND" class="5">
 <contactref element="U4" pad="2"/>
@@ -6714,6 +6726,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="34.1376" y1="16.1544" x2="35.064" y2="16.1544" width="0.1524" layer="1"/>
 <wire x1="35.064" y1="16.1544" x2="35.25" y2="16.2732" width="0.1524" layer="1"/>
 <wire x1="35.25" y1="16.2732" x2="35.25" y2="16.75" width="0.1524" layer="1"/>
+<contactref element="R23" pad="2"/>
+<wire x1="-10.168" y1="-18.1356" x2="20.57901875" y2="12.1808375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTC_BAT" class="2">
 <contactref element="U1" pad="1"/>
@@ -7247,6 +7261,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="62.3196" y1="8.5344" x2="62.3196" y2="7.9248" width="0.1524" layer="1"/>
 <via x="62.3196" y="7.9248" extent="1-16" drill="0.2"/>
 <wire x1="62.3196" y1="7.9248" x2="51.9684" y2="7.9248" width="0.1524" layer="16"/>
+<contactref element="R14" pad="2"/>
+<wire x1="18.4577" y1="5.18048125" x2="-10.168" y2="-16.6116" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RTC_OSC_IN">
 <contactref element="C9" pad="1"/>
