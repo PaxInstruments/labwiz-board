@@ -5306,6 +5306,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="SUPPLY12" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 <part name="SUPPLY19" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="R25" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="R26" library="PaxInstruments-RCL" deviceset="RESISTOR_FIXED" device="_0402" technology="_10K" value="10K">
+<attribute name="MPN" value=""/>
+<attribute name="POPULATE" value=""/>
+</part>
+<part name="SUPPLY20" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
+<part name="SUPPLY21" library="PaxInstruments-Aesthetics" deviceset="SYM_VCC" device="" technology="3.3V" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
@@ -5332,10 +5342,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="187.96" y1="48.26" x2="187.96" y2="88.9" width="0.2032" layer="94"/>
 <text x="190.5" y="83.82" size="3.81" layer="94">Buttons</text>
 <text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.3</text>
-<wire x1="297.18" y1="88.9" x2="350.52" y2="88.9" width="0.2032" layer="94"/>
+<wire x1="297.18" y1="88.9" x2="358.14" y2="88.9" width="0.2032" layer="94"/>
 <wire x1="297.18" y1="88.9" x2="297.18" y2="48.26" width="0.2032" layer="94"/>
-<wire x1="350.52" y1="88.9" x2="350.52" y2="48.26" width="0.2032" layer="94"/>
-<wire x1="297.18" y1="48.26" x2="350.52" y2="48.26" width="0.2032" layer="94"/>
+<wire x1="358.14" y1="88.9" x2="358.14" y2="48.26" width="0.2032" layer="94"/>
+<wire x1="297.18" y1="48.26" x2="358.14" y2="48.26" width="0.2032" layer="94"/>
 <text x="330.2" y="5.08" size="2.54" layer="94" align="center-left">Charles Pax</text>
 <text x="299.72" y="83.82" size="3.81" layer="94">SD Card</text>
 <text x="58.42" y="144.78" size="1.778" layer="97">STM32 Digital Power</text>
@@ -5525,10 +5535,10 @@ Does the STM32 have internal pullups?</text>
 <attribute name="MPN" x="15.24" y="238.76" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="15.24" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="327.66" y="53.34">
-<attribute name="MF" x="327.66" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="J1" gate="G$1" x="335.28" y="53.34">
+<attribute name="MF" x="335.28" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND11" gate="G$1" x="322.58" y="63.5" rot="R270"/>
+<instance part="GND11" gate="G$1" x="330.2" y="63.5" rot="R270"/>
 <instance part="C14" gate="G$1" x="299.72" y="58.42" rot="MR0"/>
 <instance part="U1" gate="PORTA_L" x="17.78" y="73.66" rot="MR0"/>
 <instance part="U1" gate="PORTA_H" x="53.34" y="71.12" rot="MR0"/>
@@ -5603,8 +5613,8 @@ Does the STM32 have internal pullups?</text>
 </instance>
 <instance part="GND38" gate="G$1" x="264.16" y="53.34" rot="R270"/>
 <instance part="P+5" gate="G$1" x="274.32" y="83.82"/>
-<instance part="GND22" gate="G$1" x="340.36" y="50.8" rot="R270"/>
-<instance part="GND32" gate="G$1" x="340.36" y="81.28" rot="R270"/>
+<instance part="GND22" gate="G$1" x="347.98" y="50.8" rot="R270"/>
+<instance part="GND32" gate="G$1" x="347.98" y="81.28" rot="R270"/>
 <instance part="GND7" gate="G$1" x="264.16" y="81.28" rot="R270"/>
 <instance part="GND39" gate="G$1" x="264.16" y="73.66" rot="R270"/>
 <instance part="GND40" gate="G$1" x="264.16" y="71.12" rot="R270"/>
@@ -5672,7 +5682,7 @@ Does the STM32 have internal pullups?</text>
 <instance part="C38" gate="G$1" x="48.26" y="132.08"/>
 <instance part="SUPPLY1" gate="G$1" x="48.26" y="137.16"/>
 <instance part="GND9" gate="G$1" x="48.26" y="127"/>
-<instance part="SUPPLY6" gate="G$1" x="322.58" y="68.58" rot="MR270"/>
+<instance part="SUPPLY6" gate="G$1" x="330.2" y="68.58" rot="MR270"/>
 <instance part="GND15" gate="G$1" x="228.6" y="203.2" rot="R90"/>
 <instance part="GND24" gate="G$1" x="228.6" y="228.6" rot="R90"/>
 <instance part="GND25" gate="G$1" x="294.64" y="228.6" rot="R90"/>
@@ -5737,6 +5747,16 @@ Does the STM32 have internal pullups?</text>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="205.74" y="119.38"/>
 <instance part="SUPPLY19" gate="G$1" x="200.66" y="119.38"/>
+<instance part="R25" gate="G$1" x="322.58" y="76.2">
+<attribute name="MPN" x="322.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="322.58" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R26" gate="G$1" x="325.12" y="76.2">
+<attribute name="MPN" x="325.12" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATE" x="325.12" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY20" gate="G$1" x="322.58" y="81.28" rot="MR0"/>
+<instance part="SUPPLY21" gate="G$1" x="325.12" y="81.28" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -5835,7 +5855,7 @@ Does the STM32 have internal pullups?</text>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="J1" gate="G$1" pin="VDD"/>
-<wire x1="325.12" y1="68.58" x2="322.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="AN_POWER" pin="VDDA"/>
@@ -5971,6 +5991,16 @@ Does the STM32 have internal pullups?</text>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="205.74" y1="116.84" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="81.28" x2="322.58" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="81.28" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="5">
 <segment>
@@ -6059,22 +6089,22 @@ Does the STM32 have internal pullups?</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND4"/>
 <pinref part="J1" gate="G$1" pin="GND3"/>
-<wire x1="345.44" y1="81.28" x2="342.9" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="81.28" x2="340.36" y2="81.28" width="0.1524" layer="91"/>
-<junction x="342.9" y="81.28"/>
+<wire x1="353.06" y1="81.28" x2="350.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
+<junction x="350.52" y="81.28"/>
 <pinref part="GND32" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND1"/>
 <pinref part="J1" gate="G$1" pin="GND2"/>
-<wire x1="345.44" y1="50.8" x2="342.9" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="50.8" x2="340.36" y2="50.8" width="0.1524" layer="91"/>
-<junction x="342.9" y="50.8"/>
+<wire x1="353.06" y1="50.8" x2="350.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
+<junction x="350.52" y="50.8"/>
 <pinref part="GND22" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="G$1" pin="GND"/>
-<wire x1="325.12" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="63.5" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
@@ -6521,8 +6551,12 @@ Does the STM32 have internal pullups?</text>
 <net name="SDIO_D0" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="SDIO_D0"/>
-<wire x1="325.12" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="60.96" x2="322.58" y2="60.96" width="0.1524" layer="91"/>
 <label x="312.42" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="322.58" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="73.66" x2="322.58" y2="60.96" width="0.1524" layer="91"/>
+<junction x="322.58" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U1" gate="PORTC_H" pin="PC8"/>
@@ -6533,8 +6567,12 @@ Does the STM32 have internal pullups?</text>
 <net name="SDIO_CMD" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="SDIO_CMD"/>
-<wire x1="325.12" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
 <label x="312.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="325.12" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="73.66" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
+<junction x="325.12" y="71.12"/>
 </segment>
 <segment>
 <pinref part="U1" gate="PORTD/OSC" pin="PD2"/>
@@ -7326,7 +7364,7 @@ Does the STM32 have internal pullups?</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="SDIO_CLK"/>
-<wire x1="325.12" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
 <label x="312.42" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
